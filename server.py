@@ -3,19 +3,17 @@
 
 from __future__ import annotations
 
-import argparse
 import csv
-import json
 import math
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
-from functools import partial
-from http import HTTPStatus
-from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import parse_qs, quote, urlparse
+from urllib.parse import quote
+
+from fastapi import FastAPI, HTTPException, Query
+from fastapi.staticfiles import StaticFiles
 
 from curl_cffi import requests as curl_requests
 
@@ -169,72 +167,50 @@ def get_quotes(force: bool = False) -> dict[str, object]:
                 return stale
             raise
 
-
-class DashboardHandler(SimpleHTTPRequestHandler):
-    def log_message(self, format_string: str, *args: object) -> None:
-        print(f"[{self.log_date_time_string()}] {format_string % args}")
-
-    def send_json(self, payload: dict[str, object], status: HTTPStatus = HTTPStatus.OK) -> None:
-        body = json.dumps(payload, ensure_ascii=False, allow_nan=False).encode("utf-8")
-        self.send_response(status)
-        self.send_header("Content-Type", "application/json; charset=utf-8")
-        self.send_header("Content-Length", str(len(body)))
-        self.send_header("Cache-Control", "no-store")
-        self.end_headers()
-        self.wfile.write(body)
-
-    def do_GET(self) -> None:
-        parsed = urlparse(self.path)
-        if parsed.path == "/api/health":
-            self.send_json(
-                {
-                    "ok": True,
-                    "symbols": len(SYMBOLS),
-                    "markets": MARKET_COUNTS,
-                    "cacheSeconds": CACHE_TTL_SECONDS,
-                }
-            )
-            return
-        if parsed.path == "/api/quotes":
-            try:
-                force = parse_qs(parsed.query).get("refresh", ["0"])[0] == "1"
-                self.send_json(get_quotes(force=force))
-            except Exception as error:
-                self.send_json(
-                    {"error": "行情暂时不可用", "detail": str(error), "quotes": {}},
-                    HTTPStatus.BAD_GATEWAY,
-                )
-            return
-        if parsed.path == "/api/policy":
-            try:
-                force = parse_qs(parsed.query).get("refresh", ["0"])[0] == "1"
-                self.send_json(get_policy_payload(force=force))
-            except Exception as error:
-                self.send_json(
-                    {"status": "error", "error": "政策压力数据暂时不可用", "detail": str(error)},
-                    HTTPStatus.BAD_GATEWAY,
-                )
-            return
-        super().do_GET()
+app = FastAPI(
+    title="AI Stock Pool",
+    version="1.0.0",
+)
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Serve the live stock-pool dashboard")
-    parser.add_argument("--host", default="127.0.0.1")
-    parser.add_argument("--port", default=8765, type=int)
-    args = parser.parse_args()
 
-    handler = partial(DashboardHandler, directory=str(WEB_DIR))
-    server = ThreadingHTTPServer((args.host, args.port), handler)
-    print(f"Stock dashboard: http://{args.host}:{args.port}")
-    print(f"Symbols: {len(SYMBOLS)} | Cache: {CACHE_TTL_SECONDS}s")
+@app.get("/api/health")
+def health():
+    return {
+        "ok": True,
+        "symbols": len(SYMBOLS),
+        "markets": MARKET_COUNTS,
+        "cacheSeconds": CACHE_TTL_SECONDS,
+    }
+
+
+@app.get("/api/quotes")
+def quotes(refresh: int = Query(default=0)):
     try:
-        server.serve_forever()
-    except KeyboardInterrupt:
-        pass
-    finally:
-        server.server_close()
+        return get_quotes(force=refresh == 1)
+    except Exception as e:
+        raise HTTPException(
+            status_code=502,
+            detail={
+                "error": "行情暂时不可用",
+                "detail": str(e),
+            },
+        )
 
 
-if __name__ == "__main__":
-    main()
+@app.get("/api/policy")
+def policy(refresh: int = Query(default=0)):
+    try:
+        return get_policy_payload(force=refresh == 1)
+    except Exception as e:
+        raise HTTPException(
+            status_code=502,
+            detail={
+                "status": "error",
+                "error": "政策压力数据暂时不可用",
+                "detail": str(e),
+            },
+        )
+
+# Serve index.html and other static files
+app.mount("/", StaticFiles(directory=str(WEB_DIR), html=True), name="static")
