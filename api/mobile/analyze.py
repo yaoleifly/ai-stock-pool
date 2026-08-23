@@ -39,5 +39,7 @@ class handler(BaseHTTPRequestHandler):
                 raw = json.loads(response.read())
             report = json.loads(raw["choices"][0]["message"]["content"])
             self.send_json({"schemaVersion": "1.0", "input": question, "report": report}, HTTPStatus.OK)
-        except (HTTPError, URLError, KeyError, IndexError, json.JSONDecodeError):
+        except HTTPError as error:
+            self.send_json({"error": {"code": "AI_PROVIDER_" + str(error.code), "message": "AI 服务暂时不可用，请稍后重试。"}}, HTTPStatus.BAD_GATEWAY)
+        except (URLError, KeyError, IndexError, json.JSONDecodeError):
             self.send_json({"error": {"code": "AI_UNAVAILABLE", "message": "AI 分析暂时不可用，请稍后重试。"}}, HTTPStatus.BAD_GATEWAY)
