@@ -19,6 +19,7 @@ from urllib.parse import parse_qs, quote, urlparse
 
 from curl_cffi import requests as curl_requests
 
+from mobile_briefing import build_briefing, clamp_limit, load_csv, parse_reference_ids
 from policy_engine import get_policy_payload
 
 
@@ -214,6 +215,17 @@ class DashboardHandler(SimpleHTTPRequestHandler):
                     {"status": "error", "error": "政策压力数据暂时不可用", "detail": str(error)},
                     HTTPStatus.BAD_GATEWAY,
                 )
+            return
+        if parsed.path == "/api/mobile/briefing":
+            query = parse_qs(parsed.query)
+            self.send_json(
+                build_briefing(
+                    load_csv(WEB_DIR / "discovery-signals.csv"),
+                    load_csv(POOL_FILE),
+                    parse_reference_ids(query.get("reference_ids", [None])[0]),
+                    clamp_limit(query.get("limit", [None])[0]),
+                )
+            )
             return
         super().do_GET()
 

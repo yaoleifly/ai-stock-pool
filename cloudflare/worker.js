@@ -91,6 +91,65 @@ async function loadPool(request, env) {
   return parseCsvRows(await response.text());
 }
 
+async function loadDiscoverySignals(request, env) {
+  const assetUrl = new URL("/discovery-signals.csv", request.url);
+  const response = await env.ASSETS.fetch(new Request(assetUrl));
+  if (!response.ok) throw new Error(`discovery-signals.csv unavailable (${response.status})`);
+  return parseCsvRows(await response.text());
+}
+
+function mobileReferenceTickers(searchParams) {
+  return new Set(
+    String(searchParams.get("reference_ids") || "")
+      .split(",")
+      .map((value) => value.trim())
+      .filter((value) => value.startsWith("ticker:"))
+      .map((value) => value.slice("ticker:".length).trim().toUpperCase())
+      .filter((value) => value && value.length <= 24),
+  );
+}
+
+function mobileLimit(value) {
+  const parsed = Number.parseInt(value || "6", 10);
+  return Number.isFinite(parsed) ? Math.max(1, Math.min(parsed, 20)) : 6;
+}
+
+export function buildMobileBriefing(signalRows, poolRows, searchParams, now = new Date()) {
+  const references = mobileReferenceTickers(searchParams);
+  const companyNames = new Map(poolRows.filter((row) => row.ticker).map((row) => [row.ticker.trim().toUpperCase(), row.company || row.ticker]));
+  const parseTickers = (value) => String(value || "").split(";").map((ticker) => ticker.trim().toUpperCase()).filter(Boolean);
+  const rows = signalRows
+    .filter((row) => row.signal_id && row.title)
+    .filter((row) => !references.size || parseTickers(row.mapped_tickers).some((ticker) => references.has(ticker)))
+    .sort((left, right) => String(right.created_at || right.date).localeCompare(String(left.created_at || left.date)))
+    .slice(0, mobileLimit(searchParams.get("limit")));
+  const latest = rows.map((row) => row.created_at || row.date).filter(Boolean).sort().at(-1) || null;
+  return {
+    schemaVersion: "1.0",
+    generatedAt: now.toISOString(),
+    dataFreshness: { state: rows.length ? "fresh" : "unavailable", sourceUpdatedAt: latest, staleAfterSeconds: 900 },
+    data: {
+      matchMode: references.size ? "reference_tickers" : "latest_public_signals",
+      requestedReferences: [...references].sort().map((ticker) => `ticker:${ticker}`),
+      items: rows.map((row) => {
+        const mapped = parseTickers(row.mapped_tickers);
+        const related = references.size ? mapped.filter((ticker) => references.has(ticker)) : mapped;
+        return {
+          id: `signal:${row.signal_id}`,
+          kind: "discovery_signal",
+          title: row.title,
+          summary: row.summary || "该信号尚未形成可展示摘要。",
+          occurredAt: row.date || row.created_at || null,
+          relevance: "possible",
+          referenceObjects: related.slice(0, 12).map((ticker) => ({ id: `ticker:${ticker}`, type: "ticker", displayName: companyNames.get(ticker) || ticker })),
+          source: { title: row.source_name || "未知来源", url: row.source_url || null, publishedAt: row.date || null },
+          disclaimer: "这是公共研究线索，需由用户确认后才能加入个人研究，不构成投资建议。",
+        };
+      }),
+    },
+  };
+}
+
 function upstreamOrigin(request, env) {
   const configured = String(env.UPSTREAM_API_ORIGIN || DEFAULT_UPSTREAM_API_ORIGIN).trim();
   const origin = new URL(configured);
@@ -173,6 +232,14 @@ async function handleApi(request, env) {
       return await proxyApi(request, env, POLICY_CACHE_SECONDS);
     } catch (error) {
       return policyFallback(request, env, String(error));
+    }
+  }
+  if (pathname === "/api/mobile/briefing") {
+    try {
+      const [signals, poolRows] = await Promise.all([loadDiscoverySignals(request, env), loadPool(request, env)]);
+      return jsonResponse(buildMobileBriefing(signals, poolRows, new URL(request.url).searchParams), 200, "public, max-age=0, s-maxage=900, stale-while-revalidate=1800");
+    } catch (error) {
+      return jsonResponse({ schemaVersion: "1.0", error: { code: "DATA_UNAVAILABLE", message: "主动发现数据暂时不可用", retryable: true } }, 503);
     }
   }
   return jsonResponse({ error: "Not found" }, 404);
