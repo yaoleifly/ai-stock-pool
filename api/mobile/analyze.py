@@ -38,6 +38,17 @@ class handler(BaseHTTPRequestHandler):
             with urlopen(request, timeout=55) as response:
                 raw = json.loads(response.read())
             report = json.loads(raw["choices"][0]["message"]["content"])
+            def score(name: str) -> int:
+                try:
+                    return max(0, min(100, int(report.get(name, 50))))
+                except (TypeError, ValueError):
+                    return 50
+            for field in ("conclusion", "upsideCase", "riskCases", "whatHappened", "impactPath", "supportingEvidence", "uncertainties", "nextChecks"):
+                value = report.get(field, [])
+                report[field] = value if isinstance(value, list) else [str(value)]
+            report["investmentScore"] = score("investmentScore")
+            report["informationGapScore"] = score("informationGapScore")
+            report["disclaimer"] = str(report.get("disclaimer") or "本分析仅供研究参考，不构成投资建议。")
             self.send_json({"schemaVersion": "1.0", "input": question, "report": report}, HTTPStatus.OK)
         except HTTPError as error:
             self.send_json({"error": {"code": "AI_PROVIDER_" + str(error.code), "message": "AI 服务暂时不可用，请稍后重试。"}}, HTTPStatus.BAD_GATEWAY)
