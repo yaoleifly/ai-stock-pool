@@ -12,6 +12,10 @@
     "api/policy.py": {
       "maxDuration": 60,
       "memory": 1024
+    },
+    "api/mobile/analyze.py": {
+      "maxDuration": 60,
+      "memory": 512
     }
   },
   "headers": [
