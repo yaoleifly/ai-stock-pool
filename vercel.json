@@ -16,6 +16,10 @@
     "api/mobile/analyze.py": {
       "maxDuration": 60,
       "memory": 512
+    },
+    "api/mobile/feed.py": {
+      "maxDuration": 30,
+      "memory": 512
     }
   },
   "headers": [
