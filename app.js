@@ -244,6 +244,7 @@ const discoveryState = {
   papers: [],
   signals: [],
   history: [],
+  status: null,
   asOf: null,
   reportHref: "",
   loaded: false,
@@ -494,11 +495,22 @@ async function loadDiscoveryData() {
     }
   };
 
-  const [candidateRows, paperRows, signalRows, historyRows] = await Promise.all([
+  const safeLoadJson = async (path) => {
+    try {
+      const response = await fetch(path, { cache: "no-store" });
+      if (!response.ok) return null;
+      return await response.json();
+    } catch {
+      return null;
+    }
+  };
+
+  const [candidateRows, paperRows, signalRows, historyRows, discoveryStatus] = await Promise.all([
     safeLoad("discovery-candidates.csv"),
     safeLoad("arxiv-papers.csv"),
     safeLoad("discovery-signals.csv"),
-    safeLoad("discovery-history.csv")
+    safeLoad("discovery-history.csv"),
+    safeLoadJson("discovery-status.json")
   ]);
 
   discoveryState.candidates = candidateRows
@@ -517,6 +529,7 @@ async function loadDiscoveryData() {
     .map(normalizeDiscoveryHistory)
     .filter((item) => item.date)
     .sort((left, right) => String(left.date).localeCompare(String(right.date)));
+  discoveryState.status = discoveryStatus && typeof discoveryStatus === "object" ? discoveryStatus : null;
 
   discoveryState.asOf = discoveryState.candidates[0]?.runDate || discoveryState.signals[0]?.date || discoveryState.papers[0]?.published || null;
   discoveryState.reportHref = discoveryState.asOf ? `reports/discovery-${discoveryState.asOf}.md` : "";
@@ -2205,8 +2218,11 @@ function renderDecisionPanel(visibleStocks) {
     `股票池 ${stocks.length} 只（美股 ${stocks.filter((stock) => stock.market === "美股").length} / A股 ${stocks.filter((stock) => stock.market === "A股").length}）`,
     `行情 ${quoteReceived}/${quoteRequested}${missing.length ? `，缺 ${missing.map(displayTicker).join("、")}` : "，全覆盖"}`,
     `arXiv ${discoveryState.papers.length || latest?.arxivPapers || 0} 篇`,
-    `报告 ${discoveryState.asOf || latest?.date || "待加载"}`
-  ];
+    `最后有效报告 ${discoveryState.asOf || latest?.date || "待加载"}`,
+    discoveryState.status?.attemptedDate && discoveryState.status.attemptedDate !== discoveryState.asOf
+      ? `最近检查 ${discoveryState.status.attemptedDate}（${discoveryState.status.status === "failed" ? "抓取失败，未覆盖旧数据" : "沿用旧数据"}）`
+      : null
+  ].filter(Boolean);
   panel.innerHTML = `
     <div class="decision-hero-card">
       <span>今日决策</span>
@@ -2258,6 +2274,13 @@ function renderDiscovery() {
   const topPapers = discoveryState.papers.slice(0, 8);
   const topSignals = discoveryState.signals.slice(0, 8);
   const runDate = discoveryState.asOf || "未知日期";
+  const refreshStatus = discoveryState.status;
+  const refreshStatusText = refreshStatus?.attemptedDate && refreshStatus.attemptedDate !== runDate
+    ? `最近检查 ${refreshStatus.attemptedDate} · ${refreshStatus.status === "failed" ? "抓取失败，已保留有效数据" : "沿用已有数据"}`
+    : refreshStatus?.status === "success"
+      ? `更新成功 · ${refreshStatus.attemptedDate || runDate}`
+      : "";
+  const refreshStatusClass = refreshStatus?.status === "failed" ? "is-warning" : "is-ok";
   const reportLink = discoveryState.reportHref
     ? `<a class="report-link" href="${escapeHtml(discoveryState.reportHref)}" target="_blank" rel="noreferrer">打开 Markdown 日报</a>`
     : "";
@@ -2270,8 +2293,9 @@ function renderDiscovery() {
         <p>每天把官方信号、arXiv 论文、新闻信号、当前股票池和行情位置合在一起，先给出候选方向，再进入人工复核。</p>
       </div>
       <div class="discovery-run-card">
-        <span>报告日期</span>
+        <span>最后有效报告</span>
         <strong>${escapeHtml(runDate)}</strong>
+        ${refreshStatusText ? `<em class="discovery-refresh-status ${refreshStatusClass}">${escapeHtml(refreshStatusText)}</em>` : ""}
         ${reportLink}
       </div>
     </div>

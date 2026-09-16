@@ -1,0 +1,64 @@
+name: Refresh discovery data
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/discovery-refresh.yml"
+      - "discovery_engine.py"
+      - "requirements.txt"
+      - "scripts/build-static.mjs"
+      - "scripts/validate-data.mjs"
+      - "tests/test_discovery_engine.py"
+      - "vercel.json"
+  schedule:
+    - cron: "10 9 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discovery-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          npm ci
+      - name: Refresh discovery artifacts
+        run: >-
+          python3 discovery_engine.py --fresh --days 7 --max-arxiv-results 8
+          --max-feed-items 15 --max-extra-quotes 40 --arxiv-delay 3
+      - name: Capture complete institutional snapshot
+        run: python3 crowding_snapshot.py
+      - name: Validate data and policy model
+        run: |
+          npm run check
+          PYTHONPATH=. python3 -m unittest tests/test_discovery_engine.py tests/test_policy_engine.py
+      - name: Commit verified artifacts
+        run: |
+          run_date="$(TZ=Asia/Shanghai date +%F)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add discovery-signals.csv arxiv-papers.csv discovery-candidates.csv discovery-history.csv discovery-status.json institutional-crowding-history.json "reports/discovery-${run_date}.md"
+          if git diff --cached --quiet; then
+            echo "No verified discovery changes"
+            exit 0
+          fi
+          git commit -m "data: refresh discovery ${run_date}"
+          git push

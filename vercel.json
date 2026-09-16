@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "ignoreCommand": "node scripts/should-ignore-build.mjs",
   "functions": {
     "api/quotes.py": {
       "maxDuration": 60,

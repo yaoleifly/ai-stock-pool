@@ -19,6 +19,15 @@ for (const [file, minimum] of Object.entries(minimumRows)) {
 const paperText = await readFile(resolve(root, "arxiv-papers.csv"), "utf8");
 console.log(`arxiv-papers.csv: ${Math.max(0, paperText.trim().split(/\r?\n/).length - 1)} data rows`);
 
+const discoveryStatus = JSON.parse(await readFile(resolve(root, "discovery-status.json"), "utf8"));
+if (!["success", "failed", "reused"].includes(discoveryStatus.status)) {
+  throw new Error("discovery-status.json contains an invalid status");
+}
+if (!discoveryStatus.attemptedDate || !Object.hasOwn(discoveryStatus, "dataDate")) {
+  throw new Error("discovery-status.json must include attemptedDate and dataDate");
+}
+console.log(`discovery-status.json: ${discoveryStatus.status}, data ${discoveryStatus.dataDate || "unavailable"}`);
+
 const policySnapshot = JSON.parse(await readFile(resolve(root, "tpi-latest.json"), "utf8"));
 if (!Array.isArray(policySnapshot.pressureBreakdown) || policySnapshot.pressureBreakdown.length !== 4) {
   throw new Error("tpi-latest.json must contain four pressure decomposition groups");

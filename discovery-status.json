@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "status": "failed",
+  "attemptedAt": "2026-09-16T09:00:00+00:00",
+  "attemptedDate": "2026-09-16",
+  "dataDate": "2026-08-17",
+  "message": "外部数据抓取未形成有效结果，已保留上一次有效数据。",
+  "counts": {
+    "signals": 0,
+    "papers": 0,
+    "candidates": 0
+  },
+  "warnings": [
+    "当前执行环境无法解析外部数据源，未覆盖已有发现数据。"
+  ]
+}

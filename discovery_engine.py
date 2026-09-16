@@ -47,6 +47,8 @@ ALIASES_FILE = WEB_DIR / "mapping-aliases.json"
 SIGNALS_FILE = WEB_DIR / "discovery-signals.csv"
 PAPERS_FILE = WEB_DIR / "arxiv-papers.csv"
 CANDIDATES_FILE = WEB_DIR / "discovery-candidates.csv"
+HISTORY_FILE = WEB_DIR / "discovery-history.csv"
+STATUS_FILE = WEB_DIR / "discovery-status.json"
 REPORTS_DIR = WEB_DIR / "reports"
 
 USER_AGENT = "StockDiscoveryEngine/0.1 (research dashboard; contact=local)"
@@ -118,6 +120,22 @@ CANDIDATE_FIELDS = [
     "change_percent",
     "quote_timestamp",
     "notes",
+]
+
+HISTORY_FIELDS = [
+    "date",
+    "pool_size",
+    "quotes_requested",
+    "quotes_received",
+    "missing_quotes",
+    "extra_quotes",
+    "usable_quotes",
+    "signals",
+    "arxiv_papers",
+    "candidates",
+    "observe_count",
+    "observe_tickers",
+    "report_href",
 ]
 
 
@@ -501,11 +519,104 @@ def read_csv_rows(path: Path) -> list[dict[str, str]]:
 
 def write_csv_rows(path: Path, fields: list[str], rows: list[dict[str, object]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8", newline="") as handle:
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    with temporary.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields)
         writer.writeheader()
         for row in rows:
             writer.writerow({field: row.get(field, "") for field in fields})
+    os.replace(temporary, path)
+
+
+def write_json(path: Path, payload: dict[str, object]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    with temporary.open("w", encoding="utf-8") as handle:
+        json.dump(payload, handle, ensure_ascii=False, indent=2)
+        handle.write("\n")
+    os.replace(temporary, path)
+
+
+def latest_discovery_date() -> str | None:
+    candidates = read_csv_rows(CANDIDATES_FILE)
+    candidate_dates = [row.get("run_date", "") for row in candidates if row.get("run_date")]
+    if candidate_dates:
+        return max(candidate_dates)
+
+    signal_dates = [row.get("date", "") for row in read_csv_rows(SIGNALS_FILE) if row.get("date")]
+    paper_dates = [row.get("published", "")[:10] for row in read_csv_rows(PAPERS_FILE) if row.get("published")]
+    dates = signal_dates + paper_dates
+    return max(dates) if dates else None
+
+
+def discovery_result_is_valid(signals: list[object], candidates: list[dict[str, object]]) -> bool:
+    return bool(signals) and bool(candidates)
+
+
+def write_discovery_status(
+    *,
+    status: str,
+    attempted_at: str,
+    attempted_date: str,
+    data_date: str | None,
+    signals: int,
+    papers: int,
+    candidates: int,
+    warnings: list[str],
+    message: str,
+) -> None:
+    write_json(
+        STATUS_FILE,
+        {
+            "version": 1,
+            "status": status,
+            "attemptedAt": attempted_at,
+            "attemptedDate": attempted_date,
+            "dataDate": data_date,
+            "message": message,
+            "counts": {"signals": signals, "papers": papers, "candidates": candidates},
+            "warnings": warnings[:20],
+        },
+    )
+
+
+def update_discovery_history(
+    report_date: str,
+    context: dict[str, object],
+    quote_payload: dict[str, object],
+    signals: list[object],
+    papers: list[dict[str, object]],
+    candidates: list[dict[str, object]],
+) -> None:
+    history = [row for row in read_csv_rows(HISTORY_FILE) if row.get("date") != report_date]
+    observe = [row for row in candidates if row.get("recommendation") == "observe"]
+    quotes = quote_payload.get("quotes", {})
+    usable_quotes = len(quotes) if isinstance(quotes, dict) else 0
+    missing = quote_payload.get("missing", [])
+    if isinstance(missing, list):
+        missing_text = ";".join(str(item) for item in missing)
+    else:
+        missing_text = str(missing or "")
+    pool_rows = context.get("pool_rows", [])
+    history.append(
+        {
+            "date": report_date,
+            "pool_size": len(pool_rows) if isinstance(pool_rows, list) else 0,
+            "quotes_requested": quote_payload.get("_online_requested", quote_payload.get("requested", 0)),
+            "quotes_received": quote_payload.get("_online_received", quote_payload.get("received", 0)),
+            "missing_quotes": missing_text,
+            "extra_quotes": quote_payload.get("_extra_quote_count", 0),
+            "usable_quotes": quote_payload.get("_quote_available_count", usable_quotes),
+            "signals": len(signals),
+            "arxiv_papers": len(papers),
+            "candidates": len(candidates),
+            "observe_count": len(observe),
+            "observe_tickers": ";".join(str(row.get("ticker", "")) for row in observe if row.get("ticker")),
+            "report_href": f"reports/discovery-{report_date}.md",
+        }
+    )
+    history.sort(key=lambda row: str(row.get("date") or ""))
+    write_csv_rows(HISTORY_FILE, HISTORY_FIELDS, history)
 
 
 def merge_rows(existing: list[dict[str, str]], new_rows: list[dict[str, object]], key: str) -> list[dict[str, object]]:
@@ -1534,13 +1645,25 @@ def main(argv: list[str] | None = None) -> int:
     if args.skip_network:
         existing_signals = [Signal(**{field: row.get(field, "") for field in SIGNAL_FIELDS}) for row in read_csv_rows(SIGNALS_FILE)]
         papers = read_csv_rows(PAPERS_FILE)
+        data_date = latest_discovery_date() or args.report_date
         quote_payload, quote_warnings = fetch_quotes()
         warnings.extend(quote_warnings)
         warnings.extend(enrich_quotes(quote_payload, collect_signal_tickers(existing_signals, papers), args.max_extra_quotes))
-        candidates = build_candidates(existing_signals, papers, quote_payload, context, args.report_date)
+        candidates = build_candidates(existing_signals, papers, quote_payload, context, data_date)
         write_csv_rows(CANDIDATES_FILE, CANDIDATE_FIELDS, candidates)
         report_path = REPORTS_DIR / f"discovery-{args.report_date}.md"
         write_report(report_path, existing_signals, papers, candidates, quote_payload, warnings, context, args.report_date)
+        write_discovery_status(
+            status="reused",
+            attempted_at=generated_at,
+            attempted_date=args.report_date,
+            data_date=data_date,
+            signals=len(existing_signals),
+            papers=len(papers),
+            candidates=len(candidates),
+            warnings=warnings,
+            message="本次仅重建候选与报告，沿用已有发现数据。",
+        )
         print_summary(existing_signals, papers, candidates, report_path, warnings)
         return 0
 
@@ -1582,11 +1705,41 @@ def main(argv: list[str] | None = None) -> int:
     signal_objects = [Signal(**{field: row.get(field, "") for field in SIGNAL_FIELDS}) for row in merged_signals]
     candidates = build_candidates(signal_objects, merged_papers, quote_payload, context, args.report_date)
 
+    if not discovery_result_is_valid(all_signals, candidates):
+        report_path = REPORTS_DIR / f"discovery-{args.report_date}.md"
+        write_report(report_path, all_signals, papers, candidates, quote_payload, warnings, context, args.report_date)
+        write_discovery_status(
+            status="failed",
+            attempted_at=generated_at,
+            attempted_date=args.report_date,
+            data_date=latest_discovery_date(),
+            signals=len(all_signals),
+            papers=len(papers),
+            candidates=len(candidates),
+            warnings=warnings,
+            message="外部数据抓取未形成有效结果，已保留上一次有效数据。",
+        )
+        print_summary(all_signals, papers, candidates, report_path, warnings)
+        print("Safety gate: refusing to replace valid discovery artifacts with an empty result.", file=sys.stderr)
+        return 2
+
     write_csv_rows(SIGNALS_FILE, SIGNAL_FIELDS, merged_signals)
     write_csv_rows(PAPERS_FILE, PAPER_FIELDS, merged_papers)
     write_csv_rows(CANDIDATES_FILE, CANDIDATE_FIELDS, candidates)
     report_path = REPORTS_DIR / f"discovery-{args.report_date}.md"
     write_report(report_path, signal_objects, merged_papers, candidates, quote_payload, warnings, context, args.report_date)
+    update_discovery_history(args.report_date, context, quote_payload, signal_objects, merged_papers, candidates)
+    write_discovery_status(
+        status="success",
+        attempted_at=generated_at,
+        attempted_date=args.report_date,
+        data_date=args.report_date,
+        signals=len(signal_objects),
+        papers=len(merged_papers),
+        candidates=len(candidates),
+        warnings=warnings,
+        message="主动发现数据已更新。",
+    )
     print_summary(signal_objects, merged_papers, candidates, report_path, warnings)
     return 0
 
