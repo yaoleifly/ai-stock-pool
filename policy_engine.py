@@ -304,6 +304,25 @@ def parse_target_events(text: str, days: int = 365) -> list[dict[str, object]]:
 
 
 def parse_recommendation_trend(text: str) -> list[dict[str, object]]:
+    payload = escaped_json_value(text, "recommendationTrend")
+    rows = payload.get("trend", []) if isinstance(payload, dict) else []
+    parsed_rows = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        parsed_rows.append(
+            {
+                "period": row.get("period"),
+                "strongBuy": int(raw_number(row.get("strongBuy")) or 0),
+                "buy": int(raw_number(row.get("buy")) or 0),
+                "hold": int(raw_number(row.get("hold")) or 0),
+                "sell": int(raw_number(row.get("sell")) or 0),
+                "strongSell": int(raw_number(row.get("strongSell")) or 0),
+            }
+        )
+    if parsed_rows:
+        return parsed_rows
+
     start = text.find("recommendationTrend")
     if start < 0:
         return []
@@ -1138,6 +1157,79 @@ def ticker_history(history: dict[str, object], ticker: str) -> list[dict[str, ob
     return sorted(output, key=lambda item: str(item.get("date") or ""))
 
 
+def latest_crowding_snapshot_rows(history: dict[str, object]) -> dict[str, dict[str, object]]:
+    snapshots = [item for item in history.get("snapshots", []) if isinstance(item, dict)]
+    for snapshot in reversed(snapshots):
+        rows = snapshot.get("rows") if isinstance(snapshot.get("rows"), list) else []
+        by_ticker = {
+            str(item.get("ticker")): {"date": snapshot.get("date"), "asOf": snapshot.get("asOf"), **item}
+            for item in rows
+            if isinstance(item, dict) and item.get("ticker")
+        }
+        if all(ticker in by_ticker for ticker in CROWDING_WATCHLIST):
+            return by_ticker
+    return {}
+
+
+def snapshot_fallback_row(
+    ticker: str,
+    company: str,
+    snapshot: dict[str, object],
+    reason: str | None = None,
+) -> dict[str, object]:
+    return {
+        "ticker": ticker,
+        "company": company,
+        "currentPrice": snapshot.get("currentPrice"),
+        "updatedAt": snapshot.get("asOf"),
+        "sourceName": "Institutional crowding point-in-time snapshot",
+        "sourceUrl": "",
+        "earningsCalendar": {},
+        "earningsWindow": {"status": "snapshot_only", "reason": "实时分析页不可用，使用最新机构一致性快照补齐覆盖。"},
+        "downgradeLag": {"status": "snapshot_only", "label": "实时目标价事件不可用，使用快照保留覆盖。"},
+        "targetEvents": [],
+        "priceTimeline": [],
+        "score": snapshot.get("score"),
+        "zone": snapshot.get("zone"),
+        "label": score_label(finite_number(snapshot.get("score"))),
+        "evidence": [f"使用{snapshot.get('date')}机构一致性快照补齐覆盖"],
+        "metrics": {
+            "targetMean": snapshot.get("targetMean"),
+            "targetMedian": snapshot.get("targetMedian"),
+            "bullishShare": snapshot.get("bullishShare"),
+            "targetRaises45d": snapshot.get("targetRaises45d"),
+            "targetCuts45d": snapshot.get("targetCuts45d"),
+            "epsChange30d": None,
+            "epsChange60d": None,
+            "revenueChange30d": None,
+            "revenueChange60d": None,
+        },
+        "expectations": {
+            "method": "point_in_time_snapshot",
+            "primary": {
+                "eps": {"current": snapshot.get("epsEstimate"), "historyStatus": "snapshot_only"},
+                "revenue": {"current": snapshot.get("revenueEstimate"), "historyStatus": "snapshot_only"},
+            },
+        },
+        "fallback": {"status": "snapshot", "reason": reason},
+    }
+
+
+def fill_missing_crowding_rows(
+    rows: list[dict[str, object]],
+    errors: dict[str, str],
+    history: dict[str, object],
+) -> list[dict[str, object]]:
+    present = {str(row.get("ticker")) for row in rows}
+    snapshot_rows = latest_crowding_snapshot_rows(history)
+    output = list(rows)
+    for ticker, company in CROWDING_WATCHLIST.items():
+        if ticker in present or ticker not in snapshot_rows:
+            continue
+        output.append(snapshot_fallback_row(ticker, company, snapshot_rows[ticker], errors.get(ticker)))
+    return output
+
+
 def historical_point(rows: list[dict[str, object]], days_ago: int) -> dict[str, object] | None:
     cutoff = datetime.now(timezone.utc).date() - timedelta(days=days_ago)
     eligible = []
@@ -1469,8 +1561,9 @@ def build_policy_payload() -> dict[str, object]:
     else:
         drivers.append(fallback_driver("inflation", fallback, errors.get("inflation", "source unavailable")))
 
-    crowding_rows, crowding_errors, crowding_benchmark = fetch_crowding_dataset()
     crowding_history = load_crowding_history()
+    crowding_rows, crowding_errors, crowding_benchmark = fetch_crowding_dataset()
+    crowding_rows = fill_missing_crowding_rows(crowding_rows, crowding_errors, crowding_history)
     crowding_rows = [apply_crowding_history(row, crowding_history) for row in crowding_rows]
     crowding = build_crowding_payload(crowding_rows, crowding_errors)
     crowding["benchmark"] = {

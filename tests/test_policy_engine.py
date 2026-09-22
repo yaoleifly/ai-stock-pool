@@ -13,6 +13,7 @@ from policy_engine import (
     build_scenario_matrix,
     classify_event_phase,
     compute_crowding_score,
+    fill_missing_crowding_rows,
     parse_analyst_page,
     parse_expectation_trend,
 )
@@ -179,6 +180,43 @@ class PolicyIntelligenceTests(unittest.TestCase):
         self.assertEqual(decorated["metrics"]["revenueChange30d"], -9.1)
         self.assertEqual(decorated["scoreChange7d"], 7)
         self.assertEqual(decorated["expectationDivergence"]["status"], "warning")
+
+    def test_history_snapshot_fills_missing_crowding_watchlist_row(self) -> None:
+        history = {
+            "snapshots": [
+                {
+                    "date": "2026-08-22",
+                    "asOf": "2026-08-22T05:43:02+00:00",
+                    "rows": [
+                        {"ticker": "AMD", "score": 68, "zone": "crowded"},
+                        {"ticker": "AVGO", "score": 72, "zone": "crowded"},
+                        {"ticker": "MRVL", "score": 59, "zone": "watch"},
+                        {"ticker": "MU", "score": 71, "zone": "crowded"},
+                        {"ticker": "NVDA", "score": 77, "zone": "crowded"},
+                        {
+                            "ticker": "SMCI",
+                            "score": 29,
+                            "zone": "balanced",
+                            "currentPrice": 37.24,
+                            "targetMean": 42.38,
+                            "targetMedian": 42.5,
+                            "bullishShare": 26.3,
+                            "epsEstimate": 1.03,
+                            "revenueEstimate": 14_971_092_730,
+                            "targetRaises45d": 0,
+                            "targetCuts45d": 0,
+                        },
+                    ],
+                }
+            ]
+        }
+        rows = [{"ticker": "AMD", "score": 68}]
+        filled = fill_missing_crowding_rows(rows, {"SMCI": "analyst unavailable"}, history)
+        tickers = {row["ticker"] for row in filled}
+        self.assertIn("SMCI", tickers)
+        fallback = next(row for row in filled if row["ticker"] == "SMCI")
+        self.assertEqual(fallback["fallback"]["status"], "snapshot")
+        self.assertEqual(fallback["metrics"]["targetMean"], 42.38)
 
     def test_event_phase_classification(self) -> None:
         self.assertEqual(classify_event_phase("Tariffs delayed as talks resume"), "softening")

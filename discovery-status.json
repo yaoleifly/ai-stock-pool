@@ -1,8 +1,8 @@
 {
   "version": 1,
   "status": "failed",
-  "attemptedAt": "2026-09-16T09:00:00+00:00",
-  "attemptedDate": "2026-09-16",
+  "attemptedAt": "2026-09-22T03:27:23.483591+00:00",
+  "attemptedDate": "2026-09-22",
   "dataDate": "2026-08-17",
   "message": "外部数据抓取未形成有效结果，已保留上一次有效数据。",
   "counts": {
@@ -11,6 +11,25 @@
     "candidates": 0
   },
   "warnings": [
-    "当前执行环境无法解析外部数据源，未覆盖已有发现数据。"
+    "NVIDIA Blog: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '25', '--user-agent', 'StockDiscoveryEngine/0.",
+    "Microsoft Official Blog: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '25', '--user-agent', 'StockDiscoveryEngine/0.",
+    "AWS Machine Learning Blog: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '25', '--user-agent', 'StockDiscoveryEngine/0.",
+    "Google News: Vera Rubin AI factory NVIDIA: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '25', '--user-agent', 'StockDiscoveryEngine/0.",
+    "Google News: AI data center liquid cooling power: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '25', '--user-agent', 'StockDiscoveryEngine/0.",
+    "Google News: co-packaged optics AI data center CPO: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '25', '--user-agent', 'StockDiscoveryEngine/0.",
+    "Google News: long context inference serving KV cache AI: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '25', '--user-agent', 'StockDiscoveryEngine/0.",
+    "Google News: HBM AI server storage memory bandwidth: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '25', '--user-agent', 'StockDiscoveryEngine/0.",
+    "Google News: US domestic semiconductor supply chain advanced packaging materials equipment: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '25', '--user-agent', 'StockDiscoveryEngine/0.",
+    "Google News: physical AI robotics world model: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '25', '--user-agent', 'StockDiscoveryEngine/0.",
+    "Google News: AI PCB CCL advanced packaging server: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '25', '--user-agent', 'StockDiscoveryEngine/0.",
+    "arXiv Long context and KV cache: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '30', '--user-agent', 'StockDiscoveryEngine/0.",
+    "arXiv KV cache and inference memory: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '30', '--user-agent', 'StockDiscoveryEngine/0.",
+    "arXiv Mixture of experts: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '30', '--user-agent', 'StockDiscoveryEngine/0.",
+    "arXiv Speculative decoding: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '30', '--user-agent', 'StockDiscoveryEngine/0.",
+    "arXiv Inference serving: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '30', '--user-agent', 'StockDiscoveryEngine/0.",
+    "arXiv Optical interconnect: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '30', '--user-agent', 'StockDiscoveryEngine/0.",
+    "arXiv World models and robotics: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '30', '--user-agent', 'StockDiscoveryEngine/0.",
+    "arXiv Memory bandwidth: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '30', '--user-agent', 'StockDiscoveryEngine/0.",
+    "quote api: CalledProcessError: Command '['curl', '--location', '--silent', '--show-error', '--max-time', '80', '--user-agent', 'StockDiscoveryEngine/0."
   ]
 }
