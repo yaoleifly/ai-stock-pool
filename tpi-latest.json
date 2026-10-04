@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-04T20:14:29.293165+00:00",
+  "asOf": "2026-10-04T23:17:45.744675+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -206,9 +206,9 @@
       },
       "items": [
         {
-          "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports - NPR",
+          "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports - npr.org",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pSzhrd21rSldqYjJuV1lCdWxVbE8xWVhQM3pKRDltTDJrLWMtM09IUFFOR05LbllKd0VUblUxOTdwdHpTSjFIbktvTG9pVk5nT1JEMzl5RzRLMFhORC0zUDk5Nkx5aWlRUC1jc3dzWHo?oc=5",
-          "source": "NPR",
+          "source": "npr.org",
           "publishedAt": "2026-08-19T07:00:00+00:00",
           "phase": "softening"
         },
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T20:14:28.342170+00:00",
+      "updatedAt": "2026-10-04T23:17:44.774970+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T20:14:28.144601+00:00",
+      "updatedAt": "2026-10-04T23:17:44.627010+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T20:14:28.254296+00:00",
+      "updatedAt": "2026-10-04T23:17:44.663779+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -369,9 +369,9 @@
           "phase": "monitoring"
         },
         {
-          "title": "Trump's tariffs are causing harm to American manufacturers instead of benefiting them - PBS",
+          "title": "Trump's tariffs are causing harm to American manufacturers instead of benefiting them - pbs.org",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ0ZTS1RRSng2bnJVYUs3NHNOdll3V1FGR2FrVnVqMENaRlJXNDZFY09xN0ZFN0Nla1pMTFo5RW5FOU90TXNXbDNWQ2lxV1JFWTYwUjZ5dV9VZGlQZmlXN0tMOGJ4N1RsYkJJVXFRRHZXWF9kZmhnd2NGaDVKMkM0Nmw2aWlQQzdOMHVuQzh1ZEFxMENNWlJfLVF2RkJpMGhlbXlXYm1uMExJRUZtUWIxb3B0MWVIWkIwcE1XWWdn?oc=5",
-          "source": "PBS",
+          "source": "pbs.org",
           "publishedAt": "2026-03-18T07:00:00+00:00",
           "phase": "escalation"
         },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T20:14:28.456591+00:00",
+      "updatedAt": "2026-10-04T23:17:44.783260+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-04T20:14:29.291397+00:00",
+    "asOf": "2026-10-04T23:17:45.742833+00:00",
     "aggregateScore": 50.9,
     "aggregateLabel": "中性",
     "highRiskCount": 3,
