@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-04T17:09:35.317022+00:00",
+  "asOf": "2026-10-04T17:18:57.597339+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -220,9 +220,9 @@
           "phase": "softening"
         },
         {
-          "title": "Trump tariffs fallout: US trade representative questions ‘most favored nation’ trade status - undercurrentnews.com",
+          "title": "Trump tariffs fallout: US trade representative questions ‘most favored nation’ trade status - Undercurrent News",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
-          "source": "undercurrentnews.com",
+          "source": "Undercurrent News",
           "publishedAt": "2026-08-11T07:00:00+00:00",
           "phase": "escalation"
         },
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T17:09:33.018757+00:00",
+      "updatedAt": "2026-10-04T17:18:56.731858+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T17:09:32.634185+00:00",
+      "updatedAt": "2026-10-04T17:18:56.601839+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T17:09:32.839416+00:00",
+      "updatedAt": "2026-10-04T17:18:56.681987+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -383,9 +383,9 @@
           "phase": "monitoring"
         },
         {
-          "title": "How is Trump’s Big Beautiful Bill changing US taxes and healthcare in 2026? - Al Jazeera",
+          "title": "How is Trump’s Big Beautiful Bill changing US taxes and healthcare in 2026? - aljazeera.com",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQenlqZm8xQi1IRGlXaXlOXzZmT2dHS3AtUFBpSnhBUVo4dTNHNjQ5NmxTYzczQW51am03ZHBQUFRrRHhsaVBlekFXcUp5bGtuZzVEQ2xmYlJWWWVqUXRjVWVPalM0WmJIeVhrbXJKVG5hZHNLb1ZGYWo5bzJOZ1pMejdveGlHaXg5M1h4RmM3bFBaVFY0SHNvd0F1QWhaUFpUZkswMzhLUlVkdGdFVVB2REpsNjI2OWFURGfSAb8BQVVfeXFMTzhJRkJGd053WTJZNVpMdUVpY21qb2VHTWxCWkRmWjdldUVlSHF4LW5YeC10UWN4YUN0TWtraVo2WHJaSktkSVY0VWFzZ3JKV2cwWkFSRWR3bUUtRDJJWUFlNnNxQnAwVEp6U3lHU0JCMVVReFVabk8zUUN4alBVSllDeUFXT242V2RRZW1ZcnJWR3RObnAyb1dDUTctMV9sRHhxaGR1M0UtTnhsWW1NWExnN25Ca2NHc3FTMjEyT2s?oc=5",
-          "source": "Al Jazeera",
+          "source": "aljazeera.com",
           "publishedAt": "2025-12-31T08:00:00+00:00",
           "phase": "monitoring"
         }
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T17:09:33.344692+00:00",
+      "updatedAt": "2026-10-04T17:18:56.836403+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-04T17:09:35.314475+00:00",
+    "asOf": "2026-10-04T17:18:57.595079+00:00",
     "aggregateScore": 50.9,
     "aggregateLabel": "中性",
     "highRiskCount": 3,
