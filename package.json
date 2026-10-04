@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build-static.mjs",
-    "test": "node --test cloudflare/worker.test.mjs",
+    "test": "node --test cloudflare/worker.test.mjs scripts/should-ignore-build.test.mjs",
     "validate:data": "node scripts/validate-data.mjs",
     "check": "npm run validate:data && npm run test && npm run build && node scripts/wrangler-dry-run.mjs",
     "deploy": "npm run build && wrangler deploy",
@@ -16,6 +16,9 @@
     "node": ">=20"
   },
   "devDependencies": {
-    "wrangler": "4.114.0"
+    "wrangler": "4.147.0"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.11.2"
   }
 }

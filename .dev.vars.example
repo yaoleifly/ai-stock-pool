@@ -1,1 +1,3 @@
-UPSTREAM_API_ORIGIN=https://stocks.mastersgo.cc
+# Optional mobile AI endpoint
+# DEEPSEEK_API_KEY=
+# DEEPSEEK_MODEL=deepseek-v4-flash

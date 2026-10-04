@@ -3714,6 +3714,21 @@ tbody tr:hover {
   font-variant-numeric: tabular-nums;
 }
 
+.discovery-refresh-status {
+  display: block;
+  font-size: 11px;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.discovery-refresh-status.is-ok {
+  color: #c8ef72;
+}
+
+.discovery-refresh-status.is-warning {
+  color: #ffc38f;
+}
+
 .report-link {
   width: fit-content;
   display: inline-flex;

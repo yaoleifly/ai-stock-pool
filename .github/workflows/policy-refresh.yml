@@ -1,0 +1,31 @@
+name: Refresh policy snapshot
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: stock-pool-data-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: PYTHONPATH=. python scripts/refresh-policy.py
+      - name: Publish verified snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tpi-latest.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'data: refresh hourly policy snapshot'
+          git pull --rebase origin main
+          git push

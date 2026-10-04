@@ -1,10 +1,12 @@
-const DEFAULT_UPSTREAM_API_ORIGIN = "https://stocks.mastersgo.cc";
+import { getQuotes } from "./quotes.js";
+import { mobileFeed, mobileAnalyze } from "./mobile.js";
+
 const QUOTE_CACHE_SECONDS = 60;
 const POLICY_CACHE_SECONDS = 300;
 
 const SECURITY_HEADERS = {
   "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Methods": "GET, OPTIONS",
+  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type",
   "Referrer-Policy": "strict-origin-when-cross-origin",
   "X-Content-Type-Options": "nosniff",
@@ -127,7 +129,7 @@ export function buildMobileBriefing(signalRows, poolRows, searchParams, now = ne
   return {
     schemaVersion: "1.0",
     generatedAt: now.toISOString(),
-    dataFreshness: { state: rows.length ? "fresh" : "unavailable", sourceUpdatedAt: latest, staleAfterSeconds: 900 },
+    dataFreshness: { state: !rows.length ? "unavailable" : !latest || now.getTime() - Date.parse(latest) > 900000 ? "stale" : "fresh", sourceUpdatedAt: latest, staleAfterSeconds: 900 },
     data: {
       matchMode: references.size ? "reference_tickers" : "latest_public_signals",
       requestedReferences: [...references].sort().map((ticker) => `ticker:${ticker}`),
@@ -150,48 +152,29 @@ export function buildMobileBriefing(signalRows, poolRows, searchParams, now = ne
   };
 }
 
-function upstreamOrigin(request, env) {
-  const configured = String(env.UPSTREAM_API_ORIGIN || DEFAULT_UPSTREAM_API_ORIGIN).trim();
-  const origin = new URL(configured);
-  if (!/^https?:$/.test(origin.protocol)) throw new Error("UPSTREAM_API_ORIGIN must use http or https");
-  if (origin.origin === new URL(request.url).origin) throw new Error("UPSTREAM_API_ORIGIN cannot point to this Worker");
-  return origin;
+export function selectPolicySnapshot(candidates, now = Date.now()) {
+  const valid = candidates.filter(payload => payload?.index && Array.isArray(payload.drivers)
+    && payload.drivers.length === 6 && Number.isFinite(Date.parse(payload.asOf)));
+  valid.sort((a, b) => Date.parse(b.asOf) - Date.parse(a.asOf));
+  if (!valid.length) throw new Error('No valid policy snapshot');
+  const payload = valid[0];
+  const stale = now - Date.parse(payload.asOf) > 3 * 3600000;
+  return { ...payload, sourceStatus: payload.status, status: 'scheduled_snapshot', stale,
+    warning: stale ? '政策快照超过三小时未更新' : payload.warning || null,
+    method: { ...payload.method, marketRefresh: '定时快照，计划每小时更新；更新时间以数据源为准' } };
 }
 
-async function proxyApi(request, env, cacheSeconds) {
-  const incoming = new URL(request.url);
-  const target = new URL(`${incoming.pathname}${incoming.search}`, upstreamOrigin(request, env));
-  const force = incoming.searchParams.get("refresh") === "1";
-  const response = await fetch(target, {
-    headers: {
-      Accept: "application/json",
-      "User-Agent": "AIStockPoolCloudflare/1.0",
-    },
-    cf: force ? { cacheTtl: 0 } : { cacheEverything: true, cacheTtl: cacheSeconds },
-  });
-  if (!response.ok) throw new Error(`upstream ${incoming.pathname} returned ${response.status}`);
-  return new Response(response.body, {
-    status: response.status,
-    headers: applyHeaders(response.headers, {
-      "Cache-Control": force
-        ? "no-store"
-        : `public, max-age=0, s-maxage=${cacheSeconds}, stale-while-revalidate=${cacheSeconds * 5}`,
+async function loadPolicySnapshot(request, env) {
+  const responses = await Promise.allSettled([
+    fetch('https://raw.githubusercontent.com/yaoleifly/ai-stock-pool/main/tpi-latest.json', {
+      signal: AbortSignal.timeout(8000), cf: { cacheTtl: POLICY_CACHE_SECONDS, cacheEverything: true },
     }),
-  });
-}
-
-async function policyFallback(request, env, reason) {
-  const assetUrl = new URL("/tpi-latest.json", request.url);
-  const response = await env.ASSETS.fetch(new Request(assetUrl));
-  if (!response.ok) {
-    return jsonResponse({ status: "error", error: "政策压力数据暂时不可用", detail: reason }, 502);
-  }
-  const payload = await response.json();
-  return jsonResponse(
-    { ...payload, status: "fallback", warning: reason },
-    200,
-    `public, max-age=0, s-maxage=${POLICY_CACHE_SECONDS}`,
-  );
+    env.ASSETS.fetch(new Request(new URL('/tpi-latest.json', request.url))),
+  ]);
+  const payloads = await Promise.allSettled(responses
+    .filter(result => result.status === 'fulfilled' && result.value.ok)
+    .map(result => result.value.json()));
+  return selectPolicySnapshot(payloads.filter(result => result.status === 'fulfilled').map(result => result.value));
 }
 
 async function quoteFallback(request, env, reason) {
@@ -222,17 +205,21 @@ async function handleApi(request, env) {
   }
   if (pathname === "/api/quotes") {
     try {
-      return await proxyApi(request, env, QUOTE_CACHE_SECONDS);
+      return jsonResponse(await getQuotes(await loadPool(request, env), request));
     } catch (error) {
       return quoteFallback(request, env, String(error));
     }
   }
   if (pathname === "/api/policy") {
     try {
-      return await proxyApi(request, env, POLICY_CACHE_SECONDS);
-    } catch (error) {
-      return policyFallback(request, env, String(error));
+      return jsonResponse(await loadPolicySnapshot(request, env));
+    } catch {
+      return jsonResponse({ status: 'error', error: '政策压力数据暂时不可用' }, 502);
     }
+  }
+  if (pathname === "/api/mobile/feed") {
+    try { return jsonResponse(await mobileFeed(), 200, 'public, max-age=0, s-maxage=600'); }
+    catch { return jsonResponse({ error: 'Feed unavailable', items: [] }, 503); }
   }
   if (pathname === "/api/mobile/briefing") {
     try {
@@ -249,6 +236,9 @@ export default {
   async fetch(request, env) {
     if (request.method === "OPTIONS") {
       return new Response(null, { status: 204, headers: applyHeaders({}) });
+    }
+    if (new URL(request.url).pathname === '/api/mobile/analyze' && request.method === 'POST') {
+      try { return await mobileAnalyze(request, env); } catch { return jsonResponse({error:{code:'AI_UNAVAILABLE',message:'AI 分析暂时不可用，请稍后重试。'}},502); }
     }
     if (request.method !== "GET") return jsonResponse({ error: "Method not allowed" }, 405);
 

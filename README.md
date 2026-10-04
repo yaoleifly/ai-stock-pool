@@ -71,7 +71,7 @@ flowchart LR
     F --> UI
     Q["/api/quotes"] --> UI
     P["/api/policy"] --> UI
-    UI --> V["Vercel Python Functions"]
+    G["GitHub Actions 每小时运行 Python"] --> P
     UI --> W["Cloudflare Worker"]
 ```
 
@@ -85,10 +85,10 @@ flowchart LR
 |---|---|---|
 | 静态页面 | 原生托管 | Workers Static Assets |
 | `/api/health` | Python Function | Worker 本地计算 |
-| `/api/quotes` | 独立运行 | 默认代理兼容上游 |
-| `/api/policy` | 独立运行 | 默认代理兼容上游，失败时回退快照 |
+| `/api/quotes` | 独立运行 | Worker 直接批量获取腾讯行情 |
+| `/api/policy` | 独立运行 | 每小时 Python 快照，失败时回退部署快照 |
 | API Key | 不需要 | 不需要 |
-| 推荐场景 | 完整自托管 | 快速复制页面和边缘入口 |
+| 推荐场景 | 完整自托管 | 正式站独立托管 |
 
 ### Vercel
 
@@ -108,14 +108,16 @@ Vercel 会克隆仓库并部署静态页面与 `api/*.py`：
 
 Cloudflare 会执行 `npm run build`，把页面、数据快照和日报整理到 `dist/`，然后依据 `wrangler.jsonc` 部署 Worker。
 
-默认行为：
+正式站 `stocks.mastersgo.cc` 使用独立 Worker，不再代理 Vercel：
 
-- `/api/health` 根据部署包中的 `stock-pool.csv` 本地计算；
-- `/api/quotes` 和 `/api/policy` 使用 `UPSTREAM_API_ORIGIN=https://stocks.mastersgo.cc`；
-- 政策上游不可用时，自动回退到 `tpi-latest.json`；
-- 行情上游不可用时返回明确的降级状态，不伪造报价。
+- `/api/quotes`：直接批量获取腾讯财经行情，缓存 60 秒；交易所行情可能延迟，缺失数据会明确标记。
+- `/api/policy`：读取本仓库 main 分支的最新政策快照，与部署快照比较后选较新数据；超出三小时提示过期。
+- GitHub Actions `Refresh policy snapshot` 每小时运行原 Python 算法，保留政策压力和机构拥挤度计算；第三方数据源失败时保留原降级标记。
+- `/api/mobile/briefing` 和 `/api/mobile/feed` 在 Worker 内运行。
+- `/api/mobile/analyze` 需要通过 `npx wrangler secret put DEEPSEEK_API_KEY` 配置密钥；未配置时返回明确的 503 状态。可选 `DEEPSEEK_MODEL`，不要将密钥写进代码。
+- GitHub 数据任务与 Cloudflare 部署互相独立；政策接口缓存最多五分钟。
 
-如果你已经部署了兼容 API，把 `UPSTREAM_API_ORIGIN` 改成自己的服务地址即可。它是公开配置，不是密钥。
+复制到自己的仓库时，应将 Worker 内政策快照 URL 改为自己的公开仓库，并在 GitHub 开启 Actions 写入权限。Cloudflare 构建命令为 `npm run build`，部署命令为 `npx wrangler deploy`。自定义域名需替换 `wrangler.jsonc` 内的正式站域名。
 
 ## 本地运行
 
@@ -270,7 +272,7 @@ Yahoo Finance 可能缺少特定市场代码或临时限流。页面会保留股
 <details>
 <summary>Cloudflare 版本是否完全独立？</summary>
 
-静态页面和健康检查独立运行；行情和政策默认使用可替换的兼容上游。需要完全独立的数据后端时，推荐先部署 Vercel 版本，再把 Cloudflare 的 `UPSTREAM_API_ORIGIN` 指向该地址。
+是。网页与 API 均由 Cloudflare 提供，行情直接访问腾讯财经；Python 算法由 GitHub Actions 定时生成快照，不依赖 Vercel。
 </details>
 
 <details>

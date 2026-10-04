@@ -34,3 +34,45 @@ test("buildMobileBriefing filters by linked tickers and preserves source metadat
   assert.deepEqual(payload.data.items[0].referenceObjects, [{ id: "ticker:NVDA", type: "ticker", displayName: "NVIDIA" }]);
   assert.equal(payload.data.items[0].source.title, "Official");
 });
+
+import { parseQuotes, providerSymbol } from './quotes.js';
+import worker from './worker.js';
+test('quote symbols remain fixed to the configured stock pool', () => {
+  assert.equal(providerSymbol('600519.SS'), 'sh600519');
+  assert.equal(providerSymbol('000001.SZ'), 'sz000001');
+  assert.equal(providerSymbol('NVDA'), 'usNVDA');
+  assert.equal(providerSymbol('920808.BJ'), 'bj920808');
+  assert.equal(providerSymbol('bad&symbol'), null);
+});
+test('batch quotes preserve units, timestamp and missing symbols', () => {
+  const f = Array(36).fill(''); f[3]='12'; f[4]='10'; f[6]='100'; f[30]='20260930150000'; f[31]='2'; f[32]='20'; f[33]='13'; f[34]='9';
+  const result = parseQuotes(`v_sh600519="${f.join('~')}";`, [{ticker:'600519.SS',market:'A股'},{ticker:'NVDA',market:'美股'}]);
+  assert.equal(result['600519.SS'].volume,10000);
+  assert.equal(result['600519.SS'].timestamp,'2026-09-30T07:00:00.000Z');
+  assert.equal(result['600519.SS'].changePercent,20);
+  assert.equal(result.NVDA,undefined);
+});
+test('old discovery articles are not presented as fresh', () => {
+  const payload=buildMobileBriefing([{signal_id:'x',title:'Old',date:'2020-01-01'}],[],new URLSearchParams(),new Date('2026-10-04'));
+  assert.equal(payload.dataFreshness.state,'stale');
+});
+test('mobile AI remains explicitly unavailable without a configured secret', async () => {
+  const response=await worker.fetch(new Request('https://stocks.mastersgo.cc/api/mobile/analyze',{method:'POST',body:'{"input":"NVDA"}'}),{});
+  assert.equal(response.status,503);
+  assert.equal((await response.json()).error.code,'AI_NOT_CONFIGURED');
+});
+
+import { selectPolicySnapshot } from './worker.js';
+const snapshot = (asOf, status = 'partial') => ({asOf, status, index:{value:50}, drivers:Array(6).fill({freshness:'delayed'})});
+test('policy selects the newest valid snapshot without hiding source quality', () => {
+  const chosen = selectPolicySnapshot([snapshot('2026-10-04T10:00:00Z'), snapshot('2026-10-05T10:00:00Z')], Date.parse('2026-10-05T11:00:00Z'));
+  assert.equal(chosen.asOf, '2026-10-05T10:00:00Z');
+  assert.equal(chosen.sourceStatus, 'partial');
+  assert.equal(chosen.stale, false);
+});
+test('policy skips invalid dates and marks retained old snapshots stale', () => {
+  const chosen = selectPolicySnapshot([snapshot('invalid'), snapshot('2026-10-01T10:00:00Z')], Date.parse('2026-10-05T11:00:00Z'));
+  assert.equal(chosen.stale, true);
+  assert.match(chosen.warning, /三小时/);
+  assert.throws(() => selectPolicySnapshot([{index:{value:50},drivers:[]}]), /No valid/);
+});

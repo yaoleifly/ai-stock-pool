@@ -244,6 +244,7 @@ const discoveryState = {
   papers: [],
   signals: [],
   history: [],
+  status: null,
   asOf: null,
   reportHref: "",
   loaded: false,
@@ -494,11 +495,22 @@ async function loadDiscoveryData() {
     }
   };
 
-  const [candidateRows, paperRows, signalRows, historyRows] = await Promise.all([
+  const safeLoadJson = async (path) => {
+    try {
+      const response = await fetch(path, { cache: "no-store" });
+      if (!response.ok) return null;
+      return await response.json();
+    } catch {
+      return null;
+    }
+  };
+
+  const [candidateRows, paperRows, signalRows, historyRows, discoveryStatus] = await Promise.all([
     safeLoad("discovery-candidates.csv"),
     safeLoad("arxiv-papers.csv"),
     safeLoad("discovery-signals.csv"),
-    safeLoad("discovery-history.csv")
+    safeLoad("discovery-history.csv"),
+    safeLoadJson("discovery-status.json")
   ]);
 
   discoveryState.candidates = candidateRows
@@ -517,6 +529,7 @@ async function loadDiscoveryData() {
     .map(normalizeDiscoveryHistory)
     .filter((item) => item.date)
     .sort((left, right) => String(left.date).localeCompare(String(right.date)));
+  discoveryState.status = discoveryStatus && typeof discoveryStatus === "object" ? discoveryStatus : null;
 
   discoveryState.asOf = discoveryState.candidates[0]?.runDate || discoveryState.signals[0]?.date || discoveryState.papers[0]?.published || null;
   discoveryState.reportHref = discoveryState.asOf ? `reports/discovery-${discoveryState.asOf}.md` : "";
@@ -1393,6 +1406,7 @@ function policyMappedStocks(categories = []) {
 
 function policyStatusMeta(status) {
   const values = {
+    scheduled_snapshot: { label: "定时快照", className: "partial", note: "计划每小时更新，以实际数据时间为准" },
     live: { label: "动态更新", className: "live", note: "六项数据源均正常" },
     partial: { label: "部分降级", className: "partial", note: "部分指标使用最近快照" },
     fallback: { label: "快照模式", className: "fallback", note: "实时接口暂不可用" },
@@ -1403,6 +1417,7 @@ function policyStatusMeta(status) {
 
 function policyFreshnessMeta(freshness) {
   const values = {
+    scheduled_snapshot: { label: "定时快照", className: "partial", note: "计划每小时更新，以实际数据时间为准" },
     live: { label: "交易时点", className: "live" },
     current: { label: "源站最新", className: "current" },
     delayed: { label: "低频更新", className: "delayed" },
@@ -1577,14 +1592,14 @@ function renderPolicy() {
     <section class="policy-live-bar">
       <div>
         <span class="policy-live-status ${statusMeta.className}"><i></i>${statusMeta.label}</span>
-        <strong>${escapeHtml(statusMeta.note)}</strong>
+        <strong>${escapeHtml(payload.warning || statusMeta.note)}</strong>
         <span>计算于 ${escapeHtml(asOfText)}</span>
       </div>
       <div>
-        <span>市场数据约5分钟缓存 · 民调/通胀跟随源站</span>
+        <span>政策快照每小时更新 · 民调/通胀跟随源站</span>
         <button id="policyRefresh" type="button" ${policyState.loading ? "disabled" : ""}>
           <i data-lucide="refresh-cw" aria-hidden="true"></i>
-          ${policyState.loading ? "更新中" : "立即更新"}
+          ${policyState.loading ? "更新中" : "获取最新快照"}
         </button>
       </div>
     </section>
@@ -2195,9 +2210,9 @@ function renderDecisionPanel(visibleStocks) {
   const latest = getLatestHistory();
   const previous = getPreviousHistory();
   const actionCounts = getActionCounts();
-  const missing = marketState.missing.length ? marketState.missing : latest?.missingQuotes || [];
+  const missing = marketState.requested ? marketState.missing : latest?.missingQuotes || [];
   const quoteRequested = marketState.requested || latest?.quotesRequested || stocks.length;
-  const quoteReceived = marketState.received || latest?.quotesReceived || Object.keys(marketState.quotes).length;
+  const quoteReceived = marketState.requested ? marketState.received : latest?.quotesReceived || Object.keys(marketState.quotes).length;
   const signalsDelta = latest && previous ? latest.signals - previous.signals : 0;
   const observeDelta = latest && previous ? latest.observeCount - previous.observeCount : 0;
   const topObserve = observe.slice(0, 7);
@@ -2205,8 +2220,11 @@ function renderDecisionPanel(visibleStocks) {
     `股票池 ${stocks.length} 只（美股 ${stocks.filter((stock) => stock.market === "美股").length} / A股 ${stocks.filter((stock) => stock.market === "A股").length}）`,
     `行情 ${quoteReceived}/${quoteRequested}${missing.length ? `，缺 ${missing.map(displayTicker).join("、")}` : "，全覆盖"}`,
     `arXiv ${discoveryState.papers.length || latest?.arxivPapers || 0} 篇`,
-    `报告 ${discoveryState.asOf || latest?.date || "待加载"}`
-  ];
+    `最后有效报告 ${discoveryState.asOf || latest?.date || "待加载"}`,
+    discoveryState.status?.attemptedDate && discoveryState.status.attemptedDate !== discoveryState.asOf
+      ? `最近检查 ${discoveryState.status.attemptedDate}（${discoveryState.status.status === "failed" ? "抓取失败，未覆盖旧数据" : "沿用旧数据"}）`
+      : null
+  ].filter(Boolean);
   panel.innerHTML = `
     <div class="decision-hero-card">
       <span>今日决策</span>
@@ -2258,6 +2276,13 @@ function renderDiscovery() {
   const topPapers = discoveryState.papers.slice(0, 8);
   const topSignals = discoveryState.signals.slice(0, 8);
   const runDate = discoveryState.asOf || "未知日期";
+  const refreshStatus = discoveryState.status;
+  const refreshStatusText = refreshStatus?.attemptedDate && refreshStatus.attemptedDate !== runDate
+    ? `最近检查 ${refreshStatus.attemptedDate} · ${refreshStatus.status === "failed" ? "抓取失败，已保留有效数据" : "沿用已有数据"}`
+    : refreshStatus?.status === "success"
+      ? `更新成功 · ${refreshStatus.attemptedDate || runDate}`
+      : "";
+  const refreshStatusClass = refreshStatus?.status === "failed" ? "is-warning" : "is-ok";
   const reportLink = discoveryState.reportHref
     ? `<a class="report-link" href="${escapeHtml(discoveryState.reportHref)}" target="_blank" rel="noreferrer">打开 Markdown 日报</a>`
     : "";
@@ -2270,8 +2295,9 @@ function renderDiscovery() {
         <p>每天把官方信号、arXiv 论文、新闻信号、当前股票池和行情位置合在一起，先给出候选方向，再进入人工复核。</p>
       </div>
       <div class="discovery-run-card">
-        <span>报告日期</span>
+        <span>最后有效报告</span>
         <strong>${escapeHtml(runDate)}</strong>
+        ${refreshStatusText ? `<em class="discovery-refresh-status ${refreshStatusClass}">${escapeHtml(refreshStatusText)}</em>` : ""}
         ${reportLink}
       </div>
     </div>
@@ -2439,7 +2465,7 @@ function updateConnectionUi() {
     return;
   }
   if (marketState.asOf) {
-    status.textContent = marketState.stale ? "缓存行情" : "最新收盘行情";
+    status.textContent = marketState.stale ? "缓存行情" : "最新行情（可能延迟）";
     asOf.textContent = formatAsOf(marketState.asOf);
   }
 }

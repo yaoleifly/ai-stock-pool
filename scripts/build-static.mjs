@@ -12,6 +12,7 @@ const files = [
   "discovery-signals.csv",
   "arxiv-papers.csv",
   "discovery-history.csv",
+  "discovery-status.json",
   "tpi-latest.json",
   "institutional-crowding-history.json",
 ];
