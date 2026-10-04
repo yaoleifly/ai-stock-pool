@@ -117,7 +117,7 @@ Cloudflare 会执行 `npm run build`，把页面、数据快照和日报整理�
 - `/api/mobile/analyze` 需要通过 `npx wrangler secret put DEEPSEEK_API_KEY` 配置密钥；未配置时返回明确的 503 状态。可选 `DEEPSEEK_MODEL`，不要将密钥写进代码。
 - GitHub 数据任务与 Cloudflare 部署互相独立；政策接口缓存最多五分钟。
 
-复制到自己的仓库时，应将 Worker 内政策快照 URL 改为自己的公开仓库，并在 GitHub 开启 Actions 写入权限。Cloudflare 构建命令为 `npm run build`，部署命令为 `npx wrangler deploy`。自定义域名需替换 `wrangler.jsonc` 内的正式站域名。
+复制到自己的仓库时，应将 Worker 内政策快照 URL 改为自己的公开仓库，并在 GitHub 开启 Actions 写入权限。正式站已连接 Cloudflare Workers Builds：main 分支推送后运行 `npm run check`（数据校验、测试、构建、试打包），通过后执行 `npx wrangler deploy`。自定义域名需替换 `wrangler.jsonc` 内的正式站域名。
 
 ## 本地运行
 
