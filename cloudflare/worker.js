@@ -152,18 +152,29 @@ export function buildMobileBriefing(signalRows, poolRows, searchParams, now = ne
   };
 }
 
-async function policyFallback(request, env, reason) {
-  const assetUrl = new URL("/tpi-latest.json", request.url);
-  const response = await env.ASSETS.fetch(new Request(assetUrl));
-  if (!response.ok) {
-    return jsonResponse({ status: "error", error: "政策压力数据暂时不可用", detail: reason }, 502);
-  }
-  const payload = await response.json();
-  return jsonResponse(
-    { ...payload, status: "fallback", warning: reason },
-    200,
-    `public, max-age=0, s-maxage=${POLICY_CACHE_SECONDS}`,
-  );
+export function selectPolicySnapshot(candidates, now = Date.now()) {
+  const valid = candidates.filter(payload => payload?.index && Array.isArray(payload.drivers)
+    && payload.drivers.length === 6 && Number.isFinite(Date.parse(payload.asOf)));
+  valid.sort((a, b) => Date.parse(b.asOf) - Date.parse(a.asOf));
+  if (!valid.length) throw new Error('No valid policy snapshot');
+  const payload = valid[0];
+  const stale = now - Date.parse(payload.asOf) > 3 * 3600000;
+  return { ...payload, sourceStatus: payload.status, status: 'scheduled_snapshot', stale,
+    warning: stale ? '政策快照超过三小时未更新' : payload.warning || null,
+    method: { ...payload.method, marketRefresh: '定时快照，计划每小时更新；更新时间以数据源为准' } };
+}
+
+async function loadPolicySnapshot(request, env) {
+  const responses = await Promise.allSettled([
+    fetch('https://raw.githubusercontent.com/yaoleifly/ai-stock-pool/main/tpi-latest.json', {
+      signal: AbortSignal.timeout(8000), cf: { cacheTtl: POLICY_CACHE_SECONDS, cacheEverything: true },
+    }),
+    env.ASSETS.fetch(new Request(new URL('/tpi-latest.json', request.url))),
+  ]);
+  const payloads = await Promise.allSettled(responses
+    .filter(result => result.status === 'fulfilled' && result.value.ok)
+    .map(result => result.value.json()));
+  return selectPolicySnapshot(payloads.filter(result => result.status === 'fulfilled').map(result => result.value));
 }
 
 async function quoteFallback(request, env, reason) {
@@ -201,19 +212,9 @@ async function handleApi(request, env) {
   }
   if (pathname === "/api/policy") {
     try {
-      const response = await fetch('https://raw.githubusercontent.com/yaoleifly/ai-stock-pool/main/tpi-latest.json', { signal: AbortSignal.timeout(8000), cf: { cacheTtl: 300, cacheEverything: true } });
-      if (!response.ok) throw new Error('Policy snapshot unavailable');
-      let payload = await response.json();
-      const bundled = await env.ASSETS.fetch(new Request(new URL('/tpi-latest.json', request.url)));
-      if (bundled.ok) {
-        const snapshot = await bundled.json();
-        if (Date.parse(snapshot.asOf) > Date.parse(payload.asOf || 0)) payload = snapshot;
-      }
-      if (!payload.index || !Array.isArray(payload.drivers)) throw new Error('Invalid policy snapshot');
-      const age = Date.now() - Date.parse(payload.asOf || '');
-      return jsonResponse({ ...payload, status: 'scheduled_snapshot', stale: !Number.isFinite(age) || age > 3*3600000, warning: age > 3*3600000 ? '政策快照超过三小时未更新' : null, method: { ...payload.method, marketRefresh: '定时快照，计划每小时更新；更新时间以数据源为准' } });
-    } catch (error) {
-      return policyFallback(request, env, String(error));
+      return jsonResponse(await loadPolicySnapshot(request, env));
+    } catch {
+      return jsonResponse({ status: 'error', error: '政策压力数据暂时不可用' }, 502);
     }
   }
   if (pathname === "/api/mobile/feed") {

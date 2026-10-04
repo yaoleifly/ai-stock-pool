@@ -61,3 +61,18 @@ test('mobile AI remains explicitly unavailable without a configured secret', asy
   assert.equal(response.status,503);
   assert.equal((await response.json()).error.code,'AI_NOT_CONFIGURED');
 });
+
+import { selectPolicySnapshot } from './worker.js';
+const snapshot = (asOf, status = 'partial') => ({asOf, status, index:{value:50}, drivers:Array(6).fill({freshness:'delayed'})});
+test('policy selects the newest valid snapshot without hiding source quality', () => {
+  const chosen = selectPolicySnapshot([snapshot('2026-10-04T10:00:00Z'), snapshot('2026-10-05T10:00:00Z')], Date.parse('2026-10-05T11:00:00Z'));
+  assert.equal(chosen.asOf, '2026-10-05T10:00:00Z');
+  assert.equal(chosen.sourceStatus, 'partial');
+  assert.equal(chosen.stale, false);
+});
+test('policy skips invalid dates and marks retained old snapshots stale', () => {
+  const chosen = selectPolicySnapshot([snapshot('invalid'), snapshot('2026-10-01T10:00:00Z')], Date.parse('2026-10-05T11:00:00Z'));
+  assert.equal(chosen.stale, true);
+  assert.match(chosen.warning, /三小时/);
+  assert.throws(() => selectPolicySnapshot([{index:{value:50},drivers:[]}]), /No valid/);
+});
