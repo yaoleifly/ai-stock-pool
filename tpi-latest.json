@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-04T17:18:57.597339+00:00",
+  "asOf": "2026-10-04T20:14:29.293165+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -199,8 +199,8 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 4,
-        "softening": 4,
+        "escalation": 5,
+        "softening": 3,
         "execution": 0,
         "monitoring": 0
       },
@@ -213,11 +213,11 @@
           "phase": "softening"
         },
         {
-          "title": "Trump Pauses 50 Percent Tariffs on Canada and Claims Deal Is Near - The New York Times",
+          "title": "Tariffs on Hold as Trump Claims Deal With Canada Is Near - The New York Times",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDQ4MzBmeUdBV0VLNnNTVXFKU3NkUVowYXZxVE5nNTJiYU9YT1dWOWRhdEg3ZG5NelNqSW55clZsb0lXbVdvOFQyVDdodGEzandYQ1BDUGZTbmc1eUU4c3pNUGlMUFc1b2Z1d0xQdGpEVHhzQnhNa1ZUdGNJZFREdVpyZmpkUQ?oc=5",
           "source": "The New York Times",
           "publishedAt": "2026-08-18T07:00:00+00:00",
-          "phase": "softening"
+          "phase": "escalation"
         },
         {
           "title": "Trump tariffs fallout: US trade representative questions ‘most favored nation’ trade status - Undercurrent News",
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T17:18:56.731858+00:00",
+      "updatedAt": "2026-10-04T20:14:28.342170+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T17:18:56.601839+00:00",
+      "updatedAt": "2026-10-04T20:14:28.144601+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T17:18:56.681987+00:00",
+      "updatedAt": "2026-10-04T20:14:28.254296+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -383,9 +383,9 @@
           "phase": "monitoring"
         },
         {
-          "title": "How is Trump’s Big Beautiful Bill changing US taxes and healthcare in 2026? - aljazeera.com",
+          "title": "How is Trump’s Big Beautiful Bill changing US taxes and healthcare in 2026? - Al Jazeera",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQenlqZm8xQi1IRGlXaXlOXzZmT2dHS3AtUFBpSnhBUVo4dTNHNjQ5NmxTYzczQW51am03ZHBQUFRrRHhsaVBlekFXcUp5bGtuZzVEQ2xmYlJWWWVqUXRjVWVPalM0WmJIeVhrbXJKVG5hZHNLb1ZGYWo5bzJOZ1pMejdveGlHaXg5M1h4RmM3bFBaVFY0SHNvd0F1QWhaUFpUZkswMzhLUlVkdGdFVVB2REpsNjI2OWFURGfSAb8BQVVfeXFMTzhJRkJGd053WTJZNVpMdUVpY21qb2VHTWxCWkRmWjdldUVlSHF4LW5YeC10UWN4YUN0TWtraVo2WHJaSktkSVY0VWFzZ3JKV2cwWkFSRWR3bUUtRDJJWUFlNnNxQnAwVEp6U3lHU0JCMVVReFVabk8zUUN4alBVSllDeUFXT242V2RRZW1ZcnJWR3RObnAyb1dDUTctMV9sRHhxaGR1M0UtTnhsWW1NWExnN25Ca2NHc3FTMjEyT2s?oc=5",
-          "source": "aljazeera.com",
+          "source": "Al Jazeera",
           "publishedAt": "2025-12-31T08:00:00+00:00",
           "phase": "monitoring"
         }
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T17:18:56.836403+00:00",
+      "updatedAt": "2026-10-04T20:14:28.456591+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-04T17:18:57.595079+00:00",
+    "asOf": "2026-10-04T20:14:29.291397+00:00",
     "aggregateScore": 50.9,
     "aggregateLabel": "中性",
     "highRiskCount": 3,
