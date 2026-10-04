@@ -1,10 +1,12 @@
-const DEFAULT_UPSTREAM_API_ORIGIN = "https://stocks.mastersgo.cc";
+import { getQuotes } from "./quotes.js";
+import { mobileFeed, mobileAnalyze } from "./mobile.js";
+
 const QUOTE_CACHE_SECONDS = 60;
 const POLICY_CACHE_SECONDS = 300;
 
 const SECURITY_HEADERS = {
   "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Methods": "GET, OPTIONS",
+  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type",
   "Referrer-Policy": "strict-origin-when-cross-origin",
   "X-Content-Type-Options": "nosniff",
@@ -127,7 +129,7 @@ export function buildMobileBriefing(signalRows, poolRows, searchParams, now = ne
   return {
     schemaVersion: "1.0",
     generatedAt: now.toISOString(),
-    dataFreshness: { state: rows.length ? "fresh" : "unavailable", sourceUpdatedAt: latest, staleAfterSeconds: 900 },
+    dataFreshness: { state: !rows.length ? "unavailable" : !latest || now.getTime() - Date.parse(latest) > 900000 ? "stale" : "fresh", sourceUpdatedAt: latest, staleAfterSeconds: 900 },
     data: {
       matchMode: references.size ? "reference_tickers" : "latest_public_signals",
       requestedReferences: [...references].sort().map((ticker) => `ticker:${ticker}`),
@@ -148,36 +150,6 @@ export function buildMobileBriefing(signalRows, poolRows, searchParams, now = ne
       }),
     },
   };
-}
-
-function upstreamOrigin(request, env) {
-  const configured = String(env.UPSTREAM_API_ORIGIN || DEFAULT_UPSTREAM_API_ORIGIN).trim();
-  const origin = new URL(configured);
-  if (!/^https?:$/.test(origin.protocol)) throw new Error("UPSTREAM_API_ORIGIN must use http or https");
-  if (origin.origin === new URL(request.url).origin) throw new Error("UPSTREAM_API_ORIGIN cannot point to this Worker");
-  return origin;
-}
-
-async function proxyApi(request, env, cacheSeconds) {
-  const incoming = new URL(request.url);
-  const target = new URL(`${incoming.pathname}${incoming.search}`, upstreamOrigin(request, env));
-  const force = incoming.searchParams.get("refresh") === "1";
-  const response = await fetch(target, {
-    headers: {
-      Accept: "application/json",
-      "User-Agent": "AIStockPoolCloudflare/1.0",
-    },
-    cf: force ? { cacheTtl: 0 } : { cacheEverything: true, cacheTtl: cacheSeconds },
-  });
-  if (!response.ok) throw new Error(`upstream ${incoming.pathname} returned ${response.status}`);
-  return new Response(response.body, {
-    status: response.status,
-    headers: applyHeaders(response.headers, {
-      "Cache-Control": force
-        ? "no-store"
-        : `public, max-age=0, s-maxage=${cacheSeconds}, stale-while-revalidate=${cacheSeconds * 5}`,
-    }),
-  });
 }
 
 async function policyFallback(request, env, reason) {
@@ -222,17 +194,31 @@ async function handleApi(request, env) {
   }
   if (pathname === "/api/quotes") {
     try {
-      return await proxyApi(request, env, QUOTE_CACHE_SECONDS);
+      return jsonResponse(await getQuotes(await loadPool(request, env), request));
     } catch (error) {
       return quoteFallback(request, env, String(error));
     }
   }
   if (pathname === "/api/policy") {
     try {
-      return await proxyApi(request, env, POLICY_CACHE_SECONDS);
+      const response = await fetch('https://raw.githubusercontent.com/yaoleifly/ai-stock-pool/main/tpi-latest.json', { signal: AbortSignal.timeout(8000), cf: { cacheTtl: 300, cacheEverything: true } });
+      if (!response.ok) throw new Error('Policy snapshot unavailable');
+      let payload = await response.json();
+      const bundled = await env.ASSETS.fetch(new Request(new URL('/tpi-latest.json', request.url)));
+      if (bundled.ok) {
+        const snapshot = await bundled.json();
+        if (Date.parse(snapshot.asOf) > Date.parse(payload.asOf || 0)) payload = snapshot;
+      }
+      if (!payload.index || !Array.isArray(payload.drivers)) throw new Error('Invalid policy snapshot');
+      const age = Date.now() - Date.parse(payload.asOf || '');
+      return jsonResponse({ ...payload, status: 'scheduled_snapshot', stale: !Number.isFinite(age) || age > 3*3600000, warning: age > 3*3600000 ? '政策快照超过三小时未更新' : null, method: { ...payload.method, marketRefresh: '定时快照，计划每小时更新；更新时间以数据源为准' } });
     } catch (error) {
       return policyFallback(request, env, String(error));
     }
+  }
+  if (pathname === "/api/mobile/feed") {
+    try { return jsonResponse(await mobileFeed(), 200, 'public, max-age=0, s-maxage=600'); }
+    catch { return jsonResponse({ error: 'Feed unavailable', items: [] }, 503); }
   }
   if (pathname === "/api/mobile/briefing") {
     try {
@@ -249,6 +235,9 @@ export default {
   async fetch(request, env) {
     if (request.method === "OPTIONS") {
       return new Response(null, { status: 204, headers: applyHeaders({}) });
+    }
+    if (new URL(request.url).pathname === '/api/mobile/analyze' && request.method === 'POST') {
+      try { return await mobileAnalyze(request, env); } catch { return jsonResponse({error:{code:'AI_UNAVAILABLE',message:'AI 分析暂时不可用，请稍后重试。'}},502); }
     }
     if (request.method !== "GET") return jsonResponse({ error: "Method not allowed" }, 405);
 

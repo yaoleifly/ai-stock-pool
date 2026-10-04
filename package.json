@@ -16,6 +16,9 @@
     "node": ">=20"
   },
   "devDependencies": {
-    "wrangler": "4.114.0"
+    "wrangler": "4.147.0"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.11.2"
   }
 }

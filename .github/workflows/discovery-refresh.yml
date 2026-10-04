@@ -20,7 +20,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: discovery-refresh
+  group: stock-pool-data-refresh
   cancel-in-progress: false
 
 jobs:

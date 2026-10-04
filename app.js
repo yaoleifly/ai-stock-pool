@@ -1406,6 +1406,7 @@ function policyMappedStocks(categories = []) {
 
 function policyStatusMeta(status) {
   const values = {
+    scheduled_snapshot: { label: "定时快照", className: "partial", note: "计划每小时更新，以实际数据时间为准" },
     live: { label: "动态更新", className: "live", note: "六项数据源均正常" },
     partial: { label: "部分降级", className: "partial", note: "部分指标使用最近快照" },
     fallback: { label: "快照模式", className: "fallback", note: "实时接口暂不可用" },
@@ -1416,6 +1417,7 @@ function policyStatusMeta(status) {
 
 function policyFreshnessMeta(freshness) {
   const values = {
+    scheduled_snapshot: { label: "定时快照", className: "partial", note: "计划每小时更新，以实际数据时间为准" },
     live: { label: "交易时点", className: "live" },
     current: { label: "源站最新", className: "current" },
     delayed: { label: "低频更新", className: "delayed" },
@@ -1590,14 +1592,14 @@ function renderPolicy() {
     <section class="policy-live-bar">
       <div>
         <span class="policy-live-status ${statusMeta.className}"><i></i>${statusMeta.label}</span>
-        <strong>${escapeHtml(statusMeta.note)}</strong>
+        <strong>${escapeHtml(payload.warning || statusMeta.note)}</strong>
         <span>计算于 ${escapeHtml(asOfText)}</span>
       </div>
       <div>
-        <span>市场数据约5分钟缓存 · 民调/通胀跟随源站</span>
+        <span>政策快照每小时更新 · 民调/通胀跟随源站</span>
         <button id="policyRefresh" type="button" ${policyState.loading ? "disabled" : ""}>
           <i data-lucide="refresh-cw" aria-hidden="true"></i>
-          ${policyState.loading ? "更新中" : "立即更新"}
+          ${policyState.loading ? "更新中" : "获取最新快照"}
         </button>
       </div>
     </section>
@@ -2208,9 +2210,9 @@ function renderDecisionPanel(visibleStocks) {
   const latest = getLatestHistory();
   const previous = getPreviousHistory();
   const actionCounts = getActionCounts();
-  const missing = marketState.missing.length ? marketState.missing : latest?.missingQuotes || [];
+  const missing = marketState.requested ? marketState.missing : latest?.missingQuotes || [];
   const quoteRequested = marketState.requested || latest?.quotesRequested || stocks.length;
-  const quoteReceived = marketState.received || latest?.quotesReceived || Object.keys(marketState.quotes).length;
+  const quoteReceived = marketState.requested ? marketState.received : latest?.quotesReceived || Object.keys(marketState.quotes).length;
   const signalsDelta = latest && previous ? latest.signals - previous.signals : 0;
   const observeDelta = latest && previous ? latest.observeCount - previous.observeCount : 0;
   const topObserve = observe.slice(0, 7);
@@ -2463,7 +2465,7 @@ function updateConnectionUi() {
     return;
   }
   if (marketState.asOf) {
-    status.textContent = marketState.stale ? "缓存行情" : "最新收盘行情";
+    status.textContent = marketState.stale ? "缓存行情" : "最新行情（可能延迟）";
     asOf.textContent = formatAsOf(marketState.asOf);
   }
 }
