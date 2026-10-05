@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-04T23:17:45.744675+00:00",
+  "asOf": "2026-10-05T01:48:26.056156+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -199,25 +199,25 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 5,
-        "softening": 3,
+        "escalation": 4,
+        "softening": 4,
         "execution": 0,
         "monitoring": 0
       },
       "items": [
         {
-          "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports - npr.org",
+          "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports - NPR",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pSzhrd21rSldqYjJuV1lCdWxVbE8xWVhQM3pKRDltTDJrLWMtM09IUFFOR05LbllKd0VUblUxOTdwdHpTSjFIbktvTG9pVk5nT1JEMzl5RzRLMFhORC0zUDk5Nkx5aWlRUC1jc3dzWHo?oc=5",
-          "source": "npr.org",
+          "source": "NPR",
           "publishedAt": "2026-08-19T07:00:00+00:00",
           "phase": "softening"
         },
         {
-          "title": "Tariffs on Hold as Trump Claims Deal With Canada Is Near - The New York Times",
+          "title": "Trump Pauses 50 Percent Tariffs on Canada and Claims Deal Is Near - The New York Times",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDQ4MzBmeUdBV0VLNnNTVXFKU3NkUVowYXZxVE5nNTJiYU9YT1dWOWRhdEg3ZG5NelNqSW55clZsb0lXbVdvOFQyVDdodGEzandYQ1BDUGZTbmc1eUU4c3pNUGlMUFc1b2Z1d0xQdGpEVHhzQnhNa1ZUdGNJZFREdVpyZmpkUQ?oc=5",
           "source": "The New York Times",
           "publishedAt": "2026-08-18T07:00:00+00:00",
-          "phase": "escalation"
+          "phase": "softening"
         },
         {
           "title": "Trump tariffs fallout: US trade representative questions ‘most favored nation’ trade status - Undercurrent News",
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T23:17:44.774970+00:00",
+      "updatedAt": "2026-10-05T01:48:25.198913+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -279,10 +279,10 @@
           "phase": "escalation"
         },
         {
-          "title": "U.S. Deploys GPU Exports as Diplomatic Bargaining Chip - 조선일보",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaksyZ296YnRlMFBNN2VERmtrNWhpU2xqVGY2MndvRDdzRk9ET0R1dy1iMnN4MldTMk9rT0VuOXp3NmdBRDVyeldjZkVvMzd3M3pua1BoLXZDU0gyWGV2QVFHdlB3ekp1b2Vhbm1RNnlEb1RDbm9iUkh4Z185MnFiWXJHNHVwTnJa?oc=5",
-          "source": "조선일보",
-          "publishedAt": "2026-09-06T07:00:00+00:00",
+          "title": "International Trade 2025 Year-End Update - Gibson Dunn",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9neVRUZjlOYzlldXl5SXlDME9yX2s3Y0xVS25xUllqNF94VkxZbWxxYkRGdm94MnV4TGhfSGp5RkNrY0I1UTNaU3dOY0xwcVZLOUtnOC02WUlNcXJUZEtxOUxvdEZ4QS1sX3k4OWF3Z1R6aWc1UHpR?oc=5",
+          "source": "Gibson Dunn",
+          "publishedAt": "2026-02-06T08:00:00+00:00",
           "phase": "monitoring"
         }
       ],
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T23:17:44.627010+00:00",
+      "updatedAt": "2026-10-05T01:48:24.917703+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -310,16 +310,16 @@
       },
       "items": [
         {
-          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - CBS News",
+          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - cbsnews.com",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
-          "source": "CBS News",
+          "source": "cbsnews.com",
           "publishedAt": "2026-09-29T23:20:00+00:00",
           "phase": "softening"
         },
         {
-          "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
+          "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - cnbc.com",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
-          "source": "CNBC",
+          "source": "cnbc.com",
           "publishedAt": "2026-07-27T07:00:00+00:00",
           "phase": "softening"
         },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T23:17:44.663779+00:00",
+      "updatedAt": "2026-10-05T01:48:24.978293+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -369,9 +369,9 @@
           "phase": "monitoring"
         },
         {
-          "title": "Trump's tariffs are causing harm to American manufacturers instead of benefiting them - pbs.org",
+          "title": "Trump's tariffs are causing harm to American manufacturers instead of benefiting them - PBS",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ0ZTS1RRSng2bnJVYUs3NHNOdll3V1FGR2FrVnVqMENaRlJXNDZFY09xN0ZFN0Nla1pMTFo5RW5FOU90TXNXbDNWQ2lxV1JFWTYwUjZ5dV9VZGlQZmlXN0tMOGJ4N1RsYkJJVXFRRHZXWF9kZmhnd2NGaDVKMkM0Nmw2aWlQQzdOMHVuQzh1ZEFxMENNWlJfLVF2RkJpMGhlbXlXYm1uMExJRUZtUWIxb3B0MWVIWkIwcE1XWWdn?oc=5",
-          "source": "pbs.org",
+          "source": "PBS",
           "publishedAt": "2026-03-18T07:00:00+00:00",
           "phase": "escalation"
         },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-04T23:17:44.783260+00:00",
+      "updatedAt": "2026-10-05T01:48:25.211954+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-04T23:17:45.742833+00:00",
+    "asOf": "2026-10-05T01:48:26.053711+00:00",
     "aggregateScore": 50.9,
     "aggregateLabel": "中性",
     "highRiskCount": 3,
@@ -1935,9 +1935,9 @@
         },
         "scoreChange7d": -0.6,
         "historyStatus": {
-          "points": 16,
+          "points": 17,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-09-25",
+          "lastDate": "2026-10-05",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -2163,6 +2163,20 @@
             "bullishShare": 94.0,
             "epsEstimate": 3.82526,
             "revenueEstimate": 34883319430.0,
+            "targetRaises45d": 6,
+            "targetCuts45d": 4
+          },
+          {
+            "date": "2026-10-05",
+            "ticker": "AVGO",
+            "score": 70.9,
+            "zone": "crowded",
+            "currentPrice": 355.14,
+            "targetMean": 531.31,
+            "targetMedian": 535.0,
+            "bullishShare": 94.0,
+            "epsEstimate": 3.82763,
+            "revenueEstimate": 34888468920.0,
             "targetRaises45d": 6,
             "targetCuts45d": 4
           }
@@ -3711,9 +3725,9 @@
         },
         "scoreChange7d": -1.3,
         "historyStatus": {
-          "points": 16,
+          "points": 17,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-09-25",
+          "lastDate": "2026-10-05",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -3939,6 +3953,20 @@
             "bullishShare": 95.1,
             "epsEstimate": 2.47356,
             "revenueEstimate": 109010834070.0,
+            "targetRaises45d": 15,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-05",
+            "ticker": "NVDA",
+            "score": 70.0,
+            "zone": "crowded",
+            "currentPrice": 233.95,
+            "targetMean": 327.7,
+            "targetMedian": 315.0,
+            "bullishShare": 95.1,
+            "epsEstimate": 2.47332,
+            "revenueEstimate": 108995424980.0,
             "targetRaises45d": 15,
             "targetCuts45d": 0
           }
@@ -5489,9 +5517,9 @@
         },
         "scoreChange7d": 3.0,
         "historyStatus": {
-          "points": 16,
+          "points": 17,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-09-25",
+          "lastDate": "2026-10-05",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -5718,6 +5746,20 @@
             "epsEstimate": 31.55891,
             "revenueEstimate": 51199717270.0,
             "targetRaises45d": 1,
+            "targetCuts45d": 2
+          },
+          {
+            "date": "2026-10-05",
+            "ticker": "MU",
+            "score": 65.4,
+            "zone": "crowded",
+            "currentPrice": 1074.89,
+            "targetMean": 1520.02,
+            "targetMedian": 1545.0,
+            "bullishShare": 91.8,
+            "epsEstimate": 38.21061,
+            "revenueEstimate": 61670130780.0,
+            "targetRaises45d": 5,
             "targetCuts45d": 2
           }
         ],
@@ -7268,9 +7310,9 @@
         },
         "scoreChange7d": -10.7,
         "historyStatus": {
-          "points": 16,
+          "points": 17,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-09-25",
+          "lastDate": "2026-10-05",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -7498,6 +7540,20 @@
             "revenueEstimate": 3149223250.0,
             "targetRaises45d": 14,
             "targetCuts45d": 2
+          },
+          {
+            "date": "2026-10-05",
+            "ticker": "MRVL",
+            "score": 47.5,
+            "zone": "watch",
+            "currentPrice": 272.29,
+            "targetMean": 293.88,
+            "targetMedian": 284.0,
+            "bullishShare": 87.0,
+            "epsEstimate": 1.09978,
+            "revenueEstimate": 3149223250.0,
+            "targetRaises45d": 12,
+            "targetCuts45d": 1
           }
         ],
         "expectationDivergence": {
@@ -9043,9 +9099,9 @@
         },
         "scoreChange7d": 0.0,
         "historyStatus": {
-          "points": 16,
+          "points": 17,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-09-25",
+          "lastDate": "2026-10-05",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -9272,6 +9328,20 @@
             "epsEstimate": 1.92579,
             "revenueEstimate": 12997554620.0,
             "targetRaises45d": 1,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-05",
+            "ticker": "AMD",
+            "score": 41.4,
+            "zone": "watch",
+            "currentPrice": 633.91,
+            "targetMean": 619.51,
+            "targetMedian": 616.0,
+            "bullishShare": 80.0,
+            "epsEstimate": 1.92938,
+            "revenueEstimate": 13060086750.0,
+            "targetRaises45d": 2,
             "targetCuts45d": 0
           }
         ],
@@ -10157,9 +10227,9 @@
         },
         "scoreChange7d": 0.0,
         "historyStatus": {
-          "points": 16,
+          "points": 17,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-09-25",
+          "lastDate": "2026-10-05",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -10387,6 +10457,20 @@
             "revenueEstimate": 14971092730.0,
             "targetRaises45d": 0,
             "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-05",
+            "ticker": "SMCI",
+            "score": 10.0,
+            "zone": "balanced",
+            "currentPrice": 43.69,
+            "targetMean": 42.38,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14971092730.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
           }
         ],
         "expectationDivergence": {
@@ -10406,8 +10490,8 @@
       "updatedAt": "2026-10-02T20:00:00+00:00"
     },
     "history": {
-      "updatedAt": "2026-09-25T00:49:42.897003+00:00",
-      "snapshotCount": 16
+      "updatedAt": "2026-10-05T01:46:14.016638+00:00",
+      "snapshotCount": 17
     }
   },
   "scenarioMatrix": {
