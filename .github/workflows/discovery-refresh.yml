@@ -28,6 +28,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -61,4 +63,5 @@ jobs:
             exit 0
           fi
           git commit -m "data: refresh discovery ${run_date}"
+          git pull --rebase origin main
           git push
