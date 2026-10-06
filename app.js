@@ -1,3 +1,12 @@
+import { workbenchOrigin, makeResearchUrl, parseResearchReturn, reportUrl, readLinks, saveLink } from './research-bridge.js';
+const linkStorage = { getItem: key => window.localStorage.getItem(key), setItem: (key, value) => window.localStorage.setItem(key, value) };
+const isDesignPreview = location.hostname === 'stocks-design-preview.mastergo.workers.dev';
+const incomingResearch = parseResearchReturn(location.hash);
+let pendingResearchLink = incomingResearch?.reportId ? incomingResearch : null;
+function linkedResearchMarkup(ticker) {
+  const links = readLinks(linkStorage).filter(entry => entry.ticker === ticker);
+  return `<section class="linked-research"><h3>关联研究</h3>${pendingResearchLink?.ticker === ticker ? `<p>收到工作台报告入口。保存后可从此股票返回查看。</p><button id="saveReportLink" type="button">保存报告关联</button>` : ''}${links.map(entry => `<a href="${reportUrl(entry)}" target="_blank" rel="noopener">研究报告 · ${new Date(entry.reportId).toLocaleDateString('zh-CN')} ↗</a>`).join('') || '<p>暂无关联报告。完成研究后，可从工作台带回报告入口。</p>'}<small>报告保存在生成时的浏览器；此处仅保存入口。</small><p id="reportLinkStatus" role="status"></p></section>`;
+}
 const stockRows = [
   ["NVDA", "NVIDIA", "半导体与设备", "上游", "AI加速卡龙头", "Rubin出货节奏与客户集中度", "PPT S6", "待评级"],
   ["TSM", "Taiwan Semiconductor Manufacturing", "半导体与设备", "上游", "先进制程代工", "N2良率与CoWoS产能爬坡", "PPT S6", "待评级"],
@@ -218,8 +227,8 @@ const state = {
   status: "全部",
   relation: "全部",
   focusTheme: "全部",
-  graphMode: "全部",
-  selected: null,
+  graphMode: "一度关系",
+  selected: incomingResearch?.ticker || "NVDA",
   sortKey: "chain_layer",
   sortDirection: 1,
   view: "graphView"
@@ -845,14 +854,15 @@ function buildPositions(visibleStocks) {
       .sort((a, b) => sectorOrder.indexOf(a.category) - sectorOrder.indexOf(b.category) || a.ticker.localeCompare(b.ticker));
     if (!items.length) return;
 
-    const columns = items.length > 30 ? 4 : items.length > 18 ? 3 : items.length > 7 ? 2 : 1;
+    const columns = state.graphMode === "一度关系" ? (items.length > 18 ? 3 : items.length > 7 ? 2 : 1) : (items.length > 30 ? 4 : items.length > 18 ? 3 : items.length > 7 ? 2 : 1);
     const rows = Math.ceil(items.length / columns);
     const band = bands[layer];
     const xValues = Array.from({ length: columns }, (_, index) => {
-      const usableWidth = band.right - band.left - 84;
-      return band.left + 42 + (columns === 1 ? usableWidth / 2 : (usableWidth * index) / (columns - 1));
+      const inset = state.graphMode === "一度关系" ? 60 : 42;
+      const usableWidth = band.right - band.left - inset * 2;
+      return band.left + inset + (columns === 1 ? usableWidth / 2 : (usableWidth * index) / (columns - 1));
     });
-    const step = rows <= 1 ? 0 : Math.min(42, 510 / (rows - 1));
+    const step = rows <= 1 ? 0 : Math.min(state.graphMode === "一度关系" ? 72 : 42, 510 / (rows - 1));
     const totalHeight = Math.max(0, (rows - 1) * step);
     const startY = 92 + (510 - totalHeight) / 2;
 
@@ -887,6 +897,7 @@ function renderGraph(visibleStocks) {
     return;
   }
 
+  svg.classList.toggle('focused-map', state.graphMode === '一度关系');
   const { positions, bands } = buildPositions(graphStocks);
   const visibleTickers = new Set(graphStocks.map((stock) => stock.ticker));
   const visibleRelationships = getVisibleRelationships(visibleTickers);
@@ -989,10 +1000,10 @@ function renderGraph(visibleStocks) {
     if (state.selected && state.selected !== stock.ticker && !connectedToSelection.has(stock.ticker)) group.classList.add("is-dimmed");
 
     group.appendChild(createSvg("rect", {
-      x: position.x - 34,
-      y: position.y - 17,
-      width: 68,
-      height: 34,
+      x: position.x - (state.graphMode === "一度关系" ? 48 : 34),
+      y: position.y - (state.graphMode === "一度关系" ? 22 : 17),
+      width: state.graphMode === "一度关系" ? 96 : 68,
+      height: state.graphMode === "一度关系" ? 44 : 34,
       rx: 4,
       fill: sectorColors[stock.category] || "#687d86"
     }));
@@ -1001,7 +1012,7 @@ function renderGraph(visibleStocks) {
     group.appendChild(label);
     const nodeQuote = getQuote(stock.ticker);
     const changeLabel = createSvg("text", { x: position.x, y: position.y + 9, class: "node-change" });
-    changeLabel.textContent = nodeQuote ? formatPercent(nodeQuote.changePercent) : "--";
+    changeLabel.textContent = state.graphMode === "一度关系" ? stock.company.slice(0, 9) : nodeQuote ? formatPercent(nodeQuote.changePercent) : "--";
     group.appendChild(changeLabel);
     const statusClass = researchStatusClass(stock.status);
     if (statusClass !== "pending") {
@@ -1236,6 +1247,13 @@ function renderDetail(visibleStocks) {
     <h2 class="detail-title">${escapeHtml(selected.ticker)}</h2>
     <p class="detail-company">${escapeHtml(selected.company)}</p>
     ${quoteBlock}
+    <section class="research-handoff-panel">
+      <h3>带入研究的内容</h3><p>${escapeHtml(selected.company)} · ${escapeHtml(selected.ticker)}</p><p>产业主题：${escapeHtml(selected.category)}</p>
+      <label><input id="includeResearchQuestion" type="checkbox" checked /> 包含待验证问题</label><p class="handoff-question">${escapeHtml(selected.key_focus || '核对增长动力、订单与主要风险')}</p>
+      <a id="openResearchWorkspace" class="research-primary" href="${escapeHtml(makeResearchUrl(selected, isDesignPreview))}" target="_blank" rel="noopener">带入工作台研究 ↗</a>
+      <small>先载入草稿，再开始分析，不会自动调用模型。</small>
+    </section>
+    ${linkedResearchMarkup(selected.ticker)}
     <div class="research-card-banner">
       <div><span>决策状态</span><strong>${escapeHtml(decisionStatus)}</strong></div>
       <div><span>交易位置</span><strong>${escapeHtml(tradePosition)}</strong></div>
@@ -1295,6 +1313,16 @@ function renderDetail(visibleStocks) {
         ${peers.map((peer) => `<button type="button" class="peer-button" data-select="${peer.ticker}"><strong>${displayTicker(peer.ticker)}</strong><span>${escapeHtml(peer.market)} · ${escapeHtml(peer.role)}</span></button>`).join("") || "<p>暂无同板块标的</p>"}
       </div>
     </section>`;
+  panel.querySelector('#includeResearchQuestion')?.addEventListener('change', event => {
+    panel.querySelector('#openResearchWorkspace').href = makeResearchUrl(selected, isDesignPreview, event.target.checked);
+  });
+  panel.querySelector('#saveReportLink')?.addEventListener('click', () => {
+    if (!pendingResearchLink) return;
+    if (saveLink(linkStorage, pendingResearchLink)) {
+      pendingResearchLink = null; renderDetail(visibleStocks);
+      window.history.replaceState(null, '', location.pathname + location.search);
+    } else panel.querySelector('#reportLinkStatus').textContent = '浏览器无法保存，请检查存储空间或权限。';
+  });
   panel.querySelectorAll("[data-select]").forEach((button) => {
     button.addEventListener("click", () => selectStock(button.dataset.select));
   });
@@ -2599,6 +2627,10 @@ function initializeEvents() {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
+  document.querySelectorAll('a[href^="https://mastersgo.cc"]').forEach(link => {
+    const url = new URL(link.href);
+    link.href = workbenchOrigin(isDesignPreview) + url.pathname + url.hash;
+  });
   loadCandidateActions();
   try {
     await loadStockPool();

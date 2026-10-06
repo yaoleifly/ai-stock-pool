@@ -5,19 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light" />
     <title>AI产业链股票池</title>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23192329'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-family='Arial,sans-serif' font-size='22' font-weight='700' fill='%23f29a70'%3EAI%3C/text%3E%3C/svg%3E" />
+    <link rel="icon" type="image/svg+xml" href="brand.svg" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="https://unpkg.com/lucide@0.475.0/dist/umd/lucide.js"></script>
-    <script defer src="app.js"></script>
+    <script type="module" src="app.js"></script>
   </head>
   <body>
+    <aside class="suite-nav">
+      <a class="suite-brand" href="https://mastersgo.cc"><img src="brand.svg" alt=""/><span>挖掘机<small>MASTERSGO</small></span></a>
+      <nav aria-label="研究导航">
+        <a href="https://mastersgo.cc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H5v18h14V8zM14 3v5h5M8 12h7M8 16h4"/><path d="M17 3h4v4" stroke="#b65c35"/></svg>研究工作台</a>
+        <a href="#discoveryView" data-open-view="discoveryView"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9M12 7a5 5 0 1 0 5 5M12 12l6-6"/><circle cx="20" cy="4" r="2" fill="#b65c35" stroke="none"/></svg>热点线索</a>
+        <a class="suite-selected" href="#graphView" data-open-view="graphView"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m10 7-5 9m9-9 5 9M7 19h10"/><circle cx="12" cy="5" r="3"/><circle cx="4" cy="19" r="3"/><circle cx="20" cy="19" r="3"/></svg>产业图谱</a>
+        <a href="https://mastersgo.cc/#/?section=history"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7V3h10l3 3v12h-4M3 8h10l3 3v10H3zM6 13h7M6 17h4"/></svg>研究记录 ↗</a>
+      </nav>
+      <a class="suite-settings" href="https://mastersgo.cc/#/?section=settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h6m4 0h8M3 12h12m4 0h2M3 19h3m4 0h11"/><circle cx="11" cy="5" r="2"/><circle cx="17" cy="12" r="2"/><circle cx="8" cy="19" r="2"/></svg>工作台设置 ↗</a>
+    </aside>
     <div class="app-shell">
       <header class="topbar">
         <div class="brand-block">
-          <div class="brand-mark" aria-hidden="true">AI</div>
+          <img class="brand-mark" src="brand.svg" alt=""/>
           <div>
-            <h1>AI产业链股票池</h1>
-            <p>美股 · A股映射 · 产业位置 · 研究关联</p>
+            <h1>产业链股票池</h1>
+            <p>从产业关系发现线索，把问题带进研究。</p>
           </div>
         </div>
         <nav class="topbar-nav" aria-label="站点导航">
@@ -69,18 +79,17 @@
             </div>
           </section>
 
-          <section class="filter-group sector-group">
+          <details class="filter-group sector-group"><summary>板块筛选</summary>
             <div class="filter-heading">
               <h2>板块</h2>
               <span id="sectorCount">16</span>
             </div>
             <div id="sectorFilters" class="sector-filters"></div>
-          </section>
+          </details>
 
-          <section class="filter-group">
-            <h2>研究状态</h2>
+          <details class="filter-group"><summary>研究状态</summary>
             <div id="statusFilter" class="status-filter"></div>
-          </section>
+          </details>
 
           <div class="source-block">
             <span>来源</span>
@@ -108,25 +117,26 @@
             </div>
           </section>
 
-          <section id="decisionPanel" class="decision-panel" aria-label="今日决策面板">
+          <details class="decision-disclosure"><summary>今日发现与数据健康 <span>展开查看</span></summary><section id="decisionPanel" class="decision-panel" aria-label="今日决策面板">
             <div class="decision-loading">今日决策面板加载中</div>
           </section>
 
+          </details>
           <div class="view-bar">
             <nav class="view-tabs" aria-label="信息视图">
-              <button type="button" class="is-active" data-view="graphView">
+              <button type="button" class="is-active" data-view="graphView" aria-label="关联图谱">
                 <i data-lucide="network" aria-hidden="true"></i><span>关联图谱</span>
               </button>
-              <button type="button" data-view="matrixView">
+              <button type="button" data-view="matrixView" aria-label="特征矩阵">
                 <i data-lucide="table-2" aria-hidden="true"></i><span>特征矩阵</span>
               </button>
-              <button type="button" data-view="listView">
+              <button type="button" data-view="listView" aria-label="股票列表">
                 <i data-lucide="columns-3" aria-hidden="true"></i><span>股票列表</span>
               </button>
-              <button type="button" data-view="discoveryView">
+              <button type="button" data-view="discoveryView" aria-label="主动发现">
                 <i data-lucide="radar" aria-hidden="true"></i><span>主动发现</span>
               </button>
-              <button type="button" data-view="policyView">
+              <button type="button" data-view="policyView" aria-label="政策压力">
                 <i data-lucide="activity" aria-hidden="true"></i><span>政策压力</span>
               </button>
             </nav>
@@ -191,6 +201,7 @@
 
               <aside id="detailPanel" class="detail-panel" aria-live="polite"></aside>
             </div>
+            <div class="research-loop"><span>① 发现线索</span><span>→</span><span>② 带入工作台研究</span><span>→</span><span>③ 关联报告，回池跟踪</span></div>
           </section>
 
           <section id="matrixView" class="content-view" aria-label="特征矩阵">
