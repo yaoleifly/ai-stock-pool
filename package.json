@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build-static.mjs",
-    "test": "node --test cloudflare/worker.test.mjs scripts/should-ignore-build.test.mjs",
+    "test": "node --test cloudflare/worker.test.mjs scripts/should-ignore-build.test.mjs research-bridge.test.js",
     "validate:data": "node scripts/validate-data.mjs",
     "check": "npm run validate:data && npm run test && npm run build && node scripts/wrangler-dry-run.mjs",
     "deploy": "npm run build && wrangler deploy",

@@ -7,6 +7,8 @@ const files = [
   "index.html",
   "app.js",
   "styles.css",
+  "brand.svg",
+  "research-bridge.js",
   "stock-pool.csv",
   "discovery-candidates.csv",
   "discovery-signals.csv",
