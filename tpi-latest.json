@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-07T00:48:30.391187+00:00",
+  "asOf": "2026-10-07T07:19:15.918553+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -7,7 +7,7 @@
   "index": {
     "value": 63.9,
     "zone": "high_pressure",
-    "change5d": -17.7
+    "change5d": -17.8
   },
   "drivers": [
     {
@@ -46,7 +46,7 @@
       "id": "move",
       "name": "债券波动率",
       "weight": 0.15,
-      "pressureScore": 85.6,
+      "pressureScore": 85.9,
       "value": "105.20",
       "changeLabel": "近5日 -1.40",
       "direction": "指数上升增加压力",
@@ -67,7 +67,7 @@
       "changeLabel": "近5日 +1.93%",
       "direction": "下跌增加压力",
       "interpretation": "股市回撤会强化政策反馈；上涨则释放压力。",
-      "updatedAt": "2026-10-06T20:40:07+00:00",
+      "updatedAt": "2026-10-06T20:00:00+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -131,7 +131,7 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 40.0,
+      "score": 40.1,
       "components": [
         "MOVE",
         "标普500",
@@ -175,7 +175,7 @@
     {
       "date": "2026-09-15",
       "label": "09.15",
-      "value": 83.1
+      "value": 83.0
     },
     {
       "date": "2026-09-22",
@@ -185,7 +185,7 @@
     {
       "date": "2026-09-29",
       "label": "09.29",
-      "value": 81.6
+      "value": 81.7
     },
     {
       "date": "2026-10-06",
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-07T00:48:28.895678+00:00",
+      "updatedAt": "2026-10-07T07:19:14.830365+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -272,17 +272,17 @@
           "phase": "monitoring"
         },
         {
-          "title": "Trump administration weighs expanding chip tariffs to laptops, consoles, and servers, report claims — January's data center exemptions may be scrapped - Tom's Hardware",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNY21jSHhjNjVjRTVCa2FBa0pWTk10YVdVaDhZQTUzN3d2aXFBRmVRZVI2aDBqQlNpVHpIczhISDVaTDloTzh4ZmV3Um45M0MyenFmUF9qalhQUXZWd2FxcTRMZ1hJZEtpREZLT2g2T3djT2swNVlHQ0ktMHhtd1F2dUU5a1M1bms2cHEwdW1KUDhiSHJrd0gzckhqZy04QlpPZlFiX01xbTN2dVJBSWF6dGpkVUkwU0x5ek56czhFLU1jM0FUWURrV0VDSTE?oc=5",
-          "source": "Tom's Hardware",
-          "publishedAt": "2026-08-27T07:00:00+00:00",
-          "phase": "escalation"
+          "title": "China Sets Four Red Lines for U.S. on Taiwan, Rights, Development - 조선일보",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUkdwVHFyQVdzOFp6VlVZR2VJRzZ5aXVNSnFaUXRYVC13bWJRUUZCTHl0NzVhUnR1anhZdG5IU0RJQ0FDcDlRdmY1aVNCcm4yR3VzaHFxeVpKTnZIdnVzSXZadUt5ODVJdkhDZEFGTHQ2bEJmX1lvTkR5SVkyVHJTODRFdVE?oc=5",
+          "source": "조선일보",
+          "publishedAt": "2026-09-24T07:00:00+00:00",
+          "phase": "monitoring"
         },
         {
-          "title": "International Trade 2025 Year-End Update - Gibson Dunn",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9neVRUZjlOYzlldXl5SXlDME9yX2s3Y0xVS25xUllqNF94VkxZbWxxYkRGdm94MnV4TGhfSGp5RkNrY0I1UTNaU3dOY0xwcVZLOUtnOC02WUlNcXJUZEtxOUxvdEZ4QS1sX3k4OWF3Z1R6aWc1UHpR?oc=5",
-          "source": "Gibson Dunn",
-          "publishedAt": "2026-02-06T08:00:00+00:00",
+          "title": "As the (Customs and Trade) World Turns: April 2026 - ArentFox Schiff",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUHk5QTluY1NBWWZmWXhVVzJneG5nNmxidjk4SWpGcm9XLWF4dnhrVWJYVUQxUTZyVlQ1RjhBM2JJd2NfUTNZTWdNM0dpX2dLbEtFS2t3dlN4NVpQSERadVZnalBkdmZ5TDVXUmVvMHd5OXhPY3hvRU1TUW84SkktNTNKeDNoczZjbXYwXzRxWVpaMzhUVDFIcTA5U3o4TDA3T0tvYWRIclZjNjVQWFNFZA?oc=5",
+          "source": "ArentFox Schiff",
+          "publishedAt": "2026-04-23T07:00:00+00:00",
           "phase": "monitoring"
         }
       ],
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-07T00:48:28.893657+00:00",
+      "updatedAt": "2026-10-07T07:19:14.635289+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-07T00:48:28.866185+00:00",
+      "updatedAt": "2026-10-07T07:19:14.746865+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-07T00:48:29.034959+00:00",
+      "updatedAt": "2026-10-07T07:19:14.724025+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-07T00:48:30.388946+00:00",
+    "asOf": "2026-10-07T07:19:15.916773+00:00",
     "aggregateScore": 50.2,
     "aggregateLabel": "中性",
     "highRiskCount": 3,
@@ -10689,7 +10689,7 @@
       "name": "标普500",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-06T20:40:07+00:00",
+      "updatedAt": "2026-10-06T20:00:00+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
