@@ -1,17 +1,16 @@
 {
   "version": 1,
   "status": "success",
-  "attemptedAt": "2026-10-07T16:23:48.354016+00:00",
+  "attemptedAt": "2026-10-08T03:26:56.542031+00:00",
   "attemptedDate": "2026-10-08",
   "dataDate": "2026-10-08",
   "message": "主动发现数据已更新。",
   "counts": {
-    "signals": 141,
-    "papers": 35,
+    "signals": 144,
+    "papers": 38,
     "candidates": 61
   },
   "warnings": [
-    "quote api: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-    "extra quote AVAV: HTTPError: HTTP Error 502: "
+    "quote api: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   ]
 }
