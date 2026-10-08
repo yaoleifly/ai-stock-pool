@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-10-08T03:27:45.797636+00:00",
+  "asOf": "2026-10-08T07:31:17.275363+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 62.9,
+    "value": 64.0,
     "zone": "high_pressure",
-    "change5d": -17.8
+    "change5d": -16.7
   },
   "drivers": [
     {
@@ -78,12 +78,12 @@
       "id": "vix",
       "name": "股市恐慌",
       "weight": 0.15,
-      "pressureScore": 19.4,
-      "value": "15.08",
-      "changeLabel": "近5日 -1.26",
+      "pressureScore": 26.8,
+      "value": "15.68",
+      "changeLabel": "近5日 -0.71",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-10-07T20:15:01+00:00",
+      "updatedAt": "2026-10-08T07:16:01+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -131,14 +131,14 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 39.3,
+      "score": 41.8,
       "components": [
         "MOVE",
         "标普500",
         "VIX"
       ],
       "interpretation": "衡量风险资产和波动率是否形成即时反馈。",
-      "level": "偏低"
+      "level": "中性"
     },
     {
       "id": "inflation",
@@ -155,7 +155,7 @@
     {
       "date": "2026-08-18",
       "label": "08.18",
-      "value": 71.3
+      "value": 71.4
     },
     {
       "date": "2026-08-25",
@@ -170,7 +170,7 @@
     {
       "date": "2026-09-09",
       "label": "09.09",
-      "value": 72.3
+      "value": 72.4
     },
     {
       "date": "2026-09-16",
@@ -199,8 +199,8 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 4,
-        "softening": 4,
+        "escalation": 5,
+        "softening": 3,
         "execution": 0,
         "monitoring": 0
       },
@@ -213,11 +213,11 @@
           "phase": "softening"
         },
         {
-          "title": "Trump Pauses 50 Percent Tariffs on Canada and Claims Deal Is Near - The New York Times",
+          "title": "Tariffs on Hold as Trump Claims Deal With Canada Is Near - The New York Times",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDQ4MzBmeUdBV0VLNnNTVXFKU3NkUVowYXZxVE5nNTJiYU9YT1dWOWRhdEg3ZG5NelNqSW55clZsb0lXbVdvOFQyVDdodGEzandYQ1BDUGZTbmc1eUU4c3pNUGlMUFc1b2Z1d0xQdGpEVHhzQnhNa1ZUdGNJZFREdVpyZmpkUQ?oc=5",
           "source": "The New York Times",
           "publishedAt": "2026-08-18T07:00:00+00:00",
-          "phase": "softening"
+          "phase": "escalation"
         },
         {
           "title": "Trump tariffs fallout: US trade representative questions ‘most favored nation’ trade status - Undercurrent News",
@@ -227,11 +227,11 @@
           "phase": "escalation"
         },
         {
-          "title": "Donald Trump delays planned 50% tariffs on Canada, cites trade deal - Toronto Star",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMWJ0eURnOWd2S0JiUldVT25CWkRyVVFCcWZ3MHlDMmxKU09iYjRIekF6VVV0MTZabXFsWWVFa210Y1oyZG02bHdGeXNBQzlPZlFxc3JmdmtWRW9VVUNaODRrcWR1RFctNmFDdEdxWjFCUlczVlRDSFRoMk1iTWdvMmVxc0RVLTVFbWlQT2dmMWd4MkZrZHEyaVdNOHhzRkNlR24tSW9kQkI3eFpYeTBVelFITUFmeTllOVZQcjVQTUdTRG9sMjktQV9ZZTF3dmppS0VuRVhXLVVvNDJIOGlkSU9KaEFEYkstc2xpeUpQeXg1RXNCRGhSS3JlQlpkUTNG?oc=5",
-          "source": "Toronto Star",
-          "publishedAt": "2026-08-18T07:00:00+00:00",
-          "phase": "softening"
+          "title": "Canada demand for trucks tariff relief imperiled trade talks - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWXR3V0lJYkt5dk1reXVLcVpkdGhwcERTb1FvYjVKSWZlY0ZlbTlYZ25nbmdVR05NS2pLRlc0MTNORmg1ZWVBVGRycUp0eHpVQ1ZGZUluTDBDT2pVLVR2ZVVsaVJZd3h4cnY1Qng4SlJFYWl1SzAxTkZxSVdvaUZMNjRsMjI?oc=5",
+          "source": "Fortune",
+          "publishedAt": "2026-08-22T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-08T03:27:44.484428+00:00",
+      "updatedAt": "2026-10-08T07:31:16.174555+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-08T03:27:44.319687+00:00",
+      "updatedAt": "2026-10-08T07:31:16.066356+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-08T03:27:44.432944+00:00",
+      "updatedAt": "2026-10-08T07:31:16.135313+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-08T03:27:44.587863+00:00",
+      "updatedAt": "2026-10-08T07:31:16.280606+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-08T03:27:45.795843+00:00",
-    "aggregateScore": 51.8,
+    "asOf": "2026-10-08T07:31:17.273709+00:00",
+    "aggregateScore": 52.1,
     "aggregateLabel": "中性",
     "highRiskCount": 3,
     "coverage": {
@@ -5482,11 +5482,11 @@
         "metrics": {
           "bullishShare": 91.8,
           "bullishShare3mAgo": 88.9,
-          "targetMean": 1535.57,
+          "targetMean": 1555.13,
           "targetMedian": 1550.0,
           "targetLow": 361.0,
-          "targetHigh": 2200.0,
-          "targetUpside": 41.1,
+          "targetHigh": 3000.0,
+          "targetUpside": 42.9,
           "return5d": 2.1,
           "return20d": 5.9,
           "drawdown3m": -0.9,
@@ -5494,7 +5494,7 @@
           "targetCuts45d": 2,
           "analystCount": 46,
           "epsChange30d": 9.5,
-          "epsChange60d": 9.5,
+          "epsChange60d": 9.4,
           "revenueChange30d": 21.4,
           "revenueChange60d": 21.3
         },
@@ -5506,9 +5506,9 @@
             "eps": {
               "current": 38.21061,
               "value30dAgo": 34.89147,
-              "value60dAgo": 34.87982,
+              "value60dAgo": 34.91812,
               "change30d": 9.5,
-              "change60d": 9.5
+              "change60d": 9.4
             },
             "revenue": {
               "current": 61670130780.0,
@@ -5526,9 +5526,9 @@
               "eps": {
                 "current": 38.21061,
                 "value30dAgo": 34.89147,
-                "value60dAgo": 34.87982,
+                "value60dAgo": 34.91812,
                 "change30d": 9.5,
-                "change60d": 9.5
+                "change60d": 9.4
               },
               "revenue": {
                 "current": 61670130780.0,
@@ -5545,9 +5545,9 @@
               "eps": {
                 "current": 42.12014,
                 "value30dAgo": 37.76854,
-                "value60dAgo": 37.71849,
+                "value60dAgo": 37.81096,
                 "change30d": 11.5,
-                "change60d": 11.7
+                "change60d": 11.4
               },
               "revenue": {
                 "current": 66970314159.0,
@@ -5564,9 +5564,9 @@
               "eps": {
                 "current": 176.15115,
                 "value30dAgo": 156.24937,
-                "value60dAgo": 155.79457,
+                "value60dAgo": 156.32712,
                 "change30d": 12.7,
-                "change60d": 13.1
+                "change60d": 12.7
               },
               "revenue": {
                 "current": 275010403860.0,
@@ -5583,9 +5583,9 @@
               "eps": {
                 "current": 206.33243,
                 "value30dAgo": 171.02492,
-                "value60dAgo": 166.8887,
+                "value60dAgo": 167.57413,
                 "change30d": 20.6,
-                "change60d": 23.6
+                "change60d": 23.1
               },
               "revenue": {
                 "current": 319096927750.0,
@@ -7305,7 +7305,7 @@
             "volume": 23742000
           }
         ],
-        "score": 55.9,
+        "score": 57.5,
         "zone": "watch",
         "label": "观察背离",
         "evidence": [
@@ -7315,17 +7315,17 @@
         "metrics": {
           "bullishShare": 91.3,
           "bullishShare3mAgo": 88.4,
-          "targetMean": 330.16,
-          "targetMedian": 325.0,
+          "targetMean": 337.99,
+          "targetMedian": 350.0,
           "targetLow": 210.0,
           "targetHigh": 450.0,
-          "targetUpside": 16.0,
+          "targetUpside": 18.7,
           "return5d": 7.7,
           "return20d": 21.1,
           "drawdown3m": -0.8,
           "targetRaises45d": 25,
           "targetCuts45d": 1,
-          "analystCount": 43,
+          "analystCount": 44,
           "epsChange30d": 0.0,
           "epsChange60d": 2.7,
           "revenueChange30d": 0.1,
@@ -7344,7 +7344,7 @@
               "change60d": 2.7
             },
             "revenue": {
-              "current": 3151302100.0,
+              "current": 3152202030.0,
               "value30dAgo": 3149640870.0,
               "value60dAgo": 2702565000.0,
               "change30d": 0.1,
@@ -7364,7 +7364,7 @@
                 "change60d": 2.7
               },
               "revenue": {
-                "current": 3151302100.0,
+                "current": 3152202030.0,
                 "value30dAgo": 3149640870.0,
                 "value60dAgo": 2702565000.0,
                 "change30d": 0.1,
@@ -7383,7 +7383,7 @@
                 "change60d": 9.7
               },
               "revenue": {
-                "current": 3728926760.0,
+                "current": 3730241550.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -7395,14 +7395,14 @@
               "period": "0y",
               "endDate": "2027-01-31",
               "eps": {
-                "current": 4.21677,
+                "current": 4.22002,
                 "value30dAgo": 4.20105,
                 "value60dAgo": 4.05553,
-                "change30d": 0.4,
-                "change60d": 4.0
+                "change30d": 0.5,
+                "change60d": 4.1
               },
               "revenue": {
-                "current": 12059301590.0,
+                "current": 12069009010.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -7414,14 +7414,14 @@
               "period": "+1y",
               "endDate": "2028-01-31",
               "eps": {
-                "current": 7.20807,
+                "current": 7.28277,
                 "value30dAgo": 6.72085,
                 "value60dAgo": 6.24094,
-                "change30d": 7.2,
-                "change60d": 15.5
+                "change30d": 8.4,
+                "change60d": 16.7
               },
               "revenue": {
-                "current": 19620173780.0,
+                "current": 19690459330.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -7432,7 +7432,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -2.3,
+        "scoreChange7d": -0.7,
         "historyStatus": {
           "points": 20,
           "firstDate": "2026-08-04",
@@ -10864,7 +10864,7 @@
       "name": "股市恐慌",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-07T20:15:01+00:00",
+      "updatedAt": "2026-10-08T07:16:01+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
     },
