@@ -255,11 +255,13 @@ export default {
     if (new URL(request.url).pathname === '/api/mobile/analyze' && request.method === 'POST') {
       try { return await mobileAnalyze(request, env); } catch { return jsonResponse({error:{code:'AI_UNAVAILABLE',message:'AI 分析暂时不可用，请稍后重试。'}},502); }
     }
-    if (request.method !== "GET") return jsonResponse({ error: "Method not allowed" }, 405);
-
     const url = new URL(request.url);
-    if (url.pathname.startsWith("/api/")) return handleApi(request, env);
-    const asset = await env.ASSETS.fetch(request);
-    return url.pathname === "/" || url.pathname === "/index.html" ? withScriptNonce(asset) : asset;
+    if (!url.pathname.startsWith("/api/")) {
+      // 首页经过 Worker 只是为了加 nonce：GET 和 HEAD 都照常交给静态资源
+      const asset = await env.ASSETS.fetch(request);
+      return url.pathname === "/" || url.pathname === "/index.html" ? withScriptNonce(asset) : asset;
+    }
+    if (request.method !== "GET") return jsonResponse({ error: "Method not allowed" }, 405);
+    return handleApi(request, env);
   },
 };

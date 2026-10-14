@@ -88,3 +88,10 @@ test('home page gets a fresh CSP nonce per response, other content is untouched'
   const css = new Response('body{}', { headers: { 'content-type': 'text/css' } });
   assert.equal(withScriptNonce(css), css);
 });
+
+test('HEAD on the home page is served, not rejected', async () => {
+  const env = { ASSETS: { fetch: async () => new Response(null, { headers: { 'content-type': 'text/html' } }) } };
+  const response = await worker.fetch(new Request('https://stocks.mastersgo.cc/', { method: 'HEAD' }), env);
+  assert.equal(response.status, 200);
+  assert.match(response.headers.get('content-security-policy'), /'nonce-/);
+});
