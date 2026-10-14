@@ -10,6 +10,7 @@ const SECURITY_HEADERS = {
   "Access-Control-Allow-Headers": "Content-Type",
   "Referrer-Policy": "strict-origin-when-cross-origin",
   "X-Content-Type-Options": "nosniff",
+  "Strict-Transport-Security": "max-age=31536000",
 };
 
 function applyHeaders(headers, extra = {}) {
