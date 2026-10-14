@@ -76,3 +76,15 @@ test('policy skips invalid dates and marks retained old snapshots stale', () => 
   assert.match(chosen.warning, /三小时/);
   assert.throws(() => selectPolicySnapshot([{index:{value:50},drivers:[]}]), /No valid/);
 });
+
+import { withScriptNonce } from './worker.js';
+test('home page gets a fresh CSP nonce per response, other content is untouched', async () => {
+  const csp = "default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; object-src 'none'";
+  const page = () => new Response('<!doctype html>', { headers: { 'content-type': 'text/html; charset=utf-8', 'content-security-policy': csp } });
+  const a = withScriptNonce(page()).headers.get('content-security-policy');
+  const b = withScriptNonce(page()).headers.get('content-security-policy');
+  assert.match(a, /script-src 'self' https:\/\/static\.cloudflareinsights\.com 'nonce-[A-Za-z0-9+/=]{20,}'; object-src 'none'/);
+  assert.notEqual(a, b);
+  const css = new Response('body{}', { headers: { 'content-type': 'text/css' } });
+  assert.equal(withScriptNonce(css), css);
+});

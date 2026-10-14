@@ -233,6 +233,20 @@ async function handleApi(request, env) {
   return jsonResponse({ error: "Not found" }, 404);
 }
 
+// 首页加一个每次都不同的 CSP nonce：Cloudflare 的 Bot Fight Mode 会往 HTML 里注入一段内联脚本，
+// 它读到响应头里的 nonce 就会给那段脚本带上，这样不用放开 'unsafe-inline'。
+const FALLBACK_CSP = "default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https://cloudflareinsights.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests";
+export function withScriptNonce(response) {
+  if (!(response.headers.get("content-type") || "").includes("text/html")) return response;
+  const bytes = crypto.getRandomValues(new Uint8Array(16));
+  const nonce = btoa(String.fromCharCode(...bytes));
+  const output = new Response(response.body, response);
+  const csp = output.headers.get("content-security-policy") || FALLBACK_CSP;
+  output.headers.set("content-security-policy", csp.replace(/script-src ([^;]*)/, (_, sources) => `script-src ${sources.trim()} 'nonce-${nonce}'`));
+  output.headers.set("cache-control", "no-cache");
+  return output;
+}
+
 export default {
   async fetch(request, env) {
     if (request.method === "OPTIONS") {
@@ -245,6 +259,7 @@ export default {
 
     const url = new URL(request.url);
     if (url.pathname.startsWith("/api/")) return handleApi(request, env);
-    return env.ASSETS.fetch(request);
+    const asset = await env.ASSETS.fetch(request);
+    return url.pathname === "/" || url.pathname === "/index.html" ? withScriptNonce(asset) : asset;
   },
 };
