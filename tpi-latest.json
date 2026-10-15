@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-14T22:22:38.000692+00:00",
+  "asOf": "2026-10-15T00:38:35.589116+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-14T22:22:37.113322+00:00",
+      "updatedAt": "2026-10-15T00:38:34.138029+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-14T22:22:36.937603+00:00",
+      "updatedAt": "2026-10-15T00:38:34.169008+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -303,39 +303,39 @@
       "name": "军事与地缘",
       "phase": "softening",
       "phaseCounts": {
-        "escalation": 1,
-        "softening": 7,
+        "escalation": 2,
+        "softening": 5,
         "execution": 0,
-        "monitoring": 0
+        "monitoring": 1
       },
       "items": [
         {
-          "title": "After Russian Diesel Deal, Trump Faces New Crisis Over Ukraine - The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSTk1Y0pUTWwxTHNub0ZtZEdscWU3ZXVmRjlPM3lhZUVSODVrZkpGYXJkOVB5RXVCUXI2akZXV0FZTDUwNlBGdGtHUmhSNXNCSjBjRXBNamNWM01UeWdOSXRnSkx2ZEJOTm5pU2tJWElXVkNkT01WXzhNUWNpLWU5V3I4QVFmNWhsNkttc3ZMWXJ2dzRHRi1sZGZjbi1sYWEy?oc=5",
-          "source": "The New York Times",
-          "publishedAt": "2026-10-12T18:15:12+00:00",
+          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-09-29T07:00:00+00:00",
           "phase": "softening"
         },
         {
-          "title": "Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYWxLV1J6R2V3UDNKc2FwUU9oQ2dvUGVXd2FQTTNQdFM2QVVBLU54eWN0SFktR25BT0l3U3NIRldielJHYjBLY1lfMTk1OGZGVUZtOG4yMXhINzZSVDhwdXZScWtCUDdVYWxjSkF6RThTcHhyMWN3Z1hrWjNMSFJFMm04eVRKZ2luSkJjWUpKM2RYSXdXa2ZKbk94MjRjaXFDRDRtLXd3c3pMbk1Ld21LOE13WEZMUXp5YWdEcnNYMzc?oc=5",
+          "title": "Trump says ceasefire ‘over’ after U.S., Iran trade attacks but that talks can continue - NBC News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORjNtd1V3TWhyd0hDQzlLOGJQUlhobGw3VTlJYnp0a3Ayak9tdEIzSXFJekhiNXFiRnZjSEZxN1dFczZtUVRWM0REcnRCSDZnVW9aUkFpeDhRUWhlSnM2YTFzRXMzdTlielRWOU96c1BBaDIxSlFFbnVpazF4M01TUGxFY2RzSnVnQ21UV29YOFk4c3VIeDhTZ3JpX1VHcXhEb0ZlQ0x5SF9pYVdobzZ0dmdxQlRNZnc?oc=5",
+          "source": "NBC News",
+          "publishedAt": "2026-07-08T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
+          "source": "CNBC",
+          "publishedAt": "2026-07-27T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
           "source": "Reuters",
-          "publishedAt": "2026-10-12T09:50:00+00:00",
-          "phase": "softening"
-        },
-        {
-          "title": "Donald Trump is again threatening to cut off arms to Ukraine - The Economist",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdlBKb2V2OFN3WTN2R2p6OVpfQ2JoQ3BSM0V6TVp1aW42aF9zSGJCdFJMUEN6MjZGQmJxV0Fpb3FlQmtWRmtDTVh2TW5lVzNRNFFIV0FOZW85ei1IZEd6RG9Ic0FqalFVTzJaNGpneGZwSnR3OVl6ZEdZMjA0UGpvbjZqOWgyam0yQktIOHpNMnRubE9NTjE0bXFzTmtPaDFuQ0ZoMVB2VQ?oc=5",
-          "source": "The Economist",
-          "publishedAt": "2026-10-12T12:00:25+00:00",
+          "publishedAt": "2026-07-07T07:00:00+00:00",
           "phase": "escalation"
-        },
-        {
-          "title": "Ukraine disputes Trump's claim of energy ceasefire as Russian diesel deal draws fire - PBS",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRjdEZ2RyUmxzcnAzT21NZFA0b1FOenpaYVNNSXVVckR2UzNmbkhyT21SemNQZXZURTVfVGsyTW15Mm5aRzJTWTV2UEFSZjlRT3YtRlc3YnFzWklKb0ZWYnY1T1k1UlFsd082RUtsQWVodzJ4ank5RjRrZ21GZTlzX2FkYUlhWUhRb25kSEVIMUdPaC1hc1dxTW9VSHhaUTNaUkVtTE5KS2drMUg3M0tTc3JkMkVQZmhH?oc=5",
-          "source": "PBS",
-          "publishedAt": "2026-10-12T22:45:37+00:00",
-          "phase": "softening"
         }
       ],
       "poolCategories": [
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-14T22:22:37.072718+00:00",
+      "updatedAt": "2026-10-15T00:38:34.273028+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-14T22:22:37.173633+00:00",
+      "updatedAt": "2026-10-15T00:38:34.281100+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-14T22:22:37.998400+00:00",
+    "asOf": "2026-10-15T00:38:35.587913+00:00",
     "aggregateScore": 70.3,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
@@ -1821,7 +1821,7 @@
             "price": 245.28,
             "priceIndex": 124.93,
             "sectorIndex": 96.67,
-            "volume": 25529618
+            "volume": 25816700
           }
         ],
         "score": 89.4,
@@ -1953,7 +1953,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 32.3,
+        "scoreChange7d": 29.2,
         "historyStatus": {
           "points": 24,
           "firstDate": "2026-08-04",
@@ -3712,7 +3712,7 @@
             "price": 914.13,
             "priceIndex": 121.72,
             "sectorIndex": 96.67,
-            "volume": 26795508
+            "volume": 27127700
           }
         ],
         "score": 88.1,
@@ -3844,7 +3844,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 22.3,
+        "scoreChange7d": 19.8,
         "historyStatus": {
           "points": 24,
           "firstDate": "2026-08-04",
@@ -5583,7 +5583,7 @@
             "price": 346.25,
             "priceIndex": 83.61,
             "sectorIndex": 96.67,
-            "volume": 22845616
+            "volume": 22936900
           }
         ],
         "score": 73.8,
@@ -5715,7 +5715,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 5.2,
+        "scoreChange7d": 5.1,
         "historyStatus": {
           "points": 24,
           "firstDate": "2026-08-04",
@@ -7472,7 +7472,7 @@
             "price": 221.3,
             "priceIndex": 102.77,
             "sectorIndex": 96.67,
-            "volume": 116826235
+            "volume": 117249000
           }
         ],
         "score": 70.0,
@@ -7602,7 +7602,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 0.4,
+        "scoreChange7d": -0.6,
         "historyStatus": {
           "points": 24,
           "firstDate": "2026-08-04",
@@ -9339,7 +9339,7 @@
             "price": 570.82,
             "priceIndex": 122.1,
             "sectorIndex": 96.67,
-            "volume": 21976296
+            "volume": 22070500
           }
         ],
         "score": 62.2,
@@ -9470,7 +9470,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 20.3,
+        "scoreChange7d": 19.4,
         "historyStatus": {
           "points": 24,
           "firstDate": "2026-08-04",
@@ -9866,8 +9866,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 0,
-          "label": "股价已先跌0天，机构尚未下调"
+          "waitingDays": 1,
+          "label": "股价已先跌1天，机构尚未下调"
         },
         "targetEvents": [],
         "priceTimeline": [
@@ -10569,7 +10569,7 @@
             "price": 35.78,
             "priceIndex": 100.56,
             "sectorIndex": 96.67,
-            "volume": 32075293
+            "volume": 32981100
           }
         ],
         "score": 38.5,
@@ -10698,7 +10698,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 28.5,
+        "scoreChange7d": 26.4,
         "historyStatus": {
           "points": 24,
           "firstDate": "2026-08-04",
