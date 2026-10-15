@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-10-15T05:57:56.449216+00:00",
+  "asOf": "2026-10-15T11:42:51.804239+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 78.6,
+    "value": 80.2,
     "zone": "extreme_pressure",
-    "change5d": 12.9
+    "change5d": 14.5
   },
   "drivers": [
     {
@@ -78,12 +78,12 @@
       "id": "vix",
       "name": "股市恐慌",
       "weight": 0.15,
-      "pressureScore": 46.6,
-      "value": "16.87",
-      "changeLabel": "近5日 +1.79",
+      "pressureScore": 56.9,
+      "value": "17.54",
+      "changeLabel": "近5日 +2.13",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-10-14T20:15:01+00:00",
+      "updatedAt": "2026-10-15T11:27:46+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -131,7 +131,7 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 68.9,
+      "score": 72.4,
       "components": [
         "MOVE",
         "标普500",
@@ -170,7 +170,7 @@
     {
       "date": "2026-09-16",
       "label": "09.16",
-      "value": 82.7
+      "value": 82.8
     },
     {
       "date": "2026-09-23",
@@ -199,8 +199,8 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 4,
-        "softening": 4,
+        "escalation": 5,
+        "softening": 3,
         "execution": 0,
         "monitoring": 0
       },
@@ -227,10 +227,10 @@
           "phase": "escalation"
         },
         {
-          "title": "US ambassador: EU must honor its trade deal with Trump - POLITICO.eu",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOVNrSFlab2NEamNtbWdmSWdUb2E2TUoyVTRfQXZMT3g4TklxVFpsMElSR29aXzZ1TWZxcGh4UnNjeThZNE9fVWJIcm1zMUloZ3ROeGlwblowZlE1ekNoUkJ3SF9BMVJMcDNyVG0tbl8xU3ZzOHUwN1A4MlFtVWw4dGREVmFTVXNqWFFxekNXWDRnazFaMVVPYw?oc=5",
-          "source": "POLITICO.eu",
-          "publishedAt": "2026-05-18T07:00:00+00:00",
+          "title": "Donald Trump delays planned 50% tariffs on Canada, cites trade deal - Toronto Star",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMWJ0eURnOWd2S0JiUldVT25CWkRyVVFCcWZ3MHlDMmxKU09iYjRIekF6VVV0MTZabXFsWWVFa210Y1oyZG02bHdGeXNBQzlPZlFxc3JmdmtWRW9VVUNaODRrcWR1RFctNmFDdEdxWjFCUlczVlRDSFRoMk1iTWdvMmVxc0RVLTVFbWlQT2dmMWd4MkZrZHEyaVdNOHhzRkNlR24tSW9kQkI3eFpYeTBVelFITUFmeTllOVZQcjVQTUdTRG9sMjktQV9ZZTF3dmppS0VuRVhXLVVvNDJIOGlkSU9KaEFEYkstc2xpeUpQeXg1RXNCRGhSS3JlQlpkUTNG?oc=5",
+          "source": "Toronto Star",
+          "publishedAt": "2026-08-18T07:00:00+00:00",
           "phase": "softening"
         }
       ],
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-15T05:57:52.042170+00:00",
+      "updatedAt": "2026-10-15T11:42:51.179707+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,10 +251,10 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 1,
+        "escalation": 4,
         "softening": 0,
         "execution": 0,
-        "monitoring": 7
+        "monitoring": 4
       },
       "items": [
         {
@@ -265,24 +265,24 @@
           "phase": "monitoring"
         },
         {
-          "title": "International Trade 2025 Year-End Update - Gibson Dunn",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9neVRUZjlOYzlldXl5SXlDME9yX2s3Y0xVS25xUllqNF94VkxZbWxxYkRGdm94MnV4TGhfSGp5RkNrY0I1UTNaU3dOY0xwcVZLOUtnOC02WUlNcXJUZEtxOUxvdEZ4QS1sX3k4OWF3Z1R6aWc1UHpR?oc=5",
-          "source": "Gibson Dunn",
-          "publishedAt": "2026-02-06T08:00:00+00:00",
-          "phase": "monitoring"
+          "title": "EXCLUSIVE: Trump administration drafting ban on Chinese data center devices, sources say - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZEFjZDdmMzAxM2tTaHIwTWpFMHVCUldHdGs3Y3hTejI2ajRQeTVWUFU4RThDRGlIUmhXM0duczgySG5xUExONFhPMmtZR2liTVVJR19JcVhBYndwTjBURk1qM0lvOU1sTnlGYVd3VUxLQTJBQklmZjlsSmdUd0p1bVpGRElVSlp5NHl3YTBnSmhrMUpfSl9ld0NmLVhDdTF0MXg1enZIcXE0aEpFQTJDRWxYUUdRdw?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2026-08-04T07:00:00+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "Trump tariffs fallout: Chile takes over for China as most-tariffed US seafood source nation - Undercurrent News",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
+          "source": "Undercurrent News",
+          "publishedAt": "2026-08-11T07:00:00+00:00",
+          "phase": "escalation"
         },
         {
           "title": "US makes it easier to export Nvidia AI chips and military equipment to the UAE - Reuters",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPd0RpM0tkVDY3RXZ5NzBYZnZKR1hkME1NSVE2TVdNYUJCSjY5VWk1LUhfUFd3NTlMdktER1MtOHhEUjVVOHRhSHcxTGh2TFlFMTNsZmt2dzk0WTdFbHUxZm5SNExFX3JyNldDWHpYcHg1dFRGWGdoX2Y5QU1UUGR1TmpodmktT3lXenhad3JqOTMtUERoZmpFX0dMTFh1VEtQdEp5ZERMRGJYNjloTG94X05Ka2pYQWFlU1NENjFTd0tTN002dFBOb3g0d0QxUQ?oc=5",
           "source": "Reuters",
           "publishedAt": "2026-07-10T07:00:00+00:00",
-          "phase": "monitoring"
-        },
-        {
-          "title": "As the (Customs and Trade) World Turns: April 2026 - ArentFox Schiff",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUHk5QTluY1NBWWZmWXhVVzJneG5nNmxidjk4SWpGcm9XLWF4dnhrVWJYVUQxUTZyVlQ1RjhBM2JJd2NfUTNZTWdNM0dpX2dLbEtFS2t3dlN4NVpQSERadVZnalBkdmZ5TDVXUmVvMHd5OXhPY3hvRU1TUW84SkktNTNKeDNoczZjbXYwXzRxWVpaMzhUVDFIcTA5U3o4TDA3T0tvYWRIclZjNjVQWFNFZA?oc=5",
-          "source": "ArentFox Schiff",
-          "publishedAt": "2026-04-23T07:00:00+00:00",
           "phase": "monitoring"
         }
       ],
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-15T05:57:51.735727+00:00",
+      "updatedAt": "2026-10-15T11:42:50.881801+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-15T05:57:51.834900+00:00",
+      "updatedAt": "2026-10-15T11:42:50.972944+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-15T05:57:51.937811+00:00",
+      "updatedAt": "2026-10-15T11:42:51.102995+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-15T05:57:56.446929+00:00",
-    "aggregateScore": 70.3,
+    "asOf": "2026-10-15T11:42:51.802168+00:00",
+    "aggregateScore": 72.0,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
     "coverage": {
@@ -9939,7 +9939,272 @@
           "waitingDays": 1,
           "label": "股价已先跌1天，机构尚未下调"
         },
-        "targetEvents": [],
+        "targetEvents": [
+          {
+            "date": "2026-05-06T10:39:29+00:00",
+            "epoch": 1778063969,
+            "firm": "Needham",
+            "type": "reiterate",
+            "label": "维持评级",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 40.0,
+            "priorTarget": 40.0
+          },
+          {
+            "date": "2026-05-06T12:53:40+00:00",
+            "epoch": 1778072020,
+            "firm": "Wedbush",
+            "type": "target_cut",
+            "label": "下调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 34.0,
+            "priorTarget": 42.0
+          },
+          {
+            "date": "2026-05-06T17:54:08+00:00",
+            "epoch": 1778090048,
+            "firm": "CJS Securities",
+            "type": "rating_change",
+            "label": "评级调整",
+            "toGrade": "Market Perform",
+            "fromGrade": "Market Underperform",
+            "currentTarget": 0.0,
+            "priorTarget": 0.0
+          },
+          {
+            "date": "2026-05-06T18:33:04+00:00",
+            "epoch": 1778092384,
+            "firm": "Citigroup",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 31.0,
+            "priorTarget": 25.0
+          },
+          {
+            "date": "2026-05-06T20:05:42+00:00",
+            "epoch": 1778097942,
+            "firm": "JP Morgan",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 32.0,
+            "priorTarget": 28.0
+          },
+          {
+            "date": "2026-05-06T23:24:30+00:00",
+            "epoch": 1778109870,
+            "firm": "Rosenblatt",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 40.0,
+            "priorTarget": 32.0
+          },
+          {
+            "date": "2026-05-07T18:08:04+00:00",
+            "epoch": 1778177284,
+            "firm": "Barclays",
+            "type": "target_cut",
+            "label": "下调目标价",
+            "toGrade": "Equal-Weight",
+            "fromGrade": "Equal-Weight",
+            "currentTarget": 34.0,
+            "priorTarget": 38.0
+          },
+          {
+            "date": "2026-05-12T12:38:26+00:00",
+            "epoch": 1778589506,
+            "firm": "Mizuho",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 36.0,
+            "priorTarget": 30.0
+          },
+          {
+            "date": "2026-06-01T11:50:02+00:00",
+            "epoch": 1780314602,
+            "firm": "Mizuho",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 44.0,
+            "priorTarget": 36.0
+          },
+          {
+            "date": "2026-06-11T11:58:13+00:00",
+            "epoch": 1781179093,
+            "firm": "Wolfe Research",
+            "type": "rating_change",
+            "label": "评级调整",
+            "toGrade": "Peer Perform",
+            "fromGrade": "",
+            "currentTarget": 0.0,
+            "priorTarget": 0.0
+          },
+          {
+            "date": "2026-07-13T17:55:28+00:00",
+            "epoch": 1783965328,
+            "firm": "Citigroup",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 33.0,
+            "priorTarget": 31.0
+          },
+          {
+            "date": "2026-07-22T10:08:40+00:00",
+            "epoch": 1784714920,
+            "firm": "Needham",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 46.0,
+            "priorTarget": 40.0
+          },
+          {
+            "date": "2026-07-22T13:21:50+00:00",
+            "epoch": 1784726510,
+            "firm": "Barclays",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Equal-Weight",
+            "fromGrade": "Equal-Weight",
+            "currentTarget": 38.0,
+            "priorTarget": 34.0
+          },
+          {
+            "date": "2026-07-22T16:35:15+00:00",
+            "epoch": 1784738115,
+            "firm": "Rosenblatt",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 45.0,
+            "priorTarget": 40.0
+          },
+          {
+            "date": "2026-07-23T17:21:42+00:00",
+            "epoch": 1784827302,
+            "firm": "Mizuho",
+            "type": "target_cut",
+            "label": "下调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 34.0,
+            "priorTarget": 44.0
+          },
+          {
+            "date": "2026-08-12T12:10:31+00:00",
+            "epoch": 1786536631,
+            "firm": "Rosenblatt",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 51.0,
+            "priorTarget": 45.0
+          },
+          {
+            "date": "2026-08-12T12:38:41+00:00",
+            "epoch": 1786538321,
+            "firm": "Barclays",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Equal-Weight",
+            "fromGrade": "Equal-Weight",
+            "currentTarget": 39.0,
+            "priorTarget": 38.0
+          },
+          {
+            "date": "2026-08-12T12:38:49+00:00",
+            "epoch": 1786538329,
+            "firm": "Needham",
+            "type": "reiterate",
+            "label": "维持评级",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 46.0,
+            "priorTarget": 46.0
+          },
+          {
+            "date": "2026-08-12T12:45:49+00:00",
+            "epoch": 1786538749,
+            "firm": "Wedbush",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 40.0,
+            "priorTarget": 34.0
+          },
+          {
+            "date": "2026-08-12T14:18:50+00:00",
+            "epoch": 1786544330,
+            "firm": "Mizuho",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 35.0,
+            "priorTarget": 34.0
+          },
+          {
+            "date": "2026-08-12T18:18:14+00:00",
+            "epoch": 1786558694,
+            "firm": "Goldman Sachs",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Sell",
+            "fromGrade": "Sell",
+            "currentTarget": 34.0,
+            "priorTarget": 30.0
+          },
+          {
+            "date": "2026-08-12T18:32:29+00:00",
+            "epoch": 1786559549,
+            "firm": "Citigroup",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 39.0,
+            "priorTarget": 33.0
+          },
+          {
+            "date": "2026-10-06T12:59:38+00:00",
+            "epoch": 1791291578,
+            "firm": "Mizuho",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 43.0,
+            "priorTarget": 35.0
+          },
+          {
+            "date": "2026-10-08T21:25:51+00:00",
+            "epoch": 1791494751,
+            "firm": "Citigroup",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 45.0,
+            "priorTarget": 39.0
+          }
+        ],
         "priceTimeline": [
           {
             "date": "2026-05-22",
@@ -10642,11 +10907,13 @@
             "volume": 32981100
           }
         ],
-        "score": 38.5,
-        "zone": "balanced",
-        "label": "分歧仍在",
+        "score": 48.5,
+        "zone": "watch",
+        "label": "观察背离",
         "evidence": [
-          "股价走弱但评级尚未松动"
+          "近期目标价集中上调",
+          "股价走弱但评级尚未松动",
+          "目标价上调但盈利预期下调"
         ],
         "metrics": {
           "bullishShare": 22.2,
@@ -10659,7 +10926,7 @@
           "return5d": -20.4,
           "return20d": -2.9,
           "drawdown3m": -20.4,
-          "targetRaises45d": 0,
+          "targetRaises45d": 2,
           "targetCuts45d": 0,
           "analystCount": 15,
           "epsChange30d": 0.0,
@@ -10768,7 +11035,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 26.4,
+        "scoreChange7d": 36.4,
         "historyStatus": {
           "points": 25,
           "firstDate": "2026-08-04",
@@ -11129,8 +11396,8 @@
           }
         ],
         "expectationDivergence": {
-          "status": "clear",
-          "label": "等待目标价方向确认",
+          "status": "warning",
+          "label": "目标价上调但盈利预期下调",
           "epsDown": false,
           "revenueDown": true
         }
@@ -11289,7 +11556,7 @@
       "name": "股市恐慌",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-14T20:15:01+00:00",
+      "updatedAt": "2026-10-15T11:27:46+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
     },
