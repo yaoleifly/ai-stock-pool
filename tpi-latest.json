@@ -1,28 +1,28 @@
 {
-  "asOf": "2026-10-15T00:38:35.589116+00:00",
+  "asOf": "2026-10-15T05:57:56.449216+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 79.2,
+    "value": 78.6,
     "zone": "extreme_pressure",
-    "change5d": 12.8
+    "change5d": 12.9
   },
   "drivers": [
     {
       "id": "approval",
       "name": "净支持率",
       "weight": 0.25,
-      "pressureScore": 95.5,
-      "value": "-30.3pt",
-      "changeLabel": "较约30日前 -6.3pt",
+      "pressureScore": 92.9,
+      "value": "-28.8pt",
+      "changeLabel": "较约30日前 -4.8pt",
       "direction": "净支持率下降增加压力",
       "interpretation": "民调越弱，强硬政策的政治承受空间越小。",
       "updatedAt": "2026-10-12T12:00:00+00:00",
       "freshness": "current",
       "freshnessLabel": "跟随源站更新",
-      "sourceName": "Pollfinity 聚合 · 26项有效民调",
+      "sourceName": "Pollfinity 聚合 · 5项有效民调",
       "sourceTier": "aggregator",
       "sourceUrl": "https://pollfinity.com/averages"
     },
@@ -46,7 +46,7 @@
       "id": "move",
       "name": "债券波动率",
       "weight": 0.15,
-      "pressureScore": 82.3,
+      "pressureScore": 82.6,
       "value": "99.06",
       "changeLabel": "近5日 -6.14",
       "direction": "指数上升增加压力",
@@ -111,7 +111,7 @@
     {
       "id": "political",
       "name": "政治承受力",
-      "score": 95.5,
+      "score": 92.9,
       "components": [
         "净支持率"
       ],
@@ -131,7 +131,7 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 68.8,
+      "score": 68.9,
       "components": [
         "MOVE",
         "标普500",
@@ -155,42 +155,42 @@
     {
       "date": "2026-08-25",
       "label": "08.25",
-      "value": 66.3
+      "value": 65.6
     },
     {
       "date": "2026-09-01",
       "label": "09.01",
-      "value": 76.1
+      "value": 75.5
     },
     {
       "date": "2026-09-09",
       "label": "09.09",
-      "value": 72.9
+      "value": 72.3
     },
     {
       "date": "2026-09-16",
       "label": "09.16",
-      "value": 83.4
+      "value": 82.7
     },
     {
       "date": "2026-09-23",
       "label": "09.23",
-      "value": 65.0
+      "value": 64.3
     },
     {
       "date": "2026-09-30",
       "label": "09.30",
-      "value": 81.8
+      "value": 81.2
     },
     {
       "date": "2026-10-07",
       "label": "10.07",
-      "value": 66.4
+      "value": 65.7
     },
     {
       "date": "2026-10-14",
       "label": "10.14",
-      "value": 82.9
+      "value": 82.3
     }
   ],
   "policyEvents": [
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-15T00:38:34.138029+00:00",
+      "updatedAt": "2026-10-15T05:57:52.042170+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,10 +251,10 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 2,
+        "escalation": 1,
         "softening": 0,
         "execution": 0,
-        "monitoring": 6
+        "monitoring": 7
       },
       "items": [
         {
@@ -272,11 +272,11 @@
           "phase": "monitoring"
         },
         {
-          "title": "EXCLUSIVE: Trump administration drafting ban on Chinese data center devices, sources say - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZEFjZDdmMzAxM2tTaHIwTWpFMHVCUldHdGs3Y3hTejI2ajRQeTVWUFU4RThDRGlIUmhXM0duczgySG5xUExONFhPMmtZR2liTVVJR19JcVhBYndwTjBURk1qM0lvOU1sTnlGYVd3VUxLQTJBQklmZjlsSmdUd0p1bVpGRElVSlp5NHl3YTBnSmhrMUpfSl9ld0NmLVhDdTF0MXg1enZIcXE0aEpFQTJDRWxYUUdRdw?oc=5",
+          "title": "US makes it easier to export Nvidia AI chips and military equipment to the UAE - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPd0RpM0tkVDY3RXZ5NzBYZnZKR1hkME1NSVE2TVdNYUJCSjY5VWk1LUhfUFd3NTlMdktER1MtOHhEUjVVOHRhSHcxTGh2TFlFMTNsZmt2dzk0WTdFbHUxZm5SNExFX3JyNldDWHpYcHg1dFRGWGdoX2Y5QU1UUGR1TmpodmktT3lXenhad3JqOTMtUERoZmpFX0dMTFh1VEtQdEp5ZERMRGJYNjloTG94X05Ka2pYQWFlU1NENjFTd0tTN002dFBOb3g0d0QxUQ?oc=5",
           "source": "Reuters",
-          "publishedAt": "2026-08-04T07:00:00+00:00",
-          "phase": "escalation"
+          "publishedAt": "2026-07-10T07:00:00+00:00",
+          "phase": "monitoring"
         },
         {
           "title": "As the (Customs and Trade) World Turns: April 2026 - ArentFox Schiff",
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-15T00:38:34.169008+00:00",
+      "updatedAt": "2026-10-15T05:57:51.735727+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-15T00:38:34.273028+00:00",
+      "updatedAt": "2026-10-15T05:57:51.834900+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-15T00:38:34.281100+00:00",
+      "updatedAt": "2026-10-15T05:57:51.937811+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-15T00:38:35.587913+00:00",
+    "asOf": "2026-10-15T05:57:56.446929+00:00",
     "aggregateScore": 70.3,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
@@ -1955,9 +1955,9 @@
         },
         "scoreChange7d": 29.2,
         "historyStatus": {
-          "points": 24,
+          "points": 25,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-10-14",
+          "lastDate": "2026-10-15",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -2290,6 +2290,20 @@
             "score": 82.6,
             "zone": "distribution_risk",
             "currentPrice": 253.49,
+            "targetMean": 339.36,
+            "targetMedian": 350.0,
+            "bullishShare": 91.3,
+            "epsEstimate": 1.10094,
+            "revenueEstimate": 3151989910.0,
+            "targetRaises45d": 16,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-15",
+            "ticker": "MRVL",
+            "score": 89.4,
+            "zone": "distribution_risk",
+            "currentPrice": 245.28,
             "targetMean": 339.36,
             "targetMedian": 350.0,
             "bullishShare": 91.3,
@@ -3846,9 +3860,9 @@
         },
         "scoreChange7d": 19.8,
         "historyStatus": {
-          "points": 24,
+          "points": 25,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-10-14",
+          "lastDate": "2026-10-15",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -4181,6 +4195,20 @@
             "score": 88.1,
             "zone": "distribution_risk",
             "currentPrice": 930.16,
+            "targetMean": 1560.57,
+            "targetMedian": 1550.0,
+            "bullishShare": 91.8,
+            "epsEstimate": 38.21061,
+            "revenueEstimate": 61665126930.0,
+            "targetRaises45d": 6,
+            "targetCuts45d": 1
+          },
+          {
+            "date": "2026-10-15",
+            "ticker": "MU",
+            "score": 88.1,
+            "zone": "distribution_risk",
+            "currentPrice": 914.13,
             "targetMean": 1560.57,
             "targetMedian": 1550.0,
             "bullishShare": 91.8,
@@ -5717,9 +5745,9 @@
         },
         "scoreChange7d": 5.1,
         "historyStatus": {
-          "points": 24,
+          "points": 25,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-10-14",
+          "lastDate": "2026-10-15",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -6052,6 +6080,20 @@
             "score": 73.2,
             "zone": "crowded",
             "currentPrice": 347.85,
+            "targetMean": 527.59,
+            "targetMedian": 535.0,
+            "bullishShare": 94.0,
+            "epsEstimate": 3.82768,
+            "revenueEstimate": 34888468920.0,
+            "targetRaises45d": 6,
+            "targetCuts45d": 4
+          },
+          {
+            "date": "2026-10-15",
+            "ticker": "AVGO",
+            "score": 73.8,
+            "zone": "crowded",
+            "currentPrice": 346.25,
             "targetMean": 527.59,
             "targetMedian": 535.0,
             "bullishShare": 94.0,
@@ -7604,9 +7646,9 @@
         },
         "scoreChange7d": -0.6,
         "historyStatus": {
-          "points": 24,
+          "points": 25,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-10-14",
+          "lastDate": "2026-10-15",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -7939,6 +7981,20 @@
             "score": 69.5,
             "zone": "crowded",
             "currentPrice": 222.14,
+            "targetMean": 328.72,
+            "targetMedian": 315.0,
+            "bullishShare": 95.2,
+            "epsEstimate": 2.47325,
+            "revenueEstimate": 108976837760.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-15",
+            "ticker": "NVDA",
+            "score": 70.0,
+            "zone": "crowded",
+            "currentPrice": 221.3,
             "targetMean": 328.72,
             "targetMedian": 315.0,
             "bullishShare": 95.2,
@@ -9472,9 +9528,9 @@
         },
         "scoreChange7d": 19.4,
         "historyStatus": {
-          "points": 24,
+          "points": 25,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-10-14",
+          "lastDate": "2026-10-15",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -9807,6 +9863,20 @@
             "score": 61.5,
             "zone": "crowded",
             "currentPrice": 572.91,
+            "targetMean": 636.21,
+            "targetMedian": 635.5,
+            "bullishShare": 80.0,
+            "epsEstimate": 1.92939,
+            "revenueEstimate": 13058084460.0,
+            "targetRaises45d": 4,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-15",
+            "ticker": "AMD",
+            "score": 62.2,
+            "zone": "crowded",
+            "currentPrice": 570.82,
             "targetMean": 636.21,
             "targetMedian": 635.5,
             "bullishShare": 80.0,
@@ -10700,9 +10770,9 @@
         },
         "scoreChange7d": 26.4,
         "historyStatus": {
-          "points": 24,
+          "points": 25,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-10-14",
+          "lastDate": "2026-10-15",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -11042,6 +11112,20 @@
             "revenueEstimate": 14941898910.0,
             "targetRaises45d": 0,
             "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-15",
+            "ticker": "SMCI",
+            "score": 38.5,
+            "zone": "balanced",
+            "currentPrice": 35.78,
+            "targetMean": 42.27,
+            "targetMedian": 43.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14941898910.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
           }
         ],
         "expectationDivergence": {
@@ -11061,8 +11145,8 @@
       "updatedAt": "2026-10-14T20:00:00+00:00"
     },
     "history": {
-      "updatedAt": "2026-10-14T16:40:52.680233+00:00",
-      "snapshotCount": 24
+      "updatedAt": "2026-10-15T01:25:54.502726+00:00",
+      "snapshotCount": 25
     }
   },
   "scenarioMatrix": {
@@ -11170,7 +11254,7 @@
       "freshness": "current",
       "freshnessLabel": "跟随源站更新",
       "updatedAt": "2026-10-12T12:00:00+00:00",
-      "sourceName": "Pollfinity 聚合 · 26项有效民调",
+      "sourceName": "Pollfinity 聚合 · 5项有效民调",
       "sourceUrl": "https://pollfinity.com/averages"
     },
     {
