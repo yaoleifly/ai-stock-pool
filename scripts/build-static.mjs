@@ -8,6 +8,11 @@ const files = [
   "index.html",
   "app.js",
   "styles.css",
+  "monk-skin.css",
+  "og.png",
+  "robots.txt",
+  "sitemap.xml",
+  "llms.txt",
   "brand.svg",
   "research-bridge.js",
   "stock-pool.csv",
@@ -34,9 +39,9 @@ await cp(resolve(root, "vendor"), resolve(output, "vendor"), { recursive: true }
 // app.js / styles.css 加内容指纹：文件一改网址就变，所以可以让浏览器长期缓存
 const sha = (buf, enc = "hex") => createHash("sha256").update(buf).digest(enc);
 let html = await readFile(resolve(output, "index.html"), "utf8");
-for (const asset of ["app.js", "styles.css"]) {
+for (const asset of ["app.js", "styles.css", "monk-skin.css"]) {
   const version = sha(await readFile(resolve(output, asset))).slice(0, 10);
-  html = html.replace(new RegExp(`(["'])${asset.replace(".", "\\.")}(\\?v=[^"']*)?\\1`, "g"), (_, q) => `${q}${asset}?v=${version}${q}`);
+  html = html.replace(new RegExp(`(["'])${asset.replace(/[.-]/g, "\\$&")}(\\?v=[^"']*)?\\1`, "g"), (_, q) => `${q}${asset}?v=${version}${q}`);
 }
 await writeFile(resolve(output, "index.html"), html);
 
@@ -46,11 +51,12 @@ const inlineHashes = [...html.matchAll(/<script(\s[^>]*)?>([\s\S]*?)<\/script>/g
   .map((m) => `'sha256-${sha(m[2], "base64")}'`);
 const csp = [
   "default-src 'self'",
-  `script-src 'self' https://static.cloudflareinsights.com ${inlineHashes.join(" ")}`.trim(),
+  // universe.monk.party：monk 宇宙统一切换菜单（/switcher.js）和它读的 /api/universe
+  `script-src 'self' https://static.cloudflareinsights.com https://universe.monk.party ${inlineHashes.join(" ")}`.trim(),
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https:",
   "font-src 'self' data:",
-  "connect-src 'self' https://cloudflareinsights.com",
+  "connect-src 'self' https://cloudflareinsights.com https://universe.monk.party",
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",
@@ -72,6 +78,10 @@ const headers = `# 由 scripts/build-static.mjs 生成
   Cache-Control: ${LONG}
 /styles.css
   Cache-Control: ${LONG}
+/monk-skin.css
+  Cache-Control: ${LONG}
+/og.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 /brand.svg
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 `;

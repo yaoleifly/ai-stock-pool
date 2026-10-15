@@ -235,7 +235,7 @@ async function handleApi(request, env) {
 
 // 首页加一个每次都不同的 CSP nonce：Cloudflare 的 Bot Fight Mode 会往 HTML 里注入一段内联脚本，
 // 它读到响应头里的 nonce 就会给那段脚本带上，这样不用放开 'unsafe-inline'。
-const FALLBACK_CSP = "default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https://cloudflareinsights.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests";
+const FALLBACK_CSP = "default-src 'self'; script-src 'self' https://static.cloudflareinsights.com https://universe.monk.party; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https://cloudflareinsights.com https://universe.monk.party; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests";
 export function withScriptNonce(response) {
   if (!(response.headers.get("content-type") || "").includes("text/html")) return response;
   const bytes = crypto.getRandomValues(new Uint8Array(16));

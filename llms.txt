@@ -1,0 +1,18 @@
+# AI 产业链股票池（stocks.mastersgo.cc）
+
+> 把 AI 产业链上的美股和 A 股映射放进一张关系图：上中下游位置、新冒出来的候选、论文信号、行情位置和政策压力。属于 monk 宇宙（https://universe.monk.party/）里的「挖掘机」研究工具，看到线索可以一键带进 https://mastersgo.cc/ 做深度研究。免费使用，不构成投资建议。
+
+## 页面
+- [产业图谱](https://stocks.mastersgo.cc/#graphView)：上游 / 中游 / 下游的公司和它们之间的关系（产业链、资本开支、电力映射、主题关联、A 股映射）
+- [主动发现](https://stocks.mastersgo.cc/#discoveryView)：新冒出来的候选、论文信号
+- [政策压力站](https://stocks.mastersgo.cc/#policyView)：政策事件对产业链的压力
+
+## 数据接口（只读 JSON）
+- https://stocks.mastersgo.cc/api/health ：标的数量、各市场数量
+- https://stocks.mastersgo.cc/stock-pool.csv ：股票池（代码、公司、市场、产业链位置、板块）
+- https://stocks.mastersgo.cc/discovery-candidates.csv ：主动发现的候选
+- https://stocks.mastersgo.cc/arxiv-papers.csv ：论文信号
+
+## 相关
+- 挖掘机（AI 投资研究）：https://mastersgo.cc/
+- monk 宇宙（全部服务）：https://universe.monk.party/
