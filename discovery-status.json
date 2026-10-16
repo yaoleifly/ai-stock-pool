@@ -1,14 +1,14 @@
 {
   "version": 1,
   "status": "success",
-  "attemptedAt": "2026-10-15T14:08:01.703531+00:00",
-  "attemptedDate": "2026-10-15",
-  "dataDate": "2026-10-15",
+  "attemptedAt": "2026-10-16T13:55:21.524510+00:00",
+  "attemptedDate": "2026-10-16",
+  "dataDate": "2026-10-16",
   "message": "主动发现数据已更新。",
   "counts": {
-    "signals": 141,
-    "papers": 32,
-    "candidates": 54
+    "signals": 143,
+    "papers": 36,
+    "candidates": 55
   },
   "warnings": [
     "quote api: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
