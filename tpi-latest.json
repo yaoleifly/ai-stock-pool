@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T06:03:03.102354+00:00",
+  "asOf": "2026-10-18T11:22:20.508302+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T06:03:02.192728+00:00",
+      "updatedAt": "2026-10-18T11:22:19.262918+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,10 +251,10 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 2,
+        "escalation": 3,
         "softening": 1,
         "execution": 0,
-        "monitoring": 5
+        "monitoring": 4
       },
       "items": [
         {
@@ -265,18 +265,18 @@
           "phase": "softening"
         },
         {
+          "title": "Trump eases 100% tariff threat over Russia: Could a US-India trade deal be closer now? - The Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOb0JDSi1wNEdVMVloUlNCSzE3UUtvbXJVVkowR2djWlZoZFUxWmRyR19jNWswUVpwWVBFYjBSMnBIWC1QZkdzalFCaEM4Vl9tb0xCd0UyeXg3WDJ0MkNXdHdWTHpuREhia29oNUV1c0Z5d0JtT3A3Y3pDcDFjaDBUM0RnN2d0M1lXMHVMNEZGSXpjOTNYa0UtS3UzT3hGTTdZc09IRWY5OFZkbGRNWjZ0NWkxRTZ1bnVDRnJPS0FQZGF6bUprNm1SZXBzWU9qT1BLZXhSRGZWa9IB3gFBVV95cUxOWjk0SzR1QmRtbzNOS1Z5MjlVN2Y3cWEwSThQUEN1MDQ1WlpXVTJMYXhCZ3VWajdnbTBkOS11UF9UWmFXRGxDZkZodGM0LVpNSHlKTF9vZEdzeXZjanlTdG51VUJaM0xVcUhtbHA4NmIyckc4ZUNyaDZBLURIT2NSd0ZyRjJzLWFyRy1WWGRTNkZSajFMdHdEWGcwTEFzbF9mbnZGSzdHSko4SWx6RWwyajJ1S1dMa3BoWjhsXy1Ba216TEM2c19aRmllY3dpV0VyWjFyczBJVEtMcnVZM3c?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "2026-10-17T23:11:22+00:00",
+          "phase": "escalation"
+        },
+        {
           "title": "The BR International Trade Report: October 2026 - Blank Rome LLP",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS183cjhyTUJvd3lLeVdCenNra0lRdHpJb3FYYlJsdU4zRmRaLW13QmJFdE9UOWtfUnpNQTFmNkNUWUhBZkx5aTZPWDZldzB1R2VlOW93bnVFeUsyc3V4TTNfYXdzN1RUbTQyZ0dlQnRDQmRwWE5zOXVwOXEzYWRVTks1dTlXUWIyTkpsa2ZIV0tCdEE?oc=5",
           "source": "Blank Rome LLP",
           "publishedAt": "2026-10-07T07:00:00+00:00",
           "phase": "monitoring"
-        },
-        {
-          "title": "Trump’s Russia sanctions pause: How it eases tariff threat on India, lifts trade deal hopes - The Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWkJhNXMwNldSdG5aNVNMakNNNURqUHBFeXpLUm1SWHdzVGNyeW1Pb1ZDdWhJaGFNVjFoM2xpVV9PV3FkZm8zUlJqTDFBblVsak9Gc21MWUtxeGJQTU5HdDlxaUJVc3JpVlBvRTlsaGZpaTJLNS1wajhBeEhiTFZ4UVpUTFZwYkVkM3dVNDBwNWdSQjhPamh5UGNCYWl3am95MzZoTzcweVlkSE83WXQybm9MZDhLNlFMeDNqUUhBRllBQnJQaGfSAcwBQVVfeXFMTmZvZldyTWl2MGdHVlFmcGpYSWVyTjFiR29FMmhGcHY0aU9mS0l3dEt0dzNXSDI2dk9ScTQxR19POEhDMXZMZ3gxNVZzTjc3QU90X3A4d080ZlppRVNpb0tMRGVGMWRhblJLV1pPeUcxUkVQdG1kN3ctUmRNY3B2YmhPTWlhOUJPLUk2OEdCcDlHWGR4REx6b3R2Ynh0WVdGSG9Od1dWS2hyMXEwWjRxV2VtUlBnQ3lLRDhVemNibWhfblFfeWU3bVVpWDJ2?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "2026-10-17T05:56:20+00:00",
-          "phase": "escalation"
         },
         {
           "title": "US-China Relations in the Trump 2.0 Era: A Timeline - China Briefing",
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T06:03:02.104013+00:00",
+      "updatedAt": "2026-10-18T11:22:19.145578+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -310,10 +310,10 @@
       },
       "items": [
         {
-          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RS3I2MGlpT0lTUm00NkJ5SUpIbVZRX0I5U3N0ZlViR1RXbjlDR0VCcEppZmVEQVFKU29vSE5Nd2RYc3Yxc1lyTGxURHhUUjNRQURHT1RSWDhZaUE?oc=5",
-          "source": "BBC",
-          "publishedAt": "2026-10-18T01:10:25+00:00",
+          "title": "Trump waives Russia-related sanctions before they kick in, prompting backlash from Ukraine and US lawmakers - CNN",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qaWtBMTJUektROUliNk4wT3NfUkp1ZTZSekQ3QVBEeUMxbXR6LVNIdlFLWldRQWdHVDl2dTFMdWtUVnRETklEMFZvckRRUWNmVXV6LVNtUlpoaUduRXlidm9VZFRiZ0VjbGR2d0trTzU3cXl1SXVnZ3BhbzdvaVE?oc=5",
+          "source": "CNN",
+          "publishedAt": "2026-10-17T02:30:00+00:00",
           "phase": "escalation"
         },
         {
@@ -324,17 +324,17 @@
           "phase": "escalation"
         },
         {
+          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RS3I2MGlpT0lTUm00NkJ5SUpIbVZRX0I5U3N0ZlViR1RXbjlDR0VCcEppZmVEQVFKU29vSE5Nd2RYc3Yxc1lyTGxURHhUUjNRQURHT1RSWDhZaUE?oc=5",
+          "source": "BBC",
+          "publishedAt": "2026-10-18T01:10:25+00:00",
+          "phase": "escalation"
+        },
+        {
           "title": "Trump says Ukraine resuming strikes on Russian oil sites is a ‘disgrace’ - NBC News",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSEFfQWYwNDJvOGJDQV9ZeTF3OVdKTnJUUWVNOXJhbkxsd0laMllFRWhOWTQtNkJMOWhjR3pMb1I0dG9jOHp0V0FZUFdza3hIVkljNXNuWmlzdTQzcTgyVEhvNEFaUlc4QjMwWHNfQTRta3paWUF0Ukgxa00xVkdHYVRTNGtnczlpdkRNbjJuWllIUjNOakhwU2lna2xZbVRyZWs1WEd1eXlDQmt1U0Q0?oc=5",
           "source": "NBC News",
           "publishedAt": "2026-10-16T12:17:37+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "Zelenskyy urges support for new U.S. sanctions on Russia put on hold by Trump - PBS",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYmgxRE5DV3p1ZHJyQnBhSHVfcjhhRkxqT211Y182ZmlwYmkta2JxZkVSMkRrN3Q2bHN3OE9vTzh0YXkzWG1ISnBVUkhzV2Q3blhqaTdxaGR6a25maUNGR2p1SVAtU1k0b3hfRlMxWlNOeGZ5YURITFhJbFNtUGJjQXMtRW4tWFY2N1Z6X2V5VTNsemMySndsOHY1V2I1UVlTQkYzOVo2a1ZZeEszdnNkctIBtgFBVV95cUxNeXdGbUJ5MEtZX3hhRWs4amZHMF9sM2pYYkREWFJHOC03MjNqNm9HaW9vbFI1b25PT2xhT3JSLXRQOUItbE5STDJma1l6SjdiN1dYcFJKZ29Td3Y5Tm0zVDF4R0FxQ1JuUTRSYVlOZ0VhTEpFQ1lZV0g0UzRKblR4RHU2djY1Tk9TOFlmYXJrWFhKd3R1UVFaQldIV3EzXzh3a1hVUnRsc25DSXVBUGIwU01IekdLQQ?oc=5",
-          "source": "PBS",
-          "publishedAt": "2026-10-17T18:02:43+00:00",
           "phase": "escalation"
         }
       ],
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T06:03:02.217393+00:00",
+      "updatedAt": "2026-10-18T11:22:19.329323+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T06:03:02.220410+00:00",
+      "updatedAt": "2026-10-18T11:22:19.204296+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-18T06:03:03.101065+00:00",
-    "aggregateScore": 75.1,
+    "asOf": "2026-10-18T11:22:20.505990+00:00",
+    "aggregateScore": 75.0,
     "aggregateLabel": "极高",
     "highRiskCount": 5,
     "coverage": {
@@ -9457,7 +9457,7 @@
             "volume": 22481800
           }
         ],
-        "score": 69.4,
+        "score": 68.7,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
@@ -9466,19 +9466,19 @@
           "股价走弱但评级尚未松动"
         ],
         "metrics": {
-          "bullishShare": 80.0,
-          "bullishShare3mAgo": 80.4,
-          "targetMean": 636.21,
-          "targetMedian": 635.5,
-          "targetLow": 365.0,
+          "bullishShare": 80.4,
+          "bullishShare3mAgo": 80.8,
+          "targetMean": 627.65,
+          "targetMedian": 631.0,
+          "targetLow": 200.0,
           "targetHigh": 1250.0,
-          "targetUpside": 20.3,
+          "targetUpside": 18.7,
           "return5d": -13.0,
           "return20d": -5.5,
           "drawdown3m": -18.6,
           "targetRaises45d": 4,
           "targetCuts45d": 0,
-          "analystCount": 50,
+          "analystCount": 51,
           "epsChange30d": 0.4,
           "epsChange60d": 0.4,
           "revenueChange30d": 0.6,
@@ -9550,9 +9550,9 @@
               "eps": {
                 "current": 7.5868,
                 "value30dAgo": 7.57578,
-                "value60dAgo": 7.56725,
+                "value60dAgo": 7.55071,
                 "change30d": 0.1,
-                "change60d": 0.3
+                "change60d": 0.5
               },
               "revenue": {
                 "current": 50948325430.0,
@@ -9585,7 +9585,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 22.7,
+        "scoreChange7d": 22.0,
         "historyStatus": {
           "points": 26,
           "firstDate": "2026-08-04",
