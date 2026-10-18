@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T18:12:28.081771+00:00",
+  "asOf": "2026-10-18T20:53:51.774449+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T18:12:27.222313+00:00",
+      "updatedAt": "2026-10-18T20:53:50.412447+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T18:12:27.014704+00:00",
+      "updatedAt": "2026-10-18T20:53:50.270125+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T18:12:27.116176+00:00",
+      "updatedAt": "2026-10-18T20:53:50.333222+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T18:12:27.145139+00:00",
+      "updatedAt": "2026-10-18T20:53:50.423873+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,9 +406,9 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-18T18:12:28.080490+00:00",
-    "aggregateScore": 75.3,
-    "aggregateLabel": "极高",
+    "asOf": "2026-10-18T20:53:51.772709+00:00",
+    "aggregateScore": 74.7,
+    "aggregateLabel": "偏高",
     "highRiskCount": 5,
     "coverage": {
       "received": 6,
@@ -5642,14 +5642,12 @@
             "volume": 29727900
           }
         ],
-        "score": 76.7,
+        "score": 73.3,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
           "买入评级高度一致",
-          "目标价隐含空间偏乐观",
-          "目标价上调但EPS预期下调",
-          "目标价上调但盈利预期下调"
+          "目标价隐含空间偏乐观"
         ],
         "metrics": {
           "bullishShare": 94.0,
@@ -5662,7 +5660,7 @@
           "return5d": -9.1,
           "return20d": -8.1,
           "drawdown3m": -23.1,
-          "targetRaises45d": 2,
+          "targetRaises45d": 1,
           "targetCuts45d": 1,
           "analystCount": 47,
           "epsChange30d": 0.1,
@@ -5771,7 +5769,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 6.7,
+        "scoreChange7d": 3.3,
         "historyStatus": {
           "points": 26,
           "firstDate": "2026-08-04",
@@ -6146,8 +6144,8 @@
           }
         ],
         "expectationDivergence": {
-          "status": "warning",
-          "label": "目标价上调但盈利预期下调",
+          "status": "clear",
+          "label": "等待目标价方向确认",
           "epsDown": true,
           "revenueDown": true
         }
