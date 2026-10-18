@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T14:41:46.526849+00:00",
+  "asOf": "2026-10-18T18:12:28.081771+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -16,7 +16,7 @@
       "weight": 0.25,
       "pressureScore": 94.0,
       "value": "-29.4pt",
-      "changeLabel": "较约30日前 -5.4pt",
+      "changeLabel": "较约30日前 -1.4pt",
       "direction": "净支持率下降增加压力",
       "interpretation": "民调越弱，强硬政策的政治承受空间越小。",
       "updatedAt": "2026-10-12T12:00:00+00:00",
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T14:41:45.250507+00:00",
+      "updatedAt": "2026-10-18T18:12:27.222313+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -265,18 +265,18 @@
           "phase": "softening"
         },
         {
-          "title": "Trump eases 100% tariff threat over Russia: Could a US-India trade deal be closer now? - The Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOb0JDSi1wNEdVMVloUlNCSzE3UUtvbXJVVkowR2djWlZoZFUxWmRyR19jNWswUVpwWVBFYjBSMnBIWC1QZkdzalFCaEM4Vl9tb0xCd0UyeXg3WDJ0MkNXdHdWTHpuREhia29oNUV1c0Z5d0JtT3A3Y3pDcDFjaDBUM0RnN2d0M1lXMHVMNEZGSXpjOTNYa0UtS3UzT3hGTTdZc09IRWY5OFZkbGRNWjZ0NWkxRTZ1bnVDRnJPS0FQZGF6bUprNm1SZXBzWU9qT1BLZXhSRGZWa9IB3gFBVV95cUxOWjk0SzR1QmRtbzNOS1Z5MjlVN2Y3cWEwSThQUEN1MDQ1WlpXVTJMYXhCZ3VWajdnbTBkOS11UF9UWmFXRGxDZkZodGM0LVpNSHlKTF9vZEdzeXZjanlTdG51VUJaM0xVcUhtbHA4NmIyckc4ZUNyaDZBLURIT2NSd0ZyRjJzLWFyRy1WWGRTNkZSajFMdHdEWGcwTEFzbF9mbnZGSzdHSko4SWx6RWwyajJ1S1dMa3BoWjhsXy1Ba216TEM2c19aRmllY3dpV0VyWjFyczBJVEtMcnVZM3c?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "2026-10-17T23:11:22+00:00",
-          "phase": "escalation"
-        },
-        {
           "title": "The BR International Trade Report: October 2026 - Blank Rome LLP",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS183cjhyTUJvd3lLeVdCenNra0lRdHpJb3FYYlJsdU4zRmRaLW13QmJFdE9UOWtfUnpNQTFmNkNUWUhBZkx5aTZPWDZldzB1R2VlOW93bnVFeUsyc3V4TTNfYXdzN1RUbTQyZ0dlQnRDQmRwWE5zOXVwOXEzYWRVTks1dTlXUWIyTkpsa2ZIV0tCdEE?oc=5",
           "source": "Blank Rome LLP",
           "publishedAt": "2026-10-07T07:00:00+00:00",
           "phase": "monitoring"
+        },
+        {
+          "title": "Trump eases 100% tariff threat over Russia: Could a US-India trade deal be closer now? - The Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOb0JDSi1wNEdVMVloUlNCSzE3UUtvbXJVVkowR2djWlZoZFUxWmRyR19jNWswUVpwWVBFYjBSMnBIWC1QZkdzalFCaEM4Vl9tb0xCd0UyeXg3WDJ0MkNXdHdWTHpuREhia29oNUV1c0Z5d0JtT3A3Y3pDcDFjaDBUM0RnN2d0M1lXMHVMNEZGSXpjOTNYa0UtS3UzT3hGTTdZc09IRWY5OFZkbGRNWjZ0NWkxRTZ1bnVDRnJPS0FQZGF6bUprNm1SZXBzWU9qT1BLZXhSRGZWa9IB3gFBVV95cUxOWjk0SzR1QmRtbzNOS1Z5MjlVN2Y3cWEwSThQUEN1MDQ1WlpXVTJMYXhCZ3VWajdnbTBkOS11UF9UWmFXRGxDZkZodGM0LVpNSHlKTF9vZEdzeXZjanlTdG51VUJaM0xVcUhtbHA4NmIyckc4ZUNyaDZBLURIT2NSd0ZyRjJzLWFyRy1WWGRTNkZSajFMdHdEWGcwTEFzbF9mbnZGSzdHSko4SWx6RWwyajJ1S1dMa3BoWjhsXy1Ba216TEM2c19aRmllY3dpV0VyWjFyczBJVEtMcnVZM3c?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "2026-10-17T23:11:22+00:00",
+          "phase": "escalation"
         },
         {
           "title": "US-China Relations in the Trump 2.0 Era: A Timeline - China Briefing",
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T14:41:45.474974+00:00",
+      "updatedAt": "2026-10-18T18:12:27.014704+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T14:41:45.473873+00:00",
+      "updatedAt": "2026-10-18T18:12:27.116176+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T14:41:45.586429+00:00",
+      "updatedAt": "2026-10-18T18:12:27.145139+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,9 +406,9 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-18T14:41:46.524579+00:00",
-    "aggregateScore": 74.1,
-    "aggregateLabel": "偏高",
+    "asOf": "2026-10-18T18:12:28.080490+00:00",
+    "aggregateScore": 75.3,
+    "aggregateLabel": "极高",
     "highRiskCount": 5,
     "coverage": {
       "received": 6,
@@ -5642,12 +5642,14 @@
             "volume": 29727900
           }
         ],
-        "score": 70.0,
+        "score": 76.7,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
           "买入评级高度一致",
-          "目标价隐含空间偏乐观"
+          "目标价隐含空间偏乐观",
+          "目标价上调但EPS预期下调",
+          "目标价上调但盈利预期下调"
         ],
         "metrics": {
           "bullishShare": 94.0,
@@ -5661,7 +5663,7 @@
           "return20d": -8.1,
           "drawdown3m": -23.1,
           "targetRaises45d": 2,
-          "targetCuts45d": 4,
+          "targetCuts45d": 1,
           "analystCount": 47,
           "epsChange30d": 0.1,
           "epsChange60d": -1.2,
@@ -5769,7 +5771,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 0.0,
+        "scoreChange7d": 6.7,
         "historyStatus": {
           "points": 26,
           "firstDate": "2026-08-04",
@@ -6144,8 +6146,8 @@
           }
         ],
         "expectationDivergence": {
-          "status": "clear",
-          "label": "等待目标价方向确认",
+          "status": "warning",
+          "label": "目标价上调但盈利预期下调",
           "epsDown": true,
           "revenueDown": true
         }
