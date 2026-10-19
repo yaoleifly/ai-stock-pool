@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T23:21:55.578758+00:00",
+  "asOf": "2026-10-19T01:25:40.151307+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T23:21:54.881306+00:00",
+      "updatedAt": "2026-10-19T01:25:39.364876+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,47 +294,47 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T23:21:54.868258+00:00",
+      "updatedAt": "2026-10-19T01:25:39.368942+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "geopolitical",
       "name": "军事与地缘",
-      "phase": "escalation",
+      "phase": "softening",
       "phaseCounts": {
-        "escalation": 7,
-        "softening": 1,
+        "escalation": 3,
+        "softening": 4,
         "execution": 0,
-        "monitoring": 0
+        "monitoring": 1
       },
       "items": [
         {
-          "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jTzFvVzZoMldNWlJEVTc2bUg5OEh5dmxlWEJvLVA2LWQxVks4c0pNVzBQVTFmZGhKYTFDZHZ5MGZIT1laODhMMHhNWV9qd3VXajRiU1Z0U2MzaDQ?oc=5",
-          "source": "BBC",
-          "publishedAt": "2026-10-18T22:10:45+00:00",
-          "phase": "escalation"
+          "title": "Trump rejects Iran’s seven-day roadmap to end war and reopen Hormuz - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPekVrcUpCSVdWWjdjNHY5ZS12MmprMF9ma3loOGpyZExyTW5uRG9qT3NjV21qSUFSMUhRVV9Ld3A5TWpVTS1QcFI2VENoZTdQRkVIQi11Z2JuUV80a1B2U2Q5TGhlQlZiZkV3MFlCbkI4NUZDeWJROWgxbTAtSVE3dU0xUDVnbFU2MF9MN25MVmZRNUdCWXBleDhlamtaVGNzbkVtWDM1VlfSAa4BQVVfeXFMTjljQTNjOXdPLVpNZWhUNTduR2ZZWGN3dDRrak9NOS1WWlBNejVMWDk2aGRkek9CYzB5OWpiTU1BeWtHUkRZZGduc28td2dSZmlsQUM2NTNrQ1M5WU1rcVJoNWZKZlkzNmN5Z1FkWnJFN0FNVDEtQjFKSkYwQ0RQZFpkOWVxNm43dkloMnZtTFFFSy1xVVRYVEJEYkFZdzdBemNCMEJQZGVLZzdvQXlB?oc=5",
+          "source": "Al Jazeera",
+          "publishedAt": "2026-09-26T07:00:00+00:00",
+          "phase": "monitoring"
         },
         {
-          "title": "Iran paying lip service to peace talks, but under claims of Strait of Hormuz control - Fox News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTkxfVldKSVV1dXZORk5kaWRvZ3kyaWMtZV9UcklqYTZXZjNvRlc1dEVYU3VFWkFWZmNBODhieVlQUkdIV3NRMjdUZktrXzlzZVJ2cmp0ckdnRlJOMUtXZmNjdWpHTGJHa0RTR2tKSnNrRTRXUGNDRzJxbmc2WDV4ZF9KTnpsRzdPdXlRUWhjRWRoYmV4VThR?oc=5",
-          "source": "Fox News",
-          "publishedAt": "2026-10-18T22:35:15+00:00",
+          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-09-29T07:00:00+00:00",
           "phase": "softening"
         },
         {
-          "title": "Trump’s pause on Russia sanctions is ‘reward’ for Putin, Zelenskyy says - The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVJVYkJ2aENjcjBpOGo4YUNUS01pOGowSWxpc0hzUXlUWUN0ZnFISmpiQXlXNXgwb1N5VzhsX19aN3RIRXptOVlBSktwZW1DR0N3eVhSUUt3QlRQQnFTSUhNcnpIcWIxVnNweHRFMFc5ZTUzZWktVGwwMTkzRGRTZGo2Qm0zY3o5aHFNTHJfY2lheGp0TXpOOWtlZm5WRGZZZ0JHTFktaHNBYjNrdkNZTVd4T1B4bXNkaVNNbkh5RQ?oc=5",
-          "source": "The Guardian",
-          "publishedAt": "2026-10-17T13:28:00+00:00",
-          "phase": "escalation"
+          "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
+          "source": "CNBC",
+          "publishedAt": "2026-07-27T07:00:00+00:00",
+          "phase": "softening"
         },
         {
-          "title": "Trump puts on hold new Russia sanctions he signed into law - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWVpka1pmcXg5LXlRbU5GRlltTjdrRDdDakctVG9mNzlMSVhwOVZ5VE5NX2JpdjJKUThPRmhIUTlWTUs3YzRUUU84eU1ya2lOZ1VzZTFCNUxzQW9EeGtNMmJQb1UxdG9sdUt2WnMyUWttUnVuTmkyY1lGWUt5VWozVjhMcXR5UnBFMm5IR2ZUX0FTMVlTZE9qalJMTmt0TF91eVHSAacBQVVfeXFMTUpHcU1XVHhvdkluMERZRE4zZW5rbERiRFJnQXNCMDFUWXdXRUF2cmlvd1lJUHVpQXYxeFlnSjVPdndNNHFJaXRSWVRmaEVvc21oWUhFYXhIZ094NHpZLVFhbTM5dS1ldGJzTkhWaTNGTF9TakNEQW5BRkFIYkJWbVRoZnBsYjltQnJxLXRCREhEYTNQeG9DRmk5ekNGRTB1Y0lOS0FGT1E?oc=5",
-          "source": "Al Jazeera",
-          "publishedAt": "2026-10-17T07:38:39+00:00",
+          "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2026-07-07T07:00:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -346,9 +346,9 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T23:21:54.865630+00:00",
-      "phaseLabel": "强硬升级",
-      "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
+      "updatedAt": "2026-10-19T01:25:39.368110+00:00",
+      "phaseLabel": "软化/谈判",
+      "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
     {
       "id": "fiscal",
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T23:21:54.953587+00:00",
+      "updatedAt": "2026-10-19T01:25:39.443463+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-18T23:21:55.576995+00:00",
+    "asOf": "2026-10-19T01:25:40.149052+00:00",
     "aggregateScore": 74.7,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
@@ -1850,7 +1850,7 @@
           "epsChange30d": 0.1,
           "epsChange60d": 2.6,
           "revenueChange30d": 0.1,
-          "revenueChange60d": 16.5
+          "revenueChange60d": 16.4
         },
         "expectations": {
           "primaryPeriod": "0q",
@@ -1867,9 +1867,9 @@
             "revenue": {
               "current": 3151989910.0,
               "value30dAgo": 3149640870.0,
-              "value60dAgo": 2704955330.0,
+              "value60dAgo": 2706834300.0,
               "change30d": 0.1,
-              "change60d": 16.5,
+              "change60d": 16.4,
               "historyStatus": "ready"
             }
           },
@@ -1887,9 +1887,9 @@
               "revenue": {
                 "current": 3151989910.0,
                 "value30dAgo": 3149640870.0,
-                "value60dAgo": 2704955330.0,
+                "value60dAgo": 2706834300.0,
                 "change30d": 0.1,
-                "change60d": 16.5,
+                "change60d": 16.4,
                 "historyStatus": "ready"
               }
             },
@@ -1953,7 +1953,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 28.0,
+        "scoreChange7d": 24.7,
         "historyStatus": {
           "points": 26,
           "firstDate": "2026-08-04",
@@ -3872,7 +3872,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 14.3,
+        "scoreChange7d": 10.4,
         "historyStatus": {
           "points": 26,
           "firstDate": "2026-08-04",
@@ -5769,7 +5769,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 3.3,
+        "scoreChange7d": 2.4,
         "historyStatus": {
           "points": 26,
           "firstDate": "2026-08-04",
@@ -7598,7 +7598,7 @@
             "revenue": {
               "current": 108976837760.0,
               "value30dAgo": 108972821930.0,
-              "value60dAgo": 91956584330.0,
+              "value60dAgo": 91936931570.0,
               "change30d": 0.0,
               "change60d": 18.5,
               "historyStatus": "ready"
@@ -7618,7 +7618,7 @@
               "revenue": {
                 "current": 108976837760.0,
                 "value30dAgo": 108972821930.0,
-                "value60dAgo": 91956584330.0,
+                "value60dAgo": 91936931570.0,
                 "change30d": 0.0,
                 "change60d": 18.5,
                 "historyStatus": "ready"
@@ -7684,7 +7684,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -2.9,
+        "scoreChange7d": 2.0,
         "historyStatus": {
           "points": 26,
           "firstDate": "2026-08-04",
@@ -8088,8 +8088,8 @@
           "breakDate": "2026-10-16",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 2,
-          "label": "股价已先跌2天，机构尚未下调"
+          "waitingDays": 3,
+          "label": "股价已先跌3天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -9583,7 +9583,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 22.0,
+        "scoreChange7d": 16.1,
         "historyStatus": {
           "points": 26,
           "firstDate": "2026-08-04",
@@ -10007,8 +10007,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 4,
-          "label": "股价已先跌4天，机构尚未下调"
+          "waitingDays": 5,
+          "label": "股价已先跌5天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -11107,7 +11107,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 39.0,
+        "scoreChange7d": 34.7,
         "historyStatus": {
           "points": 26,
           "firstDate": "2026-08-04",
