@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-10-19T10:21:45.415428+00:00",
+  "updatedAt": "2026-10-19T16:26:05.125308+00:00",
   "benchmark": "SOXX",
   "snapshots": [
     {
@@ -2215,13 +2215,13 @@
     },
     {
       "date": "2026-10-19",
-      "asOf": "2026-10-19T10:21:45.414317+00:00",
+      "asOf": "2026-10-19T16:26:05.123830+00:00",
       "rows": [
         {
           "ticker": "AMD",
-          "score": 68.7,
-          "zone": "crowded",
-          "currentPrice": 528.75,
+          "score": 58.8,
+          "zone": "watch",
+          "currentPrice": 547.53,
           "targetMean": 627.65,
           "targetMedian": 631.0,
           "bullishShare": 80.4,
@@ -2232,22 +2232,22 @@
         },
         {
           "ticker": "AVGO",
-          "score": 73.3,
+          "score": 71.0,
           "zone": "crowded",
-          "currentPrice": 328.75,
+          "currentPrice": 338.17,
           "targetMean": 527.59,
           "targetMedian": 535.0,
           "bullishShare": 94.0,
           "epsEstimate": 3.82818,
           "revenueEstimate": 34893968920.0,
-          "targetRaises45d": 1,
-          "targetCuts45d": 1
+          "targetRaises45d": 0,
+          "targetCuts45d": 0
         },
         {
           "ticker": "MRVL",
-          "score": 91.0,
-          "zone": "distribution_risk",
-          "currentPrice": 227.83,
+          "score": 82.0,
+          "zone": "crowded",
+          "currentPrice": 243.48,
           "targetMean": 339.36,
           "targetMedian": 350.0,
           "bullishShare": 91.3,
@@ -2258,9 +2258,9 @@
         },
         {
           "ticker": "MU",
-          "score": 88.1,
-          "zone": "distribution_risk",
-          "currentPrice": 878.84,
+          "score": 78.1,
+          "zone": "crowded",
+          "currentPrice": 915.3,
           "targetMean": 1560.57,
           "targetMedian": 1550.0,
           "bullishShare": 91.8,
@@ -2271,9 +2271,9 @@
         },
         {
           "ticker": "NVDA",
-          "score": 69.7,
+          "score": 65.0,
           "zone": "crowded",
-          "currentPrice": 214.13,
+          "currentPrice": 218.56,
           "targetMean": 328.72,
           "targetMedian": 315.0,
           "bullishShare": 95.2,
@@ -2284,9 +2284,9 @@
         },
         {
           "ticker": "SMCI",
-          "score": 57.4,
+          "score": 54.7,
           "zone": "watch",
-          "currentPrice": 31.63,
+          "currentPrice": 32.77,
           "targetMean": 42.27,
           "targetMedian": 43.0,
           "bullishShare": 22.2,
