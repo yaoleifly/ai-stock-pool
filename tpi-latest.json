@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-21T23:26:31.668594+00:00",
+  "asOf": "2026-10-22T05:02:43.381264+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -46,7 +46,7 @@
       "id": "move",
       "name": "债券波动率",
       "weight": 0.15,
-      "pressureScore": 80.2,
+      "pressureScore": 79.9,
       "value": "95.94",
       "changeLabel": "近5日 -3.12",
       "direction": "指数上升增加压力",
@@ -131,7 +131,7 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 55.6,
+      "score": 55.5,
       "components": [
         "MOVE",
         "标普500",
@@ -227,10 +227,10 @@
           "phase": "escalation"
         },
         {
-          "title": "Canada demand for trucks tariff relief imperiled trade talks - Fortune",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWXR3V0lJYkt5dk1reXVLcVpkdGhwcERTb1FvYjVKSWZlY0ZlbTlYZ25nbmdVR05NS2pLRlc0MTNORmg1ZWVBVGRycUp0eHpVQ1ZGZUluTDBDT2pVLVR2ZVVsaVJZd3h4cnY1Qng4SlJFYWl1SzAxTkZxSVdvaUZMNjRsMjI?oc=5",
-          "source": "Fortune",
-          "publishedAt": "2026-08-22T07:00:00+00:00",
+          "title": "Trump plans generic drug tariffs from 2028 with two-year delay testing U.S. onshoring push - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVGo4ZFJaQUVlYzA5Sno5dlhQVTFLcDVfeTNaOC1mb0dJMTROTEFneGt3RlpyQWY3N1dFdUtCZ3ZBQ3NUOXVyTDI4QzNKdUlIRlIwVUdOa0tGdW13bktFVXktYmdjZnIzajQ1Vkp3dzFuM0RFclJVY2IxdS1IZDBrQXo5b3N5WGfSAYwBQVVfeXFMUDZvbWJWdTEwVU9FbUx3eE5XT2FoUDJURnNnOWNpZ25YUlJfa0Zhb3M4MmVmVmxzcDZUOE5rOVN3T2xXc2J0V1B4bDFzTnVQaHNJRTJDSTBxREo4Ql9rWmtrQ0NWX1RJYUFVQ3VzSURyQ0NfbWdmZzg1VDNzdmFoZkRMS2N4OF9qS0l3c3k?oc=5",
+          "source": "CNBC",
+          "publishedAt": "2026-07-21T07:00:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-21T23:26:31.031947+00:00",
+      "updatedAt": "2026-10-22T05:02:41.253867+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,10 +251,10 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 4,
+        "escalation": 5,
         "softening": 1,
         "execution": 0,
-        "monitoring": 3
+        "monitoring": 2
       },
       "items": [
         {
@@ -294,48 +294,48 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-21T23:26:30.769446+00:00",
+      "updatedAt": "2026-10-22T05:02:41.291782+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "geopolitical",
       "name": "军事与地缘",
-      "phase": "escalation",
+      "phase": "softening",
       "phaseCounts": {
-        "escalation": 4,
-        "softening": 3,
+        "escalation": 2,
+        "softening": 5,
         "execution": 0,
         "monitoring": 1
       },
       "items": [
         {
-          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
-          "source": "CBS News",
-          "publishedAt": "2026-09-29T07:00:00+00:00",
+          "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uR3lheURKOHZfRVVGclF1YVpoVE9QcXpBTTlkc2JjUXV2RTQ2bHY0SFZCa1hmTXVTWU1XTnRaVk8yWk1XX2lUbWl4LVNjQ0Ficm5UdEdMMDh0S1E?oc=5",
+          "source": "BBC",
+          "publishedAt": "2026-10-21T21:27:41+00:00",
           "phase": "softening"
         },
         {
-          "title": "Trump rejects Iran’s seven-day roadmap to end war and reopen Hormuz - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPekVrcUpCSVdWWjdjNHY5ZS12MmprMF9ma3loOGpyZExyTW5uRG9qT3NjV21qSUFSMUhRVV9Ld3A5TWpVTS1QcFI2VENoZTdQRkVIQi11Z2JuUV80a1B2U2Q5TGhlQlZiZkV3MFlCbkI4NUZDeWJROWgxbTAtSVE3dU0xUDVnbFU2MF9MN25MVmZRNUdCWXBleDhlamtaVGNzbkVtWDM1VlfSAa4BQVVfeXFMTjljQTNjOXdPLVpNZWhUNTduR2ZZWGN3dDRrak9NOS1WWlBNejVMWDk2aGRkek9CYzB5OWpiTU1BeWtHUkRZZGduc28td2dSZmlsQUM2NTNrQ1M5WU1rcVJoNWZKZlkzNmN5Z1FkWnJFN0FNVDEtQjFKSkYwQ0RQZFpkOWVxNm43dkloMnZtTFFFSy1xVVRYVEJEYkFZdzdBemNCMEJQZGVLZzdvQXlB?oc=5",
-          "source": "Al Jazeera",
-          "publishedAt": "2026-09-26T07:00:00+00:00",
+          "title": "Live Updates: U.S. reducing troop footprint in Middle East, sources say, as indirect talks on ceasefire proposal with Iran continue - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZDJacGlyUkJSMmZfSXF5dlBwLU5PRXdsQnZiMFRyRmJTeVU3dHZnQlF6WDVRQ0pjYlFFamxjV3dXU0E4SmZ0SkRUMW1uLVh6cE05SDBLTEhlTnI3T3dwQXNWbFQ3TzFaZ1lZY0RNeVlNSW8zaDN6aDh1NWg2ZTNvTV9OM0xYQQ?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-10-21T23:48:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Iran sets red lines for US talks: Lift sanctions, end threats — 'not a gram' of uranium leaves - Fox News",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNWhDWEhOMGk5UnBGUWRwMW9yeVEwNXZkMEJJSFFuazF4NnV1ZHIyTE1lMFRJSjdZZF9BMGZNci1ROWpyUEtrZl9nVTNzd0ZXMDVvX09jaU1qNHdUYmM4VHhnOVA4am1fR05HbUJwOUpKcHpoUXFsN19FQ0lzd1k4ZHFjUGE?oc=5",
+          "source": "Fox News",
+          "publishedAt": "2026-10-21T01:41:52+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "Daniel DePetris: Donald Trump’s fight with Volodymyr Zelenskyy reveals a deeper frustration - Chicago Tribune",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWdpak1RWklLdXJCM2lSb0dYUWxpTVNvUmdob19lQUNvM0pYdy1JV2N3bzVxUXQ0WTB4RXJzYUg3a3lzZzdRdWRxX0k0VUVZS3dKMXhsMXgxS0JEd2xqZm5Ha3A5TURsNUVfZmJVWlJoeXBJNjRBYkxfZWJvT2FQV3cxNlo2bHJQN2hoTDA4a2ZtbzFZU0pxTnRKckpkMjdkSi1STlVUZEtHMWUxZGpPaHJfN0E?oc=5",
+          "source": "Chicago Tribune",
+          "publishedAt": "2026-10-20T11:00:13+00:00",
           "phase": "monitoring"
-        },
-        {
-          "title": "Can Trump's economic war against Iran do what airstrikes and negotiations couldn't? - NPR",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HMGs0bllsTEY2UjB0aXFHZl93a1RqdE5zaXJab05Cc1l0RFVyel9iaXlhdWZFS1NURDhzWk44SEtQZ2pjZXBNc0VxTnpuTS1ZbERHYUY1aFlPd2EwMUxrOFlYMzNzdm5MNVZWb0tkeVB2bEk?oc=5",
-          "source": "NPR",
-          "publishedAt": "2026-08-25T07:00:00+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "Iran won’t bow to military action or sanctions and will retain nuclear program, country’s president tells UNGA - The Forward",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbHRFaDA1VDQwTVpfMGhlYWtkWkdUTmVkWGtMVVpUQ3RxRkQyblJQa2w1SVp6eW44bFFwejEtQ0hZbTk5RndxS01hV2dmZGRDUTdQVzRBRHh6WU5RSHAzZDM0dUVjRm9JQ2gxeS1WY3AtakxhSXdmbW9idDVXX09mTjdSQ3ROTElyRU1aRFptY0RST21ZMi1yR3F4Q01CcUlOMVVBNmdoMTZGQ3Q1cG9oYk8ycjFzNExKaklCRzhOTzNhdlQxOHlPOUkwcGgtNXlqZDkzOVFweUpVRjFQLXNfbVln?oc=5",
-          "source": "The Forward",
-          "publishedAt": "2026-09-23T07:00:00+00:00",
-          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -346,9 +346,9 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-21T23:26:30.678254+00:00",
-      "phaseLabel": "强硬升级",
-      "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
+      "updatedAt": "2026-10-22T05:02:41.328046+00:00",
+      "phaseLabel": "软化/谈判",
+      "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
     {
       "id": "fiscal",
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-21T23:26:30.957949+00:00",
+      "updatedAt": "2026-10-22T05:02:41.270129+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-21T23:26:31.666248+00:00",
+    "asOf": "2026-10-22T05:02:43.379527+00:00",
     "aggregateScore": 64.3,
     "aggregateLabel": "偏高",
     "highRiskCount": 4,
@@ -1821,7 +1821,7 @@
             "price": 913.67,
             "priceIndex": 88.23,
             "sectorIndex": 89.23,
-            "volume": 20724431
+            "volume": 20834800
           }
         ],
         "score": 78.0,
@@ -3781,7 +3781,7 @@
             "price": 244.76,
             "priceIndex": 111.54,
             "sectorIndex": 89.23,
-            "volume": 13737291
+            "volume": 14250000
           }
         ],
         "score": 77.5,
@@ -3912,7 +3912,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -5.1,
+        "scoreChange7d": -13.5,
         "historyStatus": {
           "points": 29,
           "firstDate": "2026-08-04",
@@ -5721,7 +5721,7 @@
             "price": 337.8,
             "priceIndex": 73.44,
             "sectorIndex": 89.23,
-            "volume": 16959641
+            "volume": 17071500
           }
         ],
         "score": 71.0,
@@ -5851,7 +5851,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -2.2,
+        "scoreChange7d": -2.1,
         "historyStatus": {
           "points": 29,
           "firstDate": "2026-08-04",
@@ -7678,7 +7678,7 @@
             "price": 221.97,
             "priceIndex": 98.93,
             "sectorIndex": 89.23,
-            "volume": 86111324
+            "volume": 86620400
           }
         ],
         "score": 63.8,
@@ -7808,7 +7808,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -5.7,
+        "scoreChange7d": -5.9,
         "historyStatus": {
           "points": 29,
           "firstDate": "2026-08-04",
@@ -9618,7 +9618,7 @@
             "price": 552.72,
             "priceIndex": 108.35,
             "sectorIndex": 89.23,
-            "volume": 17756841
+            "volume": 17868300
           }
         ],
         "score": 55.2,
@@ -9748,7 +9748,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -6.3,
+        "scoreChange7d": -13.0,
         "historyStatus": {
           "points": 29,
           "firstDate": "2026-08-04",
@@ -10194,8 +10194,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 7,
-          "label": "股价已先跌7天，机构尚未下调"
+          "waitingDays": 8,
+          "label": "股价已先跌8天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -11184,7 +11184,7 @@
             "price": 35.57,
             "priceIndex": 75.87,
             "sectorIndex": 89.23,
-            "volume": 81909879
+            "volume": 82020100
           }
         ],
         "score": 40.5,
@@ -11313,7 +11313,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 3.7,
+        "scoreChange7d": -13.5,
         "historyStatus": {
           "points": 29,
           "firstDate": "2026-08-04",
