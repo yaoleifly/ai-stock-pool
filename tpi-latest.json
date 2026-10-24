@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-24T06:00:09.095192+00:00",
+  "asOf": "2026-10-24T11:16:13.644070+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -206,17 +206,10 @@
       },
       "items": [
         {
-          "title": "White House lifts tariffs on some Canadian goods as midterm elections loom - BBC",
+          "title": "US lifts tariffs on some Canadian goods before midterm elections - BBC",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrNnNzMVdVUEVmTDc1QVB0aGpSWTREdWFMY2g2QUQ5RExzMUxrdlNhdnd6ZGxJWWhnRGltX0kxOFZOMXNhVWI2aWhsaU1DMS1fR1FTT1E0V2lnVFU?oc=5",
           "source": "BBC",
           "publishedAt": "2026-10-24T00:36:47+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "Trump to remove 50% tariffs on some Canadian goods. Here’s what we know - CTV News",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNXzNlTUswa1NzOHlyQ1ZMUnl3Z2hlbVQwclNoc0d2THFBZUVubmRxVFBTMUhIVkl3Y3ZET3J5bDNPSnNLN2hRdXZXZFo2UjB6NjE3UU9YUHV6V254aWhPcjNWNlAtSjFja0p4dFRMY1k4UFNCOHprM3hEa09rb3FuamE3aDBsaU5IZW1VdGxXU3RoeXJvUjBTbVlHQmRiSVNCV2Y3R0lVNXpaMmp6MG9xRFpxMlhsUEdLVE1ULW1B?oc=5",
-          "source": "CTV News",
-          "publishedAt": "2026-10-23T15:14:36+00:00",
           "phase": "escalation"
         },
         {
@@ -232,6 +225,13 @@
           "source": "NBC News",
           "publishedAt": "2026-10-23T19:53:48+00:00",
           "phase": "escalation"
+        },
+        {
+          "title": "Trump to remove 50% tariffs on some Canadian goods. Here’s what we know - CTV News",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNXzNlTUswa1NzOHlyQ1ZMUnl3Z2hlbVQwclNoc0d2THFBZUVubmRxVFBTMUhIVkl3Y3ZET3J5bDNPSnNLN2hRdXZXZFo2UjB6NjE3UU9YUHV6V254aWhPcjNWNlAtSjFja0p4dFRMY1k4UFNCOHprM3hEa09rb3FuamE3aDBsaU5IZW1VdGxXU3RoeXJvUjBTbVlHQmRiSVNCV2Y3R0lVNXpaMmp6MG9xRFpxMlhsUEdLVE1ULW1B?oc=5",
+          "source": "CTV News",
+          "publishedAt": "2026-10-23T15:14:36+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-24T06:00:07.885217+00:00",
+      "updatedAt": "2026-10-24T11:16:12.779484+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-24T06:00:07.650325+00:00",
+      "updatedAt": "2026-10-24T11:16:12.665424+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-24T06:00:07.663857+00:00",
+      "updatedAt": "2026-10-24T11:16:12.786818+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-24T06:00:07.900768+00:00",
+      "updatedAt": "2026-10-24T11:16:12.805877+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-24T06:00:09.093895+00:00",
+    "asOf": "2026-10-24T11:16:13.642224+00:00",
     "aggregateScore": 69.8,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
