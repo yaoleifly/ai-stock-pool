@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-25T11:45:31.721747+00:00",
+  "asOf": "2026-10-25T16:33:59.413287+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -16,7 +16,7 @@
       "weight": 0.25,
       "pressureScore": 83.1,
       "value": "-23.4pt",
-      "changeLabel": "较约30日前 +4.6pt",
+      "changeLabel": "较约30日前 +5.6pt",
       "direction": "净支持率下降增加压力",
       "interpretation": "民调越弱，强硬政策的政治承受空间越小。",
       "updatedAt": "2026-10-21T12:00:00+00:00",
@@ -199,24 +199,24 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 7,
-        "softening": 1,
+        "escalation": 8,
+        "softening": 0,
         "execution": 0,
         "monitoring": 0
       },
       "items": [
         {
-          "title": "US lifts tariffs on some Canadian goods before midterm elections - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrNnNzMVdVUEVmTDc1QVB0aGpSWTREdWFMY2g2QUQ5RExzMUxrdlNhdnd6ZGxJWWhnRGltX0kxOFZOMXNhVWI2aWhsaU1DMS1fR1FTT1E0V2lnVFU?oc=5",
-          "source": "BBC",
-          "publishedAt": "2026-10-24T00:36:47+00:00",
+          "title": "Discover Trump is exempting some Canadian goods from 50% tariffs, adding others - qz.com",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUUZkN3lBeGljcU5lOTJSR3gzSmNnYUlkUXZaQnF6Y0NCZjhVaEthd0gyWVhXeUtNbGpwb3lDUnkwWlRJNkI0UHBKRGJ3Mm5lOHhETGxKRmhTNGJVZkJWaVFyVlFUdkFyQjJJb1M1NWVOUkRoZWItdTNRajJ4eG9ETExEaVNBTnZVM1hR?oc=5",
+          "source": "qz.com",
+          "publishedAt": "2026-10-25T16:28:56+00:00",
           "phase": "escalation"
         },
         {
-          "title": "Trump administration cancels some Canada tariffs amid close midterm races - NBC News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVElRUlRYNE1DeV9WMkYwaXlScS01OTI1MVotc2Rob1AtZW90Tk13eGJuWWFhOVpEQndDUzBZeFQ3ZFlQcWJJZ0ZZdDdtaFlnTHg2WjdTT25wVm1FUkNEMFQwakN0c2NidkVrUlRseEJCd0g3cW1haXJVS1dhVURvWm9iTldyQWZPOHFjS1dIdVBtZk5nTmk5a3NB?oc=5",
-          "source": "NBC News",
-          "publishedAt": "2026-10-23T19:53:48+00:00",
+          "title": "White House lifts tariffs on some Canadian goods as midterm elections loom - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrNnNzMVdVUEVmTDc1QVB0aGpSWTREdWFMY2g2QUQ5RExzMUxrdlNhdnd6ZGxJWWhnRGltX0kxOFZOMXNhVWI2aWhsaU1DMS1fR1FTT1E0V2lnVFU?oc=5",
+          "source": "BBC",
+          "publishedAt": "2026-10-24T00:36:47+00:00",
           "phase": "escalation"
         },
         {
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-25T11:45:30.365855+00:00",
+      "updatedAt": "2026-10-25T16:33:58.691171+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,12 +251,19 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 2,
+        "escalation": 4,
         "softening": 1,
         "execution": 0,
-        "monitoring": 5
+        "monitoring": 3
       },
       "items": [
+        {
+          "title": "Treasury proposes rule to curb high-tech investments in China and other adversaries - PBS",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOblY5b1hYT1VJOVNzeGVLb2hJM1Nka3E4N2hqX3htck9FWjJWMTB0MDRPZWlnT1hjUHFmdFRUVXltR3Uyd3ZreUJ4VjlNMjZxNlFkbGlCNU9qeHNiMW1BaXVub0NyUFJjME12OHVHRlpkS2ItVmVKdE9JalVnWk12NktJRkFuMHVVdlBRSHNrOHVKOEpQa0F1dllLT1Y1Sm5nZVBKS1I3XzZmdzNiVWJxbnJlWXRNcVFJdkxrMnNzUU9EQ2fSAcMBQVVfeXFMTm5WOW9YWE9VSTlTc3hlS29oSTNTZGtxODdoal94bXJPRVoyVjEwdDA0T2VpZ09YY1BxZnRUVFV5bUd1Mnd2a3lCeFY5TTI2cTZRZGxpQjVPanhzYjFtQWl1bm9DclBSYzBNdjh1R0ZaZEtiLVZlSnRPSWpVZ1pNdjZLSUZBbjB1VXZQUUhzazh1SjhKUGtBdXZZS09WNUpuZ2VQSktSN182ZnczYlVicW5yZVl0TXFRSXZMazJzc1FPRENn?oc=5",
+          "source": "PBS",
+          "publishedAt": "2026-10-23T23:19:32+00:00",
+          "phase": "monitoring"
+        },
         {
           "title": "Trump’s Russia Shift Shows Domestic Politics Comes First - Bloomberg.com",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWGlrakd0N2d1YWp3ZllVWDhRVDFKWDRteWdBQUFzS0VfcFFOMXNIemFkT1hYUHVURnJaVVhHVDQyVGZQSWs2QXZVQjBiU1BUenl6RF93WVNkbzlqY0lieU9Tb0hfblpPaVYtSUUyaDVnQ0RmdzNPV2RWMkZVQXdwX1VKUi1sbmxZdlR3QUY5Q1otNzBnUE1STThDQzVqbXE5UlVZ?oc=5",
@@ -265,25 +272,18 @@
           "phase": "monitoring"
         },
         {
-          "title": "Putin envoy says US and Russia are discussing joint AI data center deals - Startup Fortune",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUEN4RnFTaWFISm0zNm5nb1hFbF8xLVZCQThJRDYwUEllaFZkd1lCRXpTUUVrY3dpZVRmLVhub0NaNC12SUxRNWVzdl9FOUdMM1RzWU9hclF1NmFhdThUeUt6WElzaUx6RmszTXl6RGk1T3UxR09ONEdaRTRvbkZZaDdWbTRXVEg3VEZ5aDhPNl8tUFJic3diQ3FaSk9IbnF3SGc?oc=5",
-          "source": "Startup Fortune",
-          "publishedAt": "2026-10-17T11:55:06+00:00",
-          "phase": "softening"
-        },
-        {
-          "title": "【US Pre-Market】Trump Eases Russia Sanctions, Oil Falls; Intel Rises Over 4%, Micron and SanDisk Lead Memory Chip Stocks - TradingKey",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPXzZBX0tQUE5xc1FsaVFWd04xOUVWVE5aMWhaeW51VDZtcVdWZFhoN1JSc3loT0xES2FucVRlMGk0bXhoU1lUVExSOUNiemdneDVaMVlHVXJBcXQtU1BtcUxEbl8xZlVleFhNV2RsNWJEOHA0UnZFb09WejZFbkFJS1Y0ZU5IZ3ZzS2luUVhCcllxVllWQldrOGVEX2tyRGV5ZGc2TE9TMVB0ZWRMbFlfRmlVSGxIMmRURFFIZmFsZEI1bE5faTgxbVVCRVd4T0RkekhjSW5PM05WWEtoaTdKLU56WFVFdEJTV2NzeUJLdw?oc=5",
-          "source": "TradingKey",
-          "publishedAt": "2026-10-19T12:03:52+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "US-China Relations in the Trump 2.0 Era: A Timeline - China Briefing",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVl9rOHkwQl9VYldidlJVajgtZzY4VE5TQmt6eEQ2czIxaTk5N3Ywd3diVXdCT3dKVmhUNmxMRjJ0UnJKdGE2TUtuNklrdWx4UTVGZG5kY1pvWnNEWUhkdmZ5WkV3R0plREV6aTlGc1JEUHVQeG02VzRsVE82OERteXhsMGNfTEVPMllnN0p3?oc=5",
-          "source": "China Briefing",
-          "publishedAt": "2026-09-25T07:00:00+00:00",
+          "title": "The BR International Trade Report: October 2026 - Blank Rome LLP",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS183cjhyTUJvd3lLeVdCenNra0lRdHpJb3FYYlJsdU4zRmRaLW13QmJFdE9UOWtfUnpNQTFmNkNUWUhBZkx5aTZPWDZldzB1R2VlOW93bnVFeUsyc3V4TTNfYXdzN1RUbTQyZ0dlQnRDQmRwWE5zOXVwOXEzYWRVTks1dTlXUWIyTkpsa2ZIV0tCdEE?oc=5",
+          "source": "Blank Rome LLP",
+          "publishedAt": "2026-10-07T07:00:00+00:00",
           "phase": "monitoring"
+        },
+        {
+          "title": "US Market Open: Trump waived key Russian sanctions; US equity futures set to open firmer - Newsquawk",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdG5SY1dWNmR3VGFRS2ctV0YxQ0ljR1FUZE5CQXVTSnJfb3FmLTlnNF9YSDV2UkpRdVRDakZXd0d6bDhxY1BLWEdCeWFPQjV3M3lmX3VPdFRGMWNnNWZieVo2UmZta0Y0QmlmRFNXLW1WeXF0MUxQOXJVVG51T1VRM19fZkJTU0JXeEhkWWRtVkNKVnZ1dzB3bmsyOFhZVFVhRjhMZWNBZkFvRmYyT3puT3NneFdMNUZYMFBsdzJCMHE?oc=5",
+          "source": "Newsquawk",
+          "publishedAt": "2026-10-19T10:20:26+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-25T11:45:30.274890+00:00",
+      "updatedAt": "2026-10-25T16:33:58.420415+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -303,17 +303,17 @@
       "name": "军事与地缘",
       "phase": "softening",
       "phaseCounts": {
-        "escalation": 3,
-        "softening": 4,
+        "escalation": 2,
+        "softening": 5,
         "execution": 0,
         "monitoring": 1
       },
       "items": [
         {
-          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
+          "title": "Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?oc=5",
           "source": "CBS News",
-          "publishedAt": "2026-09-29T07:00:00+00:00",
+          "publishedAt": "2026-10-18T19:02:00+00:00",
           "phase": "softening"
         },
         {
@@ -324,18 +324,18 @@
           "phase": "escalation"
         },
         {
+          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-09-29T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
           "title": "Trump rejects Iran’s seven-day roadmap to end war and reopen Hormuz - Al Jazeera",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPekVrcUpCSVdWWjdjNHY5ZS12MmprMF9ma3loOGpyZExyTW5uRG9qT3NjV21qSUFSMUhRVV9Ld3A5TWpVTS1QcFI2VENoZTdQRkVIQi11Z2JuUV80a1B2U2Q5TGhlQlZiZkV3MFlCbkI4NUZDeWJROWgxbTAtSVE3dU0xUDVnbFU2MF9MN25MVmZRNUdCWXBleDhlamtaVGNzbkVtWDM1VlfSAa4BQVVfeXFMTjljQTNjOXdPLVpNZWhUNTduR2ZZWGN3dDRrak9NOS1WWlBNejVMWDk2aGRkek9CYzB5OWpiTU1BeWtHUkRZZGduc28td2dSZmlsQUM2NTNrQ1M5WU1rcVJoNWZKZlkzNmN5Z1FkWnJFN0FNVDEtQjFKSkYwQ0RQZFpkOWVxNm43dkloMnZtTFFFSy1xVVRYVEJEYkFZdzdBemNCMEJQZGVLZzdvQXlB?oc=5",
           "source": "Al Jazeera",
           "publishedAt": "2026-09-26T07:00:00+00:00",
           "phase": "monitoring"
-        },
-        {
-          "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
-          "source": "CNBC",
-          "publishedAt": "2026-07-27T07:00:00+00:00",
-          "phase": "softening"
         }
       ],
       "poolCategories": [
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-25T11:45:30.384187+00:00",
+      "updatedAt": "2026-10-25T16:33:58.363531+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-25T11:45:30.577344+00:00",
+      "updatedAt": "2026-10-25T16:33:58.428945+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-25T11:45:31.720515+00:00",
+    "asOf": "2026-10-25T16:33:59.412120+00:00",
     "aggregateScore": 69.8,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
