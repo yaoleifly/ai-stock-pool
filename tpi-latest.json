@@ -1,22 +1,22 @@
 {
-  "asOf": "2026-10-28T16:09:18.249224+00:00",
+  "asOf": "2026-10-28T21:11:02.068416+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 71.7,
+    "value": 70.7,
     "zone": "high_pressure",
-    "change5d": 1.4
+    "change5d": 0.2
   },
   "drivers": [
     {
       "id": "approval",
       "name": "净支持率",
       "weight": 0.25,
-      "pressureScore": 80.2,
-      "value": "-21.8pt",
-      "changeLabel": "较约30日前 +7.2pt",
+      "pressureScore": 80.6,
+      "value": "-22.0pt",
+      "changeLabel": "较约30日前 +7.0pt",
       "direction": "净支持率下降增加压力",
       "interpretation": "民调越弱，强硬政策的政治承受空间越小。",
       "updatedAt": "2026-10-26T12:00:00+00:00",
@@ -30,12 +30,12 @@
       "id": "ust10y",
       "name": "10年期美债",
       "weight": 0.15,
-      "pressureScore": 76.0,
-      "value": "5.036%",
-      "changeLabel": "近5日 -11bp",
+      "pressureScore": 76.4,
+      "value": "5.045%",
+      "changeLabel": "近5日 -10bp",
       "direction": "收益率上升增加压力",
       "interpretation": "融资成本越高，财政与市场承受力越弱。",
-      "updatedAt": "2026-10-28T15:54:15+00:00",
+      "updatedAt": "2026-10-28T18:59:55+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -46,12 +46,12 @@
       "id": "move",
       "name": "债券波动率",
       "weight": 0.15,
-      "pressureScore": 77.7,
-      "value": "92.91",
-      "changeLabel": "近5日 -3.03",
+      "pressureScore": 78.4,
+      "value": "94.55",
+      "changeLabel": "近5日 -1.39",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-10-28T15:47:30+00:00",
+      "updatedAt": "2026-10-28T20:17:30+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -62,12 +62,12 @@
       "id": "spx",
       "name": "标普500",
       "weight": 0.2,
-      "pressureScore": 60.3,
-      "value": "7,739.6",
-      "changeLabel": "近5日 -0.23%",
+      "pressureScore": 58.1,
+      "value": "7,744.0",
+      "changeLabel": "近5日 -0.17%",
       "direction": "下跌增加压力",
       "interpretation": "股市回撤会强化政策反馈；上涨则释放压力。",
-      "updatedAt": "2026-10-28T16:09:15+00:00",
+      "updatedAt": "2026-10-28T20:20:01+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -78,12 +78,12 @@
       "id": "vix",
       "name": "股市恐慌",
       "weight": 0.15,
-      "pressureScore": 53.8,
-      "value": "17.33",
-      "changeLabel": "近5日 +0.65",
+      "pressureScore": 48.0,
+      "value": "16.91",
+      "changeLabel": "近5日 +0.23",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-10-28T15:54:01+00:00",
+      "updatedAt": "2026-10-28T20:15:01+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -111,7 +111,7 @@
     {
       "id": "political",
       "name": "政治承受力",
-      "score": 80.2,
+      "score": 80.6,
       "components": [
         "净支持率"
       ],
@@ -121,7 +121,7 @@
     {
       "id": "rates",
       "name": "利率与财政约束",
-      "score": 76.0,
+      "score": 76.4,
       "components": [
         "10年期美债"
       ],
@@ -131,7 +131,7 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 63.9,
+      "score": 61.5,
       "components": [
         "MOVE",
         "标普500",
@@ -155,42 +155,42 @@
     {
       "date": "2026-09-09",
       "label": "09.09",
-      "value": 67.5
+      "value": 67.6
     },
     {
       "date": "2026-09-16",
       "label": "09.16",
-      "value": 78.5
+      "value": 78.6
     },
     {
       "date": "2026-09-23",
       "label": "09.23",
-      "value": 60.1
+      "value": 60.2
     },
     {
       "date": "2026-09-30",
       "label": "09.30",
-      "value": 77.5
+      "value": 77.7
     },
     {
       "date": "2026-10-07",
       "label": "10.07",
-      "value": 62.1
+      "value": 62.2
     },
     {
       "date": "2026-10-14",
       "label": "10.14",
-      "value": 78.4
+      "value": 78.6
     },
     {
       "date": "2026-10-21",
       "label": "10.21",
-      "value": 70.3
+      "value": 70.5
     },
     {
       "date": "2026-10-28",
       "label": "10.28",
-      "value": 75.4
+      "value": 74.0
     }
   ],
   "policyEvents": [
@@ -199,25 +199,25 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 6,
-        "softening": 1,
+        "escalation": 5,
+        "softening": 3,
         "execution": 0,
-        "monitoring": 1
+        "monitoring": 0
       },
       "items": [
+        {
+          "title": "Trump adviser says Alberta referendum made it ‘essentially impossible’ to negotiate on trade deal - CTV News",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObW9sTW44WFNpeDA5QVo0Uzd4dGJFRFFpYzZGc05ud0hvSU1yOU1YMWpjeFFhcEtEWDR6LUxzS0FuTXpIOGw3aEdkV1FfTVFvLW00RC03bGNaQ0lMYld0WHl2ZmFmMnY0NU1BN0xZQ25SdTlmWXR6WWxuTVVBc2VFTTRBR1paMHlhQlVhLVlyN0FnUjlYNFItUjVtejlqeGVPVUxMSUNXR1pIT1prNm9hTFlrb2dqS0ZZ?oc=5",
+          "source": "CTV News",
+          "publishedAt": "2026-10-25T21:05:52+00:00",
+          "phase": "softening"
+        },
         {
           "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports - NPR",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pSzhrd21rSldqYjJuV1lCdWxVbE8xWVhQM3pKRDltTDJrLWMtM09IUFFOR05LbllKd0VUblUxOTdwdHpTSjFIbktvTG9pVk5nT1JEMzl5RzRLMFhORC0zUDk5Nkx5aWlRUC1jc3dzWHo?oc=5",
           "source": "NPR",
           "publishedAt": "2026-08-19T07:00:00+00:00",
           "phase": "softening"
-        },
-        {
-          "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - PBS",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVDN2eGVOR2h1MFk2STNSRVdmUFpZNEJkNFh5OFQ3bXhHMTJvX3FSMFJDMHRYU2tTYWtRblBvVlk0bG91U1NFc1dkNUpraUU4RDlOLU40WlRhQWRHcTMzei10WXFObmxmUFc1UlNyamo4Rm9KLUsxdjBBd3UyNTQ4XzgtLTAweXhhbkVxbVpXdDJVR0NqWXcwRHJZSWEzT3cyV3NvZDBrME5RaHJhcmZGLU02d19LUGZSaGoxRE1KLTNRU1pnTEN30gHMAUFVX3lxTE9EQXNMVUNIbXptQi1QTkFCelkwdXo0aW91bHR1dGlzQWdjRDlZeTVwLTI2eU1qRUxaeUhOQkN2SzMxRThFR2MwUW1VUGV4X1NTaE5ZVEFZMWFZc2xCdmRLTUJNeWJ4aU1CaUUzcl9pLVd3M1VBU0lXN195TDI1UnBHWFBXeWZEWlRMNlE5WVpWREVtWXJmWFFEU2ZEQ1JUeXlsY09vcDkwNGR3b2pHMk5Wa1hlb281cFg2Zkt6VUJNeVRfR3FzOE91QXpWSQ?oc=5",
-          "source": "PBS",
-          "publishedAt": "2026-08-22T07:00:00+00:00",
-          "phase": "escalation"
         },
         {
           "title": "Tariffs on Hold as Trump Claims Deal With Canada Is Near - The New York Times",
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-28T16:09:17.004137+00:00",
+      "updatedAt": "2026-10-28T21:11:01.031676+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -252,9 +252,9 @@
       "phase": "escalation",
       "phaseCounts": {
         "escalation": 3,
-        "softening": 0,
+        "softening": 1,
         "execution": 0,
-        "monitoring": 5
+        "monitoring": 4
       },
       "items": [
         {
@@ -265,13 +265,6 @@
           "phase": "monitoring"
         },
         {
-          "title": "Why the Netherlands Must Hold the Line on ASML - Royal United Services Institute (RUSI)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM1RkX0tDVHl2cVZqYnZjODRlVm1PeDh3akp6eEY5SWhlYlU3UDRwalR3NHVxTlZXWWh3WEpRMjN3V0tjYkNPcDFmNGpBeXVfc21xc2hkbU9HZm9ieVBQc0pEZWttdU5ZWDh2d1VCekxnUUhCX2VzYTJLZzlBdnEyeW1tcmExOGM?oc=5",
-          "source": "Royal United Services Institute (RUSI)",
-          "publishedAt": "2026-10-27T12:29:05+00:00",
-          "phase": "monitoring"
-        },
-        {
           "title": "The BR International Trade Report: October 2026 - Blank Rome LLP",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS183cjhyTUJvd3lLeVdCenNra0lRdHpJb3FYYlJsdU4zRmRaLW13QmJFdE9UOWtfUnpNQTFmNkNUWUhBZkx5aTZPWDZldzB1R2VlOW93bnVFeUsyc3V4TTNfYXdzN1RUbTQyZ0dlQnRDQmRwWE5zOXVwOXEzYWRVTks1dTlXUWIyTkpsa2ZIV0tCdEE?oc=5",
           "source": "Blank Rome LLP",
@@ -279,11 +272,18 @@
           "phase": "monitoring"
         },
         {
-          "title": "Trump failing to block China’s access to American AI technology, say senior Senate Democrats - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SOFUzQzlsOFVDUlRWN0VCMGx0Z3NEODlYQjliN29VbHZfWElQUXdueFhjYUxJaWhVcEZUdkpFX2pIcGQzLTFSMWswRjZ1b3AtX3MtNWZ3MzcxdmJXV0oyLUVnUHBOQmdHelBxM0lza3FiaXA5MFVxMkJR0gF_QVVfeXFMTWFpVU1NNDNWSHFBNnFSbGJHMG95U2VzUWVjX2FzZzZPa2w2TGJ0Q1dtMWk1OUNaSExxMGtyaFU1d0RZSzc2blNqUGc5Y1U3dDNEUTdlY2MxVG1mQ0Vnb0NYbTQyT1VsdzZtN2V4SDZBZ3UtV1ppMmNtSlYyQ3kyQQ?oc=5",
-          "source": "The Hill",
-          "publishedAt": "2026-09-22T07:00:00+00:00",
+          "title": "US Market Open: Trump waived key Russian sanctions; US equity futures set to open firmer - Newsquawk",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdG5SY1dWNmR3VGFRS2ctV0YxQ0ljR1FUZE5CQXVTSnJfb3FmLTlnNF9YSDV2UkpRdVRDakZXd0d6bDhxY1BLWEdCeWFPQjV3M3lmX3VPdFRGMWNnNWZieVo2UmZta0Y0QmlmRFNXLW1WeXF0MUxQOXJVVG51T1VRM19fZkJTU0JXeEhkWWRtVkNKVnZ1dzB3bmsyOFhZVFVhRjhMZWNBZkFvRmYyT3puT3NneFdMNUZYMFBsdzJCMHE?oc=5",
+          "source": "Newsquawk",
+          "publishedAt": "2026-10-19T10:20:26+00:00",
           "phase": "escalation"
+        },
+        {
+          "title": "Putin envoy says US and Russia are discussing joint AI data center deals - Startup Fortune",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUEN4RnFTaWFISm0zNm5nb1hFbF8xLVZCQThJRDYwUEllaFZkd1lCRXpTUUVrY3dpZVRmLVhub0NaNC12SUxRNWVzdl9FOUdMM1RzWU9hclF1NmFhdThUeUt6WElzaUx6RmszTXl6RGk1T3UxR09ONEdaRTRvbkZZaDdWbTRXVEg3VEZ5aDhPNl8tUFJic3diQ3FaSk9IbnF3SGc?oc=5",
+          "source": "Startup Fortune",
+          "publishedAt": "2026-10-17T07:00:00+00:00",
+          "phase": "softening"
         }
       ],
       "poolCategories": [
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-28T16:09:17.129214+00:00",
+      "updatedAt": "2026-10-28T21:11:00.885638+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-28T16:09:17.549887+00:00",
+      "updatedAt": "2026-10-28T21:11:00.833822+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -362,32 +362,32 @@
       },
       "items": [
         {
-          "title": "Opinion | Hollywood loves to hate Trump. But it loves money more. - The Washington Post",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRTJUSXZOeDdlTXExLXEzSHplQUVsTlY4Nkp0TFNFTjRPc2NqT3NGb0pkZ3FmM3RxS0FaR0Q2eGJyLVRFN3hvTGFsQkFUNmF5c056QWdmYmlrZFg5WU5LSkM4aWt3ak1FVFBFQ0xwT3ZPeUlZcEFGbTVmTzBxZjhQRHlaZ3lDWlNFMFd4TTRpVHR0d2VBUGF1V0NuMnNsWXJmWHFBM0c4UEh5QjZURU5WUTNkLVdudw?oc=5",
-          "source": "The Washington Post",
-          "publishedAt": "2026-09-05T07:00:00+00:00",
+          "title": "Janelle Stelson's plan to lower the cost of living in PA-10 - The Keystone Newsroom",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94U1JiN2U0Zkx0QlRKTzROM0lPcmZGZ05YNlI0YzNtREE0VklEd3dKSlo3ZlBCV0VZR09Bc3hHb0U4ZVc5ZE1RdE1Cd1BoQmZJUVhLajB3SHVuTGhzMTlWTEJUSVFDUUZoM2p0SGdLbzhPcklhOURUcA?oc=5",
+          "source": "The Keystone Newsroom",
+          "publishedAt": "2026-10-27T15:59:24+00:00",
           "phase": "monitoring"
         },
         {
-          "title": "Trump Trade War With Canada Puts Film, TV Spending Rules in Crosshairs - The Hollywood Reporter",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWRnSVRlYmo1Unc0VVUtVmlhRjBJV3NoYTZwVTlXWWw3WkpDZXdBQXI1aEp5Um9US011QkRVRDBhWEZzNS1aQ1FndzQ2NmlQZ0FWMXlMYmlWM2JHWldFZjBET3pNeGJYYXprd2RHYWkwZXIzRFloQUN0STB6Q0VUVks4Um1tczdXY1dlNnlhbjZjRzNJbEE?oc=5",
-          "source": "The Hollywood Reporter",
-          "publishedAt": "2026-08-24T07:00:00+00:00",
-          "phase": "monitoring"
-        },
-        {
-          "title": "Republican Megabill Trades Essential Support to Low-Income People for Skewed Tax Cuts - Center on Budget and Policy Priorities",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmhGejlFclBFVFBOOEhLVWU4eTlrbE5wMDNta3ZqQzB4ZElpMXpsS0JjdjkzSnVSRWVCZ1NLWm1HWkhGTGx6bnJFdW9iYVlBbXBxeXNUcEFMamJ5dVBCUzJoaTZIZnZUV3ROZ3dMbS0wa0F2WFJJa3I2cnU0NVhkZmZLVUxLbktodEJWcWRHZW9QOFB5Sy0xNGVWSFNId05yT3R0SlBZOHkxZWJOYmlDWGpLdHEzbG9hX1E?oc=5",
-          "source": "Center on Budget and Policy Priorities",
-          "publishedAt": "2026-02-11T08:00:00+00:00",
-          "phase": "monitoring"
-        },
-        {
-          "title": "Trump's tariffs are causing harm to American manufacturers instead of benefiting them - PBS",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ0ZTS1RRSng2bnJVYUs3NHNOdll3V1FGR2FrVnVqMENaRlJXNDZFY09xN0ZFN0Nla1pMTFo5RW5FOU90TXNXbDNWQ2lxV1JFWTYwUjZ5dV9VZGlQZmlXN0tMOGJ4N1RsYkJJVXFRRHZXWF9kZmhnd2NGaDVKMkM0Nmw2aWlQQzdOMHVuQzh1ZEFxMENNWlJfLVF2RkJpMGhlbXlXYm1uMExJRUZtUWIxb3B0MWVIWkIwcE1XWWdn?oc=5",
-          "source": "PBS",
-          "publishedAt": "2026-03-18T07:00:00+00:00",
+          "title": "Tracking the Impact of the Trump Tariffs & Trade War - Tax Foundation",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LU1daamtmcnNXWEZENFBwb3BYMThMQ1M4bHFPSzVZX0s5QmlLYWM4dDdKUGNiOF9iNjcxZ2VZTXd0bVJ6NGNNcDZVVmlkc25rTmxLd3Q4RVJhQmM3dUhpR3h1aXhXNGs3UkNQN0ZKLUpSSnBnOWVaX0tTRQ?oc=5",
+          "source": "Tax Foundation",
+          "publishedAt": "2026-08-20T16:36:30+00:00",
           "phase": "escalation"
+        },
+        {
+          "title": "Trump promised $5,000 checks if Republicans win the midterms. How would that work? - PBS",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSU5iZnBMRnFxSjRwUFhNRDI1WGxkRUxpX2JNamFHRzNmWDlVNmhObWRGRWNWZGVuNVBuV3ZiOXhoQ0JONS1jOGx2QUNIWDQxRG5SMW5vck9VMTFYQjh5LXBsclVWdlJzQ0RsVTVNY1JhRlU2b1I5TzBzTEZQb2VwUEVheFBSN25qMXlMMU1ka0lrQkVJMFFPS3VmUHY1X0x3RW5ybzVrUVhLeHl6cjlzTGhpbm9leHc?oc=5",
+          "source": "PBS",
+          "publishedAt": "2026-09-10T07:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
+          "title": "How Trump’s ‘big, beautiful bill’ changed America - NBC News",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb01qMDdGYzVUdktXQW96aTg4OXozTkVjaVgxbDBkaEl4TFlRY1RIQTlkbHo3c1FuWUI2VVNOdmNFaTBSVXI4bjVuNWFNVnVXR3NSREhhLVZMdkkzaU51Q0gyNWxueGx6N0NYQ0pwRXZsVWE1eFlvNzhpMVhrcmQ2OEx2NXY0WU4yUU9PLVZDUzdlWGJsRGpuLUNxRlZGUld3ZW0tRWlB?oc=5",
+          "source": "NBC News",
+          "publishedAt": "2026-07-01T07:00:00+00:00",
+          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-28T16:09:17.158086+00:00",
+      "updatedAt": "2026-10-28T21:11:01.062533+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-28T16:09:18.246787+00:00",
-    "aggregateScore": 64.8,
+    "asOf": "2026-10-28T21:11:02.066630+00:00",
+    "aggregateScore": 63.5,
     "aggregateLabel": "偏高",
     "highRiskCount": 4,
     "coverage": {
@@ -418,8 +418,8 @@
       {
         "ticker": "AVGO",
         "company": "Broadcom",
-        "currentPrice": 346.53,
-        "updatedAt": "2026-10-28T16:09:15+00:00",
+        "currentPrice": 351.81,
+        "updatedAt": "2026-10-28T20:00:01+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/AVGO/analysis/",
         "earningsCalendar": {
@@ -1794,17 +1794,17 @@
             "price": 342.33,
             "priceIndex": 86.32,
             "sectorIndex": 89.43,
-            "volume": 25526200
+            "volume": 25567200
           },
           {
             "date": "2026-10-28",
-            "price": 346.53,
-            "priceIndex": 87.38,
-            "sectorIndex": 90.4,
-            "volume": 7138935
+            "price": 351.81,
+            "priceIndex": 88.71,
+            "sectorIndex": 91.34,
+            "volume": 22140399
           }
         ],
-        "score": 80.0,
+        "score": 79.3,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
@@ -1820,10 +1820,10 @@
           "targetMedian": 537.5,
           "targetLow": 215.88,
           "targetHigh": 660.0,
-          "targetUpside": 53.0,
-          "return5d": 2.6,
-          "return20d": -1.3,
-          "drawdown3m": -19.0,
+          "targetUpside": 50.7,
+          "return5d": 4.1,
+          "return20d": 0.2,
+          "drawdown3m": -17.8,
           "targetRaises45d": 1,
           "targetCuts45d": 0,
           "analystCount": 48,
@@ -1933,7 +1933,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 8.4,
+        "scoreChange7d": 7.7,
         "historyStatus": {
           "points": 34,
           "firstDate": "2026-08-04",
@@ -2429,8 +2429,8 @@
       {
         "ticker": "MRVL",
         "company": "Marvell",
-        "currentPrice": 249.43,
-        "updatedAt": "2026-10-28T16:09:16+00:00",
+        "currentPrice": 251.65,
+        "updatedAt": "2026-10-28T20:00:01+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/MRVL/analysis/",
         "earningsCalendar": {
@@ -3825,17 +3825,17 @@
             "price": 243.57,
             "priceIndex": 84.32,
             "sectorIndex": 89.43,
-            "volume": 15403200
+            "volume": 15452800
           },
           {
             "date": "2026-10-28",
-            "price": 249.43,
-            "priceIndex": 86.35,
-            "sectorIndex": 90.4,
-            "volume": 5278045
+            "price": 251.65,
+            "priceIndex": 87.12,
+            "sectorIndex": 91.34,
+            "volume": 13031530
           }
         ],
-        "score": 75.1,
+        "score": 74.0,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
@@ -3850,10 +3850,10 @@
           "targetMedian": 350.0,
           "targetLow": 229.95,
           "targetHigh": 450.0,
-          "targetUpside": 36.9,
-          "return5d": 1.9,
-          "return20d": -5.6,
-          "drawdown3m": -13.1,
+          "targetUpside": 35.7,
+          "return5d": 2.8,
+          "return20d": -4.8,
+          "drawdown3m": -12.3,
           "targetRaises45d": 16,
           "targetCuts45d": 0,
           "analystCount": 43,
@@ -3963,7 +3963,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -2.5,
+        "scoreChange7d": -3.6,
         "historyStatus": {
           "points": 34,
           "firstDate": "2026-08-04",
@@ -4459,8 +4459,8 @@
       {
         "ticker": "MU",
         "company": "Micron",
-        "currentPrice": 972.24,
-        "updatedAt": "2026-10-28T16:09:16+00:00",
+        "currentPrice": 983.23,
+        "updatedAt": "2026-10-28T20:00:01+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/MU/analysis/",
         "earningsCalendar": {
@@ -4484,8 +4484,8 @@
             "excess": -0.4
           },
           "day20": {
-            "stock": -8.7,
-            "sector": -9.2,
+            "stock": -7.7,
+            "sector": -8.2,
             "excess": 0.5
           },
           "reactionVolumeRatio": 1.84,
@@ -5855,17 +5855,17 @@
             "price": 928.76,
             "priceIndex": 97.84,
             "sectorIndex": 89.43,
-            "volume": 22855300
+            "volume": 23194900
           },
           {
             "date": "2026-10-28",
-            "price": 972.23,
-            "priceIndex": 102.42,
-            "sectorIndex": 90.4,
-            "volume": 12935137
+            "price": 983.23,
+            "priceIndex": 103.58,
+            "sectorIndex": 91.34,
+            "volume": 30135209
           }
         ],
-        "score": 73.6,
+        "score": 72.8,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
@@ -5880,10 +5880,10 @@
           "targetMedian": 1550.0,
           "targetLow": 361.0,
           "targetHigh": 3000.0,
-          "targetUpside": 60.7,
-          "return5d": 6.4,
-          "return20d": -8.7,
-          "drawdown3m": -11.4,
+          "targetUpside": 58.9,
+          "return5d": 7.6,
+          "return20d": -7.7,
+          "drawdown3m": -10.4,
           "targetRaises45d": 6,
           "targetCuts45d": 1,
           "analystCount": 45,
@@ -5993,7 +5993,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -4.6,
+        "scoreChange7d": -5.4,
         "historyStatus": {
           "points": 34,
           "firstDate": "2026-08-04",
@@ -6489,8 +6489,8 @@
       {
         "ticker": "NVDA",
         "company": "NVIDIA",
-        "currentPrice": 217.16,
-        "updatedAt": "2026-10-28T16:09:16+00:00",
+        "currentPrice": 215.38,
+        "updatedAt": "2026-10-28T20:00:01+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis/",
         "earningsCalendar": {
@@ -7883,17 +7883,17 @@
             "price": 217.94,
             "priceIndex": 104.46,
             "sectorIndex": 89.43,
-            "volume": 84542200
+            "volume": 84799700
           },
           {
             "date": "2026-10-28",
-            "price": 217.15,
-            "priceIndex": 104.08,
-            "sectorIndex": 90.4,
-            "volume": 29146286
+            "price": 215.38,
+            "priceIndex": 103.23,
+            "sectorIndex": 91.34,
+            "volume": 91664984
           }
         ],
-        "score": 64.8,
+        "score": 65.2,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
@@ -7907,10 +7907,10 @@
           "targetMedian": 315.0,
           "targetLow": 180.0,
           "targetHigh": 515.0,
-          "targetUpside": 51.5,
-          "return5d": -2.2,
-          "return20d": -4.9,
-          "drawdown3m": -9.2,
+          "targetUpside": 52.7,
+          "return5d": -3.0,
+          "return20d": -5.7,
+          "drawdown3m": -10.0,
           "targetRaises45d": 0,
           "targetCuts45d": 0,
           "analystCount": 58,
@@ -8020,7 +8020,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 0.3,
+        "scoreChange7d": 0.7,
         "historyStatus": {
           "points": 34,
           "firstDate": "2026-08-04",
@@ -8516,8 +8516,8 @@
       {
         "ticker": "AMD",
         "company": "AMD",
-        "currentPrice": 566.96,
-        "updatedAt": "2026-10-28T16:09:04+00:00",
+        "currentPrice": 578.44,
+        "updatedAt": "2026-10-28T20:00:01+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/AMD/analysis/",
         "earningsCalendar": {
@@ -8536,8 +8536,8 @@
           "breakDate": "2026-10-16",
           "firstCutDate": null,
           "lagDays": null,
-          "currentDrawdown": -12.7,
-          "label": "曾触发回撤，现已修复至-12.7%"
+          "currentDrawdown": -10.9,
+          "label": "曾触发回撤，现已修复至-10.9%"
         },
         "targetEvents": [
           {
@@ -9893,17 +9893,17 @@
             "price": 560.26,
             "priceIndex": 114.26,
             "sectorIndex": 89.43,
-            "volume": 20532000
+            "volume": 20599900
           },
           {
             "date": "2026-10-28",
-            "price": 566.96,
-            "priceIndex": 115.63,
-            "sectorIndex": 90.4,
-            "volume": 6954127
+            "price": 578.44,
+            "priceIndex": 117.97,
+            "sectorIndex": 91.34,
+            "volume": 18557439
           }
         ],
-        "score": 52.4,
+        "score": 50.2,
         "zone": "watch",
         "label": "观察背离",
         "evidence": [
@@ -9917,10 +9917,10 @@
           "targetMedian": 635.5,
           "targetLow": 365.0,
           "targetHigh": 1250.0,
-          "targetUpside": 12.5,
-          "return5d": 2.6,
-          "return20d": -7.3,
-          "drawdown3m": -12.7,
+          "targetUpside": 10.2,
+          "return5d": 4.7,
+          "return20d": -5.4,
+          "drawdown3m": -10.9,
           "targetRaises45d": 6,
           "targetCuts45d": 0,
           "analystCount": 50,
@@ -10030,7 +10030,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -3.9,
+        "scoreChange7d": -6.1,
         "historyStatus": {
           "points": 34,
           "firstDate": "2026-08-04",
@@ -10526,8 +10526,8 @@
       {
         "ticker": "SMCI",
         "company": "Super Micro",
-        "currentPrice": 34.77,
-        "updatedAt": "2026-10-28T16:09:16+00:00",
+        "currentPrice": 35.81,
+        "updatedAt": "2026-10-28T20:00:00+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/SMCI/analysis/",
         "earningsCalendar": {
@@ -11529,19 +11529,19 @@
             "price": 35.09,
             "priceIndex": 79.77,
             "sectorIndex": 89.43,
-            "volume": 31377000
+            "volume": 31443600
           },
           {
             "date": "2026-10-28",
-            "price": 34.78,
-            "priceIndex": 79.05,
-            "sectorIndex": 90.4,
-            "volume": 12487544
+            "price": 35.81,
+            "priceIndex": 81.4,
+            "sectorIndex": 91.34,
+            "volume": 29094921
           }
         ],
-        "score": 43.0,
-        "zone": "watch",
-        "label": "观察背离",
+        "score": 39.7,
+        "zone": "balanced",
+        "label": "分歧仍在",
         "evidence": [
           "近期目标价集中上调"
         ],
@@ -11552,10 +11552,10 @@
           "targetMedian": 45.0,
           "targetLow": 15.0,
           "targetHigh": 60.0,
-          "targetUpside": 24.4,
-          "return5d": -2.2,
-          "return20d": -15.3,
-          "drawdown3m": -22.6,
+          "targetUpside": 20.8,
+          "return5d": 0.7,
+          "return20d": -12.8,
+          "drawdown3m": -20.3,
           "targetRaises45d": 3,
           "targetCuts45d": 0,
           "analystCount": 15,
@@ -11665,7 +11665,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 5.8,
+        "scoreChange7d": 2.5,
         "historyStatus": {
           "points": 34,
           "firstDate": "2026-08-04",
@@ -12165,7 +12165,7 @@
     "benchmark": {
       "ticker": "SOXX",
       "status": "live",
-      "updatedAt": "2026-10-28T16:09:16+00:00"
+      "updatedAt": "2026-10-28T20:00:00+00:00"
     },
     "history": {
       "updatedAt": "2026-10-28T15:59:35.841124+00:00",
@@ -12285,7 +12285,7 @@
       "name": "10年期美债",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-28T15:54:15+00:00",
+      "updatedAt": "2026-10-28T18:59:55+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5ETNX/"
     },
@@ -12294,7 +12294,7 @@
       "name": "债券波动率",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-28T15:47:30+00:00",
+      "updatedAt": "2026-10-28T20:17:30+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EMOVE/"
     },
@@ -12303,7 +12303,7 @@
       "name": "标普500",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-28T16:09:15+00:00",
+      "updatedAt": "2026-10-28T20:20:01+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
@@ -12312,7 +12312,7 @@
       "name": "股市恐慌",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-28T15:54:01+00:00",
+      "updatedAt": "2026-10-28T20:15:01+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
     },
