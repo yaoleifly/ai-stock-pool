@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-28T21:11:02.068416+00:00",
+  "asOf": "2026-10-29T01:03:17.063733+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -67,7 +67,7 @@
       "changeLabel": "近5日 -0.17%",
       "direction": "下跌增加压力",
       "interpretation": "股市回撤会强化政策反馈；上涨则释放压力。",
-      "updatedAt": "2026-10-28T20:20:01+00:00",
+      "updatedAt": "2026-10-28T21:18:42+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -199,25 +199,25 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 5,
-        "softening": 3,
+        "escalation": 7,
+        "softening": 1,
         "execution": 0,
         "monitoring": 0
       },
       "items": [
-        {
-          "title": "Trump adviser says Alberta referendum made it ‘essentially impossible’ to negotiate on trade deal - CTV News",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObW9sTW44WFNpeDA5QVo0Uzd4dGJFRFFpYzZGc05ud0hvSU1yOU1YMWpjeFFhcEtEWDR6LUxzS0FuTXpIOGw3aEdkV1FfTVFvLW00RC03bGNaQ0lMYld0WHl2ZmFmMnY0NU1BN0xZQ25SdTlmWXR6WWxuTVVBc2VFTTRBR1paMHlhQlVhLVlyN0FnUjlYNFItUjVtejlqeGVPVUxMSUNXR1pIT1prNm9hTFlrb2dqS0ZZ?oc=5",
-          "source": "CTV News",
-          "publishedAt": "2026-10-25T21:05:52+00:00",
-          "phase": "softening"
-        },
         {
           "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports - NPR",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pSzhrd21rSldqYjJuV1lCdWxVbE8xWVhQM3pKRDltTDJrLWMtM09IUFFOR05LbllKd0VUblUxOTdwdHpTSjFIbktvTG9pVk5nT1JEMzl5RzRLMFhORC0zUDk5Nkx5aWlRUC1jc3dzWHo?oc=5",
           "source": "NPR",
           "publishedAt": "2026-08-19T07:00:00+00:00",
           "phase": "softening"
+        },
+        {
+          "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - PBS",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVDN2eGVOR2h1MFk2STNSRVdmUFpZNEJkNFh5OFQ3bXhHMTJvX3FSMFJDMHRYU2tTYWtRblBvVlk0bG91U1NFc1dkNUpraUU4RDlOLU40WlRhQWRHcTMzei10WXFObmxmUFc1UlNyamo4Rm9KLUsxdjBBd3UyNTQ4XzgtLTAweXhhbkVxbVpXdDJVR0NqWXcwRHJZSWEzT3cyV3NvZDBrME5RaHJhcmZGLU02d19LUGZSaGoxRE1KLTNRU1pnTEN30gHMAUFVX3lxTE9EQXNMVUNIbXptQi1QTkFCelkwdXo0aW91bHR1dGlzQWdjRDlZeTVwLTI2eU1qRUxaeUhOQkN2SzMxRThFR2MwUW1VUGV4X1NTaE5ZVEFZMWFZc2xCdmRLTUJNeWJ4aU1CaUUzcl9pLVd3M1VBU0lXN195TDI1UnBHWFBXeWZEWlRMNlE5WVpWREVtWXJmWFFEU2ZEQ1JUeXlsY09vcDkwNGR3b2pHMk5Wa1hlb281cFg2Zkt6VUJNeVRfR3FzOE91QXpWSQ?oc=5",
+          "source": "PBS",
+          "publishedAt": "2026-08-22T07:00:00+00:00",
+          "phase": "escalation"
         },
         {
           "title": "Tariffs on Hold as Trump Claims Deal With Canada Is Near - The New York Times",
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-28T21:11:01.031676+00:00",
+      "updatedAt": "2026-10-29T01:03:15.504377+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,12 +251,19 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 3,
+        "escalation": 2,
         "softening": 1,
         "execution": 0,
-        "monitoring": 4
+        "monitoring": 5
       },
       "items": [
+        {
+          "title": "Why the Netherlands Must Hold the Line on ASML - Royal United Services Institute (RUSI)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM1RkX0tDVHl2cVZqYnZjODRlVm1PeDh3akp6eEY5SWhlYlU3UDRwalR3NHVxTlZXWWh3WEpRMjN3V0tjYkNPcDFmNGpBeXVfc21xc2hkbU9HZm9ieVBQc0pEZWttdU5ZWDh2d1VCekxnUUhCX2VzYTJLZzlBdnEyeW1tcmExOGM?oc=5",
+          "source": "Royal United Services Institute (RUSI)",
+          "publishedAt": "2026-10-27T12:29:05+00:00",
+          "phase": "monitoring"
+        },
         {
           "title": "Treasury proposes rule to curb high-tech investments in China and other adversaries - PBS",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNazgwM2ZwNXBFa1diSlFMSzdhUmRpdVVkUlRsOWtZeUpiYWllX2ZudG1tZzU0OUNXZFE3azdqMlhYX0Fuc09YXzlBYUhVWmxod2ZfblNBLW5vOWFFXzlGbmZ4NEdWZGpMd2dWeXpvdzIzRF9UNHRXMU8ybnpXVVNTZFlfUk9hSUVDX3QtUzZGQ1YydXM3MG9Xdzl0QTVBX2FJSEZYSVFJSUhsT3lRMGtwb0FPZVZhVkliU0hRRUZB0gHDAUFVX3lxTE5uVjlvWFhPVUk5U3N4ZUtvaEkzU2RrcTg3aGpfeG1yT0VaMlYxMHQwNE9laWdPWGNQcWZ0VFRVeW1HdTJ3dmt5QnhWOU0yNnE2UWRsaUI1T2p4c2IxbUFpdW5vQ3JQUmMwTXY4dUdGWmRLYi1WZUp0T0lqVWdaTXY2S0lGQW4wdVV2UFFIc2s4dUo4SlBrQXV2WUtPVjVKbmdlUEpLUjdfNmZ3M2JVYnFucmVZdE1xUUl2TGsyc3NRT0RDZw?oc=5",
@@ -272,18 +279,11 @@
           "phase": "monitoring"
         },
         {
-          "title": "US Market Open: Trump waived key Russian sanctions; US equity futures set to open firmer - Newsquawk",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdG5SY1dWNmR3VGFRS2ctV0YxQ0ljR1FUZE5CQXVTSnJfb3FmLTlnNF9YSDV2UkpRdVRDakZXd0d6bDhxY1BLWEdCeWFPQjV3M3lmX3VPdFRGMWNnNWZieVo2UmZta0Y0QmlmRFNXLW1WeXF0MUxQOXJVVG51T1VRM19fZkJTU0JXeEhkWWRtVkNKVnZ1dzB3bmsyOFhZVFVhRjhMZWNBZkFvRmYyT3puT3NneFdMNUZYMFBsdzJCMHE?oc=5",
-          "source": "Newsquawk",
-          "publishedAt": "2026-10-19T10:20:26+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "Putin envoy says US and Russia are discussing joint AI data center deals - Startup Fortune",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUEN4RnFTaWFISm0zNm5nb1hFbF8xLVZCQThJRDYwUEllaFZkd1lCRXpTUUVrY3dpZVRmLVhub0NaNC12SUxRNWVzdl9FOUdMM1RzWU9hclF1NmFhdThUeUt6WElzaUx6RmszTXl6RGk1T3UxR09ONEdaRTRvbkZZaDdWbTRXVEg3VEZ5aDhPNl8tUFJic3diQ3FaSk9IbnF3SGc?oc=5",
-          "source": "Startup Fortune",
-          "publishedAt": "2026-10-17T07:00:00+00:00",
-          "phase": "softening"
+          "title": "Trump’s Russia Shift Shows Domestic Politics Comes First - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWGlrakd0N2d1YWp3ZllVWDhRVDFKWDRteWdBQUFzS0VfcFFOMXNIemFkT1hYUHVURnJaVVhHVDQyVGZQSWs2QXZVQjBiU1BUenl6RF93WVNkbzlqY0lieU9Tb0hfblpPaVYtSUUyaDVnQ0RmdzNPV2RWMkZVQXdwX1VKUi1sbmxZdlR3QUY5Q1otNzBnUE1STThDQzVqbXE5UlVZ?oc=5",
+          "source": "Bloomberg.com",
+          "publishedAt": "2026-10-19T07:00:00+00:00",
+          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -294,17 +294,17 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-28T21:11:00.885638+00:00",
+      "updatedAt": "2026-10-29T01:03:15.659376+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "geopolitical",
       "name": "军事与地缘",
-      "phase": "softening",
+      "phase": "escalation",
       "phaseCounts": {
-        "escalation": 3,
-        "softening": 5,
+        "escalation": 4,
+        "softening": 4,
         "execution": 0,
         "monitoring": 0
       },
@@ -324,18 +324,18 @@
           "phase": "escalation"
         },
         {
-          "title": "Trump signals shift to economic pressure on Iran over new military strikes - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZUp2OWhnVmxOYkpZTTM5TEktOUY1REswc3Roc04zNDNKbDAwQl9ib2JhZ1QtbHY3UHJXc2JjVkNYam5WNVJPR1lNNnlmS3ZkX253WTJtRE9ESG1BdnVSanQxWk9MR2NDeG15dlpzaEZrTm1Rcnowc1RLRmlaSnNPVmJxRHBUU0M1RWlqNTlSYmtDbW1zRzVDZHNkSk5SR1RWMWFmeVVMUHBCNzlJeVZmXzEyeURfd015SmfSAb8BQVVfeXFMUFFkMFhlblVNbUtKdmNacEI5cHVJRjJJbW44VXFoQzkwNXozeEoxZHFIWHZ2aEllSGpEQkYwVXhQV210LUFsMUloaWFZVXlQdmJjcTBOb2JmdzlaWnVyQkcxSUd1eGFtMzRUaW1BaktraDBxcnJGZjNvSjBJSXpaMzJtLTBPcGgyaWE2ZHE1TkhkY19ZRXdqR1Vubk1JbVJJMDZ6d2w1dmwtVVZPb244OGtYeW1pRC1tN2p1b3BiZlU?oc=5",
-          "source": "Al Jazeera",
-          "publishedAt": "2026-08-10T07:00:00+00:00",
-          "phase": "escalation"
-        },
-        {
           "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
           "source": "CNBC",
           "publishedAt": "2026-07-27T07:00:00+00:00",
           "phase": "softening"
+        },
+        {
+          "title": "Trump signals shift to economic pressure on Iran over new military strikes - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZUp2OWhnVmxOYkpZTTM5TEktOUY1REswc3Roc04zNDNKbDAwQl9ib2JhZ1QtbHY3UHJXc2JjVkNYam5WNVJPR1lNNnlmS3ZkX253WTJtRE9ESG1BdnVSanQxWk9MR2NDeG15dlpzaEZrTm1Rcnowc1RLRmlaSnNPVmJxRHBUU0M1RWlqNTlSYmtDbW1zRzVDZHNkSk5SR1RWMWFmeVVMUHBCNzlJeVZmXzEyeURfd015SmfSAb8BQVVfeXFMUFFkMFhlblVNbUtKdmNacEI5cHVJRjJJbW44VXFoQzkwNXozeEoxZHFIWHZ2aEllSGpEQkYwVXhQV210LUFsMUloaWFZVXlQdmJjcTBOb2JmdzlaWnVyQkcxSUd1eGFtMzRUaW1BaktraDBxcnJGZjNvSjBJSXpaMzJtLTBPcGgyaWE2ZHE1TkhkY19ZRXdqR1Vubk1JbVJJMDZ6d2w1dmwtVVZPb244OGtYeW1pRC1tN2p1b3BiZlU?oc=5",
+          "source": "Al Jazeera",
+          "publishedAt": "2026-08-10T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -346,9 +346,9 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-28T21:11:00.833822+00:00",
-      "phaseLabel": "软化/谈判",
-      "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
+      "updatedAt": "2026-10-29T01:03:15.671673+00:00",
+      "phaseLabel": "强硬升级",
+      "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "fiscal",
@@ -362,31 +362,31 @@
       },
       "items": [
         {
-          "title": "Janelle Stelson's plan to lower the cost of living in PA-10 - The Keystone Newsroom",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94U1JiN2U0Zkx0QlRKTzROM0lPcmZGZ05YNlI0YzNtREE0VklEd3dKSlo3ZlBCV0VZR09Bc3hHb0U4ZVc5ZE1RdE1Cd1BoQmZJUVhLajB3SHVuTGhzMTlWTEJUSVFDUUZoM2p0SGdLbzhPcklhOURUcA?oc=5",
-          "source": "The Keystone Newsroom",
-          "publishedAt": "2026-10-27T15:59:24+00:00",
+          "title": "Opinion | Hollywood loves to hate Trump. But it loves money more. - The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRTJUSXZOeDdlTXExLXEzSHplQUVsTlY4Nkp0TFNFTjRPc2NqT3NGb0pkZ3FmM3RxS0FaR0Q2eGJyLVRFN3hvTGFsQkFUNmF5c056QWdmYmlrZFg5WU5LSkM4aWt3ak1FVFBFQ0xwT3ZPeUlZcEFGbTVmTzBxZjhQRHlaZ3lDWlNFMFd4TTRpVHR0d2VBUGF1V0NuMnNsWXJmWHFBM0c4UEh5QjZURU5WUTNkLVdudw?oc=5",
+          "source": "The Washington Post",
+          "publishedAt": "2026-09-05T07:00:00+00:00",
           "phase": "monitoring"
         },
         {
-          "title": "Tracking the Impact of the Trump Tariffs & Trade War - Tax Foundation",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LU1daamtmcnNXWEZENFBwb3BYMThMQ1M4bHFPSzVZX0s5QmlLYWM4dDdKUGNiOF9iNjcxZ2VZTXd0bVJ6NGNNcDZVVmlkc25rTmxLd3Q4RVJhQmM3dUhpR3h1aXhXNGs3UkNQN0ZKLUpSSnBnOWVaX0tTRQ?oc=5",
-          "source": "Tax Foundation",
-          "publishedAt": "2026-08-20T16:36:30+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "Trump promised $5,000 checks if Republicans win the midterms. How would that work? - PBS",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSU5iZnBMRnFxSjRwUFhNRDI1WGxkRUxpX2JNamFHRzNmWDlVNmhObWRGRWNWZGVuNVBuV3ZiOXhoQ0JONS1jOGx2QUNIWDQxRG5SMW5vck9VMTFYQjh5LXBsclVWdlJzQ0RsVTVNY1JhRlU2b1I5TzBzTEZQb2VwUEVheFBSN25qMXlMMU1ka0lrQkVJMFFPS3VmUHY1X0x3RW5ybzVrUVhLeHl6cjlzTGhpbm9leHc?oc=5",
-          "source": "PBS",
-          "publishedAt": "2026-09-10T07:00:00+00:00",
+          "title": "Trump Trade War With Canada Puts Film, TV Spending Rules in Crosshairs - The Hollywood Reporter",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWRnSVRlYmo1Unc0VVUtVmlhRjBJV3NoYTZwVTlXWWw3WkpDZXdBQXI1aEp5Um9US011QkRVRDBhWEZzNS1aQ1FndzQ2NmlQZ0FWMXlMYmlWM2JHWldFZjBET3pNeGJYYXprd2RHYWkwZXIzRFloQUN0STB6Q0VUVks4Um1tczdXY1dlNnlhbjZjRzNJbEE?oc=5",
+          "source": "The Hollywood Reporter",
+          "publishedAt": "2026-08-24T07:00:00+00:00",
           "phase": "monitoring"
         },
         {
-          "title": "How Trump’s ‘big, beautiful bill’ changed America - NBC News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb01qMDdGYzVUdktXQW96aTg4OXozTkVjaVgxbDBkaEl4TFlRY1RIQTlkbHo3c1FuWUI2VVNOdmNFaTBSVXI4bjVuNWFNVnVXR3NSREhhLVZMdkkzaU51Q0gyNWxueGx6N0NYQ0pwRXZsVWE1eFlvNzhpMVhrcmQ2OEx2NXY0WU4yUU9PLVZDUzdlWGJsRGpuLUNxRlZGUld3ZW0tRWlB?oc=5",
-          "source": "NBC News",
-          "publishedAt": "2026-07-01T07:00:00+00:00",
+          "title": "Trump Tax Law 2025: What Changed and How It Affects Your Taxes - Kiplinger",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lMWNMMWpEVkt4bFBZdUZCNDNUOWg3UndTbnZzOElhN3hxS3B6UXEtUktIb2FLa3daSUxlNGE5QWRpcFlBZ1Nwc3pINERwSEd0cEZsSWpyaUZadnp4cHZRQkVVd0M?oc=5",
+          "source": "Kiplinger",
+          "publishedAt": "2026-05-24T07:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
+          "title": "Republican Megabill Trades Essential Support to Low-Income People for Skewed Tax Cuts - Center on Budget and Policy Priorities",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmhGejlFclBFVFBOOEhLVWU4eTlrbE5wMDNta3ZqQzB4ZElpMXpsS0JjdjkzSnVSRWVCZ1NLWm1HWkhGTGx6bnJFdW9iYVlBbXBxeXNUcEFMamJ5dVBCUzJoaTZIZnZUV3ROZ3dMbS0wa0F2WFJJa3I2cnU0NVhkZmZLVUxLbktodEJWcWRHZW9QOFB5Sy0xNGVWSFNId05yT3R0SlBZOHkxZWJOYmlDWGpLdHEzbG9hX1E?oc=5",
+          "source": "Center on Budget and Policy Priorities",
+          "publishedAt": "2026-02-11T08:00:00+00:00",
           "phase": "monitoring"
         }
       ],
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-28T21:11:01.062533+00:00",
+      "updatedAt": "2026-10-29T01:03:15.960248+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-28T21:11:02.066630+00:00",
+    "asOf": "2026-10-29T01:03:17.061465+00:00",
     "aggregateScore": 63.5,
     "aggregateLabel": "偏高",
     "highRiskCount": 4,
@@ -1104,704 +1104,704 @@
         ],
         "priceTimeline": [
           {
-            "date": "2026-06-08",
-            "price": 396.6,
+            "date": "2026-06-05",
+            "price": 385.73,
             "priceIndex": 100.0,
             "sectorIndex": 100.0,
+            "volume": 51146100
+          },
+          {
+            "date": "2026-06-08",
+            "price": 396.6,
+            "priceIndex": 102.82,
+            "sectorIndex": 105.87,
             "volume": 37099000
           },
           {
             "date": "2026-06-09",
             "price": 392.16,
-            "priceIndex": 98.88,
-            "sectorIndex": 98.37,
+            "priceIndex": 101.67,
+            "sectorIndex": 104.14,
             "volume": 37026900
           },
           {
             "date": "2026-06-10",
             "price": 372.1,
-            "priceIndex": 93.82,
-            "sectorIndex": 94.76,
+            "priceIndex": 96.47,
+            "sectorIndex": 100.32,
             "volume": 38193500
           },
           {
             "date": "2026-06-11",
             "price": 385.57,
-            "priceIndex": 97.22,
-            "sectorIndex": 102.71,
+            "priceIndex": 99.96,
+            "sectorIndex": 108.74,
             "volume": 35187600
           },
           {
             "date": "2026-06-12",
             "price": 382.07,
-            "priceIndex": 96.34,
-            "sectorIndex": 104.34,
+            "priceIndex": 99.05,
+            "sectorIndex": 110.46,
             "volume": 27600900
           },
           {
             "date": "2026-06-15",
             "price": 393.94,
-            "priceIndex": 99.33,
-            "sectorIndex": 109.97,
+            "priceIndex": 102.13,
+            "sectorIndex": 116.43,
             "volume": 32394200
           },
           {
             "date": "2026-06-16",
             "price": 376.71,
-            "priceIndex": 94.98,
-            "sectorIndex": 103.46,
+            "priceIndex": 97.66,
+            "sectorIndex": 109.54,
             "volume": 31573700
           },
           {
             "date": "2026-06-17",
             "price": 392.9,
-            "priceIndex": 99.07,
-            "sectorIndex": 104.95,
+            "priceIndex": 101.86,
+            "sectorIndex": 111.11,
             "volume": 40005500
           },
           {
             "date": "2026-06-18",
             "price": 411.35,
-            "priceIndex": 103.72,
-            "sectorIndex": 111.9,
+            "priceIndex": 106.64,
+            "sectorIndex": 118.47,
             "volume": 45076100
           },
           {
             "date": "2026-06-22",
             "price": 392.13,
-            "priceIndex": 98.87,
-            "sectorIndex": 114.62,
+            "priceIndex": 101.66,
+            "sectorIndex": 121.35,
             "volume": 26403700
           },
           {
             "date": "2026-06-23",
             "price": 380.15,
-            "priceIndex": 95.85,
-            "sectorIndex": 105.59,
+            "priceIndex": 98.55,
+            "sectorIndex": 111.79,
             "volume": 33122200
           },
           {
             "date": "2026-06-24",
             "price": 382.07,
-            "priceIndex": 96.34,
-            "sectorIndex": 105.26,
+            "priceIndex": 99.05,
+            "sectorIndex": 111.44,
             "volume": 29938700
           },
           {
             "date": "2026-06-25",
             "price": 378.91,
-            "priceIndex": 95.54,
-            "sectorIndex": 109.41,
+            "priceIndex": 98.23,
+            "sectorIndex": 115.83,
             "volume": 23353700
           },
           {
             "date": "2026-06-26",
             "price": 365.02,
-            "priceIndex": 92.04,
-            "sectorIndex": 103.24,
+            "priceIndex": 94.63,
+            "sectorIndex": 109.29,
             "volume": 34839300
           },
           {
             "date": "2026-06-29",
             "price": 372.45,
-            "priceIndex": 93.91,
-            "sectorIndex": 107.51,
+            "priceIndex": 96.56,
+            "sectorIndex": 113.82,
             "volume": 24285200
           },
           {
             "date": "2026-06-30",
             "price": 377.75,
-            "priceIndex": 95.25,
-            "sectorIndex": 112.13,
+            "priceIndex": 97.93,
+            "sectorIndex": 118.71,
             "volume": 28517400
           },
           {
             "date": "2026-07-01",
             "price": 369.34,
-            "priceIndex": 93.13,
-            "sectorIndex": 104.94,
+            "priceIndex": 95.75,
+            "sectorIndex": 111.1,
             "volume": 23712600
           },
           {
             "date": "2026-07-02",
             "price": 360.45,
-            "priceIndex": 90.89,
-            "sectorIndex": 99.1,
+            "priceIndex": 93.45,
+            "sectorIndex": 104.92,
             "volume": 26749500
           },
           {
             "date": "2026-07-06",
             "price": 373.9,
-            "priceIndex": 94.28,
-            "sectorIndex": 101.76,
+            "priceIndex": 96.93,
+            "sectorIndex": 107.73,
             "volume": 24544000
           },
           {
             "date": "2026-07-07",
             "price": 370.78,
-            "priceIndex": 93.49,
-            "sectorIndex": 96.54,
+            "priceIndex": 96.12,
+            "sectorIndex": 102.21,
             "volume": 24116700
           },
           {
             "date": "2026-07-08",
             "price": 388.69,
-            "priceIndex": 98.01,
-            "sectorIndex": 98.35,
+            "priceIndex": 100.77,
+            "sectorIndex": 104.12,
             "volume": 31624100
           },
           {
             "date": "2026-07-09",
             "price": 401.11,
-            "priceIndex": 101.14,
-            "sectorIndex": 101.79,
+            "priceIndex": 103.99,
+            "sectorIndex": 107.77,
             "volume": 28074000
           },
           {
             "date": "2026-07-10",
             "price": 399.97,
-            "priceIndex": 100.85,
-            "sectorIndex": 101.73,
+            "priceIndex": 103.69,
+            "sectorIndex": 107.7,
             "volume": 14595900
           },
           {
             "date": "2026-07-13",
             "price": 384.05,
-            "priceIndex": 96.84,
-            "sectorIndex": 96.88,
+            "priceIndex": 99.56,
+            "sectorIndex": 102.56,
             "volume": 21294500
           },
           {
             "date": "2026-07-14",
             "price": 389.11,
-            "priceIndex": 98.11,
-            "sectorIndex": 99.38,
+            "priceIndex": 100.88,
+            "sectorIndex": 105.22,
             "volume": 20118700
           },
           {
             "date": "2026-07-15",
             "price": 394.28,
-            "priceIndex": 99.42,
-            "sectorIndex": 97.17,
+            "priceIndex": 102.22,
+            "sectorIndex": 102.87,
             "volume": 16324100
           },
           {
             "date": "2026-07-16",
             "price": 374.45,
-            "priceIndex": 94.42,
-            "sectorIndex": 92.83,
+            "priceIndex": 97.08,
+            "sectorIndex": 98.28,
             "volume": 23407200
           },
           {
             "date": "2026-07-17",
             "price": 370.83,
-            "priceIndex": 93.5,
-            "sectorIndex": 91.31,
+            "priceIndex": 96.14,
+            "sectorIndex": 96.67,
             "volume": 23272200
           },
           {
             "date": "2026-07-20",
             "price": 378.16,
-            "priceIndex": 95.35,
-            "sectorIndex": 91.72,
+            "priceIndex": 98.04,
+            "sectorIndex": 97.1,
             "volume": 14420500
           },
           {
             "date": "2026-07-21",
             "price": 386.5,
-            "priceIndex": 97.45,
-            "sectorIndex": 96.72,
+            "priceIndex": 100.2,
+            "sectorIndex": 102.39,
             "volume": 17291100
           },
           {
             "date": "2026-07-22",
             "price": 396.81,
-            "priceIndex": 100.05,
-            "sectorIndex": 97.21,
+            "priceIndex": 102.87,
+            "sectorIndex": 102.92,
             "volume": 16966200
           },
           {
             "date": "2026-07-23",
             "price": 392.47,
-            "priceIndex": 98.96,
-            "sectorIndex": 96.46,
+            "priceIndex": 101.75,
+            "sectorIndex": 102.12,
             "volume": 16348700
           },
           {
             "date": "2026-07-24",
             "price": 381.92,
-            "priceIndex": 96.3,
-            "sectorIndex": 92.22,
+            "priceIndex": 99.01,
+            "sectorIndex": 97.64,
             "volume": 15149400
           },
           {
             "date": "2026-07-27",
             "price": 383.22,
-            "priceIndex": 96.63,
-            "sectorIndex": 90.34,
+            "priceIndex": 99.35,
+            "sectorIndex": 95.64,
             "volume": 18502100
           },
           {
             "date": "2026-07-28",
             "price": 380.91,
-            "priceIndex": 96.04,
-            "sectorIndex": 86.0,
+            "priceIndex": 98.75,
+            "sectorIndex": 91.05,
             "volume": 20328400
           },
           {
             "date": "2026-07-29",
             "price": 370.32,
-            "priceIndex": 93.37,
-            "sectorIndex": 81.37,
+            "priceIndex": 96.0,
+            "sectorIndex": 86.15,
             "volume": 21374400
           },
           {
             "date": "2026-07-30",
             "price": 387.84,
-            "priceIndex": 97.79,
-            "sectorIndex": 88.29,
+            "priceIndex": 100.55,
+            "sectorIndex": 93.47,
             "volume": 23639800
           },
           {
             "date": "2026-07-31",
             "price": 389.28,
-            "priceIndex": 98.15,
-            "sectorIndex": 88.35,
+            "priceIndex": 100.92,
+            "sectorIndex": 93.54,
             "volume": 20391000
           },
           {
             "date": "2026-08-03",
             "price": 392.23,
-            "priceIndex": 98.9,
-            "sectorIndex": 88.84,
+            "priceIndex": 101.69,
+            "sectorIndex": 94.05,
             "volume": 17315100
           },
           {
             "date": "2026-08-04",
             "price": 418.16,
-            "priceIndex": 105.44,
-            "sectorIndex": 94.88,
+            "priceIndex": 108.41,
+            "sectorIndex": 100.45,
             "volume": 29564200
           },
           {
             "date": "2026-08-05",
             "price": 418.28,
-            "priceIndex": 105.47,
-            "sectorIndex": 92.87,
+            "priceIndex": 108.44,
+            "sectorIndex": 98.32,
             "volume": 16880400
           },
           {
             "date": "2026-08-06",
             "price": 420.57,
-            "priceIndex": 106.04,
-            "sectorIndex": 93.19,
+            "priceIndex": 109.03,
+            "sectorIndex": 98.66,
             "volume": 13907500
           },
           {
             "date": "2026-08-07",
             "price": 427.76,
-            "priceIndex": 107.86,
-            "sectorIndex": 95.07,
+            "priceIndex": 110.9,
+            "sectorIndex": 100.65,
             "volume": 14698300
           },
           {
             "date": "2026-08-10",
             "price": 422.4,
-            "priceIndex": 106.51,
-            "sectorIndex": 92.64,
+            "priceIndex": 109.51,
+            "sectorIndex": 98.08,
             "volume": 13854100
           },
           {
             "date": "2026-08-11",
             "price": 416.08,
-            "priceIndex": 104.91,
-            "sectorIndex": 93.48,
+            "priceIndex": 107.87,
+            "sectorIndex": 98.97,
             "volume": 12882700
           },
           {
             "date": "2026-08-12",
             "price": 416.05,
-            "priceIndex": 104.9,
-            "sectorIndex": 95.65,
+            "priceIndex": 107.86,
+            "sectorIndex": 101.27,
             "volume": 15859200
           },
           {
             "date": "2026-08-13",
             "price": 417.82,
-            "priceIndex": 105.35,
-            "sectorIndex": 96.38,
+            "priceIndex": 108.32,
+            "sectorIndex": 102.03,
             "volume": 13180500
           },
           {
             "date": "2026-08-14",
             "price": 392.99,
-            "priceIndex": 99.09,
-            "sectorIndex": 96.32,
+            "priceIndex": 101.88,
+            "sectorIndex": 101.97,
             "volume": 29513600
           },
           {
             "date": "2026-08-17",
             "price": 392.43,
-            "priceIndex": 98.95,
-            "sectorIndex": 97.84,
+            "priceIndex": 101.74,
+            "sectorIndex": 103.58,
             "volume": 20042600
           },
           {
             "date": "2026-08-18",
             "price": 380.0,
-            "priceIndex": 95.81,
-            "sectorIndex": 92.99,
+            "priceIndex": 98.51,
+            "sectorIndex": 98.45,
             "volume": 22878200
           },
           {
             "date": "2026-08-19",
             "price": 362.48,
-            "priceIndex": 91.4,
-            "sectorIndex": 90.94,
+            "priceIndex": 93.97,
+            "sectorIndex": 96.28,
             "volume": 35091400
           },
           {
             "date": "2026-08-20",
             "price": 364.03,
-            "priceIndex": 91.79,
-            "sectorIndex": 91.41,
+            "priceIndex": 94.37,
+            "sectorIndex": 96.77,
             "volume": 19729800
           },
           {
             "date": "2026-08-21",
             "price": 368.45,
-            "priceIndex": 92.9,
-            "sectorIndex": 91.01,
+            "priceIndex": 95.52,
+            "sectorIndex": 96.35,
             "volume": 19037100
           },
           {
             "date": "2026-08-24",
             "price": 358.76,
-            "priceIndex": 90.46,
-            "sectorIndex": 88.58,
+            "priceIndex": 93.01,
+            "sectorIndex": 93.78,
             "volume": 18717200
           },
           {
             "date": "2026-08-25",
             "price": 356.74,
-            "priceIndex": 89.95,
-            "sectorIndex": 89.96,
+            "priceIndex": 92.48,
+            "sectorIndex": 95.24,
             "volume": 18014900
           },
           {
             "date": "2026-08-26",
             "price": 355.59,
-            "priceIndex": 89.66,
-            "sectorIndex": 90.19,
+            "priceIndex": 92.19,
+            "sectorIndex": 95.49,
             "volume": 19196300
           },
           {
             "date": "2026-08-27",
             "price": 371.54,
-            "priceIndex": 93.68,
-            "sectorIndex": 91.95,
+            "priceIndex": 96.32,
+            "sectorIndex": 97.34,
             "volume": 21330000
           },
           {
             "date": "2026-08-28",
             "price": 368.79,
-            "priceIndex": 92.99,
-            "sectorIndex": 89.01,
+            "priceIndex": 95.61,
+            "sectorIndex": 94.23,
             "volume": 16596100
           },
           {
             "date": "2026-08-31",
             "price": 370.34,
-            "priceIndex": 93.38,
-            "sectorIndex": 89.43,
+            "priceIndex": 96.01,
+            "sectorIndex": 94.68,
             "volume": 21948000
           },
           {
             "date": "2026-09-01",
             "price": 369.68,
-            "priceIndex": 93.21,
-            "sectorIndex": 87.55,
+            "priceIndex": 95.84,
+            "sectorIndex": 92.69,
             "volume": 19288900
           },
           {
             "date": "2026-09-02",
             "price": 367.24,
-            "priceIndex": 92.6,
-            "sectorIndex": 87.75,
+            "priceIndex": 95.21,
+            "sectorIndex": 92.9,
             "volume": 38874600
           },
           {
             "date": "2026-09-03",
             "price": 357.16,
-            "priceIndex": 90.06,
-            "sectorIndex": 87.88,
+            "priceIndex": 92.59,
+            "sectorIndex": 93.04,
             "volume": 60242600
           },
           {
             "date": "2026-09-04",
             "price": 357.9,
-            "priceIndex": 90.24,
-            "sectorIndex": 90.97,
+            "priceIndex": 92.79,
+            "sectorIndex": 96.31,
             "volume": 32863300
           },
           {
             "date": "2026-09-08",
             "price": 368.56,
-            "priceIndex": 92.93,
-            "sectorIndex": 92.47,
+            "priceIndex": 95.55,
+            "sectorIndex": 97.89,
             "volume": 30464900
           },
           {
             "date": "2026-09-09",
             "price": 364.38,
-            "priceIndex": 91.88,
-            "sectorIndex": 93.1,
+            "priceIndex": 94.47,
+            "sectorIndex": 98.56,
             "volume": 25918200
           },
           {
             "date": "2026-09-10",
             "price": 360.83,
-            "priceIndex": 90.98,
-            "sectorIndex": 90.55,
+            "priceIndex": 93.54,
+            "sectorIndex": 95.86,
             "volume": 23994300
           },
           {
             "date": "2026-09-11",
             "price": 361.99,
-            "priceIndex": 91.27,
-            "sectorIndex": 92.23,
+            "priceIndex": 93.85,
+            "sectorIndex": 97.65,
             "volume": 21166900
           },
           {
             "date": "2026-09-14",
             "price": 344.72,
-            "priceIndex": 86.92,
-            "sectorIndex": 87.04,
+            "priceIndex": 89.37,
+            "sectorIndex": 92.15,
             "volume": 32662800
           },
           {
             "date": "2026-09-15",
             "price": 339.27,
-            "priceIndex": 85.54,
-            "sectorIndex": 87.3,
+            "priceIndex": 87.96,
+            "sectorIndex": 92.42,
             "volume": 24783900
           },
           {
             "date": "2026-09-16",
             "price": 339.51,
-            "priceIndex": 85.61,
-            "sectorIndex": 87.86,
+            "priceIndex": 88.02,
+            "sectorIndex": 93.01,
             "volume": 23152500
           },
           {
             "date": "2026-09-17",
             "price": 347.3,
-            "priceIndex": 87.57,
-            "sectorIndex": 90.84,
+            "priceIndex": 90.04,
+            "sectorIndex": 96.17,
             "volume": 24389600
           },
           {
             "date": "2026-09-18",
             "price": 357.61,
-            "priceIndex": 90.17,
-            "sectorIndex": 93.28,
+            "priceIndex": 92.71,
+            "sectorIndex": 98.76,
             "volume": 44032800
           },
           {
             "date": "2026-09-21",
             "price": 362.66,
-            "priceIndex": 91.44,
-            "sectorIndex": 97.88,
+            "priceIndex": 94.02,
+            "sectorIndex": 103.63,
             "volume": 26498600
           },
           {
             "date": "2026-09-22",
             "price": 364.54,
-            "priceIndex": 91.92,
-            "sectorIndex": 100.23,
+            "priceIndex": 94.51,
+            "sectorIndex": 106.12,
             "volume": 20570800
           },
           {
             "date": "2026-09-23",
             "price": 354.99,
-            "priceIndex": 89.51,
-            "sectorIndex": 99.0,
+            "priceIndex": 92.03,
+            "sectorIndex": 104.81,
             "volume": 23387700
           },
           {
             "date": "2026-09-24",
             "price": 350.36,
-            "priceIndex": 88.34,
-            "sectorIndex": 99.06,
+            "priceIndex": 90.83,
+            "sectorIndex": 104.87,
             "volume": 20930400
           },
           {
             "date": "2026-09-25",
             "price": 352.81,
-            "priceIndex": 88.96,
-            "sectorIndex": 100.22,
+            "priceIndex": 91.47,
+            "sectorIndex": 106.1,
             "volume": 16255500
           },
           {
             "date": "2026-09-28",
             "price": 349.57,
-            "priceIndex": 88.14,
-            "sectorIndex": 98.13,
+            "priceIndex": 90.63,
+            "sectorIndex": 103.89,
             "volume": 21527900
           },
           {
             "date": "2026-09-29",
             "price": 355.1,
-            "priceIndex": 89.54,
-            "sectorIndex": 99.3,
+            "priceIndex": 92.06,
+            "sectorIndex": 105.13,
             "volume": 19187400
           },
           {
             "date": "2026-09-30",
             "price": 351.19,
-            "priceIndex": 88.55,
-            "sectorIndex": 99.51,
+            "priceIndex": 91.05,
+            "sectorIndex": 105.35,
             "volume": 19760700
           },
           {
             "date": "2026-10-01",
             "price": 343.64,
-            "priceIndex": 86.65,
-            "sectorIndex": 100.85,
+            "priceIndex": 89.09,
+            "sectorIndex": 106.77,
             "volume": 24574100
           },
           {
             "date": "2026-10-02",
             "price": 355.14,
-            "priceIndex": 89.55,
-            "sectorIndex": 103.05,
+            "priceIndex": 92.07,
+            "sectorIndex": 109.1,
             "volume": 24639600
           },
           {
             "date": "2026-10-05",
             "price": 362.51,
-            "priceIndex": 91.4,
-            "sectorIndex": 103.16,
+            "priceIndex": 93.98,
+            "sectorIndex": 109.22,
             "volume": 21481600
           },
           {
             "date": "2026-10-06",
             "price": 375.81,
-            "priceIndex": 94.76,
-            "sectorIndex": 103.15,
+            "priceIndex": 97.43,
+            "sectorIndex": 109.2,
             "volume": 30834300
           },
           {
             "date": "2026-10-07",
             "price": 376.51,
-            "priceIndex": 94.93,
-            "sectorIndex": 101.99,
+            "priceIndex": 97.61,
+            "sectorIndex": 107.98,
             "volume": 18046100
           },
           {
             "date": "2026-10-08",
             "price": 360.14,
-            "priceIndex": 90.81,
-            "sectorIndex": 98.57,
+            "priceIndex": 93.37,
+            "sectorIndex": 104.36,
             "volume": 27145200
           },
           {
             "date": "2026-10-09",
             "price": 361.54,
-            "priceIndex": 91.16,
-            "sectorIndex": 97.89,
+            "priceIndex": 93.73,
+            "sectorIndex": 103.64,
             "volume": 16843800
           },
           {
             "date": "2026-10-12",
             "price": 354.73,
-            "priceIndex": 89.44,
-            "sectorIndex": 95.35,
+            "priceIndex": 91.96,
+            "sectorIndex": 100.94,
             "volume": 16336800
           },
           {
             "date": "2026-10-13",
             "price": 357.31,
-            "priceIndex": 90.09,
-            "sectorIndex": 95.18,
+            "priceIndex": 92.63,
+            "sectorIndex": 100.77,
             "volume": 17266700
           },
           {
             "date": "2026-10-14",
             "price": 346.25,
-            "priceIndex": 87.3,
-            "sectorIndex": 90.9,
+            "priceIndex": 89.76,
+            "sectorIndex": 96.23,
             "volume": 23127400
           },
           {
             "date": "2026-10-15",
             "price": 344.33,
-            "priceIndex": 86.82,
-            "sectorIndex": 90.07,
+            "priceIndex": 89.27,
+            "sectorIndex": 95.36,
             "volume": 28455800
           },
           {
             "date": "2026-10-16",
             "price": 328.75,
-            "priceIndex": 82.89,
-            "sectorIndex": 86.34,
+            "priceIndex": 85.23,
+            "sectorIndex": 91.41,
             "volume": 29839600
           },
           {
             "date": "2026-10-19",
             "price": 334.59,
-            "priceIndex": 84.36,
-            "sectorIndex": 87.83,
+            "priceIndex": 86.74,
+            "sectorIndex": 92.99,
             "volume": 17457600
           },
           {
             "date": "2026-10-20",
             "price": 334.37,
-            "priceIndex": 84.31,
-            "sectorIndex": 87.5,
+            "priceIndex": 86.68,
+            "sectorIndex": 92.63,
             "volume": 15951800
           },
           {
             "date": "2026-10-21",
             "price": 337.8,
-            "priceIndex": 85.17,
-            "sectorIndex": 89.31,
+            "priceIndex": 87.57,
+            "sectorIndex": 94.55,
             "volume": 17123600
           },
           {
             "date": "2026-10-22",
             "price": 323.24,
-            "priceIndex": 81.5,
-            "sectorIndex": 83.24,
+            "priceIndex": 83.8,
+            "sectorIndex": 88.13,
             "volume": 28139100
           },
           {
             "date": "2026-10-23",
             "price": 321.68,
-            "priceIndex": 81.11,
-            "sectorIndex": 83.68,
+            "priceIndex": 83.4,
+            "sectorIndex": 88.59,
             "volume": 15917000
           },
           {
             "date": "2026-10-26",
             "price": 329.17,
-            "priceIndex": 83.0,
-            "sectorIndex": 86.07,
+            "priceIndex": 85.34,
+            "sectorIndex": 91.12,
             "volume": 18646700
           },
           {
             "date": "2026-10-27",
             "price": 342.33,
-            "priceIndex": 86.32,
-            "sectorIndex": 89.43,
+            "priceIndex": 88.75,
+            "sectorIndex": 94.68,
             "volume": 25567200
-          },
-          {
-            "date": "2026-10-28",
-            "price": 351.81,
-            "priceIndex": 88.71,
-            "sectorIndex": 91.34,
-            "volume": 22140399
           }
         ],
         "score": 79.3,
@@ -1821,8 +1821,8 @@
           "targetLow": 215.88,
           "targetHigh": 660.0,
           "targetUpside": 50.7,
-          "return5d": 4.1,
-          "return20d": 0.2,
+          "return5d": 5.2,
+          "return20d": -0.9,
           "drawdown3m": -17.8,
           "targetRaises45d": 1,
           "targetCuts45d": 0,
@@ -1933,7 +1933,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 7.7,
+        "scoreChange7d": 6.9,
         "historyStatus": {
           "points": 34,
           "firstDate": "2026-08-04",
@@ -2465,7 +2465,7 @@
         },
         "downgradeLag": {
           "status": "cut_after_price",
-          "peakDate": "2026-06-30",
+          "peakDate": "2026-06-22",
           "breakDate": "2026-07-02",
           "firstCutDate": "2026-08-17",
           "lagDays": 46,
@@ -3135,707 +3135,707 @@
         ],
         "priceTimeline": [
           {
-            "date": "2026-06-08",
-            "price": 288.85,
+            "date": "2026-06-05",
+            "price": 263.47,
             "priceIndex": 100.0,
             "sectorIndex": 100.0,
+            "volume": 93976400
+          },
+          {
+            "date": "2026-06-08",
+            "price": 288.85,
+            "priceIndex": 109.63,
+            "sectorIndex": 105.87,
             "volume": 84575500
           },
           {
             "date": "2026-06-09",
             "price": 266.88,
-            "priceIndex": 92.39,
-            "sectorIndex": 98.37,
+            "priceIndex": 101.29,
+            "sectorIndex": 104.14,
             "volume": 94754500
           },
           {
             "date": "2026-06-10",
             "price": 252.59,
-            "priceIndex": 87.45,
-            "sectorIndex": 94.76,
+            "priceIndex": 95.87,
+            "sectorIndex": 100.32,
             "volume": 54175100
           },
           {
             "date": "2026-06-11",
             "price": 280.71,
-            "priceIndex": 97.18,
-            "sectorIndex": 102.71,
+            "priceIndex": 106.54,
+            "sectorIndex": 108.74,
             "volume": 57254500
           },
           {
             "date": "2026-06-12",
             "price": 279.7,
-            "priceIndex": 96.83,
-            "sectorIndex": 104.34,
+            "priceIndex": 106.16,
+            "sectorIndex": 110.46,
             "volume": 42047300
           },
           {
             "date": "2026-06-15",
             "price": 308.88,
-            "priceIndex": 106.93,
-            "sectorIndex": 109.97,
+            "priceIndex": 117.24,
+            "sectorIndex": 116.43,
             "volume": 54963600
           },
           {
             "date": "2026-06-16",
             "price": 278.67,
-            "priceIndex": 96.48,
-            "sectorIndex": 103.46,
+            "priceIndex": 105.77,
+            "sectorIndex": 109.54,
             "volume": 59201300
           },
           {
             "date": "2026-06-17",
             "price": 289.54,
-            "priceIndex": 100.24,
-            "sectorIndex": 104.95,
+            "priceIndex": 109.89,
+            "sectorIndex": 111.11,
             "volume": 50607300
           },
           {
             "date": "2026-06-18",
             "price": 310.58,
-            "priceIndex": 107.52,
-            "sectorIndex": 111.9,
+            "priceIndex": 117.88,
+            "sectorIndex": 118.47,
             "volume": 250989400
           },
           {
             "date": "2026-06-22",
             "price": 307.86,
-            "priceIndex": 106.58,
-            "sectorIndex": 114.62,
+            "priceIndex": 116.85,
+            "sectorIndex": 121.35,
             "volume": 49225100
           },
           {
             "date": "2026-06-23",
             "price": 279.04,
-            "priceIndex": 96.6,
-            "sectorIndex": 105.59,
+            "priceIndex": 105.91,
+            "sectorIndex": 111.79,
             "volume": 46361100
           },
           {
             "date": "2026-06-24",
             "price": 276.7,
-            "priceIndex": 95.79,
-            "sectorIndex": 105.26,
+            "priceIndex": 105.02,
+            "sectorIndex": 111.44,
             "volume": 35747400
           },
           {
             "date": "2026-06-25",
             "price": 281.26,
-            "priceIndex": 97.37,
-            "sectorIndex": 109.41,
+            "priceIndex": 106.75,
+            "sectorIndex": 115.83,
             "volume": 39131600
           },
           {
             "date": "2026-06-26",
             "price": 266.77,
-            "priceIndex": 92.36,
-            "sectorIndex": 103.24,
+            "priceIndex": 101.25,
+            "sectorIndex": 109.29,
             "volume": 41986200
           },
           {
             "date": "2026-06-29",
             "price": 277.75,
-            "priceIndex": 96.16,
-            "sectorIndex": 107.51,
+            "priceIndex": 105.42,
+            "sectorIndex": 113.82,
             "volume": 31749200
           },
           {
             "date": "2026-06-30",
             "price": 297.89,
-            "priceIndex": 103.13,
-            "sectorIndex": 112.13,
+            "priceIndex": 113.06,
+            "sectorIndex": 118.71,
             "volume": 37520100
           },
           {
             "date": "2026-07-01",
             "price": 272.05,
-            "priceIndex": 94.18,
-            "sectorIndex": 104.94,
+            "priceIndex": 103.26,
+            "sectorIndex": 111.1,
             "volume": 33822700
           },
           {
             "date": "2026-07-02",
             "price": 245.29,
-            "priceIndex": 84.92,
-            "sectorIndex": 99.1,
+            "priceIndex": 93.1,
+            "sectorIndex": 104.92,
             "volume": 38435900
           },
           {
             "date": "2026-07-06",
             "price": 249.27,
-            "priceIndex": 86.3,
-            "sectorIndex": 101.76,
+            "priceIndex": 94.61,
+            "sectorIndex": 107.73,
             "volume": 25703100
           },
           {
             "date": "2026-07-07",
             "price": 230.7,
-            "priceIndex": 79.87,
-            "sectorIndex": 96.54,
+            "priceIndex": 87.56,
+            "sectorIndex": 102.21,
             "volume": 36163800
           },
           {
             "date": "2026-07-08",
             "price": 231.71,
-            "priceIndex": 80.22,
-            "sectorIndex": 98.35,
+            "priceIndex": 87.95,
+            "sectorIndex": 104.12,
             "volume": 25541800
           },
           {
             "date": "2026-07-09",
             "price": 243.27,
-            "priceIndex": 84.22,
-            "sectorIndex": 101.79,
+            "priceIndex": 92.33,
+            "sectorIndex": 107.77,
             "volume": 21245300
           },
           {
             "date": "2026-07-10",
             "price": 235.81,
-            "priceIndex": 81.64,
-            "sectorIndex": 101.73,
+            "priceIndex": 89.5,
+            "sectorIndex": 107.7,
             "volume": 15106000
           },
           {
             "date": "2026-07-13",
             "price": 217.53,
-            "priceIndex": 75.31,
-            "sectorIndex": 96.88,
+            "priceIndex": 82.56,
+            "sectorIndex": 102.56,
             "volume": 25615300
           },
           {
             "date": "2026-07-14",
             "price": 222.44,
-            "priceIndex": 77.01,
-            "sectorIndex": 99.38,
+            "priceIndex": 84.43,
+            "sectorIndex": 105.22,
             "volume": 20705500
           },
           {
             "date": "2026-07-15",
             "price": 206.26,
-            "priceIndex": 71.41,
-            "sectorIndex": 97.17,
+            "priceIndex": 78.29,
+            "sectorIndex": 102.87,
             "volume": 26827600
           },
           {
             "date": "2026-07-16",
             "price": 188.3,
-            "priceIndex": 65.19,
-            "sectorIndex": 92.83,
+            "priceIndex": 71.47,
+            "sectorIndex": 98.28,
             "volume": 34893000
           },
           {
             "date": "2026-07-17",
             "price": 188.68,
-            "priceIndex": 65.32,
-            "sectorIndex": 91.31,
+            "priceIndex": 71.61,
+            "sectorIndex": 96.67,
             "volume": 29656300
           },
           {
             "date": "2026-07-20",
             "price": 194.94,
-            "priceIndex": 67.49,
-            "sectorIndex": 91.72,
+            "priceIndex": 73.99,
+            "sectorIndex": 97.1,
             "volume": 25070600
           },
           {
             "date": "2026-07-21",
             "price": 207.96,
-            "priceIndex": 72.0,
-            "sectorIndex": 96.72,
+            "priceIndex": 78.93,
+            "sectorIndex": 102.39,
             "volume": 22153600
           },
           {
             "date": "2026-07-22",
             "price": 210.99,
-            "priceIndex": 73.04,
-            "sectorIndex": 97.21,
+            "priceIndex": 80.08,
+            "sectorIndex": 102.92,
             "volume": 16890300
           },
           {
             "date": "2026-07-23",
             "price": 209.32,
-            "priceIndex": 72.47,
-            "sectorIndex": 96.46,
+            "priceIndex": 79.45,
+            "sectorIndex": 102.12,
             "volume": 16359900
           },
           {
             "date": "2026-07-24",
             "price": 194.23,
-            "priceIndex": 67.24,
-            "sectorIndex": 92.22,
+            "priceIndex": 73.72,
+            "sectorIndex": 97.64,
             "volume": 19837100
           },
           {
             "date": "2026-07-27",
             "price": 189.17,
-            "priceIndex": 65.49,
-            "sectorIndex": 90.34,
+            "priceIndex": 71.8,
+            "sectorIndex": 95.64,
             "volume": 21637700
           },
           {
             "date": "2026-07-28",
             "price": 174.47,
-            "priceIndex": 60.4,
-            "sectorIndex": 86.0,
+            "priceIndex": 66.22,
+            "sectorIndex": 91.05,
             "volume": 29188500
           },
           {
             "date": "2026-07-29",
             "price": 163.4,
-            "priceIndex": 56.57,
-            "sectorIndex": 81.37,
+            "priceIndex": 62.02,
+            "sectorIndex": 86.15,
             "volume": 25708900
           },
           {
             "date": "2026-07-30",
             "price": 183.3,
-            "priceIndex": 63.46,
-            "sectorIndex": 88.29,
+            "priceIndex": 69.57,
+            "sectorIndex": 93.47,
             "volume": 29861700
           },
           {
             "date": "2026-07-31",
             "price": 187.56,
-            "priceIndex": 64.93,
-            "sectorIndex": 88.35,
+            "priceIndex": 71.19,
+            "sectorIndex": 93.54,
             "volume": 26835500
           },
           {
             "date": "2026-08-03",
             "price": 193.78,
-            "priceIndex": 67.09,
-            "sectorIndex": 88.84,
+            "priceIndex": 73.55,
+            "sectorIndex": 94.05,
             "volume": 21015800
           },
           {
             "date": "2026-08-04",
             "price": 218.59,
-            "priceIndex": 75.68,
-            "sectorIndex": 94.88,
+            "priceIndex": 82.97,
+            "sectorIndex": 100.45,
             "volume": 33923400
           },
           {
             "date": "2026-08-05",
             "price": 211.02,
-            "priceIndex": 73.06,
-            "sectorIndex": 92.87,
+            "priceIndex": 80.09,
+            "sectorIndex": 98.32,
             "volume": 16884600
           },
           {
             "date": "2026-08-06",
             "price": 210.54,
-            "priceIndex": 72.89,
-            "sectorIndex": 93.19,
+            "priceIndex": 79.91,
+            "sectorIndex": 98.66,
             "volume": 16804200
           },
           {
             "date": "2026-08-07",
             "price": 218.72,
-            "priceIndex": 75.72,
-            "sectorIndex": 95.07,
+            "priceIndex": 83.02,
+            "sectorIndex": 100.65,
             "volume": 19663400
           },
           {
             "date": "2026-08-10",
             "price": 208.56,
-            "priceIndex": 72.2,
-            "sectorIndex": 92.64,
+            "priceIndex": 79.16,
+            "sectorIndex": 98.08,
             "volume": 20948500
           },
           {
             "date": "2026-08-11",
             "price": 212.31,
-            "priceIndex": 73.5,
-            "sectorIndex": 93.48,
+            "priceIndex": 80.58,
+            "sectorIndex": 98.97,
             "volume": 15429200
           },
           {
             "date": "2026-08-12",
             "price": 217.08,
-            "priceIndex": 75.15,
-            "sectorIndex": 95.65,
+            "priceIndex": 82.39,
+            "sectorIndex": 101.27,
             "volume": 25134300
           },
           {
             "date": "2026-08-13",
             "price": 222.18,
-            "priceIndex": 76.92,
-            "sectorIndex": 96.38,
+            "priceIndex": 84.33,
+            "sectorIndex": 102.03,
             "volume": 19255500
           },
           {
             "date": "2026-08-14",
             "price": 222.02,
-            "priceIndex": 76.86,
-            "sectorIndex": 96.32,
+            "priceIndex": 84.27,
+            "sectorIndex": 101.97,
             "volume": 14487800
           },
           {
             "date": "2026-08-17",
             "price": 234.33,
-            "priceIndex": 81.13,
-            "sectorIndex": 97.84,
+            "priceIndex": 88.94,
+            "sectorIndex": 103.58,
             "volume": 21113500
           },
           {
             "date": "2026-08-18",
             "price": 216.0,
-            "priceIndex": 74.78,
-            "sectorIndex": 92.99,
+            "priceIndex": 81.98,
+            "sectorIndex": 98.45,
             "volume": 25860700
           },
           {
             "date": "2026-08-19",
             "price": 237.27,
-            "priceIndex": 82.14,
-            "sectorIndex": 90.94,
+            "priceIndex": 90.06,
+            "sectorIndex": 96.28,
             "volume": 44011800
           },
           {
             "date": "2026-08-20",
             "price": 251.01,
-            "priceIndex": 86.9,
-            "sectorIndex": 91.41,
+            "priceIndex": 95.27,
+            "sectorIndex": 96.77,
             "volume": 29226500
           },
           {
             "date": "2026-08-21",
             "price": 237.04,
-            "priceIndex": 82.06,
-            "sectorIndex": 91.01,
+            "priceIndex": 89.97,
+            "sectorIndex": 96.35,
             "volume": 25526600
           },
           {
             "date": "2026-08-24",
             "price": 229.29,
-            "priceIndex": 79.38,
-            "sectorIndex": 88.58,
+            "priceIndex": 87.03,
+            "sectorIndex": 93.78,
             "volume": 18791400
           },
           {
             "date": "2026-08-25",
             "price": 240.38,
-            "priceIndex": 83.22,
-            "sectorIndex": 89.96,
+            "priceIndex": 91.24,
+            "sectorIndex": 95.24,
             "volume": 21347000
           },
           {
             "date": "2026-08-26",
             "price": 245.11,
-            "priceIndex": 84.86,
-            "sectorIndex": 90.19,
+            "priceIndex": 93.03,
+            "sectorIndex": 95.49,
             "volume": 17107000
           },
           {
             "date": "2026-08-27",
             "price": 241.45,
-            "priceIndex": 83.59,
-            "sectorIndex": 91.95,
+            "priceIndex": 91.64,
+            "sectorIndex": 97.34,
             "volume": 41014700
           },
           {
             "date": "2026-08-28",
             "price": 216.62,
-            "priceIndex": 74.99,
-            "sectorIndex": 89.01,
+            "priceIndex": 82.22,
+            "sectorIndex": 94.23,
             "volume": 48979900
           },
           {
             "date": "2026-08-31",
             "price": 211.66,
-            "priceIndex": 73.28,
-            "sectorIndex": 89.43,
+            "priceIndex": 80.34,
+            "sectorIndex": 94.68,
             "volume": 23650800
           },
           {
             "date": "2026-09-01",
             "price": 210.39,
-            "priceIndex": 72.84,
-            "sectorIndex": 87.55,
+            "priceIndex": 79.85,
+            "sectorIndex": 92.69,
             "volume": 22284200
           },
           {
             "date": "2026-09-02",
             "price": 206.48,
-            "priceIndex": 71.48,
-            "sectorIndex": 87.75,
+            "priceIndex": 78.37,
+            "sectorIndex": 92.9,
             "volume": 15224800
           },
           {
             "date": "2026-09-03",
             "price": 208.83,
-            "priceIndex": 72.3,
-            "sectorIndex": 87.88,
+            "priceIndex": 79.26,
+            "sectorIndex": 93.04,
             "volume": 18768900
           },
           {
             "date": "2026-09-04",
             "price": 223.55,
-            "priceIndex": 77.39,
-            "sectorIndex": 90.97,
+            "priceIndex": 84.85,
+            "sectorIndex": 96.31,
             "volume": 21218100
           },
           {
             "date": "2026-09-08",
             "price": 225.41,
-            "priceIndex": 78.04,
-            "sectorIndex": 92.47,
+            "priceIndex": 85.55,
+            "sectorIndex": 97.89,
             "volume": 20618200
           },
           {
             "date": "2026-09-09",
             "price": 235.01,
-            "priceIndex": 81.36,
-            "sectorIndex": 93.1,
+            "priceIndex": 89.2,
+            "sectorIndex": 98.56,
             "volume": 20477900
           },
           {
             "date": "2026-09-10",
             "price": 226.96,
-            "priceIndex": 78.57,
-            "sectorIndex": 90.55,
+            "priceIndex": 86.14,
+            "sectorIndex": 95.86,
             "volume": 16467600
           },
           {
             "date": "2026-09-11",
             "price": 236.1,
-            "priceIndex": 81.74,
-            "sectorIndex": 92.23,
+            "priceIndex": 89.61,
+            "sectorIndex": 97.65,
             "volume": 17310200
           },
           {
             "date": "2026-09-14",
             "price": 218.82,
-            "priceIndex": 75.76,
-            "sectorIndex": 87.04,
+            "priceIndex": 83.05,
+            "sectorIndex": 92.15,
             "volume": 22196800
           },
           {
             "date": "2026-09-15",
             "price": 221.7,
-            "priceIndex": 76.75,
-            "sectorIndex": 87.3,
+            "priceIndex": 84.15,
+            "sectorIndex": 92.42,
             "volume": 12742900
           },
           {
             "date": "2026-09-16",
             "price": 229.71,
-            "priceIndex": 79.53,
-            "sectorIndex": 87.86,
+            "priceIndex": 87.19,
+            "sectorIndex": 93.01,
             "volume": 16377400
           },
           {
             "date": "2026-09-17",
             "price": 240.76,
-            "priceIndex": 83.35,
-            "sectorIndex": 90.84,
+            "priceIndex": 91.38,
+            "sectorIndex": 96.17,
             "volume": 20969900
           },
           {
             "date": "2026-09-18",
             "price": 244.25,
-            "priceIndex": 84.56,
-            "sectorIndex": 93.28,
+            "priceIndex": 92.71,
+            "sectorIndex": 98.76,
             "volume": 23635600
           },
           {
             "date": "2026-09-21",
             "price": 257.38,
-            "priceIndex": 89.11,
-            "sectorIndex": 97.88,
+            "priceIndex": 97.69,
+            "sectorIndex": 103.63,
             "volume": 21466200
           },
           {
             "date": "2026-09-22",
             "price": 262.36,
-            "priceIndex": 90.83,
-            "sectorIndex": 100.23,
+            "priceIndex": 99.58,
+            "sectorIndex": 106.12,
             "volume": 19926600
           },
           {
             "date": "2026-09-23",
             "price": 260.9,
-            "priceIndex": 90.32,
-            "sectorIndex": 99.0,
+            "priceIndex": 99.02,
+            "sectorIndex": 104.81,
             "volume": 13683600
           },
           {
             "date": "2026-09-24",
             "price": 258.95,
-            "priceIndex": 89.65,
-            "sectorIndex": 99.06,
+            "priceIndex": 98.28,
+            "sectorIndex": 104.87,
             "volume": 13424700
           },
           {
             "date": "2026-09-25",
             "price": 261.94,
-            "priceIndex": 90.68,
-            "sectorIndex": 100.22,
+            "priceIndex": 99.42,
+            "sectorIndex": 106.1,
             "volume": 12427900
           },
           {
             "date": "2026-09-28",
             "price": 251.9,
-            "priceIndex": 87.21,
-            "sectorIndex": 98.13,
+            "priceIndex": 95.61,
+            "sectorIndex": 103.89,
             "volume": 16916400
           },
           {
             "date": "2026-09-29",
             "price": 263.27,
-            "priceIndex": 91.14,
-            "sectorIndex": 99.3,
+            "priceIndex": 99.92,
+            "sectorIndex": 105.13,
             "volume": 17098900
           },
           {
             "date": "2026-09-30",
             "price": 264.21,
-            "priceIndex": 91.47,
-            "sectorIndex": 99.51,
+            "priceIndex": 100.28,
+            "sectorIndex": 105.35,
             "volume": 11978900
           },
           {
             "date": "2026-10-01",
             "price": 268.08,
-            "priceIndex": 92.81,
-            "sectorIndex": 100.85,
+            "priceIndex": 101.75,
+            "sectorIndex": 106.77,
             "volume": 19030200
           },
           {
             "date": "2026-10-02",
             "price": 272.29,
-            "priceIndex": 94.27,
-            "sectorIndex": 103.05,
+            "priceIndex": 103.35,
+            "sectorIndex": 109.1,
             "volume": 15905500
           },
           {
             "date": "2026-10-05",
             "price": 271.25,
-            "priceIndex": 93.91,
-            "sectorIndex": 103.16,
+            "priceIndex": 102.95,
+            "sectorIndex": 109.22,
             "volume": 12895800
           },
           {
             "date": "2026-10-06",
             "price": 287.01,
-            "priceIndex": 99.36,
-            "sectorIndex": 103.15,
+            "priceIndex": 108.93,
+            "sectorIndex": 109.2,
             "volume": 51285500
           },
           {
             "date": "2026-10-07",
             "price": 284.68,
-            "priceIndex": 98.56,
-            "sectorIndex": 101.99,
+            "priceIndex": 108.05,
+            "sectorIndex": 107.98,
             "volume": 23822300
           },
           {
             "date": "2026-10-08",
             "price": 274.66,
-            "priceIndex": 95.09,
-            "sectorIndex": 98.57,
+            "priceIndex": 104.25,
+            "sectorIndex": 104.36,
             "volume": 29199700
           },
           {
             "date": "2026-10-09",
             "price": 275.28,
-            "priceIndex": 95.3,
-            "sectorIndex": 97.89,
+            "priceIndex": 104.48,
+            "sectorIndex": 103.64,
             "volume": 15082800
           },
           {
             "date": "2026-10-12",
             "price": 265.86,
-            "priceIndex": 92.04,
-            "sectorIndex": 95.35,
+            "priceIndex": 100.91,
+            "sectorIndex": 100.94,
             "volume": 19104000
           },
           {
             "date": "2026-10-13",
             "price": 268.73,
-            "priceIndex": 93.03,
-            "sectorIndex": 95.18,
+            "priceIndex": 102.0,
+            "sectorIndex": 100.77,
             "volume": 18439700
           },
           {
             "date": "2026-10-14",
             "price": 245.28,
-            "priceIndex": 84.92,
-            "sectorIndex": 90.9,
+            "priceIndex": 93.1,
+            "sectorIndex": 96.23,
             "volume": 26083000
           },
           {
             "date": "2026-10-15",
             "price": 241.24,
-            "priceIndex": 83.52,
-            "sectorIndex": 90.07,
+            "priceIndex": 91.56,
+            "sectorIndex": 95.36,
             "volume": 23900900
           },
           {
             "date": "2026-10-16",
             "price": 227.83,
-            "priceIndex": 78.87,
-            "sectorIndex": 86.34,
+            "priceIndex": 86.47,
+            "sectorIndex": 91.41,
             "volume": 21506500
           },
           {
             "date": "2026-10-19",
             "price": 237.09,
-            "priceIndex": 82.08,
-            "sectorIndex": 87.83,
+            "priceIndex": 89.99,
+            "sectorIndex": 92.99,
             "volume": 18004500
           },
           {
             "date": "2026-10-20",
             "price": 240.42,
-            "priceIndex": 83.23,
-            "sectorIndex": 87.5,
+            "priceIndex": 91.25,
+            "sectorIndex": 92.63,
             "volume": 16744900
           },
           {
             "date": "2026-10-21",
             "price": 244.76,
-            "priceIndex": 84.74,
-            "sectorIndex": 89.31,
+            "priceIndex": 92.9,
+            "sectorIndex": 94.55,
             "volume": 14400600
           },
           {
             "date": "2026-10-22",
             "price": 223.47,
-            "priceIndex": 77.37,
-            "sectorIndex": 83.24,
+            "priceIndex": 84.82,
+            "sectorIndex": 88.13,
             "volume": 24961500
           },
           {
             "date": "2026-10-23",
             "price": 228.51,
-            "priceIndex": 79.11,
-            "sectorIndex": 83.68,
+            "priceIndex": 86.73,
+            "sectorIndex": 88.59,
             "volume": 13039800
           },
           {
             "date": "2026-10-26",
             "price": 233.78,
-            "priceIndex": 80.93,
-            "sectorIndex": 86.07,
+            "priceIndex": 88.73,
+            "sectorIndex": 91.12,
             "volume": 14543600
           },
           {
             "date": "2026-10-27",
             "price": 243.57,
-            "priceIndex": 84.32,
-            "sectorIndex": 89.43,
+            "priceIndex": 92.45,
+            "sectorIndex": 94.68,
             "volume": 15452800
-          },
-          {
-            "date": "2026-10-28",
-            "price": 251.65,
-            "priceIndex": 87.12,
-            "sectorIndex": 91.34,
-            "volume": 13031530
           }
         ],
-        "score": 74.0,
+        "score": 73.8,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
@@ -3844,19 +3844,19 @@
           "近期目标价集中上调"
         ],
         "metrics": {
-          "bullishShare": 91.3,
+          "bullishShare": 91.5,
           "bullishShare3mAgo": 88.4,
-          "targetMean": 341.44,
+          "targetMean": 340.56,
           "targetMedian": 350.0,
           "targetLow": 229.95,
           "targetHigh": 450.0,
-          "targetUpside": 35.7,
-          "return5d": 2.8,
-          "return20d": -4.8,
+          "targetUpside": 35.3,
+          "return5d": 4.7,
+          "return20d": -4.4,
           "drawdown3m": -12.3,
           "targetRaises45d": 16,
           "targetCuts45d": 0,
-          "analystCount": 43,
+          "analystCount": 44,
           "epsChange30d": 0.1,
           "epsChange60d": 1.5,
           "revenueChange30d": 0.1,
@@ -3926,14 +3926,14 @@
               "period": "0y",
               "endDate": "2027-01-31",
               "eps": {
-                "current": 4.22025,
+                "current": 4.22211,
                 "value30dAgo": 4.2113,
-                "value60dAgo": 4.12644,
-                "change30d": 0.2,
-                "change60d": 2.3
+                "value60dAgo": 4.20774,
+                "change30d": 0.3,
+                "change60d": 0.3
               },
               "revenue": {
-                "current": 12069368790.0,
+                "current": 12070050480.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -3945,14 +3945,14 @@
               "period": "+1y",
               "endDate": "2028-01-31",
               "eps": {
-                "current": 7.32904,
+                "current": 7.32838,
                 "value30dAgo": 6.75725,
-                "value60dAgo": 6.46637,
+                "value60dAgo": 6.66335,
                 "change30d": 8.5,
-                "change60d": 13.3
+                "change60d": 10.0
               },
               "revenue": {
-                "current": 19707584360.0,
+                "current": 19716210400.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -3963,7 +3963,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -3.6,
+        "scoreChange7d": -6.8,
         "historyStatus": {
           "points": 34,
           "firstDate": "2026-08-04",
@@ -4470,7 +4470,7 @@
           "nextDateEstimated": true
         },
         "earningsWindow": {
-          "status": "complete",
+          "status": "developing",
           "eventDate": "2026-09-30",
           "benchmark": "SOXX",
           "day1": {
@@ -4484,9 +4484,9 @@
             "excess": -0.4
           },
           "day20": {
-            "stock": -7.7,
-            "sector": -8.2,
-            "excess": 0.5
+            "stock": -12.8,
+            "sector": -10.1,
+            "excess": -2.7
           },
           "reactionVolumeRatio": 1.84,
           "classification": "sector_driven",
@@ -5165,704 +5165,704 @@
         ],
         "priceTimeline": [
           {
-            "date": "2026-06-08",
-            "price": 949.28,
+            "date": "2026-06-05",
+            "price": 864.01,
             "priceIndex": 100.0,
             "sectorIndex": 100.0,
+            "volume": 77250500
+          },
+          {
+            "date": "2026-06-08",
+            "price": 949.28,
+            "priceIndex": 109.87,
+            "sectorIndex": 105.87,
             "volume": 54097800
           },
           {
             "date": "2026-06-09",
             "price": 935.89,
-            "priceIndex": 98.59,
-            "sectorIndex": 98.37,
+            "priceIndex": 108.32,
+            "sectorIndex": 104.14,
             "volume": 73448600
           },
           {
             "date": "2026-06-10",
             "price": 891.88,
-            "priceIndex": 93.95,
-            "sectorIndex": 94.76,
+            "priceIndex": 103.23,
+            "sectorIndex": 100.32,
             "volume": 55712600
           },
           {
             "date": "2026-06-11",
             "price": 995.87,
-            "priceIndex": 104.91,
-            "sectorIndex": 102.71,
+            "priceIndex": 115.26,
+            "sectorIndex": 108.74,
             "volume": 59418900
           },
           {
             "date": "2026-06-12",
             "price": 981.61,
-            "priceIndex": 103.41,
-            "sectorIndex": 104.34,
+            "priceIndex": 113.61,
+            "sectorIndex": 110.46,
             "volume": 40785200
           },
           {
             "date": "2026-06-15",
             "price": 1087.99,
-            "priceIndex": 114.61,
-            "sectorIndex": 109.97,
+            "priceIndex": 125.92,
+            "sectorIndex": 116.43,
             "volume": 44994600
           },
           {
             "date": "2026-06-16",
             "price": 1020.76,
-            "priceIndex": 107.53,
-            "sectorIndex": 103.46,
+            "priceIndex": 118.14,
+            "sectorIndex": 109.54,
             "volume": 45499800
           },
           {
             "date": "2026-06-17",
             "price": 1043.19,
-            "priceIndex": 109.89,
-            "sectorIndex": 104.95,
+            "priceIndex": 120.74,
+            "sectorIndex": 111.11,
             "volume": 46149200
           },
           {
             "date": "2026-06-18",
             "price": 1133.99,
-            "priceIndex": 119.46,
-            "sectorIndex": 111.9,
+            "priceIndex": 131.25,
+            "sectorIndex": 118.47,
             "volume": 64642500
           },
           {
             "date": "2026-06-22",
             "price": 1211.38,
-            "priceIndex": 127.61,
-            "sectorIndex": 114.62,
+            "priceIndex": 140.2,
+            "sectorIndex": 121.35,
             "volume": 53140800
           },
           {
             "date": "2026-06-23",
             "price": 1051.77,
-            "priceIndex": 110.8,
-            "sectorIndex": 105.59,
+            "priceIndex": 121.73,
+            "sectorIndex": 111.79,
             "volume": 60243300
           },
           {
             "date": "2026-06-24",
             "price": 1048.51,
-            "priceIndex": 110.45,
-            "sectorIndex": 105.26,
+            "priceIndex": 121.35,
+            "sectorIndex": 111.44,
             "volume": 68935700
           },
           {
             "date": "2026-06-25",
             "price": 1213.56,
-            "priceIndex": 127.84,
-            "sectorIndex": 109.41,
+            "priceIndex": 140.46,
+            "sectorIndex": 115.83,
             "volume": 82143900
           },
           {
             "date": "2026-06-26",
             "price": 1132.33,
-            "priceIndex": 119.28,
-            "sectorIndex": 103.24,
+            "priceIndex": 131.06,
+            "sectorIndex": 109.29,
             "volume": 86405300
           },
           {
             "date": "2026-06-29",
             "price": 1145.28,
-            "priceIndex": 120.65,
-            "sectorIndex": 107.51,
+            "priceIndex": 132.55,
+            "sectorIndex": 113.82,
             "volume": 60694100
           },
           {
             "date": "2026-06-30",
             "price": 1154.29,
-            "priceIndex": 121.6,
-            "sectorIndex": 112.13,
+            "priceIndex": 133.6,
+            "sectorIndex": 118.71,
             "volume": 42152600
           },
           {
             "date": "2026-07-01",
             "price": 1032.28,
-            "priceIndex": 108.74,
-            "sectorIndex": 104.94,
+            "priceIndex": 119.48,
+            "sectorIndex": 111.1,
             "volume": 51328100
           },
           {
             "date": "2026-07-02",
             "price": 975.56,
-            "priceIndex": 102.77,
-            "sectorIndex": 99.1,
+            "priceIndex": 112.91,
+            "sectorIndex": 104.92,
             "volume": 61316900
           },
           {
             "date": "2026-07-06",
             "price": 984.75,
-            "priceIndex": 103.74,
-            "sectorIndex": 101.76,
+            "priceIndex": 113.97,
+            "sectorIndex": 107.73,
             "volume": 37115800
           },
           {
             "date": "2026-07-07",
             "price": 938.38,
-            "priceIndex": 98.85,
-            "sectorIndex": 96.54,
+            "priceIndex": 108.61,
+            "sectorIndex": 102.21,
             "volume": 52367500
           },
           {
             "date": "2026-07-08",
             "price": 948.8,
-            "priceIndex": 99.95,
-            "sectorIndex": 98.35,
+            "priceIndex": 109.81,
+            "sectorIndex": 104.12,
             "volume": 42979000
           },
           {
             "date": "2026-07-09",
             "price": 991.64,
-            "priceIndex": 104.46,
-            "sectorIndex": 101.79,
+            "priceIndex": 114.77,
+            "sectorIndex": 107.77,
             "volume": 41110700
           },
           {
             "date": "2026-07-10",
             "price": 979.3,
-            "priceIndex": 103.16,
-            "sectorIndex": 101.73,
+            "priceIndex": 113.34,
+            "sectorIndex": 107.7,
             "volume": 31768100
           },
           {
             "date": "2026-07-13",
             "price": 937.0,
-            "priceIndex": 98.71,
-            "sectorIndex": 96.88,
+            "priceIndex": 108.45,
+            "sectorIndex": 102.56,
             "volume": 35536200
           },
           {
             "date": "2026-07-14",
             "price": 983.12,
-            "priceIndex": 103.56,
-            "sectorIndex": 99.38,
+            "priceIndex": 113.79,
+            "sectorIndex": 105.22,
             "volume": 30835200
           },
           {
             "date": "2026-07-15",
             "price": 904.28,
-            "priceIndex": 95.26,
-            "sectorIndex": 97.17,
+            "priceIndex": 104.66,
+            "sectorIndex": 102.87,
             "volume": 54779200
           },
           {
             "date": "2026-07-16",
             "price": 853.2,
-            "priceIndex": 89.88,
-            "sectorIndex": 92.83,
+            "priceIndex": 98.75,
+            "sectorIndex": 98.28,
             "volume": 46718000
           },
           {
             "date": "2026-07-17",
             "price": 848.95,
-            "priceIndex": 89.43,
-            "sectorIndex": 91.31,
+            "priceIndex": 98.26,
+            "sectorIndex": 96.67,
             "volume": 63346300
           },
           {
             "date": "2026-07-20",
             "price": 865.46,
-            "priceIndex": 91.17,
-            "sectorIndex": 91.72,
+            "priceIndex": 100.17,
+            "sectorIndex": 97.1,
             "volume": 37705200
           },
           {
             "date": "2026-07-21",
             "price": 970.82,
-            "priceIndex": 102.27,
-            "sectorIndex": 96.72,
+            "priceIndex": 112.36,
+            "sectorIndex": 102.39,
             "volume": 49369000
           },
           {
             "date": "2026-07-22",
             "price": 959.48,
-            "priceIndex": 101.07,
-            "sectorIndex": 97.21,
+            "priceIndex": 111.05,
+            "sectorIndex": 102.92,
             "volume": 31588600
           },
           {
             "date": "2026-07-23",
             "price": 990.21,
-            "priceIndex": 104.31,
-            "sectorIndex": 96.46,
+            "priceIndex": 114.61,
+            "sectorIndex": 102.12,
             "volume": 40196300
           },
           {
             "date": "2026-07-24",
             "price": 920.95,
-            "priceIndex": 97.02,
-            "sectorIndex": 92.22,
+            "priceIndex": 106.59,
+            "sectorIndex": 97.64,
             "volume": 40803100
           },
           {
             "date": "2026-07-27",
             "price": 900.2,
-            "priceIndex": 94.83,
-            "sectorIndex": 90.34,
+            "priceIndex": 104.19,
+            "sectorIndex": 95.64,
             "volume": 47591200
           },
           {
             "date": "2026-07-28",
             "price": 820.53,
-            "priceIndex": 86.44,
-            "sectorIndex": 86.0,
+            "priceIndex": 94.97,
+            "sectorIndex": 91.05,
             "volume": 61039300
           },
           {
             "date": "2026-07-29",
             "price": 739.0,
-            "priceIndex": 77.85,
-            "sectorIndex": 81.37,
+            "priceIndex": 85.53,
+            "sectorIndex": 86.15,
             "volume": 69846000
           },
           {
             "date": "2026-07-30",
             "price": 874.66,
-            "priceIndex": 92.14,
-            "sectorIndex": 88.29,
+            "priceIndex": 101.23,
+            "sectorIndex": 93.47,
             "volume": 63075300
           },
           {
             "date": "2026-07-31",
             "price": 823.03,
-            "priceIndex": 86.7,
-            "sectorIndex": 88.35,
+            "priceIndex": 95.26,
+            "sectorIndex": 93.54,
             "volume": 54538600
           },
           {
             "date": "2026-08-03",
             "price": 829.5,
-            "priceIndex": 87.38,
-            "sectorIndex": 88.84,
+            "priceIndex": 96.01,
+            "sectorIndex": 94.05,
             "volume": 42607100
           },
           {
             "date": "2026-08-04",
             "price": 892.67,
-            "priceIndex": 94.04,
-            "sectorIndex": 94.88,
+            "priceIndex": 103.32,
+            "sectorIndex": 100.45,
             "volume": 37478600
           },
           {
             "date": "2026-08-05",
             "price": 893.19,
-            "priceIndex": 94.09,
-            "sectorIndex": 92.87,
+            "priceIndex": 103.38,
+            "sectorIndex": 98.32,
             "volume": 34720300
           },
           {
             "date": "2026-08-06",
             "price": 881.47,
-            "priceIndex": 92.86,
-            "sectorIndex": 93.19,
+            "priceIndex": 102.02,
+            "sectorIndex": 98.66,
             "volume": 35784100
           },
           {
             "date": "2026-08-07",
             "price": 877.57,
-            "priceIndex": 92.45,
-            "sectorIndex": 95.07,
+            "priceIndex": 101.57,
+            "sectorIndex": 100.65,
             "volume": 34568500
           },
           {
             "date": "2026-08-10",
             "price": 861.0,
-            "priceIndex": 90.7,
-            "sectorIndex": 92.64,
+            "priceIndex": 99.65,
+            "sectorIndex": 98.08,
             "volume": 27818600
           },
           {
             "date": "2026-08-11",
             "price": 868.52,
-            "priceIndex": 91.49,
-            "sectorIndex": 93.48,
+            "priceIndex": 100.52,
+            "sectorIndex": 98.97,
             "volume": 29438300
           },
           {
             "date": "2026-08-12",
             "price": 911.29,
-            "priceIndex": 96.0,
-            "sectorIndex": 95.65,
+            "priceIndex": 105.47,
+            "sectorIndex": 101.27,
             "volume": 36804900
           },
           {
             "date": "2026-08-13",
             "price": 949.83,
-            "priceIndex": 100.06,
-            "sectorIndex": 96.38,
+            "priceIndex": 109.93,
+            "sectorIndex": 102.03,
             "volume": 36704700
           },
           {
             "date": "2026-08-14",
             "price": 971.66,
-            "priceIndex": 102.36,
-            "sectorIndex": 96.32,
+            "priceIndex": 112.46,
+            "sectorIndex": 101.97,
             "volume": 27881100
           },
           {
             "date": "2026-08-17",
             "price": 1011.75,
-            "priceIndex": 106.58,
-            "sectorIndex": 97.84,
+            "priceIndex": 117.1,
+            "sectorIndex": 103.58,
             "volume": 33430500
           },
           {
             "date": "2026-08-18",
             "price": 940.76,
-            "priceIndex": 99.1,
-            "sectorIndex": 92.99,
+            "priceIndex": 108.88,
+            "sectorIndex": 98.45,
             "volume": 37306000
           },
           {
             "date": "2026-08-19",
             "price": 937.11,
-            "priceIndex": 98.72,
-            "sectorIndex": 90.94,
+            "priceIndex": 108.46,
+            "sectorIndex": 96.28,
             "volume": 26901900
           },
           {
             "date": "2026-08-20",
             "price": 974.33,
-            "priceIndex": 102.64,
-            "sectorIndex": 91.41,
+            "priceIndex": 112.77,
+            "sectorIndex": 96.77,
             "volume": 25212200
           },
           {
             "date": "2026-08-21",
             "price": 966.78,
-            "priceIndex": 101.84,
-            "sectorIndex": 91.01,
+            "priceIndex": 111.89,
+            "sectorIndex": 96.35,
             "volume": 21823400
           },
           {
             "date": "2026-08-24",
             "price": 910.43,
-            "priceIndex": 95.91,
-            "sectorIndex": 88.58,
+            "priceIndex": 105.37,
+            "sectorIndex": 93.78,
             "volume": 30012600
           },
           {
             "date": "2026-08-25",
             "price": 932.97,
-            "priceIndex": 98.28,
-            "sectorIndex": 89.96,
+            "priceIndex": 107.98,
+            "sectorIndex": 95.24,
             "volume": 19163200
           },
           {
             "date": "2026-08-26",
             "price": 938.4,
-            "priceIndex": 98.85,
-            "sectorIndex": 90.19,
+            "priceIndex": 108.61,
+            "sectorIndex": 95.49,
             "volume": 18721700
           },
           {
             "date": "2026-08-27",
             "price": 935.39,
-            "priceIndex": 98.54,
-            "sectorIndex": 91.95,
+            "priceIndex": 108.26,
+            "sectorIndex": 97.34,
             "volume": 28838500
           },
           {
             "date": "2026-08-28",
             "price": 932.86,
-            "priceIndex": 98.27,
-            "sectorIndex": 89.01,
+            "priceIndex": 107.97,
+            "sectorIndex": 94.23,
             "volume": 22890100
           },
           {
             "date": "2026-08-31",
             "price": 958.73,
-            "priceIndex": 101.0,
-            "sectorIndex": 89.43,
+            "priceIndex": 110.96,
+            "sectorIndex": 94.68,
             "volume": 22569500
           },
           {
             "date": "2026-09-01",
             "price": 933.44,
-            "priceIndex": 98.33,
-            "sectorIndex": 87.55,
+            "priceIndex": 108.04,
+            "sectorIndex": 92.69,
             "volume": 27762200
           },
           {
             "date": "2026-09-02",
             "price": 956.08,
-            "priceIndex": 100.72,
-            "sectorIndex": 87.75,
+            "priceIndex": 110.66,
+            "sectorIndex": 92.9,
             "volume": 21440500
           },
           {
             "date": "2026-09-03",
             "price": 958.16,
-            "priceIndex": 100.94,
-            "sectorIndex": 87.88,
+            "priceIndex": 110.9,
+            "sectorIndex": 93.04,
             "volume": 24175900
           },
           {
             "date": "2026-09-04",
             "price": 1016.59,
-            "priceIndex": 107.09,
-            "sectorIndex": 90.97,
+            "priceIndex": 117.66,
+            "sectorIndex": 96.31,
             "volume": 35249500
           },
           {
             "date": "2026-09-08",
             "price": 1000.26,
-            "priceIndex": 105.37,
-            "sectorIndex": 92.47,
+            "priceIndex": 115.77,
+            "sectorIndex": 97.89,
             "volume": 26604900
           },
           {
             "date": "2026-09-09",
             "price": 1027.77,
-            "priceIndex": 108.27,
-            "sectorIndex": 93.1,
+            "priceIndex": 118.95,
+            "sectorIndex": 98.56,
             "volume": 23812000
           },
           {
             "date": "2026-09-10",
             "price": 977.41,
-            "priceIndex": 102.96,
-            "sectorIndex": 90.55,
+            "priceIndex": 113.12,
+            "sectorIndex": 95.86,
             "volume": 26230400
           },
           {
             "date": "2026-09-11",
             "price": 975.26,
-            "priceIndex": 102.74,
-            "sectorIndex": 92.23,
+            "priceIndex": 112.88,
+            "sectorIndex": 97.65,
             "volume": 21740300
           },
           {
             "date": "2026-09-14",
             "price": 924.03,
-            "priceIndex": 97.34,
-            "sectorIndex": 87.04,
+            "priceIndex": 106.95,
+            "sectorIndex": 92.15,
             "volume": 27141900
           },
           {
             "date": "2026-09-15",
             "price": 927.6,
-            "priceIndex": 97.72,
-            "sectorIndex": 87.3,
+            "priceIndex": 107.36,
+            "sectorIndex": 92.42,
             "volume": 20434700
           },
           {
             "date": "2026-09-16",
             "price": 926.55,
-            "priceIndex": 97.61,
-            "sectorIndex": 87.86,
+            "priceIndex": 107.24,
+            "sectorIndex": 93.01,
             "volume": 20213000
           },
           {
             "date": "2026-09-17",
             "price": 977.5,
-            "priceIndex": 102.97,
-            "sectorIndex": 90.84,
+            "priceIndex": 113.14,
+            "sectorIndex": 96.17,
             "volume": 22091600
           },
           {
             "date": "2026-09-18",
             "price": 1015.8,
-            "priceIndex": 107.01,
-            "sectorIndex": 93.28,
+            "priceIndex": 117.57,
+            "sectorIndex": 98.76,
             "volume": 35803500
           },
           {
             "date": "2026-09-21",
             "price": 1043.96,
-            "priceIndex": 109.97,
-            "sectorIndex": 97.88,
+            "priceIndex": 120.83,
+            "sectorIndex": 103.63,
             "volume": 28174400
           },
           {
             "date": "2026-09-22",
             "price": 1096.16,
-            "priceIndex": 115.47,
-            "sectorIndex": 100.23,
+            "priceIndex": 126.87,
+            "sectorIndex": 106.12,
             "volume": 29189700
           },
           {
             "date": "2026-09-23",
             "price": 1071.88,
-            "priceIndex": 112.92,
-            "sectorIndex": 99.0,
+            "priceIndex": 124.06,
+            "sectorIndex": 104.81,
             "volume": 21572800
           },
           {
             "date": "2026-09-24",
             "price": 1080.53,
-            "priceIndex": 113.83,
-            "sectorIndex": 99.06,
+            "priceIndex": 125.06,
+            "sectorIndex": 104.87,
             "volume": 22069900
           },
           {
             "date": "2026-09-25",
             "price": 1082.28,
-            "priceIndex": 114.01,
-            "sectorIndex": 100.22,
+            "priceIndex": 125.26,
+            "sectorIndex": 106.1,
             "volume": 20947900
           },
           {
             "date": "2026-09-28",
             "price": 1053.98,
-            "priceIndex": 111.03,
-            "sectorIndex": 98.13,
+            "priceIndex": 121.99,
+            "sectorIndex": 103.89,
             "volume": 22227200
           },
           {
             "date": "2026-09-29",
             "price": 1065.08,
-            "priceIndex": 112.2,
-            "sectorIndex": 99.3,
+            "priceIndex": 123.27,
+            "sectorIndex": 105.13,
             "volume": 19723100
           },
           {
             "date": "2026-09-30",
             "price": 1065.11,
-            "priceIndex": 112.2,
-            "sectorIndex": 99.51,
+            "priceIndex": 123.28,
+            "sectorIndex": 105.35,
             "volume": 31103200
           },
           {
             "date": "2026-10-01",
             "price": 1097.39,
-            "priceIndex": 115.6,
-            "sectorIndex": 100.85,
+            "priceIndex": 127.01,
+            "sectorIndex": 106.77,
             "volume": 45735400
           },
           {
             "date": "2026-10-02",
             "price": 1074.89,
-            "priceIndex": 113.23,
-            "sectorIndex": 103.05,
+            "priceIndex": 124.41,
+            "sectorIndex": 109.1,
             "volume": 27337500
           },
           {
             "date": "2026-10-05",
             "price": 1063.96,
-            "priceIndex": 112.08,
-            "sectorIndex": 103.16,
+            "priceIndex": 123.14,
+            "sectorIndex": 109.22,
             "volume": 18261700
           },
           {
             "date": "2026-10-06",
             "price": 1045.56,
-            "priceIndex": 110.14,
-            "sectorIndex": 103.15,
+            "priceIndex": 121.01,
+            "sectorIndex": 109.2,
             "volume": 21781200
           },
           {
             "date": "2026-10-07",
             "price": 1088.0,
-            "priceIndex": 114.61,
-            "sectorIndex": 101.99,
+            "priceIndex": 125.92,
+            "sectorIndex": 107.98,
             "volume": 30859500
           },
           {
             "date": "2026-10-08",
             "price": 1035.84,
-            "priceIndex": 109.12,
-            "sectorIndex": 98.57,
+            "priceIndex": 119.89,
+            "sectorIndex": 104.36,
             "volume": 29910700
           },
           {
             "date": "2026-10-09",
             "price": 1029.0,
-            "priceIndex": 108.4,
-            "sectorIndex": 97.89,
+            "priceIndex": 119.1,
+            "sectorIndex": 103.64,
             "volume": 19918900
           },
           {
             "date": "2026-10-12",
             "price": 989.04,
-            "priceIndex": 104.19,
-            "sectorIndex": 95.35,
+            "priceIndex": 114.47,
+            "sectorIndex": 100.94,
             "volume": 23983800
           },
           {
             "date": "2026-10-13",
             "price": 953.19,
-            "priceIndex": 100.41,
-            "sectorIndex": 95.18,
+            "priceIndex": 110.32,
+            "sectorIndex": 100.77,
             "volume": 29227200
           },
           {
             "date": "2026-10-14",
             "price": 914.13,
-            "priceIndex": 96.3,
-            "sectorIndex": 90.9,
+            "priceIndex": 105.8,
+            "sectorIndex": 96.23,
             "volume": 27843700
           },
           {
             "date": "2026-10-15",
             "price": 931.24,
-            "priceIndex": 98.1,
-            "sectorIndex": 90.07,
+            "priceIndex": 107.78,
+            "sectorIndex": 95.36,
             "volume": 39095100
           },
           {
             "date": "2026-10-16",
             "price": 878.84,
-            "priceIndex": 92.58,
-            "sectorIndex": 86.34,
+            "priceIndex": 101.72,
+            "sectorIndex": 91.41,
             "volume": 30514600
           },
           {
             "date": "2026-10-19",
             "price": 904.9,
-            "priceIndex": 95.32,
-            "sectorIndex": 87.83,
+            "priceIndex": 104.73,
+            "sectorIndex": 92.99,
             "volume": 25740500
           },
           {
             "date": "2026-10-20",
             "price": 896.07,
-            "priceIndex": 94.39,
-            "sectorIndex": 87.5,
+            "priceIndex": 103.71,
+            "sectorIndex": 92.63,
             "volume": 20304200
           },
           {
             "date": "2026-10-21",
             "price": 913.67,
-            "priceIndex": 96.25,
-            "sectorIndex": 89.31,
+            "priceIndex": 105.75,
+            "sectorIndex": 94.55,
             "volume": 21035000
           },
           {
             "date": "2026-10-22",
             "price": 856.49,
-            "priceIndex": 90.23,
-            "sectorIndex": 83.24,
+            "priceIndex": 99.13,
+            "sectorIndex": 88.13,
             "volume": 32176000
           },
           {
             "date": "2026-10-23",
             "price": 877.55,
-            "priceIndex": 92.44,
-            "sectorIndex": 83.68,
+            "priceIndex": 101.57,
+            "sectorIndex": 88.59,
             "volume": 21249900
           },
           {
             "date": "2026-10-26",
             "price": 903.7,
-            "priceIndex": 95.2,
-            "sectorIndex": 86.07,
+            "priceIndex": 104.59,
+            "sectorIndex": 91.12,
             "volume": 22848900
           },
           {
             "date": "2026-10-27",
             "price": 928.76,
-            "priceIndex": 97.84,
-            "sectorIndex": 89.43,
+            "priceIndex": 107.49,
+            "sectorIndex": 94.68,
             "volume": 23194900
-          },
-          {
-            "date": "2026-10-28",
-            "price": 983.23,
-            "priceIndex": 103.58,
-            "sectorIndex": 91.34,
-            "volume": 30135209
           }
         ],
         "score": 72.8,
@@ -5881,7 +5881,7 @@
           "targetLow": 361.0,
           "targetHigh": 3000.0,
           "targetUpside": 58.9,
-          "return5d": 7.6,
+          "return5d": 9.7,
           "return20d": -7.7,
           "drawdown3m": -10.4,
           "targetRaises45d": 6,
@@ -5993,7 +5993,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -5.4,
+        "scoreChange7d": -7.3,
         "historyStatus": {
           "points": 34,
           "firstDate": "2026-08-04",
@@ -6494,34 +6494,14 @@
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis/",
         "earningsCalendar": {
-          "lastCallDate": "2026-08-26T21:00:00+00:00",
-          "nextCallDate": null,
+          "lastCallDate": null,
+          "nextCallDate": "2026-11-18T22:00:00+00:00",
           "nextReportDate": "2026-11-17T20:00:00+00:00",
           "nextDateEstimated": false
         },
         "earningsWindow": {
-          "status": "complete",
-          "eventDate": "2026-08-26",
-          "benchmark": "SOXX",
-          "day1": {
-            "stock": 8.7,
-            "sector": 1.9,
-            "excess": 6.8
-          },
-          "day5": {
-            "stock": 7.0,
-            "sector": -2.7,
-            "excess": 9.7
-          },
-          "day20": {
-            "stock": 7.1,
-            "sector": 9.8,
-            "excess": -2.7
-          },
-          "reactionVolumeRatio": 2.6,
-          "classification": "mixed",
-          "label": "混合驱动",
-          "explanation": "行业与公司因素交织，等待更完整的20日事件窗口。"
+          "status": "unavailable",
+          "reason": "缺少最近财报日期或行情序列"
         },
         "downgradeLag": {
           "status": "not_triggered",
@@ -7193,704 +7173,704 @@
         ],
         "priceTimeline": [
           {
-            "date": "2026-06-08",
-            "price": 208.64,
+            "date": "2026-06-05",
+            "price": 205.1,
             "priceIndex": 100.0,
             "sectorIndex": 100.0,
+            "volume": 219655500
+          },
+          {
+            "date": "2026-06-08",
+            "price": 208.64,
+            "priceIndex": 101.73,
+            "sectorIndex": 105.87,
             "volume": 138372800
           },
           {
             "date": "2026-06-09",
             "price": 208.19,
-            "priceIndex": 99.78,
-            "sectorIndex": 98.37,
+            "priceIndex": 101.51,
+            "sectorIndex": 104.14,
             "volume": 180962500
           },
           {
             "date": "2026-06-10",
             "price": 200.42,
-            "priceIndex": 96.06,
-            "sectorIndex": 94.76,
+            "priceIndex": 97.72,
+            "sectorIndex": 100.32,
             "volume": 161746600
           },
           {
             "date": "2026-06-11",
             "price": 204.87,
-            "priceIndex": 98.19,
-            "sectorIndex": 102.71,
+            "priceIndex": 99.89,
+            "sectorIndex": 108.74,
             "volume": 158643200
           },
           {
             "date": "2026-06-12",
             "price": 205.19,
-            "priceIndex": 98.35,
-            "sectorIndex": 104.34,
+            "priceIndex": 100.04,
+            "sectorIndex": 110.46,
             "volume": 112001800
           },
           {
             "date": "2026-06-15",
             "price": 212.45,
-            "priceIndex": 101.83,
-            "sectorIndex": 109.97,
+            "priceIndex": 103.58,
+            "sectorIndex": 116.43,
             "volume": 149936700
           },
           {
             "date": "2026-06-16",
             "price": 207.41,
-            "priceIndex": 99.41,
-            "sectorIndex": 103.46,
+            "priceIndex": 101.13,
+            "sectorIndex": 109.54,
             "volume": 125694100
           },
           {
             "date": "2026-06-17",
             "price": 204.65,
-            "priceIndex": 98.09,
-            "sectorIndex": 104.95,
+            "priceIndex": 99.78,
+            "sectorIndex": 111.11,
             "volume": 128363500
           },
           {
             "date": "2026-06-18",
             "price": 210.69,
-            "priceIndex": 100.98,
-            "sectorIndex": 111.9,
+            "priceIndex": 102.73,
+            "sectorIndex": 118.47,
             "volume": 241272000
           },
           {
             "date": "2026-06-22",
             "price": 208.65,
-            "priceIndex": 100.0,
-            "sectorIndex": 114.62,
+            "priceIndex": 101.73,
+            "sectorIndex": 121.35,
             "volume": 122041400
           },
           {
             "date": "2026-06-23",
             "price": 200.04,
-            "priceIndex": 95.88,
-            "sectorIndex": 105.59,
+            "priceIndex": 97.53,
+            "sectorIndex": 111.79,
             "volume": 153496200
           },
           {
             "date": "2026-06-24",
             "price": 199.0,
-            "priceIndex": 95.38,
-            "sectorIndex": 105.26,
+            "priceIndex": 97.03,
+            "sectorIndex": 111.44,
             "volume": 151810700
           },
           {
             "date": "2026-06-25",
             "price": 195.74,
-            "priceIndex": 93.82,
-            "sectorIndex": 109.41,
+            "priceIndex": 95.44,
+            "sectorIndex": 115.83,
             "volume": 149550000
           },
           {
             "date": "2026-06-26",
             "price": 192.53,
-            "priceIndex": 92.28,
-            "sectorIndex": 103.24,
+            "priceIndex": 93.87,
+            "sectorIndex": 109.29,
             "volume": 179304100
           },
           {
             "date": "2026-06-29",
             "price": 194.97,
-            "priceIndex": 93.45,
-            "sectorIndex": 107.51,
+            "priceIndex": 95.06,
+            "sectorIndex": 113.82,
             "volume": 148835700
           },
           {
             "date": "2026-06-30",
             "price": 200.09,
-            "priceIndex": 95.9,
-            "sectorIndex": 112.13,
+            "priceIndex": 97.56,
+            "sectorIndex": 118.71,
             "volume": 166476700
           },
           {
             "date": "2026-07-01",
             "price": 197.58,
-            "priceIndex": 94.7,
-            "sectorIndex": 104.94,
+            "priceIndex": 96.33,
+            "sectorIndex": 111.1,
             "volume": 146147600
           },
           {
             "date": "2026-07-02",
             "price": 194.83,
-            "priceIndex": 93.38,
-            "sectorIndex": 99.1,
+            "priceIndex": 94.99,
+            "sectorIndex": 104.92,
             "volume": 142068700
           },
           {
             "date": "2026-07-06",
             "price": 195.55,
-            "priceIndex": 93.73,
-            "sectorIndex": 101.76,
+            "priceIndex": 95.34,
+            "sectorIndex": 107.73,
             "volume": 108999000
           },
           {
             "date": "2026-07-07",
             "price": 196.93,
-            "priceIndex": 94.39,
-            "sectorIndex": 96.54,
+            "priceIndex": 96.02,
+            "sectorIndex": 102.21,
             "volume": 124154600
           },
           {
             "date": "2026-07-08",
             "price": 204.12,
-            "priceIndex": 97.83,
-            "sectorIndex": 98.35,
+            "priceIndex": 99.52,
+            "sectorIndex": 104.12,
             "volume": 147419100
           },
           {
             "date": "2026-07-09",
             "price": 202.78,
-            "priceIndex": 97.19,
-            "sectorIndex": 101.79,
+            "priceIndex": 98.87,
+            "sectorIndex": 107.77,
             "volume": 132037400
           },
           {
             "date": "2026-07-10",
             "price": 210.96,
-            "priceIndex": 101.11,
-            "sectorIndex": 101.73,
+            "priceIndex": 102.86,
+            "sectorIndex": 107.7,
             "volume": 148421000
           },
           {
             "date": "2026-07-13",
             "price": 203.53,
-            "priceIndex": 97.55,
-            "sectorIndex": 96.88,
+            "priceIndex": 99.23,
+            "sectorIndex": 102.56,
             "volume": 121411000
           },
           {
             "date": "2026-07-14",
             "price": 211.8,
-            "priceIndex": 101.51,
-            "sectorIndex": 99.38,
+            "priceIndex": 103.27,
+            "sectorIndex": 105.22,
             "volume": 124379600
           },
           {
             "date": "2026-07-15",
             "price": 212.5,
-            "priceIndex": 101.85,
-            "sectorIndex": 97.17,
+            "priceIndex": 103.61,
+            "sectorIndex": 102.87,
             "volume": 124797200
           },
           {
             "date": "2026-07-16",
             "price": 207.4,
-            "priceIndex": 99.41,
-            "sectorIndex": 92.83,
+            "priceIndex": 101.12,
+            "sectorIndex": 98.28,
             "volume": 122986100
           },
           {
             "date": "2026-07-17",
             "price": 202.81,
-            "priceIndex": 97.21,
-            "sectorIndex": 91.31,
+            "priceIndex": 98.88,
+            "sectorIndex": 96.67,
             "volume": 144281900
           },
           {
             "date": "2026-07-20",
             "price": 203.28,
-            "priceIndex": 97.43,
-            "sectorIndex": 91.72,
+            "priceIndex": 99.11,
+            "sectorIndex": 97.1,
             "volume": 88701500
           },
           {
             "date": "2026-07-21",
             "price": 207.29,
-            "priceIndex": 99.35,
-            "sectorIndex": 96.72,
+            "priceIndex": 101.07,
+            "sectorIndex": 102.39,
             "volume": 108685600
           },
           {
             "date": "2026-07-22",
             "price": 212.06,
-            "priceIndex": 101.64,
-            "sectorIndex": 97.21,
+            "priceIndex": 103.39,
+            "sectorIndex": 102.92,
             "volume": 137645600
           },
           {
             "date": "2026-07-23",
             "price": 208.76,
-            "priceIndex": 100.06,
-            "sectorIndex": 96.46,
+            "priceIndex": 101.78,
+            "sectorIndex": 102.12,
             "volume": 110505300
           },
           {
             "date": "2026-07-24",
             "price": 206.84,
-            "priceIndex": 99.14,
-            "sectorIndex": 92.22,
+            "priceIndex": 100.85,
+            "sectorIndex": 97.64,
             "volume": 114836800
           },
           {
             "date": "2026-07-27",
             "price": 196.51,
-            "priceIndex": 94.19,
-            "sectorIndex": 90.34,
+            "priceIndex": 95.81,
+            "sectorIndex": 95.64,
             "volume": 154353700
           },
           {
             "date": "2026-07-28",
             "price": 197.01,
-            "priceIndex": 94.43,
-            "sectorIndex": 86.0,
+            "priceIndex": 96.06,
+            "sectorIndex": 91.05,
             "volume": 134111500
           },
           {
             "date": "2026-07-29",
             "price": 190.01,
-            "priceIndex": 91.07,
-            "sectorIndex": 81.37,
+            "priceIndex": 92.64,
+            "sectorIndex": 86.15,
             "volume": 147680800
           },
           {
             "date": "2026-07-30",
             "price": 195.04,
-            "priceIndex": 93.48,
-            "sectorIndex": 88.29,
+            "priceIndex": 95.1,
+            "sectorIndex": 93.47,
             "volume": 129010200
           },
           {
             "date": "2026-07-31",
             "price": 200.75,
-            "priceIndex": 96.22,
-            "sectorIndex": 88.35,
+            "priceIndex": 97.88,
+            "sectorIndex": 93.54,
             "volume": 139961200
           },
           {
             "date": "2026-08-03",
             "price": 206.64,
-            "priceIndex": 99.04,
-            "sectorIndex": 88.84,
+            "priceIndex": 100.75,
+            "sectorIndex": 94.05,
             "volume": 128406900
           },
           {
             "date": "2026-08-04",
             "price": 211.94,
-            "priceIndex": 101.58,
-            "sectorIndex": 94.88,
+            "priceIndex": 103.33,
+            "sectorIndex": 100.45,
             "volume": 134922000
           },
           {
             "date": "2026-08-05",
             "price": 219.22,
-            "priceIndex": 105.07,
-            "sectorIndex": 92.87,
+            "priceIndex": 106.88,
+            "sectorIndex": 98.32,
             "volume": 158187400
           },
           {
             "date": "2026-08-06",
             "price": 218.99,
-            "priceIndex": 104.96,
-            "sectorIndex": 93.19,
+            "priceIndex": 106.77,
+            "sectorIndex": 98.66,
             "volume": 113940600
           },
           {
             "date": "2026-08-07",
             "price": 223.96,
-            "priceIndex": 107.34,
-            "sectorIndex": 95.07,
+            "priceIndex": 109.2,
+            "sectorIndex": 100.65,
             "volume": 105669400
           },
           {
             "date": "2026-08-10",
             "price": 217.55,
-            "priceIndex": 104.27,
-            "sectorIndex": 92.64,
+            "priceIndex": 106.07,
+            "sectorIndex": 98.08,
             "volume": 115846600
           },
           {
             "date": "2026-08-11",
             "price": 217.5,
-            "priceIndex": 104.25,
-            "sectorIndex": 93.48,
+            "priceIndex": 106.05,
+            "sectorIndex": 98.97,
             "volume": 101273100
           },
           {
             "date": "2026-08-12",
             "price": 224.09,
-            "priceIndex": 107.41,
-            "sectorIndex": 95.65,
+            "priceIndex": 109.26,
+            "sectorIndex": 101.27,
             "volume": 108783600
           },
           {
             "date": "2026-08-13",
             "price": 225.3,
-            "priceIndex": 107.99,
-            "sectorIndex": 96.38,
+            "priceIndex": 109.85,
+            "sectorIndex": 102.03,
             "volume": 98867200
           },
           {
             "date": "2026-08-14",
             "price": 225.16,
-            "priceIndex": 107.92,
-            "sectorIndex": 96.32,
+            "priceIndex": 109.78,
+            "sectorIndex": 101.97,
             "volume": 75680900
           },
           {
             "date": "2026-08-17",
             "price": 225.01,
-            "priceIndex": 107.85,
-            "sectorIndex": 97.84,
+            "priceIndex": 109.71,
+            "sectorIndex": 103.58,
             "volume": 93678700
           },
           {
             "date": "2026-08-18",
             "price": 219.74,
-            "priceIndex": 105.32,
-            "sectorIndex": 92.99,
+            "priceIndex": 107.14,
+            "sectorIndex": 98.45,
             "volume": 103128200
           },
           {
             "date": "2026-08-19",
             "price": 217.56,
-            "priceIndex": 104.28,
-            "sectorIndex": 90.94,
+            "priceIndex": 106.08,
+            "sectorIndex": 96.28,
             "volume": 96797300
           },
           {
             "date": "2026-08-20",
             "price": 216.85,
-            "priceIndex": 103.94,
-            "sectorIndex": 91.41,
+            "priceIndex": 105.73,
+            "sectorIndex": 96.77,
             "volume": 92457000
           },
           {
             "date": "2026-08-21",
             "price": 214.72,
-            "priceIndex": 102.91,
-            "sectorIndex": 91.01,
+            "priceIndex": 104.69,
+            "sectorIndex": 96.35,
             "volume": 98869300
           },
           {
             "date": "2026-08-24",
             "price": 208.48,
-            "priceIndex": 99.92,
-            "sectorIndex": 88.58,
+            "priceIndex": 101.65,
+            "sectorIndex": 93.78,
             "volume": 135187300
           },
           {
             "date": "2026-08-25",
             "price": 213.05,
-            "priceIndex": 102.11,
-            "sectorIndex": 89.96,
+            "priceIndex": 103.88,
+            "sectorIndex": 95.24,
             "volume": 122309000
           },
           {
             "date": "2026-08-26",
             "price": 209.66,
-            "priceIndex": 100.49,
-            "sectorIndex": 90.19,
+            "priceIndex": 102.22,
+            "sectorIndex": 95.49,
             "volume": 179900000
           },
           {
             "date": "2026-08-27",
             "price": 227.98,
-            "priceIndex": 109.27,
-            "sectorIndex": 91.95,
+            "priceIndex": 111.16,
+            "sectorIndex": 97.34,
             "volume": 298909800
           },
           {
             "date": "2026-08-28",
             "price": 217.55,
-            "priceIndex": 104.27,
-            "sectorIndex": 89.01,
+            "priceIndex": 106.07,
+            "sectorIndex": 94.23,
             "volume": 195116400
           },
           {
             "date": "2026-08-31",
             "price": 220.78,
-            "priceIndex": 105.82,
-            "sectorIndex": 89.43,
+            "priceIndex": 107.65,
+            "sectorIndex": 94.68,
             "volume": 124702700
           },
           {
             "date": "2026-09-01",
             "price": 217.44,
-            "priceIndex": 104.22,
-            "sectorIndex": 87.55,
+            "priceIndex": 106.02,
+            "sectorIndex": 92.69,
             "volume": 109756200
           },
           {
             "date": "2026-09-02",
             "price": 224.41,
-            "priceIndex": 107.56,
-            "sectorIndex": 87.75,
+            "priceIndex": 109.41,
+            "sectorIndex": 92.9,
             "volume": 157104700
           },
           {
             "date": "2026-09-03",
             "price": 228.45,
-            "priceIndex": 109.49,
-            "sectorIndex": 87.88,
+            "priceIndex": 111.38,
+            "sectorIndex": 93.04,
             "volume": 134681600
           },
           {
             "date": "2026-09-04",
             "price": 230.36,
-            "priceIndex": 110.41,
-            "sectorIndex": 90.97,
+            "priceIndex": 112.32,
+            "sectorIndex": 96.31,
             "volume": 135352400
           },
           {
             "date": "2026-09-08",
             "price": 225.73,
-            "priceIndex": 108.19,
-            "sectorIndex": 92.47,
+            "priceIndex": 110.06,
+            "sectorIndex": 97.89,
             "volume": 122965600
           },
           {
             "date": "2026-09-09",
             "price": 223.67,
-            "priceIndex": 107.2,
-            "sectorIndex": 93.1,
+            "priceIndex": 109.05,
+            "sectorIndex": 98.56,
             "volume": 82955500
           },
           {
             "date": "2026-09-10",
             "price": 218.36,
-            "priceIndex": 104.66,
-            "sectorIndex": 90.55,
+            "priceIndex": 106.47,
+            "sectorIndex": 95.86,
             "volume": 105768000
           },
           {
             "date": "2026-09-11",
             "price": 218.29,
-            "priceIndex": 104.63,
-            "sectorIndex": 92.23,
+            "priceIndex": 106.43,
+            "sectorIndex": 97.65,
             "volume": 89060100
           },
           {
             "date": "2026-09-14",
             "price": 210.96,
-            "priceIndex": 101.11,
-            "sectorIndex": 87.04,
+            "priceIndex": 102.86,
+            "sectorIndex": 92.15,
             "volume": 132267200
           },
           {
             "date": "2026-09-15",
             "price": 212.17,
-            "priceIndex": 101.69,
-            "sectorIndex": 87.3,
+            "priceIndex": 103.45,
+            "sectorIndex": 92.42,
             "volume": 88059700
           },
           {
             "date": "2026-09-16",
             "price": 213.9,
-            "priceIndex": 102.52,
-            "sectorIndex": 87.86,
+            "priceIndex": 104.29,
+            "sectorIndex": 93.01,
             "volume": 96563600
           },
           {
             "date": "2026-09-17",
             "price": 219.34,
-            "priceIndex": 105.13,
-            "sectorIndex": 90.84,
+            "priceIndex": 106.94,
+            "sectorIndex": 96.17,
             "volume": 94191300
           },
           {
             "date": "2026-09-18",
             "price": 222.27,
-            "priceIndex": 106.53,
-            "sectorIndex": 93.28,
+            "priceIndex": 108.37,
+            "sectorIndex": 98.76,
             "volume": 190287400
           },
           {
             "date": "2026-09-21",
             "price": 227.38,
-            "priceIndex": 108.98,
-            "sectorIndex": 97.88,
+            "priceIndex": 110.86,
+            "sectorIndex": 103.63,
             "volume": 109806100
           },
           {
             "date": "2026-09-22",
             "price": 228.87,
-            "priceIndex": 109.7,
-            "sectorIndex": 100.23,
+            "priceIndex": 111.59,
+            "sectorIndex": 106.12,
             "volume": 95746700
           },
           {
             "date": "2026-09-23",
             "price": 225.51,
-            "priceIndex": 108.09,
-            "sectorIndex": 99.0,
+            "priceIndex": 109.95,
+            "sectorIndex": 104.81,
             "volume": 89547300
           },
           {
             "date": "2026-09-24",
             "price": 224.58,
-            "priceIndex": 107.64,
-            "sectorIndex": 99.06,
+            "priceIndex": 109.5,
+            "sectorIndex": 104.87,
             "volume": 77469900
           },
           {
             "date": "2026-09-25",
             "price": 225.07,
-            "priceIndex": 107.87,
-            "sectorIndex": 100.22,
+            "priceIndex": 109.74,
+            "sectorIndex": 106.1,
             "volume": 89947700
           },
           {
             "date": "2026-09-28",
             "price": 228.86,
-            "priceIndex": 109.69,
-            "sectorIndex": 98.13,
+            "priceIndex": 111.58,
+            "sectorIndex": 103.89,
             "volume": 142344300
           },
           {
             "date": "2026-09-29",
             "price": 227.21,
-            "priceIndex": 108.9,
-            "sectorIndex": 99.3,
+            "priceIndex": 110.78,
+            "sectorIndex": 105.13,
             "volume": 101494900
           },
           {
             "date": "2026-09-30",
             "price": 228.38,
-            "priceIndex": 109.46,
-            "sectorIndex": 99.51,
+            "priceIndex": 111.35,
+            "sectorIndex": 105.35,
             "volume": 121732200
           },
           {
             "date": "2026-10-01",
             "price": 230.86,
-            "priceIndex": 110.65,
-            "sectorIndex": 100.85,
+            "priceIndex": 112.56,
+            "sectorIndex": 106.77,
             "volume": 98591400
           },
           {
             "date": "2026-10-02",
             "price": 233.95,
-            "priceIndex": 112.13,
-            "sectorIndex": 103.05,
+            "priceIndex": 114.07,
+            "sectorIndex": 109.1,
             "volume": 135167800
           },
           {
             "date": "2026-10-05",
             "price": 238.9,
-            "priceIndex": 114.5,
-            "sectorIndex": 103.16,
+            "priceIndex": 116.48,
+            "sectorIndex": 109.22,
             "volume": 127171500
           },
           {
             "date": "2026-10-06",
             "price": 239.24,
-            "priceIndex": 114.67,
-            "sectorIndex": 103.15,
+            "priceIndex": 116.65,
+            "sectorIndex": 109.2,
             "volume": 101701900
           },
           {
             "date": "2026-10-07",
             "price": 237.47,
-            "priceIndex": 113.82,
-            "sectorIndex": 101.99,
+            "priceIndex": 115.78,
+            "sectorIndex": 107.98,
             "volume": 81772400
           },
           {
             "date": "2026-10-08",
             "price": 230.48,
-            "priceIndex": 110.47,
-            "sectorIndex": 98.57,
+            "priceIndex": 112.37,
+            "sectorIndex": 104.36,
             "volume": 118697400
           },
           {
             "date": "2026-10-09",
             "price": 229.28,
-            "priceIndex": 109.89,
-            "sectorIndex": 97.89,
+            "priceIndex": 111.79,
+            "sectorIndex": 103.64,
             "volume": 84645600
           },
           {
             "date": "2026-10-12",
             "price": 226.32,
-            "priceIndex": 108.47,
-            "sectorIndex": 95.35,
+            "priceIndex": 110.35,
+            "sectorIndex": 100.94,
             "volume": 70690300
           },
           {
             "date": "2026-10-13",
             "price": 228.52,
-            "priceIndex": 109.53,
-            "sectorIndex": 95.18,
+            "priceIndex": 111.42,
+            "sectorIndex": 100.77,
             "volume": 84036900
           },
           {
             "date": "2026-10-14",
             "price": 221.3,
-            "priceIndex": 106.07,
-            "sectorIndex": 90.9,
+            "priceIndex": 107.9,
+            "sectorIndex": 96.23,
             "volume": 118730100
           },
           {
             "date": "2026-10-15",
             "price": 217.23,
-            "priceIndex": 104.12,
-            "sectorIndex": 90.07,
+            "priceIndex": 105.91,
+            "sectorIndex": 95.36,
             "volume": 127087900
           },
           {
             "date": "2026-10-16",
             "price": 214.13,
-            "priceIndex": 102.63,
-            "sectorIndex": 86.34,
+            "priceIndex": 104.4,
+            "sectorIndex": 91.41,
             "volume": 121252500
           },
           {
             "date": "2026-10-19",
             "price": 217.09,
-            "priceIndex": 104.05,
-            "sectorIndex": 87.83,
+            "priceIndex": 105.85,
+            "sectorIndex": 92.99,
             "volume": 98684700
           },
           {
             "date": "2026-10-20",
             "price": 216.47,
-            "priceIndex": 103.75,
-            "sectorIndex": 87.5,
+            "priceIndex": 105.54,
+            "sectorIndex": 92.63,
             "volume": 79609100
           },
           {
             "date": "2026-10-21",
             "price": 221.97,
-            "priceIndex": 106.39,
-            "sectorIndex": 89.31,
+            "priceIndex": 108.23,
+            "sectorIndex": 94.55,
             "volume": 87085700
           },
           {
             "date": "2026-10-22",
             "price": 212.21,
-            "priceIndex": 101.71,
-            "sectorIndex": 83.24,
+            "priceIndex": 103.47,
+            "sectorIndex": 88.13,
             "volume": 125407600
           },
           {
             "date": "2026-10-23",
             "price": 210.96,
-            "priceIndex": 101.11,
-            "sectorIndex": 83.68,
+            "priceIndex": 102.86,
+            "sectorIndex": 88.59,
             "volume": 80189800
           },
           {
             "date": "2026-10-26",
             "price": 216.0,
-            "priceIndex": 103.53,
-            "sectorIndex": 86.07,
+            "priceIndex": 105.31,
+            "sectorIndex": 91.12,
             "volume": 90829300
           },
           {
             "date": "2026-10-27",
             "price": 217.94,
-            "priceIndex": 104.46,
-            "sectorIndex": 89.43,
+            "priceIndex": 106.26,
+            "sectorIndex": 94.68,
             "volume": 84799700
-          },
-          {
-            "date": "2026-10-28",
-            "price": 215.38,
-            "priceIndex": 103.23,
-            "sectorIndex": 91.34,
-            "volume": 91664984
           }
         ],
         "score": 65.2,
@@ -7908,8 +7888,8 @@
           "targetLow": 180.0,
           "targetHigh": 515.0,
           "targetUpside": 52.7,
-          "return5d": -3.0,
-          "return20d": -5.7,
+          "return5d": -0.5,
+          "return20d": -5.2,
           "drawdown3m": -10.0,
           "targetRaises45d": 0,
           "targetCuts45d": 0,
@@ -8020,7 +8000,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 0.7,
+        "scoreChange7d": -0.1,
         "historyStatus": {
           "points": 34,
           "firstDate": "2026-08-04",
@@ -8536,8 +8516,8 @@
           "breakDate": "2026-10-16",
           "firstCutDate": null,
           "lagDays": null,
-          "currentDrawdown": -10.9,
-          "label": "曾触发回撤，现已修复至-10.9%"
+          "currentDrawdown": -13.7,
+          "label": "曾触发回撤，现已修复至-13.7%"
         },
         "targetEvents": [
           {
@@ -9203,707 +9183,707 @@
         ],
         "priceTimeline": [
           {
-            "date": "2026-06-08",
-            "price": 490.33,
+            "date": "2026-06-05",
+            "price": 466.38,
             "priceIndex": 100.0,
             "sectorIndex": 100.0,
+            "volume": 46900600
+          },
+          {
+            "date": "2026-06-08",
+            "price": 490.33,
+            "priceIndex": 105.14,
+            "sectorIndex": 105.87,
             "volume": 25158800
           },
           {
             "date": "2026-06-09",
             "price": 475.51,
-            "priceIndex": 96.98,
-            "sectorIndex": 98.37,
+            "priceIndex": 101.96,
+            "sectorIndex": 104.14,
             "volume": 37799800
           },
           {
             "date": "2026-06-10",
             "price": 452.4,
-            "priceIndex": 92.26,
-            "sectorIndex": 94.76,
+            "priceIndex": 97.0,
+            "sectorIndex": 100.32,
             "volume": 27777400
           },
           {
             "date": "2026-06-11",
             "price": 488.45,
-            "priceIndex": 99.62,
-            "sectorIndex": 102.71,
+            "priceIndex": 104.73,
+            "sectorIndex": 108.74,
             "volume": 30463100
           },
           {
             "date": "2026-06-12",
             "price": 511.57,
-            "priceIndex": 104.33,
-            "sectorIndex": 104.34,
+            "priceIndex": 109.69,
+            "sectorIndex": 110.46,
             "volume": 31553100
           },
           {
             "date": "2026-06-15",
             "price": 547.26,
-            "priceIndex": 111.61,
-            "sectorIndex": 109.97,
+            "priceIndex": 117.34,
+            "sectorIndex": 116.43,
             "volume": 33482400
           },
           {
             "date": "2026-06-16",
             "price": 507.29,
-            "priceIndex": 103.46,
-            "sectorIndex": 103.46,
+            "priceIndex": 108.77,
+            "sectorIndex": 109.54,
             "volume": 28411700
           },
           {
             "date": "2026-06-17",
             "price": 512.48,
-            "priceIndex": 104.52,
-            "sectorIndex": 104.95,
+            "priceIndex": 109.88,
+            "sectorIndex": 111.11,
             "volume": 27085300
           },
           {
             "date": "2026-06-18",
             "price": 537.37,
-            "priceIndex": 109.59,
-            "sectorIndex": 111.9,
+            "priceIndex": 115.22,
+            "sectorIndex": 118.47,
             "volume": 43805600
           },
           {
             "date": "2026-06-22",
             "price": 551.63,
-            "priceIndex": 112.5,
-            "sectorIndex": 114.62,
+            "priceIndex": 118.28,
+            "sectorIndex": 121.35,
             "volume": 25983200
           },
           {
             "date": "2026-06-23",
             "price": 519.85,
-            "priceIndex": 106.02,
-            "sectorIndex": 105.59,
+            "priceIndex": 111.46,
+            "sectorIndex": 111.79,
             "volume": 30196800
           },
           {
             "date": "2026-06-24",
             "price": 519.74,
-            "priceIndex": 106.0,
-            "sectorIndex": 105.26,
+            "priceIndex": 111.44,
+            "sectorIndex": 111.44,
             "volume": 26548300
           },
           {
             "date": "2026-06-25",
             "price": 532.57,
-            "priceIndex": 108.61,
-            "sectorIndex": 109.41,
+            "priceIndex": 114.19,
+            "sectorIndex": 115.83,
             "volume": 27031300
           },
           {
             "date": "2026-06-26",
             "price": 521.58,
-            "priceIndex": 106.37,
-            "sectorIndex": 103.24,
+            "priceIndex": 111.84,
+            "sectorIndex": 109.29,
             "volume": 52705100
           },
           {
             "date": "2026-06-29",
             "price": 539.49,
-            "priceIndex": 110.03,
-            "sectorIndex": 107.51,
+            "priceIndex": 115.68,
+            "sectorIndex": 113.82,
             "volume": 26671000
           },
           {
             "date": "2026-06-30",
             "price": 580.91,
-            "priceIndex": 118.47,
-            "sectorIndex": 112.13,
+            "priceIndex": 124.56,
+            "sectorIndex": 118.71,
             "volume": 34488500
           },
           {
             "date": "2026-07-01",
             "price": 540.88,
-            "priceIndex": 110.31,
-            "sectorIndex": 104.94,
+            "priceIndex": 115.97,
+            "sectorIndex": 111.1,
             "volume": 28326800
           },
           {
             "date": "2026-07-02",
             "price": 517.82,
-            "priceIndex": 105.61,
-            "sectorIndex": 99.1,
+            "priceIndex": 111.03,
+            "sectorIndex": 104.92,
             "volume": 28142500
           },
           {
             "date": "2026-07-06",
             "price": 552.05,
-            "priceIndex": 112.59,
-            "sectorIndex": 101.76,
+            "priceIndex": 118.37,
+            "sectorIndex": 107.73,
             "volume": 30684200
           },
           {
             "date": "2026-07-07",
             "price": 516.11,
-            "priceIndex": 105.26,
-            "sectorIndex": 96.54,
+            "priceIndex": 110.66,
+            "sectorIndex": 102.21,
             "volume": 29166800
           },
           {
             "date": "2026-07-08",
             "price": 517.41,
-            "priceIndex": 105.52,
-            "sectorIndex": 98.35,
+            "priceIndex": 110.94,
+            "sectorIndex": 104.12,
             "volume": 23768500
           },
           {
             "date": "2026-07-09",
             "price": 546.72,
-            "priceIndex": 111.5,
-            "sectorIndex": 101.79,
+            "priceIndex": 117.23,
+            "sectorIndex": 107.77,
             "volume": 26900800
           },
           {
             "date": "2026-07-10",
             "price": 557.89,
-            "priceIndex": 113.78,
-            "sectorIndex": 101.73,
+            "priceIndex": 119.62,
+            "sectorIndex": 107.7,
             "volume": 20704500
           },
           {
             "date": "2026-07-13",
             "price": 534.39,
-            "priceIndex": 108.99,
-            "sectorIndex": 96.88,
+            "priceIndex": 114.58,
+            "sectorIndex": 102.56,
             "volume": 22957400
           },
           {
             "date": "2026-07-14",
             "price": 548.13,
-            "priceIndex": 111.79,
-            "sectorIndex": 99.38,
+            "priceIndex": 117.53,
+            "sectorIndex": 105.22,
             "volume": 21201400
           },
           {
             "date": "2026-07-15",
             "price": 529.14,
-            "priceIndex": 107.92,
-            "sectorIndex": 97.17,
+            "priceIndex": 113.46,
+            "sectorIndex": 102.87,
             "volume": 27826200
           },
           {
             "date": "2026-07-16",
             "price": 500.94,
-            "priceIndex": 102.16,
-            "sectorIndex": 92.83,
+            "priceIndex": 107.41,
+            "sectorIndex": 98.28,
             "volume": 27093700
           },
           {
             "date": "2026-07-17",
             "price": 495.76,
-            "priceIndex": 101.11,
-            "sectorIndex": 91.31,
+            "priceIndex": 106.3,
+            "sectorIndex": 96.67,
             "volume": 32115900
           },
           {
             "date": "2026-07-20",
             "price": 503.57,
-            "priceIndex": 102.7,
-            "sectorIndex": 91.72,
+            "priceIndex": 107.97,
+            "sectorIndex": 97.1,
             "volume": 23440700
           },
           {
             "date": "2026-07-21",
             "price": 544.43,
-            "priceIndex": 111.03,
-            "sectorIndex": 96.72,
+            "priceIndex": 116.74,
+            "sectorIndex": 102.39,
             "volume": 29045100
           },
           {
             "date": "2026-07-22",
             "price": 552.33,
-            "priceIndex": 112.64,
-            "sectorIndex": 97.21,
+            "priceIndex": 118.43,
+            "sectorIndex": 102.92,
             "volume": 24776700
           },
           {
             "date": "2026-07-23",
             "price": 539.69,
-            "priceIndex": 110.07,
-            "sectorIndex": 96.46,
+            "priceIndex": 115.72,
+            "sectorIndex": 102.12,
             "volume": 27155100
           },
           {
             "date": "2026-07-24",
             "price": 521.95,
-            "priceIndex": 106.45,
-            "sectorIndex": 92.22,
+            "priceIndex": 111.92,
+            "sectorIndex": 97.64,
             "volume": 27200700
           },
           {
             "date": "2026-07-27",
             "price": 494.95,
-            "priceIndex": 100.94,
-            "sectorIndex": 90.34,
+            "priceIndex": 106.13,
+            "sectorIndex": 95.64,
             "volume": 31800300
           },
           {
             "date": "2026-07-28",
             "price": 454.62,
-            "priceIndex": 92.72,
-            "sectorIndex": 86.0,
+            "priceIndex": 97.48,
+            "sectorIndex": 91.05,
             "volume": 36315500
           },
           {
             "date": "2026-07-29",
             "price": 429.56,
-            "priceIndex": 87.61,
-            "sectorIndex": 81.37,
+            "priceIndex": 92.11,
+            "sectorIndex": 86.15,
             "volume": 32304900
           },
           {
             "date": "2026-07-30",
             "price": 485.39,
-            "priceIndex": 98.99,
-            "sectorIndex": 88.29,
+            "priceIndex": 104.08,
+            "sectorIndex": 93.47,
             "volume": 36936600
           },
           {
             "date": "2026-07-31",
             "price": 476.15,
-            "priceIndex": 97.11,
-            "sectorIndex": 88.35,
+            "priceIndex": 102.09,
+            "sectorIndex": 93.54,
             "volume": 26615700
           },
           {
             "date": "2026-08-03",
             "price": 484.64,
-            "priceIndex": 98.84,
-            "sectorIndex": 88.84,
+            "priceIndex": 103.92,
+            "sectorIndex": 94.05,
             "volume": 24422300
           },
           {
             "date": "2026-08-04",
             "price": 518.58,
-            "priceIndex": 105.76,
-            "sectorIndex": 94.88,
+            "priceIndex": 111.19,
+            "sectorIndex": 100.45,
             "volume": 48463600
           },
           {
             "date": "2026-08-05",
             "price": 482.05,
-            "priceIndex": 98.31,
-            "sectorIndex": 92.87,
+            "priceIndex": 103.36,
+            "sectorIndex": 98.32,
             "volume": 49615800
           },
           {
             "date": "2026-08-06",
             "price": 489.28,
-            "priceIndex": 99.79,
-            "sectorIndex": 93.19,
+            "priceIndex": 104.91,
+            "sectorIndex": 98.66,
             "volume": 24675300
           },
           {
             "date": "2026-08-07",
             "price": 483.36,
-            "priceIndex": 98.58,
-            "sectorIndex": 95.07,
+            "priceIndex": 103.64,
+            "sectorIndex": 100.65,
             "volume": 26618800
           },
           {
             "date": "2026-08-10",
             "price": 469.56,
-            "priceIndex": 95.76,
-            "sectorIndex": 92.64,
+            "priceIndex": 100.68,
+            "sectorIndex": 98.08,
             "volume": 19656600
           },
           {
             "date": "2026-08-11",
             "price": 474.32,
-            "priceIndex": 96.73,
-            "sectorIndex": 93.48,
+            "priceIndex": 101.7,
+            "sectorIndex": 98.97,
             "volume": 18052500
           },
           {
             "date": "2026-08-12",
             "price": 482.93,
-            "priceIndex": 98.49,
-            "sectorIndex": 95.65,
+            "priceIndex": 103.55,
+            "sectorIndex": 101.27,
             "volume": 18628300
           },
           {
             "date": "2026-08-13",
             "price": 483.01,
-            "priceIndex": 98.51,
-            "sectorIndex": 96.38,
+            "priceIndex": 103.57,
+            "sectorIndex": 102.03,
             "volume": 18764900
           },
           {
             "date": "2026-08-14",
             "price": 514.39,
-            "priceIndex": 104.91,
-            "sectorIndex": 96.32,
+            "priceIndex": 110.29,
+            "sectorIndex": 101.97,
             "volume": 25570300
           },
           {
             "date": "2026-08-17",
             "price": 506.0,
-            "priceIndex": 103.2,
-            "sectorIndex": 97.84,
+            "priceIndex": 108.5,
+            "sectorIndex": 103.58,
             "volume": 20057600
           },
           {
             "date": "2026-08-18",
             "price": 484.39,
-            "priceIndex": 98.79,
-            "sectorIndex": 92.99,
+            "priceIndex": 103.86,
+            "sectorIndex": 98.45,
             "volume": 23721500
           },
           {
             "date": "2026-08-19",
             "price": 466.42,
-            "priceIndex": 95.12,
-            "sectorIndex": 90.94,
+            "priceIndex": 100.01,
+            "sectorIndex": 96.28,
             "volume": 19208400
           },
           {
             "date": "2026-08-20",
             "price": 469.46,
-            "priceIndex": 95.74,
-            "sectorIndex": 91.41,
+            "priceIndex": 100.66,
+            "sectorIndex": 96.77,
             "volume": 15178900
           },
           {
             "date": "2026-08-21",
             "price": 473.25,
-            "priceIndex": 96.52,
-            "sectorIndex": 91.01,
+            "priceIndex": 101.47,
+            "sectorIndex": 96.35,
             "volume": 14343900
           },
           {
             "date": "2026-08-24",
             "price": 456.75,
-            "priceIndex": 93.15,
-            "sectorIndex": 88.58,
+            "priceIndex": 97.94,
+            "sectorIndex": 93.78,
             "volume": 16602200
           },
           {
             "date": "2026-08-25",
             "price": 479.18,
-            "priceIndex": 97.73,
-            "sectorIndex": 89.96,
+            "priceIndex": 102.74,
+            "sectorIndex": 95.24,
             "volume": 19001400
           },
           {
             "date": "2026-08-26",
             "price": 480.93,
-            "priceIndex": 98.08,
-            "sectorIndex": 90.19,
+            "priceIndex": 103.12,
+            "sectorIndex": 95.49,
             "volume": 14348100
           },
           {
             "date": "2026-08-27",
             "price": 476.67,
-            "priceIndex": 97.21,
-            "sectorIndex": 91.95,
+            "priceIndex": 102.21,
+            "sectorIndex": 97.34,
             "volume": 16441800
           },
           {
             "date": "2026-08-28",
             "price": 465.58,
-            "priceIndex": 94.95,
-            "sectorIndex": 89.01,
+            "priceIndex": 99.83,
+            "sectorIndex": 94.23,
             "volume": 15373900
           },
           {
             "date": "2026-08-31",
             "price": 470.72,
-            "priceIndex": 96.0,
-            "sectorIndex": 89.43,
+            "priceIndex": 100.93,
+            "sectorIndex": 94.68,
             "volume": 12463000
           },
           {
             "date": "2026-09-01",
             "price": 459.61,
-            "priceIndex": 93.73,
-            "sectorIndex": 87.55,
+            "priceIndex": 98.55,
+            "sectorIndex": 92.69,
             "volume": 16212800
           },
           {
             "date": "2026-09-02",
             "price": 457.06,
-            "priceIndex": 93.21,
-            "sectorIndex": 87.75,
+            "priceIndex": 98.0,
+            "sectorIndex": 92.9,
             "volume": 11938800
           },
           {
             "date": "2026-09-03",
             "price": 456.16,
-            "priceIndex": 93.03,
-            "sectorIndex": 87.88,
+            "priceIndex": 97.81,
+            "sectorIndex": 93.04,
             "volume": 14868100
           },
           {
             "date": "2026-09-04",
             "price": 477.57,
-            "priceIndex": 97.4,
-            "sectorIndex": 90.97,
+            "priceIndex": 102.4,
+            "sectorIndex": 96.31,
             "volume": 19678700
           },
           {
             "date": "2026-09-08",
             "price": 505.74,
-            "priceIndex": 103.14,
-            "sectorIndex": 92.47,
+            "priceIndex": 108.44,
+            "sectorIndex": 97.89,
             "volume": 28166500
           },
           {
             "date": "2026-09-09",
             "price": 521.1,
-            "priceIndex": 106.28,
-            "sectorIndex": 93.1,
+            "priceIndex": 111.73,
+            "sectorIndex": 98.56,
             "volume": 22152400
           },
           {
             "date": "2026-09-10",
             "price": 503.6,
-            "priceIndex": 102.71,
-            "sectorIndex": 90.55,
+            "priceIndex": 107.98,
+            "sectorIndex": 95.86,
             "volume": 16005500
           },
           {
             "date": "2026-09-11",
             "price": 516.13,
-            "priceIndex": 105.26,
-            "sectorIndex": 92.23,
+            "priceIndex": 110.67,
+            "sectorIndex": 97.65,
             "volume": 19026200
           },
           {
             "date": "2026-09-14",
             "price": 493.41,
-            "priceIndex": 100.63,
-            "sectorIndex": 87.04,
+            "priceIndex": 105.8,
+            "sectorIndex": 92.15,
             "volume": 24810100
           },
           {
             "date": "2026-09-15",
             "price": 504.2,
-            "priceIndex": 102.83,
-            "sectorIndex": 87.3,
+            "priceIndex": 108.11,
+            "sectorIndex": 92.42,
             "volume": 17134000
           },
           {
             "date": "2026-09-16",
             "price": 512.5,
-            "priceIndex": 104.52,
-            "sectorIndex": 87.86,
+            "priceIndex": 109.89,
+            "sectorIndex": 93.01,
             "volume": 22317700
           },
           {
             "date": "2026-09-17",
             "price": 545.09,
-            "priceIndex": 111.17,
-            "sectorIndex": 90.84,
+            "priceIndex": 116.88,
+            "sectorIndex": 96.17,
             "volume": 28464700
           },
           {
             "date": "2026-09-18",
             "price": 559.82,
-            "priceIndex": 114.17,
-            "sectorIndex": 93.28,
+            "priceIndex": 120.04,
+            "sectorIndex": 98.76,
             "volume": 31867300
           },
           {
             "date": "2026-09-21",
             "price": 615.52,
-            "priceIndex": 125.53,
-            "sectorIndex": 97.88,
+            "priceIndex": 131.98,
+            "sectorIndex": 103.63,
             "volume": 44494300
           },
           {
             "date": "2026-09-22",
             "price": 623.77,
-            "priceIndex": 127.21,
-            "sectorIndex": 100.23,
+            "priceIndex": 133.75,
+            "sectorIndex": 106.12,
             "volume": 28282800
           },
           {
             "date": "2026-09-23",
             "price": 614.61,
-            "priceIndex": 125.35,
-            "sectorIndex": 99.0,
+            "priceIndex": 131.78,
+            "sectorIndex": 104.81,
             "volume": 16338200
           },
           {
             "date": "2026-09-24",
             "price": 629.26,
-            "priceIndex": 128.33,
-            "sectorIndex": 99.06,
+            "priceIndex": 134.92,
+            "sectorIndex": 104.87,
             "volume": 25318900
           },
           {
             "date": "2026-09-25",
             "price": 630.63,
-            "priceIndex": 128.61,
-            "sectorIndex": 100.22,
+            "priceIndex": 135.22,
+            "sectorIndex": 106.1,
             "volume": 17632100
           },
           {
             "date": "2026-09-28",
             "price": 607.87,
-            "priceIndex": 123.97,
-            "sectorIndex": 98.13,
+            "priceIndex": 130.34,
+            "sectorIndex": 103.89,
             "volume": 22124100
           },
           {
             "date": "2026-09-29",
             "price": 607.57,
-            "priceIndex": 123.91,
-            "sectorIndex": 99.3,
+            "priceIndex": 130.27,
+            "sectorIndex": 105.13,
             "volume": 16513900
           },
           {
             "date": "2026-09-30",
             "price": 611.76,
-            "priceIndex": 124.76,
-            "sectorIndex": 99.51,
+            "priceIndex": 131.17,
+            "sectorIndex": 105.35,
             "volume": 16749100
           },
           {
             "date": "2026-10-01",
             "price": 615.73,
-            "priceIndex": 125.57,
-            "sectorIndex": 100.85,
+            "priceIndex": 132.02,
+            "sectorIndex": 106.77,
             "volume": 17134500
           },
           {
             "date": "2026-10-02",
             "price": 633.91,
-            "priceIndex": 129.28,
-            "sectorIndex": 103.05,
+            "priceIndex": 135.92,
+            "sectorIndex": 109.1,
             "volume": 19865300
           },
           {
             "date": "2026-10-05",
             "price": 631.75,
-            "priceIndex": 128.84,
-            "sectorIndex": 103.16,
+            "priceIndex": 135.46,
+            "sectorIndex": 109.22,
             "volume": 13717500
           },
           {
             "date": "2026-10-06",
             "price": 649.42,
-            "priceIndex": 132.45,
-            "sectorIndex": 103.15,
+            "priceIndex": 139.25,
+            "sectorIndex": 109.2,
             "volume": 24245900
           },
           {
             "date": "2026-10-07",
             "price": 645.86,
-            "priceIndex": 131.72,
-            "sectorIndex": 101.99,
+            "priceIndex": 138.48,
+            "sectorIndex": 107.98,
             "volume": 18561100
           },
           {
             "date": "2026-10-08",
             "price": 620.68,
-            "priceIndex": 126.58,
-            "sectorIndex": 98.57,
+            "priceIndex": 133.08,
+            "sectorIndex": 104.36,
             "volume": 23488200
           },
           {
             "date": "2026-10-09",
             "price": 608.1,
-            "priceIndex": 124.02,
-            "sectorIndex": 97.89,
+            "priceIndex": 130.39,
+            "sectorIndex": 103.64,
             "volume": 13733300
           },
           {
             "date": "2026-10-12",
             "price": 594.24,
-            "priceIndex": 121.19,
-            "sectorIndex": 95.35,
+            "priceIndex": 127.42,
+            "sectorIndex": 100.94,
             "volume": 15379900
           },
           {
             "date": "2026-10-13",
             "price": 605.53,
-            "priceIndex": 123.49,
-            "sectorIndex": 95.18,
+            "priceIndex": 129.84,
+            "sectorIndex": 100.77,
             "volume": 17932700
           },
           {
             "date": "2026-10-14",
             "price": 570.82,
-            "priceIndex": 116.42,
-            "sectorIndex": 90.9,
+            "priceIndex": 122.39,
+            "sectorIndex": 96.23,
             "volume": 22319500
           },
           {
             "date": "2026-10-15",
             "price": 562.23,
-            "priceIndex": 114.66,
-            "sectorIndex": 90.07,
+            "priceIndex": 120.55,
+            "sectorIndex": 95.36,
             "volume": 28834600
           },
           {
             "date": "2026-10-16",
             "price": 528.75,
-            "priceIndex": 107.84,
-            "sectorIndex": 86.34,
+            "priceIndex": 113.37,
+            "sectorIndex": 91.41,
             "volume": 22575500
           },
           {
             "date": "2026-10-19",
             "price": 538.05,
-            "priceIndex": 109.73,
-            "sectorIndex": 87.83,
+            "priceIndex": 115.37,
+            "sectorIndex": 92.99,
             "volume": 20199700
           },
           {
             "date": "2026-10-20",
             "price": 534.74,
-            "priceIndex": 109.06,
-            "sectorIndex": 87.5,
+            "priceIndex": 114.66,
+            "sectorIndex": 92.63,
             "volume": 15187000
           },
           {
             "date": "2026-10-21",
             "price": 552.72,
-            "priceIndex": 112.72,
-            "sectorIndex": 89.31,
+            "priceIndex": 118.51,
+            "sectorIndex": 94.55,
             "volume": 17998600
           },
           {
             "date": "2026-10-22",
             "price": 507.93,
-            "priceIndex": 103.59,
-            "sectorIndex": 83.24,
+            "priceIndex": 108.91,
+            "sectorIndex": 88.13,
             "volume": 28007400
           },
           {
             "date": "2026-10-23",
             "price": 516.79,
-            "priceIndex": 105.4,
-            "sectorIndex": 83.68,
+            "priceIndex": 110.81,
+            "sectorIndex": 88.59,
             "volume": 15177900
           },
           {
             "date": "2026-10-26",
             "price": 531.28,
-            "priceIndex": 108.35,
-            "sectorIndex": 86.07,
+            "priceIndex": 113.92,
+            "sectorIndex": 91.12,
             "volume": 16796800
           },
           {
             "date": "2026-10-27",
             "price": 560.26,
-            "priceIndex": 114.26,
-            "sectorIndex": 89.43,
+            "priceIndex": 120.13,
+            "sectorIndex": 94.68,
             "volume": 20599900
-          },
-          {
-            "date": "2026-10-28",
-            "price": 578.44,
-            "priceIndex": 117.97,
-            "sectorIndex": 91.34,
-            "volume": 18557439
           }
         ],
-        "score": 50.2,
+        "score": 50.4,
         "zone": "watch",
         "label": "观察背离",
         "evidence": [
@@ -9913,20 +9893,20 @@
         "metrics": {
           "bullishShare": 80.0,
           "bullishShare3mAgo": 80.8,
-          "targetMean": 637.61,
-          "targetMedian": 635.5,
+          "targetMean": 640.21,
+          "targetMedian": 640.5,
           "targetLow": 365.0,
           "targetHigh": 1250.0,
-          "targetUpside": 10.2,
-          "return5d": 4.7,
-          "return20d": -5.4,
+          "targetUpside": 10.7,
+          "return5d": 8.2,
+          "return20d": -4.8,
           "drawdown3m": -10.9,
           "targetRaises45d": 6,
           "targetCuts45d": 0,
           "analystCount": 50,
-          "epsChange30d": 0.5,
-          "epsChange60d": 0.5,
-          "revenueChange30d": 0.6,
+          "epsChange30d": 0.6,
+          "epsChange60d": 0.6,
+          "revenueChange30d": 0.7,
           "revenueChange60d": 0.7
         },
         "expectations": {
@@ -9935,17 +9915,17 @@
             "period": "0q",
             "endDate": "2026-09-30",
             "eps": {
-              "current": 1.93464,
+              "current": 1.93659,
               "value30dAgo": 1.92579,
               "value60dAgo": 1.92527,
-              "change30d": 0.5,
-              "change60d": 0.5
+              "change30d": 0.6,
+              "change60d": 0.6
             },
             "revenue": {
-              "current": 13077889730.0,
+              "current": 13083021310.0,
               "value30dAgo": 12997554620.0,
               "value60dAgo": 12992598210.0,
-              "change30d": 0.6,
+              "change30d": 0.7,
               "change60d": 0.7,
               "historyStatus": "ready"
             }
@@ -9955,17 +9935,17 @@
               "period": "0q",
               "endDate": "2026-09-30",
               "eps": {
-                "current": 1.93464,
+                "current": 1.93659,
                 "value30dAgo": 1.92579,
                 "value60dAgo": 1.92527,
-                "change30d": 0.5,
-                "change60d": 0.5
+                "change30d": 0.6,
+                "change60d": 0.6
               },
               "revenue": {
-                "current": 13077889730.0,
+                "current": 13083021310.0,
                 "value30dAgo": 12997554620.0,
                 "value60dAgo": 12992598210.0,
-                "change30d": 0.6,
+                "change30d": 0.7,
                 "change60d": 0.7,
                 "historyStatus": "ready"
               }
@@ -9974,14 +9954,14 @@
               "period": "+1q",
               "endDate": "2026-12-31",
               "eps": {
-                "current": 2.64729,
+                "current": 2.65893,
                 "value30dAgo": 2.65183,
                 "value60dAgo": 2.65132,
-                "change30d": -0.2,
-                "change60d": -0.2
+                "change30d": 0.3,
+                "change60d": 0.3
               },
               "revenue": {
-                "current": 16135533120.0,
+                "current": 16165183120.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -9993,14 +9973,14 @@
               "period": "0y",
               "endDate": "2026-12-31",
               "eps": {
-                "current": 7.58843,
-                "value30dAgo": 7.57578,
-                "value60dAgo": 7.55174,
-                "change30d": 0.2,
-                "change60d": 0.5
+                "current": 7.60715,
+                "value30dAgo": 7.58778,
+                "value60dAgo": 7.56347,
+                "change30d": 0.3,
+                "change60d": 0.6
               },
               "revenue": {
-                "current": 50972190010.0,
+                "current": 50999767090.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -10012,14 +9992,14 @@
               "period": "+1y",
               "endDate": "2027-12-31",
               "eps": {
-                "current": 15.75581,
+                "current": 15.84721,
                 "value30dAgo": 15.57829,
                 "value60dAgo": 15.32884,
-                "change30d": 1.1,
-                "change60d": 2.8
+                "change30d": 1.7,
+                "change60d": 3.4
               },
               "revenue": {
-                "current": 89148721940.0,
+                "current": 89287127710.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -10030,7 +10010,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -6.1,
+        "scoreChange7d": -14.3,
         "historyStatus": {
           "points": 34,
           "firstDate": "2026-08-04",
@@ -10546,8 +10526,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 14,
-          "label": "股价已先跌14天，机构尚未下调"
+          "waitingDays": 15,
+          "label": "股价已先跌15天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -10839,704 +10819,704 @@
         ],
         "priceTimeline": [
           {
-            "date": "2026-06-08",
-            "price": 43.99,
+            "date": "2026-06-05",
+            "price": 41.64,
             "priceIndex": 100.0,
             "sectorIndex": 100.0,
+            "volume": 49259600
+          },
+          {
+            "date": "2026-06-08",
+            "price": 43.99,
+            "priceIndex": 105.64,
+            "sectorIndex": 105.87,
             "volume": 31631100
           },
           {
             "date": "2026-06-09",
             "price": 40.64,
-            "priceIndex": 92.38,
-            "sectorIndex": 98.37,
+            "priceIndex": 97.6,
+            "sectorIndex": 104.14,
             "volume": 51851100
           },
           {
             "date": "2026-06-10",
             "price": 29.27,
-            "priceIndex": 66.54,
-            "sectorIndex": 94.76,
+            "priceIndex": 70.29,
+            "sectorIndex": 100.32,
             "volume": 191345400
           },
           {
             "date": "2026-06-11",
             "price": 31.97,
-            "priceIndex": 72.68,
-            "sectorIndex": 102.71,
+            "priceIndex": 76.78,
+            "sectorIndex": 108.74,
             "volume": 251249200
           },
           {
             "date": "2026-06-12",
             "price": 30.46,
-            "priceIndex": 69.24,
-            "sectorIndex": 104.34,
+            "priceIndex": 73.15,
+            "sectorIndex": 110.46,
             "volume": 84317400
           },
           {
             "date": "2026-06-15",
             "price": 30.85,
-            "priceIndex": 70.13,
-            "sectorIndex": 109.97,
+            "priceIndex": 74.09,
+            "sectorIndex": 116.43,
             "volume": 61776800
           },
           {
             "date": "2026-06-16",
             "price": 29.22,
-            "priceIndex": 66.42,
-            "sectorIndex": 103.46,
+            "priceIndex": 70.17,
+            "sectorIndex": 109.54,
             "volume": 54280800
           },
           {
             "date": "2026-06-17",
             "price": 27.78,
-            "priceIndex": 63.15,
-            "sectorIndex": 104.95,
+            "priceIndex": 66.71,
+            "sectorIndex": 111.11,
             "volume": 53631200
           },
           {
             "date": "2026-06-18",
             "price": 30.66,
-            "priceIndex": 69.7,
-            "sectorIndex": 111.9,
+            "priceIndex": 73.63,
+            "sectorIndex": 118.47,
             "volume": 68325300
           },
           {
             "date": "2026-06-22",
             "price": 35.46,
-            "priceIndex": 80.61,
-            "sectorIndex": 114.62,
+            "priceIndex": 85.16,
+            "sectorIndex": 121.35,
             "volume": 128512300
           },
           {
             "date": "2026-06-23",
             "price": 33.32,
-            "priceIndex": 75.74,
-            "sectorIndex": 105.59,
+            "priceIndex": 80.02,
+            "sectorIndex": 111.79,
             "volume": 60658800
           },
           {
             "date": "2026-06-24",
             "price": 32.45,
-            "priceIndex": 73.77,
-            "sectorIndex": 105.26,
+            "priceIndex": 77.93,
+            "sectorIndex": 111.44,
             "volume": 51833500
           },
           {
             "date": "2026-06-25",
             "price": 31.68,
-            "priceIndex": 72.02,
-            "sectorIndex": 109.41,
+            "priceIndex": 76.08,
+            "sectorIndex": 115.83,
             "volume": 46077500
           },
           {
             "date": "2026-06-26",
             "price": 30.63,
-            "priceIndex": 69.63,
-            "sectorIndex": 103.24,
+            "priceIndex": 73.56,
+            "sectorIndex": 109.29,
             "volume": 48554500
           },
           {
             "date": "2026-06-29",
             "price": 28.15,
-            "priceIndex": 63.99,
-            "sectorIndex": 107.51,
+            "priceIndex": 67.6,
+            "sectorIndex": 113.82,
             "volume": 91157900
           },
           {
             "date": "2026-06-30",
             "price": 29.33,
-            "priceIndex": 66.67,
-            "sectorIndex": 112.13,
+            "priceIndex": 70.44,
+            "sectorIndex": 118.71,
             "volume": 56264000
           },
           {
             "date": "2026-07-01",
             "price": 27.65,
-            "priceIndex": 62.86,
-            "sectorIndex": 104.94,
+            "priceIndex": 66.4,
+            "sectorIndex": 111.1,
             "volume": 52034200
           },
           {
             "date": "2026-07-02",
             "price": 27.22,
-            "priceIndex": 61.88,
-            "sectorIndex": 99.1,
+            "priceIndex": 65.37,
+            "sectorIndex": 104.92,
             "volume": 42742400
           },
           {
             "date": "2026-07-06",
             "price": 27.19,
-            "priceIndex": 61.81,
-            "sectorIndex": 101.76,
+            "priceIndex": 65.3,
+            "sectorIndex": 107.73,
             "volume": 30951900
           },
           {
             "date": "2026-07-07",
             "price": 26.25,
-            "priceIndex": 59.67,
-            "sectorIndex": 96.54,
+            "priceIndex": 63.04,
+            "sectorIndex": 102.21,
             "volume": 38985400
           },
           {
             "date": "2026-07-08",
             "price": 28.17,
-            "priceIndex": 64.04,
-            "sectorIndex": 98.35,
+            "priceIndex": 67.65,
+            "sectorIndex": 104.12,
             "volume": 37264400
           },
           {
             "date": "2026-07-09",
             "price": 28.24,
-            "priceIndex": 64.2,
-            "sectorIndex": 101.79,
+            "priceIndex": 67.82,
+            "sectorIndex": 107.77,
             "volume": 33573100
           },
           {
             "date": "2026-07-10",
             "price": 28.31,
-            "priceIndex": 64.36,
-            "sectorIndex": 101.73,
+            "priceIndex": 67.99,
+            "sectorIndex": 107.7,
             "volume": 25067100
           },
           {
             "date": "2026-07-13",
             "price": 27.66,
-            "priceIndex": 62.88,
-            "sectorIndex": 96.88,
+            "priceIndex": 66.43,
+            "sectorIndex": 102.56,
             "volume": 22796300
           },
           {
             "date": "2026-07-14",
             "price": 27.65,
-            "priceIndex": 62.86,
-            "sectorIndex": 99.38,
+            "priceIndex": 66.4,
+            "sectorIndex": 105.22,
             "volume": 22413500
           },
           {
             "date": "2026-07-15",
             "price": 26.89,
-            "priceIndex": 61.13,
-            "sectorIndex": 97.17,
+            "priceIndex": 64.58,
+            "sectorIndex": 102.87,
             "volume": 25550600
           },
           {
             "date": "2026-07-16",
             "price": 24.68,
-            "priceIndex": 56.1,
-            "sectorIndex": 92.83,
+            "priceIndex": 59.27,
+            "sectorIndex": 98.28,
             "volume": 36021900
           },
           {
             "date": "2026-07-17",
             "price": 24.18,
-            "priceIndex": 54.97,
-            "sectorIndex": 91.31,
+            "priceIndex": 58.07,
+            "sectorIndex": 96.67,
             "volume": 32264800
           },
           {
             "date": "2026-07-20",
             "price": 23.83,
-            "priceIndex": 54.17,
-            "sectorIndex": 91.72,
+            "priceIndex": 57.23,
+            "sectorIndex": 97.1,
             "volume": 24919400
           },
           {
             "date": "2026-07-21",
             "price": 25.5,
-            "priceIndex": 57.97,
-            "sectorIndex": 96.72,
+            "priceIndex": 61.24,
+            "sectorIndex": 102.39,
             "volume": 51156400
           },
           {
             "date": "2026-07-22",
             "price": 30.56,
-            "priceIndex": 69.47,
-            "sectorIndex": 97.21,
+            "priceIndex": 73.39,
+            "sectorIndex": 102.92,
             "volume": 163015100
           },
           {
             "date": "2026-07-23",
             "price": 31.2,
-            "priceIndex": 70.93,
-            "sectorIndex": 96.46,
+            "priceIndex": 74.93,
+            "sectorIndex": 102.12,
             "volume": 86788900
           },
           {
             "date": "2026-07-24",
             "price": 30.1,
-            "priceIndex": 68.42,
-            "sectorIndex": 92.22,
+            "priceIndex": 72.29,
+            "sectorIndex": 97.64,
             "volume": 49701600
           },
           {
             "date": "2026-07-27",
             "price": 29.81,
-            "priceIndex": 67.77,
-            "sectorIndex": 90.34,
+            "priceIndex": 71.59,
+            "sectorIndex": 95.64,
             "volume": 35912300
           },
           {
             "date": "2026-07-28",
             "price": 28.45,
-            "priceIndex": 64.67,
-            "sectorIndex": 86.0,
+            "priceIndex": 68.32,
+            "sectorIndex": 91.05,
             "volume": 36449800
           },
           {
             "date": "2026-07-29",
             "price": 25.7,
-            "priceIndex": 58.42,
-            "sectorIndex": 81.37,
+            "priceIndex": 61.72,
+            "sectorIndex": 86.15,
             "volume": 40892200
           },
           {
             "date": "2026-07-30",
             "price": 27.73,
-            "priceIndex": 63.04,
-            "sectorIndex": 88.29,
+            "priceIndex": 66.59,
+            "sectorIndex": 93.47,
             "volume": 38544900
           },
           {
             "date": "2026-07-31",
             "price": 28.4,
-            "priceIndex": 64.56,
-            "sectorIndex": 88.35,
+            "priceIndex": 68.2,
+            "sectorIndex": 93.54,
             "volume": 34956100
           },
           {
             "date": "2026-08-03",
             "price": 28.64,
-            "priceIndex": 65.11,
-            "sectorIndex": 88.84,
+            "priceIndex": 68.78,
+            "sectorIndex": 94.05,
             "volume": 24010900
           },
           {
             "date": "2026-08-04",
             "price": 31.69,
-            "priceIndex": 72.04,
-            "sectorIndex": 94.88,
+            "priceIndex": 76.1,
+            "sectorIndex": 100.45,
             "volume": 56404600
           },
           {
             "date": "2026-08-05",
             "price": 30.32,
-            "priceIndex": 68.92,
-            "sectorIndex": 92.87,
+            "priceIndex": 72.81,
+            "sectorIndex": 98.32,
             "volume": 35605000
           },
           {
             "date": "2026-08-06",
             "price": 29.38,
-            "priceIndex": 66.79,
-            "sectorIndex": 93.19,
+            "priceIndex": 70.56,
+            "sectorIndex": 98.66,
             "volume": 26698000
           },
           {
             "date": "2026-08-07",
             "price": 31.13,
-            "priceIndex": 70.77,
-            "sectorIndex": 95.07,
+            "priceIndex": 74.76,
+            "sectorIndex": 100.65,
             "volume": 32380700
           },
           {
             "date": "2026-08-10",
             "price": 31.46,
-            "priceIndex": 71.52,
-            "sectorIndex": 92.64,
+            "priceIndex": 75.55,
+            "sectorIndex": 98.08,
             "volume": 56320400
           },
           {
             "date": "2026-08-11",
             "price": 31.6,
-            "priceIndex": 71.83,
-            "sectorIndex": 93.48,
+            "priceIndex": 75.89,
+            "sectorIndex": 98.97,
             "volume": 95520500
           },
           {
             "date": "2026-08-12",
             "price": 37.61,
-            "priceIndex": 85.5,
-            "sectorIndex": 95.65,
+            "priceIndex": 90.32,
+            "sectorIndex": 101.27,
             "volume": 165736400
           },
           {
             "date": "2026-08-13",
             "price": 39.16,
-            "priceIndex": 89.02,
-            "sectorIndex": 96.38,
+            "priceIndex": 94.04,
+            "sectorIndex": 102.03,
             "volume": 122775700
           },
           {
             "date": "2026-08-14",
             "price": 39.84,
-            "priceIndex": 90.57,
-            "sectorIndex": 96.32,
+            "priceIndex": 95.68,
+            "sectorIndex": 101.97,
             "volume": 61990900
           },
           {
             "date": "2026-08-17",
             "price": 38.28,
-            "priceIndex": 87.02,
-            "sectorIndex": 97.84,
+            "priceIndex": 91.93,
+            "sectorIndex": 103.58,
             "volume": 55467000
           },
           {
             "date": "2026-08-18",
             "price": 37.41,
-            "priceIndex": 85.04,
-            "sectorIndex": 92.99,
+            "priceIndex": 89.84,
+            "sectorIndex": 98.45,
             "volume": 52260100
           },
           {
             "date": "2026-08-19",
             "price": 36.58,
-            "priceIndex": 83.16,
-            "sectorIndex": 90.94,
+            "priceIndex": 87.85,
+            "sectorIndex": 96.28,
             "volume": 35466200
           },
           {
             "date": "2026-08-20",
             "price": 36.5,
-            "priceIndex": 82.97,
-            "sectorIndex": 91.41,
+            "priceIndex": 87.66,
+            "sectorIndex": 96.77,
             "volume": 51286600
           },
           {
             "date": "2026-08-21",
             "price": 37.24,
-            "priceIndex": 84.66,
-            "sectorIndex": 91.01,
+            "priceIndex": 89.43,
+            "sectorIndex": 96.35,
             "volume": 36474300
           },
           {
             "date": "2026-08-24",
             "price": 35.17,
-            "priceIndex": 79.95,
-            "sectorIndex": 88.58,
+            "priceIndex": 84.46,
+            "sectorIndex": 93.78,
             "volume": 39934900
           },
           {
             "date": "2026-08-25",
             "price": 38.46,
-            "priceIndex": 87.43,
-            "sectorIndex": 89.96,
+            "priceIndex": 92.36,
+            "sectorIndex": 95.24,
             "volume": 48106900
           },
           {
             "date": "2026-08-26",
             "price": 37.39,
-            "priceIndex": 85.0,
-            "sectorIndex": 90.19,
+            "priceIndex": 89.79,
+            "sectorIndex": 95.49,
             "volume": 33723200
           },
           {
             "date": "2026-08-27",
             "price": 38.46,
-            "priceIndex": 87.43,
-            "sectorIndex": 91.95,
+            "priceIndex": 92.36,
+            "sectorIndex": 97.34,
             "volume": 41662100
           },
           {
             "date": "2026-08-28",
             "price": 37.08,
-            "priceIndex": 84.29,
-            "sectorIndex": 89.01,
+            "priceIndex": 89.05,
+            "sectorIndex": 94.23,
             "volume": 29132900
           },
           {
             "date": "2026-08-31",
             "price": 37.28,
-            "priceIndex": 84.75,
-            "sectorIndex": 89.43,
+            "priceIndex": 89.53,
+            "sectorIndex": 94.68,
             "volume": 22915000
           },
           {
             "date": "2026-09-01",
             "price": 36.71,
-            "priceIndex": 83.45,
-            "sectorIndex": 87.55,
+            "priceIndex": 88.16,
+            "sectorIndex": 92.69,
             "volume": 26862900
           },
           {
             "date": "2026-09-02",
             "price": 37.0,
-            "priceIndex": 84.11,
-            "sectorIndex": 87.75,
+            "priceIndex": 88.86,
+            "sectorIndex": 92.9,
             "volume": 33258800
           },
           {
             "date": "2026-09-03",
             "price": 37.87,
-            "priceIndex": 86.09,
-            "sectorIndex": 87.88,
+            "priceIndex": 90.95,
+            "sectorIndex": 93.04,
             "volume": 34436400
           },
           {
             "date": "2026-09-04",
             "price": 39.59,
-            "priceIndex": 90.0,
-            "sectorIndex": 90.97,
+            "priceIndex": 95.08,
+            "sectorIndex": 96.31,
             "volume": 53633200
           },
           {
             "date": "2026-09-08",
             "price": 40.26,
-            "priceIndex": 91.52,
-            "sectorIndex": 92.47,
+            "priceIndex": 96.69,
+            "sectorIndex": 97.89,
             "volume": 42400700
           },
           {
             "date": "2026-09-09",
             "price": 38.93,
-            "priceIndex": 88.5,
-            "sectorIndex": 93.1,
+            "priceIndex": 93.49,
+            "sectorIndex": 98.56,
             "volume": 31197000
           },
           {
             "date": "2026-09-10",
             "price": 37.38,
-            "priceIndex": 84.97,
-            "sectorIndex": 90.55,
+            "priceIndex": 89.77,
+            "sectorIndex": 95.86,
             "volume": 26771400
           },
           {
             "date": "2026-09-11",
             "price": 40.1,
-            "priceIndex": 91.16,
-            "sectorIndex": 92.23,
+            "priceIndex": 96.3,
+            "sectorIndex": 97.65,
             "volume": 46492700
           },
           {
             "date": "2026-09-14",
             "price": 36.74,
-            "priceIndex": 83.52,
-            "sectorIndex": 87.04,
+            "priceIndex": 88.23,
+            "sectorIndex": 92.15,
             "volume": 39892500
           },
           {
             "date": "2026-09-15",
             "price": 35.64,
-            "priceIndex": 81.02,
-            "sectorIndex": 87.3,
+            "priceIndex": 85.59,
+            "sectorIndex": 92.42,
             "volume": 26725900
           },
           {
             "date": "2026-09-16",
             "price": 36.85,
-            "priceIndex": 83.77,
-            "sectorIndex": 87.86,
+            "priceIndex": 88.5,
+            "sectorIndex": 93.01,
             "volume": 31390500
           },
           {
             "date": "2026-09-17",
             "price": 40.35,
-            "priceIndex": 91.73,
-            "sectorIndex": 90.84,
+            "priceIndex": 96.9,
+            "sectorIndex": 96.17,
             "volume": 62517100
           },
           {
             "date": "2026-09-18",
             "price": 39.09,
-            "priceIndex": 88.86,
-            "sectorIndex": 93.28,
+            "priceIndex": 93.88,
+            "sectorIndex": 98.76,
             "volume": 48079300
           },
           {
             "date": "2026-09-21",
             "price": 41.2,
-            "priceIndex": 93.66,
-            "sectorIndex": 97.88,
+            "priceIndex": 98.94,
+            "sectorIndex": 103.63,
             "volume": 48218400
           },
           {
             "date": "2026-09-22",
             "price": 41.54,
-            "priceIndex": 94.43,
-            "sectorIndex": 100.23,
+            "priceIndex": 99.76,
+            "sectorIndex": 106.12,
             "volume": 30249800
           },
           {
             "date": "2026-09-23",
             "price": 41.44,
-            "priceIndex": 94.2,
-            "sectorIndex": 99.0,
+            "priceIndex": 99.52,
+            "sectorIndex": 104.81,
             "volume": 40871500
           },
           {
             "date": "2026-09-24",
             "price": 41.51,
-            "priceIndex": 94.36,
-            "sectorIndex": 99.06,
+            "priceIndex": 99.69,
+            "sectorIndex": 104.87,
             "volume": 34885600
           },
           {
             "date": "2026-09-25",
             "price": 43.26,
-            "priceIndex": 98.34,
-            "sectorIndex": 100.22,
+            "priceIndex": 103.89,
+            "sectorIndex": 106.1,
             "volume": 49323200
           },
           {
             "date": "2026-09-28",
             "price": 41.78,
-            "priceIndex": 94.98,
-            "sectorIndex": 98.13,
+            "priceIndex": 100.34,
+            "sectorIndex": 103.89,
             "volume": 29494500
           },
           {
             "date": "2026-09-29",
             "price": 41.02,
-            "priceIndex": 93.25,
-            "sectorIndex": 99.3,
+            "priceIndex": 98.51,
+            "sectorIndex": 105.13,
             "volume": 25272900
           },
           {
             "date": "2026-09-30",
             "price": 41.07,
-            "priceIndex": 93.36,
-            "sectorIndex": 99.51,
+            "priceIndex": 98.63,
+            "sectorIndex": 105.35,
             "volume": 31947800
           },
           {
             "date": "2026-10-01",
             "price": 41.92,
-            "priceIndex": 95.29,
-            "sectorIndex": 100.85,
+            "priceIndex": 100.67,
+            "sectorIndex": 106.77,
             "volume": 26504300
           },
           {
             "date": "2026-10-02",
             "price": 43.69,
-            "priceIndex": 99.32,
-            "sectorIndex": 103.05,
+            "priceIndex": 104.92,
+            "sectorIndex": 109.1,
             "volume": 44497400
           },
           {
             "date": "2026-10-05",
             "price": 43.19,
-            "priceIndex": 98.18,
-            "sectorIndex": 103.16,
+            "priceIndex": 103.72,
+            "sectorIndex": 109.22,
             "volume": 22119800
           },
           {
             "date": "2026-10-06",
             "price": 43.46,
-            "priceIndex": 98.8,
-            "sectorIndex": 103.15,
+            "priceIndex": 104.37,
+            "sectorIndex": 109.2,
             "volume": 27806300
           },
           {
             "date": "2026-10-07",
             "price": 44.94,
-            "priceIndex": 102.16,
-            "sectorIndex": 101.99,
+            "priceIndex": 107.93,
+            "sectorIndex": 107.98,
             "volume": 40541100
           },
           {
             "date": "2026-10-08",
             "price": 42.77,
-            "priceIndex": 97.23,
-            "sectorIndex": 98.57,
+            "priceIndex": 102.71,
+            "sectorIndex": 104.36,
             "volume": 38837000
           },
           {
             "date": "2026-10-09",
             "price": 41.86,
-            "priceIndex": 95.16,
-            "sectorIndex": 97.89,
+            "priceIndex": 100.53,
+            "sectorIndex": 103.64,
             "volume": 27320000
           },
           {
             "date": "2026-10-12",
             "price": 39.98,
-            "priceIndex": 90.88,
-            "sectorIndex": 95.35,
+            "priceIndex": 96.01,
+            "sectorIndex": 100.94,
             "volume": 25516200
           },
           {
             "date": "2026-10-13",
             "price": 39.07,
-            "priceIndex": 88.82,
-            "sectorIndex": 95.18,
+            "priceIndex": 93.83,
+            "sectorIndex": 100.77,
             "volume": 25223100
           },
           {
             "date": "2026-10-14",
             "price": 35.78,
-            "priceIndex": 81.34,
-            "sectorIndex": 90.9,
+            "priceIndex": 85.93,
+            "sectorIndex": 96.23,
             "volume": 33239900
           },
           {
             "date": "2026-10-15",
             "price": 35.09,
-            "priceIndex": 79.77,
-            "sectorIndex": 90.07,
+            "priceIndex": 84.27,
+            "sectorIndex": 95.36,
             "volume": 37696900
           },
           {
             "date": "2026-10-16",
             "price": 31.63,
-            "priceIndex": 71.9,
-            "sectorIndex": 86.34,
+            "priceIndex": 75.96,
+            "sectorIndex": 91.41,
             "volume": 44217900
           },
           {
             "date": "2026-10-19",
             "price": 32.1,
-            "priceIndex": 72.97,
-            "sectorIndex": 87.83,
+            "priceIndex": 77.09,
+            "sectorIndex": 92.99,
             "volume": 30394800
           },
           {
             "date": "2026-10-20",
             "price": 32.47,
-            "priceIndex": 73.81,
-            "sectorIndex": 87.5,
+            "priceIndex": 77.98,
+            "sectorIndex": 92.63,
             "volume": 42353100
           },
           {
             "date": "2026-10-21",
             "price": 35.57,
-            "priceIndex": 80.86,
-            "sectorIndex": 89.31,
+            "priceIndex": 85.42,
+            "sectorIndex": 94.55,
             "volume": 82415700
           },
           {
             "date": "2026-10-22",
             "price": 33.72,
-            "priceIndex": 76.65,
-            "sectorIndex": 83.24,
+            "priceIndex": 80.98,
+            "sectorIndex": 88.13,
             "volume": 44007200
           },
           {
             "date": "2026-10-23",
             "price": 32.94,
-            "priceIndex": 74.88,
-            "sectorIndex": 83.68,
+            "priceIndex": 79.11,
+            "sectorIndex": 88.59,
             "volume": 29728000
           },
           {
             "date": "2026-10-26",
             "price": 32.69,
-            "priceIndex": 74.31,
-            "sectorIndex": 86.07,
+            "priceIndex": 78.51,
+            "sectorIndex": 91.12,
             "volume": 23286400
           },
           {
             "date": "2026-10-27",
             "price": 35.09,
-            "priceIndex": 79.77,
-            "sectorIndex": 89.43,
+            "priceIndex": 84.27,
+            "sectorIndex": 94.68,
             "volume": 31443600
-          },
-          {
-            "date": "2026-10-28",
-            "price": 35.81,
-            "priceIndex": 81.4,
-            "sectorIndex": 91.34,
-            "volume": 29094921
           }
         ],
         "score": 39.7,
@@ -11553,8 +11533,8 @@
           "targetLow": 15.0,
           "targetHigh": 60.0,
           "targetUpside": 20.8,
-          "return5d": 0.7,
-          "return20d": -12.8,
+          "return5d": 10.3,
+          "return20d": -12.7,
           "drawdown3m": -20.3,
           "targetRaises45d": 3,
           "targetCuts45d": 0,
@@ -11665,7 +11645,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 2.5,
+        "scoreChange7d": -9.2,
         "historyStatus": {
           "points": 34,
           "firstDate": "2026-08-04",
@@ -12303,7 +12283,7 @@
       "name": "标普500",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-28T20:20:01+00:00",
+      "updatedAt": "2026-10-28T21:18:42+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
