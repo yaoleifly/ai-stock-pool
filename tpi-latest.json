@@ -1,11 +1,11 @@
 {
-  "asOf": "2026-10-29T14:28:59.798214+00:00",
+  "asOf": "2026-10-29T20:21:50.953304+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 66.5,
+    "value": 65.9,
     "zone": "high_pressure",
     "change5d": -16.1
   },
@@ -14,15 +14,15 @@
       "id": "approval",
       "name": "净支持率",
       "weight": 0.25,
-      "pressureScore": 80.6,
-      "value": "-22.0pt",
-      "changeLabel": "较约30日前 +7.0pt",
+      "pressureScore": 77.8,
+      "value": "-20.4pt",
+      "changeLabel": "较约30日前 +8.6pt",
       "direction": "净支持率下降增加压力",
       "interpretation": "民调越弱，强硬政策的政治承受空间越小。",
       "updatedAt": "2026-10-26T12:00:00+00:00",
       "freshness": "current",
       "freshnessLabel": "跟随源站更新",
-      "sourceName": "Pollfinity 聚合 · 8项有效民调",
+      "sourceName": "Pollfinity 聚合 · 6项有效民调",
       "sourceTier": "aggregator",
       "sourceUrl": "https://pollfinity.com/averages"
     },
@@ -30,12 +30,12 @@
       "id": "ust10y",
       "name": "10年期美债",
       "weight": 0.15,
-      "pressureScore": 80.3,
-      "value": "4.984%",
-      "changeLabel": "近5日 +3bp",
+      "pressureScore": 81.4,
+      "value": "4.989%",
+      "changeLabel": "近5日 +4bp",
       "direction": "收益率上升增加压力",
       "interpretation": "融资成本越高，财政与市场承受力越弱。",
-      "updatedAt": "2026-10-29T14:13:54+00:00",
+      "updatedAt": "2026-10-29T18:59:54+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -46,12 +46,12 @@
       "id": "move",
       "name": "债券波动率",
       "weight": 0.15,
-      "pressureScore": 75.3,
-      "value": "92.78",
-      "changeLabel": "近5日 -14.06",
+      "pressureScore": 75.1,
+      "value": "93.57",
+      "changeLabel": "近5日 -13.27",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-10-29T14:02:30+00:00",
+      "updatedAt": "2026-10-29T20:02:45+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -62,12 +62,12 @@
       "id": "spx",
       "name": "标普500",
       "weight": 0.2,
-      "pressureScore": 37.7,
-      "value": "7,711.8",
-      "changeLabel": "近5日 +0.63%",
+      "pressureScore": 35.8,
+      "value": "7,720.4",
+      "changeLabel": "近5日 +0.74%",
       "direction": "下跌增加压力",
       "interpretation": "股市回撤会强化政策反馈；上涨则释放压力。",
-      "updatedAt": "2026-10-29T14:28:57+00:00",
+      "updatedAt": "2026-10-29T20:20:01+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -78,12 +78,12 @@
       "id": "vix",
       "name": "股市恐慌",
       "weight": 0.15,
-      "pressureScore": 46.5,
-      "value": "16.93",
-      "changeLabel": "近5日 -2.10",
+      "pressureScore": 49.1,
+      "value": "17.17",
+      "changeLabel": "近5日 -1.86",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-10-29T14:13:46+00:00",
+      "updatedAt": "2026-10-29T20:06:46+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -111,7 +111,7 @@
     {
       "id": "political",
       "name": "政治承受力",
-      "score": 80.6,
+      "score": 77.8,
       "components": [
         "净支持率"
       ],
@@ -121,7 +121,7 @@
     {
       "id": "rates",
       "name": "利率与财政约束",
-      "score": 80.3,
+      "score": 81.4,
       "components": [
         "10年期美债"
       ],
@@ -131,7 +131,7 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 53.2,
+      "score": 53.3,
       "components": [
         "MOVE",
         "标普500",
@@ -155,42 +155,42 @@
     {
       "date": "2026-09-10",
       "label": "09.10",
-      "value": 77.7
+      "value": 77.1
     },
     {
       "date": "2026-09-17",
       "label": "09.17",
-      "value": 61.6
+      "value": 60.9
     },
     {
       "date": "2026-09-24",
       "label": "09.24",
-      "value": 67.0
+      "value": 66.3
     },
     {
       "date": "2026-10-01",
       "label": "10.01",
-      "value": 76.6
+      "value": 76.0
     },
     {
       "date": "2026-10-08",
       "label": "10.08",
-      "value": 64.1
+      "value": 63.4
     },
     {
       "date": "2026-10-15",
       "label": "10.15",
-      "value": 74.5
+      "value": 73.8
     },
     {
       "date": "2026-10-22",
       "label": "10.22",
-      "value": 82.6
+      "value": 82.0
     },
     {
       "date": "2026-10-29",
       "label": "10.29",
-      "value": 69.6
+      "value": 69.0
     }
   ],
   "policyEvents": [
@@ -207,7 +207,7 @@
       "items": [
         {
           "title": "Trump adviser says Alberta referendum made it ‘essentially impossible’ to negotiate on trade deal - CTV News",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQmctMTVhX3FMNl9uNWdzN2lTelFBdFk5RG41Tm9rOERaRFNUdTk0d25uT2hhY3hMcG9MSzdjaXdpQXBnSlhEUmdIVHo1RGdRM0IwekZEMTh6RjAxaWtEcVo1NzNJWnpfY3cyaDhyZzFMMm9UbkRwbVY0M1JYekNDQlY0b21IOVJZeGNaaklacFVtRlR1Q1pXVFBocFRXY2JVdDYxMVpwRDZvV2tMWmFkOHZyRmN2X2xFcWJ5cXozUEEzb3FtRzNRWm1MV0p3YlRRdUZHS0FxcUVkaVhCUXBIckZB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObW9sTW44WFNpeDA5QVo0Uzd4dGJFRFFpYzZGc05ud0hvSU1yOU1YMWpjeFFhcEtEWDR6LUxzS0FuTXpIOGw3aEdkV1FfTVFvLW00RC03bGNaQ0lMYld0WHl2ZmFmMnY0NU1BN0xZQ25SdTlmWXR6WWxuTVVBc2VFTTRBR1paMHlhQlVhLVlyN0FnUjlYNFItUjVtejlqeGVPVUxMSUNXR1pIT1prNm9hTFlrb2dqS0ZZ?oc=5",
           "source": "CTV News",
           "publishedAt": "2026-10-25T21:05:52+00:00",
           "phase": "softening"
@@ -220,17 +220,17 @@
           "phase": "softening"
         },
         {
-          "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - PBS",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVDN2eGVOR2h1MFk2STNSRVdmUFpZNEJkNFh5OFQ3bXhHMTJvX3FSMFJDMHRYU2tTYWtRblBvVlk0bG91U1NFc1dkNUpraUU4RDlOLU40WlRhQWRHcTMzei10WXFObmxmUFc1UlNyamo4Rm9KLUsxdjBBd3UyNTQ4XzgtLTAweXhhbkVxbVpXdDJVR0NqWXcwRHJZSWEzT3cyV3NvZDBrME5RaHJhcmZGLU02d19LUGZSaGoxRE1KLTNRU1pnTEN30gHMAUFVX3lxTE9EQXNMVUNIbXptQi1QTkFCelkwdXo0aW91bHR1dGlzQWdjRDlZeTVwLTI2eU1qRUxaeUhOQkN2SzMxRThFR2MwUW1VUGV4X1NTaE5ZVEFZMWFZc2xCdmRLTUJNeWJ4aU1CaUUzcl9pLVd3M1VBU0lXN195TDI1UnBHWFBXeWZEWlRMNlE5WVpWREVtWXJmWFFEU2ZEQ1JUeXlsY09vcDkwNGR3b2pHMk5Wa1hlb281cFg2Zkt6VUJNeVRfR3FzOE91QXpWSQ?oc=5",
-          "source": "PBS",
-          "publishedAt": "2026-08-22T07:00:00+00:00",
-          "phase": "escalation"
-        },
-        {
           "title": "Tariffs on Hold as Trump Claims Deal With Canada Is Near - The New York Times",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDQ4MzBmeUdBV0VLNnNTVXFKU3NkUVowYXZxVE5nNTJiYU9YT1dWOWRhdEg3ZG5NelNqSW55clZsb0lXbVdvOFQyVDdodGEzandYQ1BDUGZTbmc1eUU4c3pNUGlMUFc1b2Z1d0xQdGpEVHhzQnhNa1ZUdGNJZFREdVpyZmpkUQ?oc=5",
           "source": "The New York Times",
           "publishedAt": "2026-08-18T07:00:00+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "Trump tariffs fallout: US senator wins elimination of duties on imported Canadian seaweed - Undercurrent News",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
+          "source": "Undercurrent News",
+          "publishedAt": "2026-08-11T07:00:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-29T14:28:58.797113+00:00",
+      "updatedAt": "2026-10-29T20:21:50.089187+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,9 +251,9 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 2,
+        "escalation": 1,
         "softening": 0,
-        "execution": 0,
+        "execution": 1,
         "monitoring": 6
       },
       "items": [
@@ -279,11 +279,11 @@
           "phase": "monitoring"
         },
         {
-          "title": "【US Pre-Market】Trump Eases Russia Sanctions, Oil Falls; Intel Rises Over 4%, Micron and SanDisk Lead Memory Chip Stocks - TradingKey",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPXzZBX0tQUE5xc1FsaVFWd04xOUVWVE5aMWhaeW51VDZtcVdWZFhoN1JSc3loT0xES2FucVRlMGk0bXhoU1lUVExSOUNiemdneDVaMVlHVXJBcXQtU1BtcUxEbl8xZlVleFhNV2RsNWJEOHA0UnZFb09WejZFbkFJS1Y0ZU5IZ3ZzS2luUVhCcllxVllWQldrOGVEX2tyRGV5ZGc2TE9TMVB0ZWRMbFlfRmlVSGxIMmRURFFIZmFsZEI1bE5faTgxbVVCRVd4T0RkekhjSW5PM05WWEtoaTdKLU56WFVFdEJTV2NzeUJLdw?oc=5",
-          "source": "TradingKey",
-          "publishedAt": "2026-10-19T07:00:00+00:00",
-          "phase": "escalation"
+          "title": "US mulls new rules for AI chip exports, including requiring US investments by foreign firms - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbHlIa3ZDZ0wxc19tUmxrb1l4aml2UEI2S3MtV1RrMWxJV3FsS2ZuMk9oQk9Ed1YyTGZBWlRIU0lFQkxkbmNFbFpOblk0LUo0X2JReEdDdkEyVzFYc0VqOWtfUmhIb2JYbjc4VmtxY1NoTU1jRk5RRUE1Q1NkSGhUZVVmdW9qVzBnYnNOZzVoV21rbFpheFVPMVRLenVVRzVILWU5ZWNGTnhZMGk5anRNTDdnbHRTV1FDOW9j?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2026-03-05T08:00:00+00:00",
+          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -294,17 +294,17 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-29T14:28:58.676113+00:00",
+      "updatedAt": "2026-10-29T20:21:50.282160+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "geopolitical",
       "name": "军事与地缘",
-      "phase": "softening",
+      "phase": "escalation",
       "phaseCounts": {
-        "escalation": 2,
-        "softening": 6,
+        "escalation": 5,
+        "softening": 3,
         "execution": 0,
         "monitoring": 0
       },
@@ -317,6 +317,13 @@
           "phase": "softening"
         },
         {
+          "title": "Can Trump's economic war against Iran do what airstrikes and negotiations couldn't? - NPR",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HMGs0bllsTEY2UjB0aXFHZl93a1RqdE5zaXJab05Cc1l0RFVyel9iaXlhdWZFS1NURDhzWk44SEtQZ2pjZXBNc0VxTnpuTS1ZbERHYUY1aFlPd2EwMUxrOFlYMzNzdm5MNVZWb0tkeVB2bEk?oc=5",
+          "source": "NPR",
+          "publishedAt": "2026-08-25T07:00:00+00:00",
+          "phase": "escalation"
+        },
+        {
           "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
           "source": "CNBC",
@@ -324,17 +331,10 @@
           "phase": "softening"
         },
         {
-          "title": "Trump says ceasefire ‘over’ after U.S., Iran trade attacks but that talks can continue - NBC News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORjNtd1V3TWhyd0hDQzlLOGJQUlhobGw3VTlJYnp0a3Ayak9tdEIzSXFJekhiNXFiRnZjSEZxN1dFczZtUVRWM0REcnRCSDZnVW9aUkFpeDhRUWhlSnM2YTFzRXMzdTlielRWOU96c1BBaDIxSlFFbnVpazF4M01TUGxFY2RzSnVnQ21UV29YOFk4c3VIeDhTZ3JpX1VHcXhEb0ZlQ0x5SF9pYVdobzZ0dmdxQlRNZnc?oc=5",
-          "source": "NBC News",
-          "publishedAt": "2026-07-08T07:00:00+00:00",
-          "phase": "softening"
-        },
-        {
-          "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2026-07-07T07:00:00+00:00",
+          "title": "Trump signals shift to economic pressure on Iran over new military strikes - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZUp2OWhnVmxOYkpZTTM5TEktOUY1REswc3Roc04zNDNKbDAwQl9ib2JhZ1QtbHY3UHJXc2JjVkNYam5WNVJPR1lNNnlmS3ZkX253WTJtRE9ESG1BdnVSanQxWk9MR2NDeG15dlpzaEZrTm1Rcnowc1RLRmlaSnNPVmJxRHBUU0M1RWlqNTlSYmtDbW1zRzVDZHNkSk5SR1RWMWFmeVVMUHBCNzlJeVZmXzEyeURfd015SmfSAb8BQVVfeXFMUFFkMFhlblVNbUtKdmNacEI5cHVJRjJJbW44VXFoQzkwNXozeEoxZHFIWHZ2aEllSGpEQkYwVXhQV210LUFsMUloaWFZVXlQdmJjcTBOb2JmdzlaWnVyQkcxSUd1eGFtMzRUaW1BaktraDBxcnJGZjNvSjBJSXpaMzJtLTBPcGgyaWE2ZHE1TkhkY19ZRXdqR1Vubk1JbVJJMDZ6d2w1dmwtVVZPb244OGtYeW1pRC1tN2p1b3BiZlU?oc=5",
+          "source": "Al Jazeera",
+          "publishedAt": "2026-08-10T07:00:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -346,47 +346,47 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-29T14:28:58.821768+00:00",
-      "phaseLabel": "软化/谈判",
-      "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
+      "updatedAt": "2026-10-29T20:21:50.007518+00:00",
+      "phaseLabel": "强硬升级",
+      "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "fiscal",
       "name": "财政、税收与产业补贴",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 2,
+        "escalation": 1,
         "softening": 0,
         "execution": 0,
-        "monitoring": 6
+        "monitoring": 7
       },
       "items": [
-        {
-          "title": "Intel gets tax breaks while local authorities lose revenue, claims policy org - The Register",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNkxFd2hpNUhlNHVVa180Q3RydGgtZWV1V1BYVmJ5ZVY5ZW51UXZoa2poYzczTERSOXhPaXhLMS1nbHdsd21RbHhrUmx4d0ZCQndTLWp1MUZuR3NiTWtaazhfT1BQbkdrOTU3dGxxRGE3c3hFWTZMWWZUMUlmb3VJNnFTUW9fdlRBdVVyR05CVzlnNHVpMnVIWGNzZHIwNXEzTjR6cFhjSjI5Uk5IM2xobWZVbWJPZDNFQUdYTGhVcVdBamItbUNxcU5ocw?oc=5",
-          "source": "The Register",
-          "publishedAt": "2026-10-28T12:45:00+00:00",
-          "phase": "monitoring"
-        },
-        {
-          "title": "Janelle Stelson's plan to lower the cost of living in PA-10 - The Keystone Newsroom",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94U1JiN2U0Zkx0QlRKTzROM0lPcmZGZ05YNlI0YzNtREE0VklEd3dKSlo3ZlBCV0VZR09Bc3hHb0U4ZVc5ZE1RdE1Cd1BoQmZJUVhLajB3SHVuTGhzMTlWTEJUSVFDUUZoM2p0SGdLbzhPcklhOURUcA?oc=5",
-          "source": "The Keystone Newsroom",
-          "publishedAt": "2026-10-27T15:59:24+00:00",
-          "phase": "monitoring"
-        },
-        {
-          "title": "Tracking the Impact of the Trump Tariffs & Trade War - Tax Foundation",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LU1daamtmcnNXWEZENFBwb3BYMThMQ1M4bHFPSzVZX0s5QmlLYWM4dDdKUGNiOF9iNjcxZ2VZTXd0bVJ6NGNNcDZVVmlkc25rTmxLd3Q4RVJhQmM3dUhpR3h1aXhXNGs3UkNQN0ZKLUpSSnBnOWVaX0tTRQ?oc=5",
-          "source": "Tax Foundation",
-          "publishedAt": "2026-08-20T16:36:30+00:00",
-          "phase": "escalation"
-        },
         {
           "title": "Republican Megabill Trades Essential Support to Low-Income People for Skewed Tax Cuts - Center on Budget and Policy Priorities",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmhGejlFclBFVFBOOEhLVWU4eTlrbE5wMDNta3ZqQzB4ZElpMXpsS0JjdjkzSnVSRWVCZ1NLWm1HWkhGTGx6bnJFdW9iYVlBbXBxeXNUcEFMamJ5dVBCUzJoaTZIZnZUV3ROZ3dMbS0wa0F2WFJJa3I2cnU0NVhkZmZLVUxLbktodEJWcWRHZW9QOFB5Sy0xNGVWSFNId05yT3R0SlBZOHkxZWJOYmlDWGpLdHEzbG9hX1E?oc=5",
           "source": "Center on Budget and Policy Priorities",
           "publishedAt": "2026-02-11T08:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
+          "title": "Trump's tariffs are causing harm to American manufacturers instead of benefiting them - PBS",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ0ZTS1RRSng2bnJVYUs3NHNOdll3V1FGR2FrVnVqMENaRlJXNDZFY09xN0ZFN0Nla1pMTFo5RW5FOU90TXNXbDNWQ2lxV1JFWTYwUjZ5dV9VZGlQZmlXN0tMOGJ4N1RsYkJJVXFRRHZXWF9kZmhnd2NGaDVKMkM0Nmw2aWlQQzdOMHVuQzh1ZEFxMENNWlJfLVF2RkJpMGhlbXlXYm1uMExJRUZtUWIxb3B0MWVIWkIwcE1XWWdn?oc=5",
+          "source": "PBS",
+          "publishedAt": "2026-03-18T07:00:00+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "5 Hidden Ways the Government Rigs the Market in Favor of Fossil Fuels - Center for American Progress",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2pBMG1udHlfdXJqeGZrM0lHM3Zxcjg2bG9GOUN5bnU4azBJTHdNc2pfbjFCUUhfa1Y0bnZ1eWxFX19BS1pQZW9GX3M2RTZmejAzUUJwdG5YUHMybmN5UkxzOUxycjdrT2hLLTRmNmI2MlB4emp6amJ3U1pvcGQtbloxajJ6WDgxWmZvU09uWlVSTndzcEREc3JWaXFQTXc5a3pMY2xNTnJidDBlZlVOYg?oc=5",
+          "source": "Center for American Progress",
+          "publishedAt": "2026-02-17T08:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
+          "title": "Trump's Big Ugly Law Steals from the Poor to Give to the Ultra-Rich - House Budget Committee Democrats (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdzZ2OTkwb2RMYW5EdjNHWFVVY3VKbEdjSEhaNGpYQlBCX1lJSDA3TTV4Wk96R2RjSHV6ZXFveXpZU0haVlVyNWxOS1kwTlR1VV9QUFJubjYtNFdVOVBnQmVxSWQtbk5aVWlfVW8yWk1PMWJCZnVIN3kzUDY1QnQ3RmM3UHVrbG1EWHdlamhWS1ZGTlZTUzFrQnF4VGs2dk1DZ1o3cA?oc=5",
+          "source": "House Budget Committee Democrats (.gov)",
+          "publishedAt": "2025-08-11T07:00:00+00:00",
           "phase": "monitoring"
         }
       ],
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-29T14:28:58.794419+00:00",
+      "updatedAt": "2026-10-29T20:21:49.822889+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-29T14:28:59.795912+00:00",
-    "aggregateScore": 66.6,
+    "asOf": "2026-10-29T20:21:50.950930+00:00",
+    "aggregateScore": 67.5,
     "aggregateLabel": "偏高",
     "highRiskCount": 4,
     "coverage": {
@@ -418,8 +418,8 @@
       {
         "ticker": "MRVL",
         "company": "Marvell",
-        "currentPrice": 219.54,
-        "updatedAt": "2026-10-29T14:28:57+00:00",
+        "currentPrice": 218.34,
+        "updatedAt": "2026-10-29T20:00:01+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/MRVL/analysis/",
         "earningsCalendar": {
@@ -1814,23 +1814,24 @@
             "price": 251.65,
             "priceIndex": 94.29,
             "sectorIndex": 92.85,
-            "volume": 15643200
+            "volume": 16342300
           },
           {
             "date": "2026-10-29",
-            "price": 219.54,
-            "priceIndex": 82.26,
-            "sectorIndex": 91.0,
-            "volume": 14443995
+            "price": 218.34,
+            "priceIndex": 81.81,
+            "sectorIndex": 91.41,
+            "volume": 41063450
           }
         ],
-        "score": 83.3,
-        "zone": "crowded",
-        "label": "一致预期拥挤",
+        "score": 83.6,
+        "zone": "distribution_risk",
+        "label": "派发风险",
         "evidence": [
           "买入评级高度一致",
           "目标价隐含空间偏乐观",
-          "近期目标价集中上调"
+          "近期目标价集中上调",
+          "股价走弱但评级尚未松动"
         ],
         "metrics": {
           "bullishShare": 91.5,
@@ -1839,15 +1840,15 @@
           "targetMedian": 350.0,
           "targetLow": 229.95,
           "targetHigh": 450.0,
-          "targetUpside": 55.1,
-          "return5d": -1.8,
-          "return20d": -18.1,
-          "drawdown3m": -23.5,
+          "targetUpside": 56.0,
+          "return5d": -2.3,
+          "return20d": -18.6,
+          "drawdown3m": -23.9,
           "targetRaises45d": 16,
           "targetCuts45d": 0,
           "analystCount": 44,
           "epsChange30d": 0.1,
-          "epsChange60d": 1.5,
+          "epsChange60d": 0.0,
           "revenueChange30d": 0.1,
           "revenueChange60d": 16.3
         },
@@ -1859,9 +1860,9 @@
             "eps": {
               "current": 1.10094,
               "value30dAgo": 1.09978,
-              "value60dAgo": 1.08519,
+              "value60dAgo": 1.1004,
               "change30d": 0.1,
-              "change60d": 1.5
+              "change60d": 0.0
             },
             "revenue": {
               "current": 3151995970.0,
@@ -1879,9 +1880,9 @@
               "eps": {
                 "current": 1.10094,
                 "value30dAgo": 1.09978,
-                "value60dAgo": 1.08519,
+                "value60dAgo": 1.1004,
                 "change30d": 0.1,
-                "change60d": 1.5
+                "change60d": 0.0
               },
               "revenue": {
                 "current": 3151995970.0,
@@ -1898,9 +1899,9 @@
               "eps": {
                 "current": 1.36052,
                 "value30dAgo": 1.35573,
-                "value60dAgo": 1.28709,
+                "value60dAgo": 1.35663,
                 "change30d": 0.4,
-                "change60d": 5.7
+                "change60d": 0.3
               },
               "revenue": {
                 "current": 3731379050.0,
@@ -1935,9 +1936,9 @@
               "endDate": "2028-01-31",
               "eps": {
                 "current": 7.32838,
-                "value30dAgo": 6.75725,
+                "value30dAgo": 6.76913,
                 "value60dAgo": 6.66335,
-                "change30d": 8.5,
+                "change30d": 8.3,
                 "change60d": 10.0
               },
               "revenue": {
@@ -1952,11 +1953,11 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 2.7,
+        "scoreChange7d": 3.0,
         "historyStatus": {
-          "points": 34,
+          "points": 35,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-10-28",
+          "lastDate": "2026-10-29",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -2436,6 +2437,20 @@
             "revenueEstimate": 3151995970.0,
             "targetRaises45d": 16,
             "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-29",
+            "ticker": "MRVL",
+            "score": 82.3,
+            "zone": "crowded",
+            "currentPrice": 223.24,
+            "targetMean": 340.56,
+            "targetMedian": 350.0,
+            "bullishShare": 91.5,
+            "epsEstimate": 1.10094,
+            "revenueEstimate": 3151995970.0,
+            "targetRaises45d": 16,
+            "targetCuts45d": 0
           }
         ],
         "expectationDivergence": {
@@ -2448,8 +2463,8 @@
       {
         "ticker": "AVGO",
         "company": "Broadcom",
-        "currentPrice": 341.35,
-        "updatedAt": "2026-10-29T14:28:57+00:00",
+        "currentPrice": 345.0,
+        "updatedAt": "2026-10-29T20:00:01+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/AVGO/analysis/",
         "earningsCalendar": {
@@ -3824,17 +3839,17 @@
             "price": 351.81,
             "priceIndex": 89.71,
             "sectorIndex": 92.85,
-            "volume": 22629700
+            "volume": 22718200
           },
           {
             "date": "2026-10-29",
-            "price": 341.35,
-            "priceIndex": 87.04,
-            "sectorIndex": 91.0,
-            "volume": 4108462
+            "price": 345.0,
+            "priceIndex": 87.97,
+            "sectorIndex": 91.41,
+            "volume": 16530343
           }
         ],
-        "score": 80.6,
+        "score": 80.2,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
@@ -3850,10 +3865,10 @@
           "targetMedian": 537.5,
           "targetLow": 215.88,
           "targetHigh": 660.0,
-          "targetUpside": 55.3,
-          "return5d": 5.6,
-          "return20d": -0.7,
-          "drawdown3m": -20.2,
+          "targetUpside": 53.7,
+          "return5d": 6.7,
+          "return20d": 0.4,
+          "drawdown3m": -19.3,
           "targetRaises45d": 1,
           "targetCuts45d": 0,
           "analystCount": 48,
@@ -3963,11 +3978,11 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 8.2,
+        "scoreChange7d": 7.8,
         "historyStatus": {
-          "points": 34,
+          "points": 35,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-10-28",
+          "lastDate": "2026-10-29",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -4447,6 +4462,20 @@
             "revenueEstimate": 34906205760.0,
             "targetRaises45d": 1,
             "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-29",
+            "ticker": "AVGO",
+            "score": 80.1,
+            "zone": "crowded",
+            "currentPrice": 345.42,
+            "targetMean": 530.14,
+            "targetMedian": 537.5,
+            "bullishShare": 96.1,
+            "epsEstimate": 3.83768,
+            "revenueEstimate": 34906205760.0,
+            "targetRaises45d": 1,
+            "targetCuts45d": 0
           }
         ],
         "expectationDivergence": {
@@ -4459,8 +4488,8 @@
       {
         "ticker": "MU",
         "company": "Micron",
-        "currentPrice": 949.48,
-        "updatedAt": "2026-10-29T14:28:58+00:00",
+        "currentPrice": 934.27,
+        "updatedAt": "2026-10-29T20:00:01+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/MU/analysis/",
         "earningsCalendar": {
@@ -5855,17 +5884,17 @@
             "price": 983.23,
             "priceIndex": 105.06,
             "sectorIndex": 92.85,
-            "volume": 30518000
+            "volume": 30711300
           },
           {
             "date": "2026-10-29",
-            "price": 949.48,
-            "priceIndex": 101.45,
-            "sectorIndex": 91.0,
-            "volume": 5907574
+            "price": 934.27,
+            "priceIndex": 99.83,
+            "sectorIndex": 91.41,
+            "volume": 20948916
           }
         ],
-        "score": 77.0,
+        "score": 78.1,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
@@ -5880,10 +5909,10 @@
           "targetMedian": 1550.0,
           "targetLow": 361.0,
           "targetHigh": 3000.0,
-          "targetUpside": 64.5,
-          "return5d": 10.9,
-          "return20d": -13.5,
-          "drawdown3m": -13.5,
+          "targetUpside": 67.2,
+          "return5d": 9.1,
+          "return20d": -14.9,
+          "drawdown3m": -14.9,
           "targetRaises45d": 6,
           "targetCuts45d": 1,
           "analystCount": 45,
@@ -5956,10 +5985,10 @@
               "period": "0y",
               "endDate": "2027-08-31",
               "eps": {
-                "current": 176.58401,
-                "value30dAgo": 160.04182,
+                "current": 176.50168,
+                "value30dAgo": 161.69012,
                 "value60dAgo": 156.24937,
-                "change30d": 10.3,
+                "change30d": 9.2,
                 "change60d": 13.0
               },
               "revenue": {
@@ -5975,14 +6004,14 @@
               "period": "+1y",
               "endDate": "2028-08-31",
               "eps": {
-                "current": 206.89381,
-                "value30dAgo": 179.51343,
+                "current": 207.80438,
+                "value30dAgo": 180.93925,
                 "value60dAgo": 171.02492,
-                "change30d": 15.3,
-                "change60d": 21.0
+                "change30d": 14.8,
+                "change60d": 21.5
               },
               "revenue": {
-                "current": 318881048040.0,
+                "current": 319680348470.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -5993,11 +6022,11 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -3.1,
+        "scoreChange7d": -2.0,
         "historyStatus": {
-          "points": 34,
+          "points": 35,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-10-28",
+          "lastDate": "2026-10-29",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -6477,6 +6506,20 @@
             "revenueEstimate": 61744368110.0,
             "targetRaises45d": 6,
             "targetCuts45d": 1
+          },
+          {
+            "date": "2026-10-29",
+            "ticker": "MU",
+            "score": 77.1,
+            "zone": "crowded",
+            "currentPrice": 949.37,
+            "targetMean": 1561.91,
+            "targetMedian": 1550.0,
+            "bullishShare": 91.8,
+            "epsEstimate": 38.29128,
+            "revenueEstimate": 61744368110.0,
+            "targetRaises45d": 6,
+            "targetCuts45d": 1
           }
         ],
         "expectationDivergence": {
@@ -6489,8 +6532,8 @@
       {
         "ticker": "NVDA",
         "company": "NVIDIA",
-        "currentPrice": 213.26,
-        "updatedAt": "2026-10-29T14:28:57+00:00",
+        "currentPrice": 213.66,
+        "updatedAt": "2026-10-29T20:00:00+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis/",
         "earningsCalendar": {
@@ -7863,17 +7906,17 @@
             "price": 215.38,
             "priceIndex": 103.45,
             "sectorIndex": 92.85,
-            "volume": 92463400
+            "volume": 93030200
           },
           {
             "date": "2026-10-29",
-            "price": 213.26,
-            "priceIndex": 102.44,
-            "sectorIndex": 91.0,
-            "volume": 19216173
+            "price": 213.66,
+            "priceIndex": 102.63,
+            "sectorIndex": 91.41,
+            "volume": 74528373
           }
         ],
-        "score": 65.7,
+        "score": 65.6,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
@@ -7887,10 +7930,10 @@
           "targetMedian": 315.0,
           "targetLow": 180.0,
           "targetHigh": 515.0,
-          "targetUpside": 54.2,
-          "return5d": 0.5,
-          "return20d": -7.6,
-          "drawdown3m": -10.9,
+          "targetUpside": 54.0,
+          "return5d": 0.7,
+          "return20d": -7.5,
+          "drawdown3m": -10.7,
           "targetRaises45d": 0,
           "targetCuts45d": 0,
           "analystCount": 58,
@@ -8000,11 +8043,11 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 0.4,
+        "scoreChange7d": 0.3,
         "historyStatus": {
-          "points": 34,
+          "points": 35,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-10-28",
+          "lastDate": "2026-10-29",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -8484,6 +8527,20 @@
             "revenueEstimate": 108976833310.0,
             "targetRaises45d": 0,
             "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-29",
+            "ticker": "NVDA",
+            "score": 65.5,
+            "zone": "crowded",
+            "currentPrice": 214.04,
+            "targetMean": 328.95,
+            "targetMedian": 315.0,
+            "bullishShare": 95.2,
+            "epsEstimate": 2.47325,
+            "revenueEstimate": 108976833310.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
           }
         ],
         "expectationDivergence": {
@@ -8496,8 +8553,8 @@
       {
         "ticker": "AMD",
         "company": "AMD",
-        "currentPrice": 566.95,
-        "updatedAt": "2026-10-29T14:28:57+00:00",
+        "currentPrice": 566.42,
+        "updatedAt": "2026-10-29T20:00:01+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/AMD/analysis/",
         "earningsCalendar": {
@@ -8516,8 +8573,8 @@
           "breakDate": "2026-10-16",
           "firstCutDate": null,
           "lagDays": null,
-          "currentDrawdown": -12.7,
-          "label": "曾触发回撤，现已修复至-12.7%"
+          "currentDrawdown": -12.8,
+          "label": "曾触发回撤，现已修复至-12.8%"
         },
         "targetEvents": [
           {
@@ -9873,17 +9930,17 @@
             "price": 578.44,
             "priceIndex": 121.65,
             "sectorIndex": 92.85,
-            "volume": 18765500
+            "volume": 18848600
           },
           {
             "date": "2026-10-29",
-            "price": 566.95,
-            "priceIndex": 119.23,
-            "sectorIndex": 91.0,
-            "volume": 4485459
+            "price": 566.42,
+            "priceIndex": 119.12,
+            "sectorIndex": 91.41,
+            "volume": 15739010
           }
         ],
-        "score": 52.6,
+        "score": 52.7,
         "zone": "watch",
         "label": "观察背离",
         "evidence": [
@@ -9897,10 +9954,10 @@
           "targetMedian": 640.5,
           "targetLow": 365.0,
           "targetHigh": 1250.0,
-          "targetUpside": 12.9,
-          "return5d": 11.6,
-          "return20d": -7.9,
-          "drawdown3m": -12.7,
+          "targetUpside": 13.0,
+          "return5d": 11.5,
+          "return20d": -8.0,
+          "drawdown3m": -12.8,
           "targetRaises45d": 6,
           "targetCuts45d": 0,
           "analystCount": 50,
@@ -10010,11 +10067,11 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -12.1,
+        "scoreChange7d": -12.0,
         "historyStatus": {
-          "points": 34,
+          "points": 35,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-10-28",
+          "lastDate": "2026-10-29",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -10494,6 +10551,20 @@
             "revenueEstimate": 13077889730.0,
             "targetRaises45d": 6,
             "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-29",
+            "ticker": "AMD",
+            "score": 51.4,
+            "zone": "watch",
+            "currentPrice": 573.37,
+            "targetMean": 640.21,
+            "targetMedian": 640.5,
+            "bullishShare": 80.0,
+            "epsEstimate": 1.93659,
+            "revenueEstimate": 13083021310.0,
+            "targetRaises45d": 6,
+            "targetCuts45d": 0
           }
         ],
         "expectationDivergence": {
@@ -10506,8 +10577,8 @@
       {
         "ticker": "SMCI",
         "company": "Super Micro",
-        "currentPrice": 35.56,
-        "updatedAt": "2026-10-29T14:28:57+00:00",
+        "currentPrice": 34.43,
+        "updatedAt": "2026-10-29T20:00:01+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/SMCI/analysis/",
         "earningsCalendar": {
@@ -11509,17 +11580,17 @@
             "price": 35.81,
             "priceIndex": 88.12,
             "sectorIndex": 92.85,
-            "volume": 29856100
+            "volume": 30016200
           },
           {
             "date": "2026-10-29",
-            "price": 35.56,
-            "priceIndex": 87.51,
-            "sectorIndex": 91.0,
-            "volume": 5993377
+            "price": 34.43,
+            "priceIndex": 84.72,
+            "sectorIndex": 91.41,
+            "volume": 24273795
           }
         ],
-        "score": 40.7,
+        "score": 44.9,
         "zone": "watch",
         "label": "观察背离",
         "evidence": [
@@ -11532,10 +11603,10 @@
           "targetMedian": 45.0,
           "targetLow": 15.0,
           "targetHigh": 60.0,
-          "targetUpside": 21.7,
-          "return5d": 5.5,
-          "return20d": -15.2,
-          "drawdown3m": -20.9,
+          "targetUpside": 25.7,
+          "return5d": 2.1,
+          "return20d": -17.9,
+          "drawdown3m": -23.4,
           "targetRaises45d": 3,
           "targetCuts45d": 0,
           "analystCount": 15,
@@ -11645,11 +11716,11 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -8.2,
+        "scoreChange7d": -4.0,
         "historyStatus": {
-          "points": 34,
+          "points": 35,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-10-28",
+          "lastDate": "2026-10-29",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -12129,6 +12200,20 @@
             "revenueEstimate": 16255843120.0,
             "targetRaises45d": 3,
             "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-29",
+            "ticker": "SMCI",
+            "score": 41.0,
+            "zone": "watch",
+            "currentPrice": 35.48,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.19576,
+            "revenueEstimate": 16255843120.0,
+            "targetRaises45d": 3,
+            "targetCuts45d": 0
           }
         ],
         "expectationDivergence": {
@@ -12145,11 +12230,11 @@
     "benchmark": {
       "ticker": "SOXX",
       "status": "live",
-      "updatedAt": "2026-10-29T14:28:43+00:00"
+      "updatedAt": "2026-10-29T20:00:00+00:00"
     },
     "history": {
-      "updatedAt": "2026-10-28T15:59:35.841124+00:00",
-      "snapshotCount": 34
+      "updatedAt": "2026-10-29T16:03:04.116504+00:00",
+      "snapshotCount": 35
     }
   },
   "scenarioMatrix": {
@@ -12257,7 +12342,7 @@
       "freshness": "current",
       "freshnessLabel": "跟随源站更新",
       "updatedAt": "2026-10-26T12:00:00+00:00",
-      "sourceName": "Pollfinity 聚合 · 8项有效民调",
+      "sourceName": "Pollfinity 聚合 · 6项有效民调",
       "sourceUrl": "https://pollfinity.com/averages"
     },
     {
@@ -12265,7 +12350,7 @@
       "name": "10年期美债",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-29T14:13:54+00:00",
+      "updatedAt": "2026-10-29T18:59:54+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5ETNX/"
     },
@@ -12274,7 +12359,7 @@
       "name": "债券波动率",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-29T14:02:30+00:00",
+      "updatedAt": "2026-10-29T20:02:45+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EMOVE/"
     },
@@ -12283,7 +12368,7 @@
       "name": "标普500",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-29T14:28:57+00:00",
+      "updatedAt": "2026-10-29T20:20:01+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
@@ -12292,7 +12377,7 @@
       "name": "股市恐慌",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-29T14:13:46+00:00",
+      "updatedAt": "2026-10-29T20:06:46+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
     },
