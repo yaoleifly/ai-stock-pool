@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-10-30T06:00:43.039345+00:00",
+  "asOf": "2026-10-30T13:11:02.928848+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 66.1,
+    "value": 67.5,
     "zone": "high_pressure",
-    "change5d": -15.9
+    "change5d": -14.5
   },
   "drivers": [
     {
@@ -30,12 +30,12 @@
       "id": "ust10y",
       "name": "10年期美债",
       "weight": 0.15,
-      "pressureScore": 81.4,
-      "value": "4.989%",
-      "changeLabel": "近5日 +4bp",
+      "pressureScore": 74.9,
+      "value": "4.945%",
+      "changeLabel": "近5日 -4bp",
       "direction": "收益率上升增加压力",
       "interpretation": "融资成本越高，财政与市场承受力越弱。",
-      "updatedAt": "2026-10-29T18:59:54+00:00",
+      "updatedAt": "2026-10-30T12:55:54+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -78,12 +78,12 @@
       "id": "vix",
       "name": "股市恐慌",
       "weight": 0.15,
-      "pressureScore": 50.0,
-      "value": "17.20",
-      "changeLabel": "近5日 -1.83",
+      "pressureScore": 66.1,
+      "value": "18.69",
+      "changeLabel": "近5日 -0.76",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-10-29T20:15:01+00:00",
+      "updatedAt": "2026-10-30T12:55:46+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -121,17 +121,17 @@
     {
       "id": "rates",
       "name": "利率与财政约束",
-      "score": 81.4,
+      "score": 74.9,
       "components": [
         "10年期美债"
       ],
       "interpretation": "衡量融资成本与财政扩张的市场约束。",
-      "level": "极高"
+      "level": "偏高"
     },
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 53.6,
+      "score": 59.0,
       "components": [
         "MOVE",
         "标普500",
@@ -155,7 +155,7 @@
     {
       "date": "2026-09-10",
       "label": "09.10",
-      "value": 77.1
+      "value": 77.0
     },
     {
       "date": "2026-09-17",
@@ -190,7 +190,7 @@
     {
       "date": "2026-10-29",
       "label": "10.29",
-      "value": 69.2
+      "value": 69.1
     }
   ],
   "policyEvents": [
@@ -199,8 +199,8 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 5,
-        "softening": 3,
+        "escalation": 4,
+        "softening": 4,
         "execution": 0,
         "monitoring": 0
       },
@@ -210,6 +210,13 @@
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pSzhrd21rSldqYjJuV1lCdWxVbE8xWVhQM3pKRDltTDJrLWMtM09IUFFOR05LbllKd0VUblUxOTdwdHpTSjFIbktvTG9pVk5nT1JEMzl5RzRLMFhORC0zUDk5Nkx5aWlRUC1jc3dzWHo?oc=5",
           "source": "NPR",
           "publishedAt": "2026-08-19T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Trump adviser says Alberta referendum made it ‘essentially impossible’ to negotiate on trade deal - CTV News",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQmctMTVhX3FMNl9uNWdzN2lTelFBdFk5RG41Tm9rOERaRFNUdTk0d25uT2hhY3hMcG9MSzdjaXdpQXBnSlhEUmdIVHo1RGdRM0IwekZEMTh6RjAxaWtEcVo1NzNJWnpfY3cyaDhyZzFMMm9UbkRwbVY0M1JYekNDQlY0b21IOVJZeGNaaklacFVtRlR1Q1pXVFBocFRXY2JVdDYxMVpwRDZvV2tMWmFkOHZyRmN2X2xFcWJ5cXozUEEzb3FtRzNRWm1MV0p3YlRRdUZHS0FxcUVkaVhCUXBIckZB?oc=5",
+          "source": "CTV News",
+          "publishedAt": "2026-10-25T21:05:52+00:00",
           "phase": "softening"
         },
         {
@@ -225,13 +232,6 @@
           "source": "The New York Times",
           "publishedAt": "2026-08-18T07:00:00+00:00",
           "phase": "softening"
-        },
-        {
-          "title": "Trump pauses new tariffs on Canada for three days, saying deal close - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zWE54bWFVak1sR2pLd1dHbUx3R1FGU2F2ZGpRVGRGd1VDbmVqQkp0MGQxM2lMTF9OR2J0RDJIOG1JenlEN21wdm4wYmJrX3d6SDhzTTRmVXpodw?oc=5",
-          "source": "BBC",
-          "publishedAt": "2026-08-19T07:00:00+00:00",
-          "phase": "softening"
         }
       ],
       "poolCategories": [
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-30T06:00:41.721257+00:00",
+      "updatedAt": "2026-10-30T13:11:01.585541+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -252,9 +252,9 @@
       "phase": "escalation",
       "phaseCounts": {
         "escalation": 3,
-        "softening": 0,
+        "softening": 1,
         "execution": 0,
-        "monitoring": 5
+        "monitoring": 4
       },
       "items": [
         {
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-30T06:00:41.663647+00:00",
+      "updatedAt": "2026-10-30T13:11:01.618534+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -303,8 +303,8 @@
       "name": "军事与地缘",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 5,
-        "softening": 3,
+        "escalation": 4,
+        "softening": 4,
         "execution": 0,
         "monitoring": 0
       },
@@ -315,13 +315,6 @@
           "source": "CBS News",
           "publishedAt": "2026-09-29T07:00:00+00:00",
           "phase": "softening"
-        },
-        {
-          "title": "Can Trump's economic war against Iran do what airstrikes and negotiations couldn't? - NPR",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HMGs0bllsTEY2UjB0aXFHZl93a1RqdE5zaXJab05Cc1l0RFVyel9iaXlhdWZFS1NURDhzWk44SEtQZ2pjZXBNc0VxTnpuTS1ZbERHYUY1aFlPd2EwMUxrOFlYMzNzdm5MNVZWb0tkeVB2bEk?oc=5",
-          "source": "NPR",
-          "publishedAt": "2026-08-25T07:00:00+00:00",
-          "phase": "escalation"
         },
         {
           "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
@@ -336,6 +329,13 @@
           "source": "Al Jazeera",
           "publishedAt": "2026-08-10T07:00:00+00:00",
           "phase": "escalation"
+        },
+        {
+          "title": "Trump says ceasefire ‘over’ after U.S., Iran trade attacks but that talks can continue - NBC News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORjNtd1V3TWhyd0hDQzlLOGJQUlhobGw3VTlJYnp0a3Ayak9tdEIzSXFJekhiNXFiRnZjSEZxN1dFczZtUVRWM0REcnRCSDZnVW9aUkFpeDhRUWhlSnM2YTFzRXMzdTlielRWOU96c1BBaDIxSlFFbnVpazF4M01TUGxFY2RzSnVnQ21UV29YOFk4c3VIeDhTZ3JpX1VHcXhEb0ZlQ0x5SF9pYVdobzZ0dmdxQlRNZnc?oc=5",
+          "source": "NBC News",
+          "publishedAt": "2026-07-08T07:00:00+00:00",
+          "phase": "softening"
         }
       ],
       "poolCategories": [
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-30T06:00:41.942797+00:00",
+      "updatedAt": "2026-10-30T13:11:01.905728+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-30T06:00:41.709624+00:00",
+      "updatedAt": "2026-10-30T13:11:01.663528+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-30T06:00:43.036790+00:00",
+    "asOf": "2026-10-30T13:11:02.927606+00:00",
     "aggregateScore": 67.5,
     "aggregateLabel": "偏高",
     "highRiskCount": 4,
@@ -1918,9 +1918,9 @@
               "eps": {
                 "current": 4.22211,
                 "value30dAgo": 4.2113,
-                "value60dAgo": 4.20774,
+                "value60dAgo": 4.19902,
                 "change30d": 0.3,
-                "change60d": 0.3
+                "change60d": 0.5
               },
               "revenue": {
                 "current": 12070050480.0,
@@ -1937,9 +1937,9 @@
               "eps": {
                 "current": 7.32838,
                 "value30dAgo": 6.76913,
-                "value60dAgo": 6.66335,
+                "value60dAgo": 6.67285,
                 "change30d": 8.3,
-                "change60d": 10.0
+                "change60d": 9.8
               },
               "revenue": {
                 "current": 19716210400.0,
@@ -10030,11 +10030,11 @@
               "period": "0y",
               "endDate": "2026-12-31",
               "eps": {
-                "current": 7.60715,
-                "value30dAgo": 7.58778,
+                "current": 7.62397,
+                "value30dAgo": 7.59858,
                 "value60dAgo": 7.56347,
                 "change30d": 0.3,
-                "change60d": 0.6
+                "change60d": 0.8
               },
               "revenue": {
                 "current": 50999767090.0,
@@ -10049,11 +10049,11 @@
               "period": "+1y",
               "endDate": "2027-12-31",
               "eps": {
-                "current": 15.84721,
+                "current": 15.90591,
                 "value30dAgo": 15.57829,
                 "value60dAgo": 15.32884,
-                "change30d": 1.7,
-                "change60d": 3.4
+                "change30d": 2.1,
+                "change60d": 3.8
               },
               "revenue": {
                 "current": 89287127710.0,
@@ -12350,7 +12350,7 @@
       "name": "10年期美债",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-29T18:59:54+00:00",
+      "updatedAt": "2026-10-30T12:55:54+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5ETNX/"
     },
@@ -12377,7 +12377,7 @@
       "name": "股市恐慌",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-29T20:15:01+00:00",
+      "updatedAt": "2026-10-30T12:55:46+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
     },
