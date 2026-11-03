@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-11-03T03:30:15.074891+00:00",
+  "asOf": "2026-11-03T12:03:58.216126+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 81.7,
+    "value": 81.9,
     "zone": "extreme_pressure",
-    "change5d": 3.4
+    "change5d": 3.7
   },
   "drivers": [
     {
@@ -46,7 +46,7 @@
       "id": "move",
       "name": "债券波动率",
       "weight": 0.15,
-      "pressureScore": 81.1,
+      "pressureScore": 81.4,
       "value": "100.36",
       "changeLabel": "近5日 -1.83",
       "direction": "指数上升增加压力",
@@ -78,12 +78,12 @@
       "id": "vix",
       "name": "股市恐慌",
       "weight": 0.15,
-      "pressureScore": 80.6,
-      "value": "21.15",
-      "changeLabel": "近5日 +2.76",
+      "pressureScore": 81.1,
+      "value": "21.43",
+      "changeLabel": "近5日 +3.91",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-11-02T21:15:01+00:00",
+      "updatedAt": "2026-11-03T11:48:46+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -131,7 +131,7 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 83.2,
+      "score": 83.4,
       "components": [
         "MOVE",
         "标普500",
@@ -170,7 +170,7 @@
     {
       "date": "2026-10-05",
       "label": "10.05",
-      "value": 67.4
+      "value": 67.3
     },
     {
       "date": "2026-10-12",
@@ -185,12 +185,12 @@
     {
       "date": "2026-10-26",
       "label": "10.26",
-      "value": 78.3
+      "value": 78.2
     },
     {
       "date": "2026-11-02",
       "label": "11.02",
-      "value": 86.1
+      "value": 86.0
     }
   ],
   "policyEvents": [
@@ -199,8 +199,8 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 5,
-        "softening": 3,
+        "escalation": 4,
+        "softening": 4,
         "execution": 0,
         "monitoring": 0
       },
@@ -213,6 +213,13 @@
           "phase": "softening"
         },
         {
+          "title": "GOP senator announces tariff exemptions, as Trump says Canada's working hard to make a deal - National Post",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRWY0SlROVWVXZ2w1RnZUZzdaUVRiYTY1SmkzT3RqZDJLM0o3bkxaQk51dXRqRmcyYXpPTjhJbUt2VFhmRnhSczNPNTNjc1hIME5vMURiV3RLMXQ4Q2FEQjFRZ2ZDYXBrUXBXcnV1UFV2NTZSN01UUjlOUDFNX0NndTF1X1Mxd2N2U0pfRk1SLVBXX2J2MmFkS1JpS0Y?oc=5",
+          "source": "National Post",
+          "publishedAt": "2026-10-23T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
           "title": "Tariffs on Hold as Trump Claims Deal With Canada Is Near - The New York Times",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDQ4MzBmeUdBV0VLNnNTVXFKU3NkUVowYXZxVE5nNTJiYU9YT1dWOWRhdEg3ZG5NelNqSW55clZsb0lXbVdvOFQyVDdodGEzandYQ1BDUGZTbmc1eUU4c3pNUGlMUFc1b2Z1d0xQdGpEVHhzQnhNa1ZUdGNJZFREdVpyZmpkUQ?oc=5",
           "source": "The New York Times",
@@ -220,18 +227,11 @@
           "phase": "escalation"
         },
         {
-          "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - PBS",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVDN2eGVOR2h1MFk2STNSRVdmUFpZNEJkNFh5OFQ3bXhHMTJvX3FSMFJDMHRYU2tTYWtRblBvVlk0bG91U1NFc1dkNUpraUU4RDlOLU40WlRhQWRHcTMzei10WXFObmxmUFc1UlNyamo4Rm9KLUsxdjBBd3UyNTQ4XzgtLTAweXhhbkVxbVpXdDJVR0NqWXcwRHJZSWEzT3cyV3NvZDBrME5RaHJhcmZGLU02d19LUGZSaGoxRE1KLTNRU1pnTEN30gHMAUFVX3lxTE9EQXNMVUNIbXptQi1QTkFCelkwdXo0aW91bHR1dGlzQWdjRDlZeTVwLTI2eU1qRUxaeUhOQkN2SzMxRThFR2MwUW1VUGV4X1NTaE5ZVEFZMWFZc2xCdmRLTUJNeWJ4aU1CaUUzcl9pLVd3M1VBU0lXN195TDI1UnBHWFBXeWZEWlRMNlE5WVpWREVtWXJmWFFEU2ZEQ1JUeXlsY09vcDkwNGR3b2pHMk5Wa1hlb281cFg2Zkt6VUJNeVRfR3FzOE91QXpWSQ?oc=5",
-          "source": "PBS",
+          "title": "Canada demand for trucks tariff relief imperiled trade talks - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWXR3V0lJYkt5dk1reXVLcVpkdGhwcERTb1FvYjVKSWZlY0ZlbTlYZ25nbmdVR05NS2pLRlc0MTNORmg1ZWVBVGRycUp0eHpVQ1ZGZUluTDBDT2pVLVR2ZVVsaVJZd3h4cnY1Qng4SlJFYWl1SzAxTkZxSVdvaUZMNjRsMjI?oc=5",
+          "source": "Fortune",
           "publishedAt": "2026-08-22T07:00:00+00:00",
           "phase": "escalation"
-        },
-        {
-          "title": "Trump pauses 50 percent tariffs on Canada in last-minute deal - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTHpyOHo0NDV3VjBvZHJxaDhKRURKNk9HZnMtVWdhVmlrY05jN2NQR2drUDNTUGJFUHJiTkpJY3ZXbmp2TXVPX0YybE5JdV9DWG0wZkU3dGpSNXRmTnRUYTJ6Yk8waXh5cnJSVUF1cTRBQ2dGZ3RfQkJQRE1tVzJwSlBPTGxpdHdnbjh3UWFDblFMeEFYUnZMQjFYb1BwbVpYdXZCN01RZ9IBrAFBVV95cUxOUmNra2JMM1EzYmxtdDNib1lDOGRXcHhqaHZhM2t4Q2tpajFIVWtwbWd5Y3R5NjZ0by1VdmU0UGYzdmg0TDRjV0NyczQ1SS1nYmluekxtRVgxNFNWMmJtWk1RTDMxSXlOYlFvUHZaQmxtdGtFN1FqajJqUWk1ZnJXN2Rvbm8tVUNvZ2I1cUFOQ2w2SWJVVHhMd25oalFFdmRNR1czNG9fWU85SUdP?oc=5",
-          "source": "Al Jazeera",
-          "publishedAt": "2026-08-19T07:00:00+00:00",
-          "phase": "softening"
         }
       ],
       "poolCategories": [
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-03T03:30:13.968865+00:00",
+      "updatedAt": "2026-11-03T12:03:57.614267+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,10 +251,10 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 1,
+        "escalation": 3,
         "softening": 1,
         "execution": 0,
-        "monitoring": 6
+        "monitoring": 4
       },
       "items": [
         {
@@ -279,10 +279,10 @@
           "phase": "monitoring"
         },
         {
-          "title": "Trump failing to block China’s access to American AI technology, say senior Senate Democrats - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SOFUzQzlsOFVDUlRWN0VCMGx0Z3NEODlYQjliN29VbHZfWElQUXdueFhjYUxJaWhVcEZUdkpFX2pIcGQzLTFSMWswRjZ1b3AtX3MtNWZ3MzcxdmJXV0oyLUVnUHBOQmdHelBxM0lza3FiaXA5MFVxMkJR0gF_QVVfeXFMTWFpVU1NNDNWSHFBNnFSbGJHMG95U2VzUWVjX2FzZzZPa2w2TGJ0Q1dtMWk1OUNaSExxMGtyaFU1d0RZSzc2blNqUGc5Y1U3dDNEUTdlY2MxVG1mQ0Vnb0NYbTQyT1VsdzZtN2V4SDZBZ3UtV1ppMmNtSlYyQ3kyQQ?oc=5",
-          "source": "The Hill",
-          "publishedAt": "2026-09-22T07:00:00+00:00",
+          "title": "US Market Open: Trump waived key Russian sanctions; US equity futures set to open firmer - Newsquawk",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdG5SY1dWNmR3VGFRS2ctV0YxQ0ljR1FUZE5CQXVTSnJfb3FmLTlnNF9YSDV2UkpRdVRDakZXd0d6bDhxY1BLWEdCeWFPQjV3M3lmX3VPdFRGMWNnNWZieVo2UmZta0Y0QmlmRFNXLW1WeXF0MUxQOXJVVG51T1VRM19fZkJTU0JXeEhkWWRtVkNKVnZ1dzB3bmsyOFhZVFVhRjhMZWNBZkFvRmYyT3puT3NneFdMNUZYMFBsdzJCMHE?oc=5",
+          "source": "Newsquawk",
+          "publishedAt": "2026-10-19T07:00:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-03T03:30:13.973135+00:00",
+      "updatedAt": "2026-11-03T12:03:57.488121+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -304,38 +304,38 @@
       "phase": "escalation",
       "phaseCounts": {
         "escalation": 5,
-        "softening": 2,
+        "softening": 3,
         "execution": 0,
-        "monitoring": 1
+        "monitoring": 0
       },
       "items": [
         {
-          "title": "Exclusive | U.S. Strikes Iran’s Qeshm Island as Trump Talks Down War Risks - WSJ",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbmVhWVpoUFY5Q2J4OGY3SlRPdnpxbFhHaWlOT2V6NUdXaXl0SjVQWnNMVXdIQV9KaFdfY3dOMFpqRFF5VzF6WWh4dnNERlJidUVhbEliWmt6ZVhuUThYN1pac2NHWTR4MnE2Q2JPLWVJVkFzckZucFNMRWFHQ3RkU1JwdTBGM1B0X0dEckpoRHFzSG5Mb0V1MkF1M2hHSW1obXZuSGhGQ0dodEk?oc=5",
-          "source": "WSJ",
-          "publishedAt": "2026-11-03T00:39:00+00:00",
+          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-09-29T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Can Trump's economic war against Iran do what airstrikes and negotiations couldn't? - NPR",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HMGs0bllsTEY2UjB0aXFHZl93a1RqdE5zaXJab05Cc1l0RFVyel9iaXlhdWZFS1NURDhzWk44SEtQZ2pjZXBNc0VxTnpuTS1ZbERHYUY1aFlPd2EwMUxrOFlYMzNzdm5MNVZWb0tkeVB2bEk?oc=5",
+          "source": "NPR",
+          "publishedAt": "2026-08-25T07:00:00+00:00",
           "phase": "escalation"
         },
         {
-          "title": "US-Iran war news: US conducts defensive strikes in Strait of Hormuz; Benjamin Netanyahu pushed Donald Trump for more Iran strikes - ABC7 New York",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQelNCSHN4aWg1SWY1ZUVhcDdOYzVHRWhBMHpGcVUxNTZOdDVJMkV2TnpFSk5telhrSDdzMW1WNXh5bTFrY2Mza19PckhKZzBoWWhRejdfdWZpVXhRR0lzNy11UXVQWjdSbmxrZnNNaXlicGRaT0pWMnN0RDRVeE14ZWNFN2FOb3I2NjkwU1BXdmZMUmdnal9TbDcyd3VDakR5SFpXblh1QkJ1em1YVkk0TVFIWHMyd0t5RlFCMXFjcG1McUlYX3BkRjZ4NS1FZFc5VWNBV05GdEZncHl5QWo2N9IB5gFBVV95cUxOQ19NSlJ1U2VJYXdCSHVlc214d2tYQ3hXUUZWa1hMOGZqbW5wb1FfamFKelBMMWpyTnRtU0taelJZRmdoTmJJUkZQcEVHOUZKTXh4cFgtSm91eXZZalgwOEVsRFFheERvcUI3dDJ6cmc4UHU5eEJLNlV2cEE0eTBKUTZRdUhwV2VFMjh3MDBZUFVWOTlyRVBGS1MwTzFPZ3AwZ2J1aHBXbzNmYWs5NzJEVXhhUjBSWUNwSzBOZUpseDQydFVGcUtyRWg0cmpzMFdCcGVZR1RxN1BLZDItUnZqVl95UjdkQQ?oc=5",
-          "source": "ABC7 New York",
-          "publishedAt": "2026-11-03T00:13:57+00:00",
-          "phase": "escalation"
+          "title": "Trump delays Russia sanctions to protect Ukraine peace talks - Yeni Şafak English",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNmF1dXdTMU1CRXhRWm5EMEtnZXFsX3RvMjhXVl9OYmdMUk1LWklFVm9ZNS1vWWZYT091elV0ZTFGdHNIbVlYSVFIQWlPdHhUMll6dVc5MzFMWjdEdHJFWXI0VmhkNDdlYnRkOTAwN3NXOEEyT1NNVFhKRmh0V0NmclREZ1IxangzTC1JdjRCQ2N6NTBNUUNIN050dGQyRVlK?oc=5",
+          "source": "Yeni Şafak English",
+          "publishedAt": "2026-10-19T07:00:00+00:00",
+          "phase": "softening"
         },
         {
-          "title": "US strikes Iran's Qeshm Island as Trump signals progress in talks - France 24",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORnVOWHBGVlBPVTVGZHQyb2x2dUZOdGNidWIyTk5JcUpOSlhabS1lSjBEN014aDZ6MTh0elFDSnJ3eHNPTzhHejBUWjQyam9kOVZsaDlDYm5sanN4RUU1QmY2djFOemhpc01DRk5kQWpBS2dFRkJmcnI5b09jT01SZzRFZXN2aklROEYwMFBYbXc1SzB3NmJtOW5rQUVtVUE4al80b093cU1ibkRQM0hvTFJn?oc=5",
-          "source": "France 24",
-          "publishedAt": "2026-11-03T02:28:07+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "US launches defensive strike on Iranian island as Tehran talks hang in balance - Fox News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHdvem0tVUZ1NVlqZFQ2NTFqdmNwWFZpUWtVR1VEclNOWkNGbGliOHN1MVhCMzRkNElQaWNGbUwxWkx0TDRBc2pXYWRFMVVzNjQ0a2hHTHkyZndLZ2NNZEIwQl8xMS0tUGxQaE9ZMDFLbGtLMjZPZnU5ZThQRnNUd1l1S1lGZXBCcF9QZHZtd1RRdGZQd0E?oc=5",
-          "source": "Fox News",
-          "publishedAt": "2026-11-03T02:48:00+00:00",
-          "phase": "escalation"
+          "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
+          "source": "CNBC",
+          "publishedAt": "2026-07-27T07:00:00+00:00",
+          "phase": "softening"
         }
       ],
       "poolCategories": [
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-03T03:30:14.208248+00:00",
+      "updatedAt": "2026-11-03T12:03:57.503442+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -362,6 +362,20 @@
       },
       "items": [
         {
+          "title": "Opinion | Hollywood loves to hate Trump. But it loves money more. - The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRTJUSXZOeDdlTXExLXEzSHplQUVsTlY4Nkp0TFNFTjRPc2NqT3NGb0pkZ3FmM3RxS0FaR0Q2eGJyLVRFN3hvTGFsQkFUNmF5c056QWdmYmlrZFg5WU5LSkM4aWt3ak1FVFBFQ0xwT3ZPeUlZcEFGbTVmTzBxZjhQRHlaZ3lDWlNFMFd4TTRpVHR0d2VBUGF1V0NuMnNsWXJmWHFBM0c4UEh5QjZURU5WUTNkLVdudw?oc=5",
+          "source": "The Washington Post",
+          "publishedAt": "2026-09-05T07:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
+          "title": "Trump Tax Law 2025: What Changed and How It Affects Your Taxes - Kiplinger",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lMWNMMWpEVkt4bFBZdUZCNDNUOWg3UndTbnZzOElhN3hxS3B6UXEtUktIb2FLa3daSUxlNGE5QWRpcFlBZ1Nwc3pINERwSEd0cEZsSWpyaUZadnp4cHZRQkVVd0M?oc=5",
+          "source": "Kiplinger",
+          "publishedAt": "2026-05-24T07:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
           "title": "Republican Megabill Trades Essential Support to Low-Income People for Skewed Tax Cuts - Center on Budget and Policy Priorities",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmhGejlFclBFVFBOOEhLVWU4eTlrbE5wMDNta3ZqQzB4ZElpMXpsS0JjdjkzSnVSRWVCZ1NLWm1HWkhGTGx6bnJFdW9iYVlBbXBxeXNUcEFMamJ5dVBCUzJoaTZIZnZUV3ROZ3dMbS0wa0F2WFJJa3I2cnU0NVhkZmZLVUxLbktodEJWcWRHZW9QOFB5Sy0xNGVWSFNId05yT3R0SlBZOHkxZWJOYmlDWGpLdHEzbG9hX1E?oc=5",
           "source": "Center on Budget and Policy Priorities",
@@ -374,20 +388,6 @@
           "source": "PBS",
           "publishedAt": "2026-03-18T07:00:00+00:00",
           "phase": "escalation"
-        },
-        {
-          "title": "5 Hidden Ways the Government Rigs the Market in Favor of Fossil Fuels - Center for American Progress",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2pBMG1udHlfdXJqeGZrM0lHM3Zxcjg2bG9GOUN5bnU4azBJTHdNc2pfbjFCUUhfa1Y0bnZ1eWxFX19BS1pQZW9GX3M2RTZmejAzUUJwdG5YUHMybmN5UkxzOUxycjdrT2hLLTRmNmI2MlB4emp6amJ3U1pvcGQtbloxajJ6WDgxWmZvU09uWlVSTndzcEREc3JWaXFQTXc5a3pMY2xNTnJidDBlZlVOYg?oc=5",
-          "source": "Center for American Progress",
-          "publishedAt": "2026-02-17T08:00:00+00:00",
-          "phase": "monitoring"
-        },
-        {
-          "title": "Trump's Big Ugly Law Steals from the Poor to Give to the Ultra-Rich - House Budget Committee Democrats (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdzZ2OTkwb2RMYW5EdjNHWFVVY3VKbEdjSEhaNGpYQlBCX1lJSDA3TTV4Wk96R2RjSHV6ZXFveXpZU0haVlVyNWxOS1kwTlR1VV9QUFJubjYtNFdVOVBnQmVxSWQtbk5aVWlfVW8yWk1PMWJCZnVIN3kzUDY1QnQ3RmM3UHVrbG1EWHdlamhWS1ZGTlZTUzFrQnF4VGs2dk1DZ1o3cA?oc=5",
-          "source": "House Budget Committee Democrats (.gov)",
-          "publishedAt": "2025-08-11T07:00:00+00:00",
-          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-03T03:30:14.084249+00:00",
+      "updatedAt": "2026-11-03T12:03:57.616939+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-03T03:30:15.073212+00:00",
-    "aggregateScore": 75.9,
+    "asOf": "2026-11-03T12:03:58.213807+00:00",
+    "aggregateScore": 75.7,
     "aggregateLabel": "极高",
     "highRiskCount": 5,
     "coverage": {
@@ -461,17 +461,6 @@
           "label": "股价先跌，目标价晚46天才下调"
         },
         "targetEvents": [
-          {
-            "date": "2026-05-28T13:00:26+00:00",
-            "epoch": 1779973226,
-            "firm": "B of A Securities",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 240.0,
-            "priorTarget": 200.0
-          },
           {
             "date": "2026-05-28T14:01:52+00:00",
             "epoch": 1779976912,
@@ -1120,6 +1109,17 @@
             "fromGrade": "Buy",
             "currentTarget": 350.0,
             "priorTarget": 335.0
+          },
+          {
+            "date": "2026-11-03T09:29:21+00:00",
+            "epoch": 1793698161,
+            "firm": "B of A Securities",
+            "type": "target_cut",
+            "label": "下调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Buy",
+            "currentTarget": 225.0,
+            "priorTarget": 400.0
           }
         ],
         "priceTimeline": [
@@ -1824,7 +1824,7 @@
             "volume": 61258300
           }
         ],
-        "score": 91.0,
+        "score": 89.8,
         "zone": "distribution_risk",
         "label": "派发风险",
         "evidence": [
@@ -1845,7 +1845,7 @@
           "return20d": -36.8,
           "drawdown3m": -40.3,
           "targetRaises45d": 16,
-          "targetCuts45d": 0,
+          "targetCuts45d": 1,
           "analystCount": 41,
           "epsChange30d": 0.1,
           "epsChange60d": -0.0,
@@ -1953,7 +1953,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 12.9,
+        "scoreChange7d": 11.7,
         "historyStatus": {
           "points": 37,
           "firstDate": "2026-08-04",
@@ -12552,7 +12552,7 @@
       "name": "股市恐慌",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-11-02T21:15:01+00:00",
+      "updatedAt": "2026-11-03T11:48:46+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
     },
