@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-04T22:41:31.517318+00:00",
+  "asOf": "2026-11-05T03:33:27.309391+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -199,19 +199,12 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 4,
-        "softening": 4,
+        "escalation": 6,
+        "softening": 2,
         "execution": 0,
         "monitoring": 0
       },
       "items": [
-        {
-          "title": "Trump's midterm defeat gives China, Canada, India and Africa's largest economy fresh leverage in US trade talks - Business Insider Africa",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ2J2RHozUzhNdWZKejdqMm92a3cyaV8xMjh2ekdIZVZ6VEM2bkxOSnJhemU2eUdndG1Qc0pNd2RxQVVrX0xVZ0lSeWxLc0x3S21kd3ZBMEl0Vk9sSGhkSEctVFJ6WVlxQ0ZiZWI0Y0VYdWN6YngwS1NKSzl6dFJEbm9ENEtuRVpYc1dGMENodFNMR2ZoU3VnUV9ZRHdhSVRaQ0RweUVsVmFBcEl2ZXI4TW5NeDBXU1QyZW1EUTV4eklSY0c5R2dLcFZFa1V6SzF3emtV?oc=5",
-          "source": "Business Insider Africa",
-          "publishedAt": "2026-11-04T18:18:01+00:00",
-          "phase": "softening"
-        },
         {
           "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports - NPR",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pSzhrd21rSldqYjJuV1lCdWxVbE8xWVhQM3pKRDltTDJrLWMtM09IUFFOR05LbllKd0VUblUxOTdwdHpTSjFIbktvTG9pVk5nT1JEMzl5RzRLMFhORC0zUDk5Nkx5aWlRUC1jc3dzWHo?oc=5",
@@ -232,6 +225,13 @@
           "source": "PBS",
           "publishedAt": "2026-08-22T07:00:00+00:00",
           "phase": "escalation"
+        },
+        {
+          "title": "Trump tariffs fallout: Wall Street expects fresh duty increases after US elections - Undercurrent News",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
+          "source": "Undercurrent News",
+          "publishedAt": "2026-08-11T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-04T22:41:30.535185+00:00",
+      "updatedAt": "2026-11-05T03:33:25.756673+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,10 +251,10 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 4,
-        "softening": 0,
-        "execution": 0,
-        "monitoring": 4
+        "escalation": 1,
+        "softening": 1,
+        "execution": 1,
+        "monitoring": 5
       },
       "items": [
         {
@@ -265,25 +265,25 @@
           "phase": "monitoring"
         },
         {
-          "title": "President Trump's Russia Sanctions Waiver Could Boost Indian Exports To U.S., Says Report - indica News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRWZIY3R4TURkeThVZl9PejY3TFdnSVl6N2UzVVZoOUZadEozYTJBeUZWYlkxYzktV0xaYk1pd2dFa1RoNlFuSTRpVWZsQ2RoVUNGMmtrbE5GOEM1UzBIT195dGpGNmwwcGpfbTBOWjVCSTE1cHc3LThpWGMzLWZSaWRWZ3ZpQW1UUnpYQXNCSlJLUFlBbXZfSEk5NW9Hcm8yQlBrOEQ2MjZ5bnQ1a2tJ?oc=5",
-          "source": "indica News",
-          "publishedAt": "2026-11-02T09:57:39+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "U.S. Firms Shun Russian Diesel Despite Trump's Sanctions Waiver - Seoul Economic Daily",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNekdNNUxWOFZ5emxIVnRUaGlHdVM5VXVlcDJIOEFFUDBCcEJLQTFzeXlFVl9UdG1lRWxteHAzOHNVd2syTTFDVkNiUVB2NjhNQXdYdzR6RFdNT0F3VVI4RWNiTE5WVUNvSjdPUXdhV3MzeEhwMzhHb0tmaG93ekZTZTBMUGh5RU1HQWJDRmdOUWZ5TWRDb1o5WEROY1FBR2Jpc3Y1ZmNiWnBJREo5?oc=5",
-          "source": "Seoul Economic Daily",
-          "publishedAt": "2026-10-30T03:15:42+00:00",
-          "phase": "escalation"
-        },
-        {
           "title": "Trump failing to block China’s access to American AI technology, say senior Senate Democrats - The Hill",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SOFUzQzlsOFVDUlRWN0VCMGx0Z3NEODlYQjliN29VbHZfWElQUXdueFhjYUxJaWhVcEZUdkpFX2pIcGQzLTFSMWswRjZ1b3AtX3MtNWZ3MzcxdmJXV0oyLUVnUHBOQmdHelBxM0lza3FiaXA5MFVxMkJR0gF_QVVfeXFMTWFpVU1NNDNWSHFBNnFSbGJHMG95U2VzUWVjX2FzZzZPa2w2TGJ0Q1dtMWk1OUNaSExxMGtyaFU1d0RZSzc2blNqUGc5Y1U3dDNEUTdlY2MxVG1mQ0Vnb0NYbTQyT1VsdzZtN2V4SDZBZ3UtV1ppMmNtSlYyQ3kyQQ?oc=5",
           "source": "The Hill",
           "publishedAt": "2026-09-22T07:00:00+00:00",
           "phase": "escalation"
+        },
+        {
+          "title": "Anatomy of Two Giant Deals: The U.A.E. Got Chips. The Trump Team Got Crypto Riches. (Published 2025) - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQR0RFR3gzM0VGYnRCRWZFSlJCVjJVRlZuWHRTNktOSzgxQTBTSTFjV0xzb3M4aTRIeUE3MC1fTTlBSTZXT2VzNXRMYUdUNXFlRGFkY254VmJYRlZOUW9ad0tEZW5NRnVQbE1Lc2J6dHhUWnctNW1yeVpKWGYzaHVaRTNxOW1leVRmY2UwdWVHY2phSWc?oc=5",
+          "source": "The New York Times",
+          "publishedAt": "2026-05-11T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "The US pivot on regulating AI diffusion - The International Institute for Strategic Studies",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQTVObGZMbGcyenZ6MHNqZzVaa3Y0NkYxNUFZMEdqd2RwSk9PNW9DN2thcTE0dXZBaG51U0s5UF9ST1ozOXFSWGUzXzJjR0lzOXl3c0Zsc1BndlpUTHNPeElpakZZZklOT1JjZG51TVlmN1dSX2JnbFlOelFjUFZfVnFPeF9tN2pkNVFoSTRtZXhva3JybEhDLUJxN3lJVk1IRjAw?oc=5",
+          "source": "The International Institute for Strategic Studies",
+          "publishedAt": "2025-12-08T08:00:00+00:00",
+          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -294,47 +294,47 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-04T22:41:30.525462+00:00",
+      "updatedAt": "2026-11-05T03:33:25.732576+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "geopolitical",
       "name": "军事与地缘",
-      "phase": "escalation",
+      "phase": "softening",
       "phaseCounts": {
-        "escalation": 5,
-        "softening": 3,
+        "escalation": 2,
+        "softening": 6,
         "execution": 0,
         "monitoring": 0
       },
       "items": [
         {
-          "title": "Iran, US still far apart on deal; Trump says ready but in no hurry for strikes - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPalRYN3p3UkoxcmdQWFZuQ2xvU1FaZG0yX25XcTJreldvQmIyeDRCdWVKNVliZ1hHaTNweHpmRXpOWUZSVHRLMVdDVmJTOFdOTHRhOGFFS29HYlU1akVQdTFIdGNydjF2WWM3LXZVLUpOam5WeWxFaW0xMWUtRWhhMXdROWlXVFFuZnExdU5RVjlsRE0yMTBxUDh2bkVkeEk0QkwwU1Jxem50WU9yU3hmUHhvSEJyZ251OWM0cEM3dmJ0TzhaNzZrb1FHc3g?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2026-11-03T06:58:00+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "Iran says US reply to Hormuz plan ‘unconvincing’; Trump confirms strikes - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxON1ZqTGJfa3lWVVdvUzRRRUc3TlVVYUNFMHhkWlREdDZsYUFzSmdJVjBhcU9PaEptVWRxRm9QMnRGcmpkYkNHVXgydHhJYTd6X0d5dF9JMG1vc1dVOWtBWWxBUTB3VjhkZlAyUEt4cGhPUlJIRzR2cFhkdFVoOEc4SkRkM1FRQ0FpblBPZHh5S3JKMl9zbUhjeUlVazhmdkJ5QjRaUXJ6eV8taGNpV3lv0gG0AUFVX3lxTE1qMndoTmRKR0xGNDZnMVJYWmdselZrTXdiXzFKVjgwQW9OZ242eHJDWFlMa2x5MU1mbGVGdFIwV2V5Q2V2OVpfYmtfd0RLUnhmN01vTjZMdHgzVnVaMlZfelBSajJHOWVJOXZ0UTlQZEMwR0RsalU2bThPekFSRDExWG9KUUVMdFlVSFRPNTgteTdyNGxZMmhCMU9aUjU1SnNaTWJETmdSTlFyeHUwQmRUOGpRMw?oc=5",
-          "source": "Al Jazeera",
-          "publishedAt": "2026-11-04T07:35:38+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "Iran plays down hope for deal to end war after new U.S. strikes on eve of midterm elections - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbWVWWDlkaXg5ZDdDZ1c5R21YM3FiSm5xbkVDYTBFTHFQdmlLdFRCOFdBbWtNVjBBLVBmTVM3aUFQZGg2c3duOFFINjNKSkxTbkgwd2NXYXhZQ0hiM2FTYjdkTUk5V2g4ZFdiQnhGZmN1VklkQlozamlESzdYYWNmSFBZdw?oc=5",
+          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
           "source": "CBS News",
-          "publishedAt": "2026-11-03T23:13:00+00:00",
-          "phase": "escalation"
+          "publishedAt": "2026-09-29T07:00:00+00:00",
+          "phase": "softening"
         },
         {
-          "title": "Trump mulls Iran strikes after midterms, as mediators push for peace deal - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMzZVcXlRbXRlbUY2dEJOTmYxR3ZkZkphWkFEUHFlVzZvbktxVktmdDFFbWU5Q0pXd3ZrQlJqbnVuQkUzdXhyY2lEeFlxT29BeG53Qk5EdnNCQ1hETko5cDV2Y2t6WDU1VjB4Z1JYcm5ST0FFWDd1QU1tNlJhWFNPTUQ4WdIBiAFBVV95cUxQN0RTNDFFRndkd2Fwbk1mU2hMN1RpUDRORDkxWGkyaTAyUTFqWmdHbXRsZHRQVE9VOWNhVkg4QURHS2w3NzRIelEyZmdZemM4TUpJZWlCVFZaMlJ2ekF5blBET1l5RjBybGtfOGRZa2xNQVdHZUEtTGFFRjA0ckpqWkJoVmwtWjRE?oc=5",
-          "source": "The Hill",
-          "publishedAt": "2026-11-03T11:00:00+00:00",
+          "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
+          "source": "CNBC",
+          "publishedAt": "2026-07-27T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Trump says ceasefire ‘over’ after U.S., Iran trade attacks but that talks can continue - NBC News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORjNtd1V3TWhyd0hDQzlLOGJQUlhobGw3VTlJYnp0a3Ayak9tdEIzSXFJekhiNXFiRnZjSEZxN1dFczZtUVRWM0REcnRCSDZnVW9aUkFpeDhRUWhlSnM2YTFzRXMzdTlielRWOU96c1BBaDIxSlFFbnVpazF4M01TUGxFY2RzSnVnQ21UV29YOFk4c3VIeDhTZ3JpX1VHcXhEb0ZlQ0x5SF9pYVdobzZ0dmdxQlRNZnc?oc=5",
+          "source": "NBC News",
+          "publishedAt": "2026-07-08T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2026-07-07T07:00:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -346,47 +346,47 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-04T22:41:30.565776+00:00",
-      "phaseLabel": "强硬升级",
-      "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
+      "updatedAt": "2026-11-05T03:33:25.749687+00:00",
+      "phaseLabel": "软化/谈判",
+      "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
     {
       "id": "fiscal",
       "name": "财政、税收与产业补贴",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 2,
+        "escalation": 1,
         "softening": 0,
         "execution": 0,
-        "monitoring": 6
+        "monitoring": 7
       },
       "items": [
         {
-          "title": "Trump Faces Congress Showdown as Farm Costs and Subsidies Reshape the Agricultural Debate - AgroLatam",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObjl4cVBUbjlPT0R0YVVCbWktYlF6YWd2OVhMN3lXNnRaRERaZVpGV05NRkV6WGh3QkxDNGV2UkNWVkNOclVLbldmejBRTnh5QWlycWY0NU5ySHo5RFhvcjZGc1hkWTlIekhvMEhSZEpDcUlUaGc5cHpZRkRSbHZxTXBOVkhvZnd4YWpwcFlVT3Badw?oc=5",
-          "source": "AgroLatam",
-          "publishedAt": "2026-11-03T13:55:33+00:00",
+          "title": "Enhanced Premium Tax Credits: Who Benefits, How Much, and What Happens Next? - Bipartisan Policy Center",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX1ptWVFWdk16UDJtQ2owbEVQN0FxemdycEZwWUVubFpmZHZVWFl4Ql8weUYyc0F3dFoyWUp5OXFLOVZwUTVjcjJ6VnAxWi04SUwtaGI5eEVCcGM4Mkk5LTRKU3d5dThBMkVXd0RWSTJ1MTFJXzBSa0J0dkk1TUk5MEdUUm43dklGaGpQZzRQT29LOUlrN1FuTWdsdDQycHc3RnJaSmZRQmhBa1BtYmFycWt0RE0?oc=5",
+          "source": "Bipartisan Policy Center",
+          "publishedAt": "2025-10-15T07:00:00+00:00",
           "phase": "monitoring"
-        },
-        {
-          "title": "Trump Says Exxon and Chevron Are Ripping Off Americans, But His Own Policies Are to Blame - Institute on Taxation and Economic Policy",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mdTRoSjNPWG9Ub0YzMUVSZDFaMU1zNDB2dlBmRnNkS1ZFZEF3VVlSdzFjTGM0b29MZVBaRy0xMkVROWRiOHgtcU5PVXlfSDQ5VDF1aWtYNzUxeW1WckJZMldCcVRidW1SUVRwNW0tUWVpM0E?oc=5",
-          "source": "Institute on Taxation and Economic Policy",
-          "publishedAt": "2026-08-04T07:00:00+00:00",
-          "phase": "monitoring"
-        },
-        {
-          "title": "Tracking the Impact of the Trump Tariffs & Trade War - Tax Foundation",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LU1daamtmcnNXWEZENFBwb3BYMThMQ1M4bHFPSzVZX0s5QmlLYWM4dDdKUGNiOF9iNjcxZ2VZTXd0bVJ6NGNNcDZVVmlkc25rTmxLd3Q4RVJhQmM3dUhpR3h1aXhXNGs3UkNQN0ZKLUpSSnBnOWVaX0tTRQ?oc=5",
-          "source": "Tax Foundation",
-          "publishedAt": "2026-08-20T16:36:30+00:00",
-          "phase": "escalation"
         },
         {
           "title": "Republican Megabill Trades Essential Support to Low-Income People for Skewed Tax Cuts - Center on Budget and Policy Priorities",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmhGejlFclBFVFBOOEhLVWU4eTlrbE5wMDNta3ZqQzB4ZElpMXpsS0JjdjkzSnVSRWVCZ1NLWm1HWkhGTGx6bnJFdW9iYVlBbXBxeXNUcEFMamJ5dVBCUzJoaTZIZnZUV3ROZ3dMbS0wa0F2WFJJa3I2cnU0NVhkZmZLVUxLbktodEJWcWRHZW9QOFB5Sy0xNGVWSFNId05yT3R0SlBZOHkxZWJOYmlDWGpLdHEzbG9hX1E?oc=5",
           "source": "Center on Budget and Policy Priorities",
           "publishedAt": "2026-02-11T08:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
+          "title": "Trump's tariffs are causing harm to American manufacturers instead of benefiting them - PBS",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ0ZTS1RRSng2bnJVYUs3NHNOdll3V1FGR2FrVnVqMENaRlJXNDZFY09xN0ZFN0Nla1pMTFo5RW5FOU90TXNXbDNWQ2lxV1JFWTYwUjZ5dV9VZGlQZmlXN0tMOGJ4N1RsYkJJVXFRRHZXWF9kZmhnd2NGaDVKMkM0Nmw2aWlQQzdOMHVuQzh1ZEFxMENNWlJfLVF2RkJpMGhlbXlXYm1uMExJRUZtUWIxb3B0MWVIWkIwcE1XWWdn?oc=5",
+          "source": "PBS",
+          "publishedAt": "2026-03-18T07:00:00+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "5 Hidden Ways the Government Rigs the Market in Favor of Fossil Fuels - Center for American Progress",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2pBMG1udHlfdXJqeGZrM0lHM3Zxcjg2bG9GOUN5bnU4azBJTHdNc2pfbjFCUUhfa1Y0bnZ1eWxFX19BS1pQZW9GX3M2RTZmejAzUUJwdG5YUHMybmN5UkxzOUxycjdrT2hLLTRmNmI2MlB4emp6amJ3U1pvcGQtbloxajJ6WDgxWmZvU09uWlVSTndzcEREc3JWaXFQTXc5a3pMY2xNTnJidDBlZlVOYg?oc=5",
+          "source": "Center for American Progress",
+          "publishedAt": "2026-02-17T08:00:00+00:00",
           "phase": "monitoring"
         }
       ],
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-04T22:41:30.604664+00:00",
+      "updatedAt": "2026-11-05T03:33:25.757791+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-04T22:41:31.516098+00:00",
-    "aggregateScore": 75.3,
+    "asOf": "2026-11-05T03:33:27.306838+00:00",
+    "aggregateScore": 75.2,
     "aggregateLabel": "极高",
     "highRiskCount": 6,
     "coverage": {
@@ -1821,7 +1821,7 @@
             "price": 795.23,
             "priceIndex": 73.09,
             "sectorIndex": 71.67,
-            "volume": 35210225
+            "volume": 35391300
           }
         ],
         "score": 88.1,
@@ -1953,7 +1953,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 14.5,
+        "scoreChange7d": 11.0,
         "historyStatus": {
           "points": 39,
           "firstDate": "2026-08-04",
@@ -3922,7 +3922,7 @@
             "price": 159.8,
             "priceIndex": 51.74,
             "sectorIndex": 71.67,
-            "volume": 46188062
+            "volume": 46352800
           }
         ],
         "score": 83.2,
@@ -4053,7 +4053,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 8.4,
+        "scoreChange7d": 0.9,
         "historyStatus": {
           "points": 39,
           "firstDate": "2026-08-04",
@@ -6002,7 +6002,7 @@
             "price": 325.48,
             "priceIndex": 82.62,
             "sectorIndex": 71.67,
-            "volume": 23713562
+            "volume": 23824200
           }
         ],
         "score": 82.6,
@@ -6134,7 +6134,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 2.6,
+        "scoreChange7d": 2.5,
         "historyStatus": {
           "points": 39,
           "firstDate": "2026-08-04",
@@ -6729,7 +6729,7 @@
             "sector": -3.1,
             "excess": 4.1
           },
-          "reactionVolumeRatio": 2.36,
+          "reactionVolumeRatio": 2.37,
           "classification": "relative_strength",
           "label": "财报后相对强势",
           "explanation": "财报后跑赢SOXX，机构乐观仍有价格确认。"
@@ -6743,17 +6743,6 @@
           "label": "股价先跌，目标价晚19天才下调"
         },
         "targetEvents": [
-          {
-            "date": "2026-06-24T12:53:13+00:00",
-            "epoch": 1782305593,
-            "firm": "UBS",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 670.0,
-            "priorTarget": 455.0
-          },
           {
             "date": "2026-06-29T14:17:05+00:00",
             "epoch": 1782742625,
@@ -7402,6 +7391,17 @@
             "fromGrade": "Neutral",
             "currentTarget": 575.0,
             "priorTarget": 550.0
+          },
+          {
+            "date": "2026-11-04T22:46:32+00:00",
+            "epoch": 1793832392,
+            "firm": "UBS",
+            "type": "target_cut",
+            "label": "下调目标价",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 700.0,
+            "priorTarget": 730.0
           }
         ],
         "priceTimeline": [
@@ -8103,12 +8103,12 @@
             "price": 488.78,
             "priceIndex": 89.31,
             "sectorIndex": 71.67,
-            "volume": 50584612
+            "volume": 50826900
           }
         ],
-        "score": 75.4,
-        "zone": "distribution_risk",
-        "label": "派发风险",
+        "score": 74.5,
+        "zone": "crowded",
+        "label": "一致预期拥挤",
         "evidence": [
           "买入评级高度一致",
           "目标价隐含空间偏乐观",
@@ -8127,11 +8127,11 @@
           "return20d": -24.3,
           "drawdown3m": -24.7,
           "targetRaises45d": 13,
-          "targetCuts45d": 3,
+          "targetCuts45d": 4,
           "analystCount": 48,
           "epsChange30d": 11.2,
           "epsChange60d": 11.2,
-          "revenueChange30d": 25.2,
+          "revenueChange30d": 25.3,
           "revenueChange60d": 25.9
         },
         "expectations": {
@@ -8148,9 +8148,9 @@
             },
             "revenue": {
               "current": 16356599390.0,
-              "value30dAgo": 13060086750.0,
+              "value30dAgo": 13058084460.0,
               "value60dAgo": 12992598210.0,
-              "change30d": 25.2,
+              "change30d": 25.3,
               "change60d": 25.9,
               "historyStatus": "ready"
             }
@@ -8168,9 +8168,9 @@
               },
               "revenue": {
                 "current": 16356599390.0,
-                "value30dAgo": 13060086750.0,
+                "value30dAgo": 13058084460.0,
                 "value60dAgo": 12992598210.0,
-                "change30d": 25.2,
+                "change30d": 25.3,
                 "change60d": 25.9,
                 "historyStatus": "ready"
               }
@@ -8235,7 +8235,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 23.0,
+        "scoreChange7d": 23.1,
         "historyStatus": {
           "points": 39,
           "firstDate": "2026-08-04",
@@ -10184,7 +10184,7 @@
             "price": 200.13,
             "priceIndex": 94.2,
             "sectorIndex": 71.67,
-            "volume": 147804408
+            "volume": 148337800
           }
         ],
         "score": 61.6,
@@ -10314,7 +10314,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -3.2,
+        "scoreChange7d": -3.9,
         "historyStatus": {
           "points": 39,
           "firstDate": "2026-08-04",
@@ -10909,7 +10909,7 @@
             "sector": -3.1,
             "excess": -2.6
           },
-          "reactionVolumeRatio": 2.45,
+          "reactionVolumeRatio": 2.46,
           "classification": "sector_driven",
           "label": "行业因素主导",
           "explanation": "个股与SOXX同步走弱，暂不把回撤单独归因于公司基本面。"
@@ -10920,8 +10920,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 21,
-          "label": "股价已先跌21天，机构尚未下调"
+          "waitingDays": 22,
+          "label": "股价已先跌22天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -11932,7 +11932,7 @@
             "price": 29.6,
             "priceIndex": 95.95,
             "sectorIndex": 71.67,
-            "volume": 88067295
+            "volume": 88354000
           }
         ],
         "score": 61.0,
@@ -12063,7 +12063,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 18.1,
+        "scoreChange7d": 20.0,
         "historyStatus": {
           "points": 39,
           "firstDate": "2026-08-04",
