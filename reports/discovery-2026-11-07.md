@@ -5,7 +5,7 @@
 - 当前线上合并股票池：137 只。
 - 线上股票池行情：requested=0，received=0，missing=[]。
 - 候选补充行情：extra=40，本次可用报价=40。
-- 本次新增/更新信号：134 条；arXiv 论文：38 篇；候选标的：57 个。
+- 本次新增/更新信号：133 条；arXiv 论文：38 篇；候选标的：55 个。
 - 规则：本报告只生成研究候选，不自动修改正式股票池。
 
 ## 建议新增候选
@@ -30,23 +30,23 @@ _无_
 
 | 代码 | 公司 | 主题 | 总分 | 日涨跌 | 信号 |
 | --- | --- | --- | --- | --- | --- |
-| NVDA | NVIDIA | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 81 | 3.929 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / 3 AI Chip Packaging Stocks To Watch As Capacity Bottlene… |
-| MRVL | Marvell Technology | AI PCB and advanced packaging; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 80 | 3.9218 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / 3 AI Chip Packaging Stocks To Watch As Capacity Bottlene… |
-| ANET | Arista Networks | AI PCB and advanced packaging; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 78 | 6.8956 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / 3 AI Chip Packaging Stocks To Watch As Capacity Bottlene… |
-| CRDO | Credo Technology | AI PCB and advanced packaging; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 78 | 6.1515 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / GPU vs TPU: Rubin, Ironwood, MI355X’s 288 GB [2026] - ht… |
-| MU | Micron Technology | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 78 | 6.1869 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / Netlist Stock: Strong Growth And New Deals, But Cash Flo… |
-| AVGO | Broadcom | AI PCB and advanced packaging; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 77 | 1.7734 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / 3 AI Chip Packaging Stocks To Watch As Capacity Bottlene… |
+| NVDA | NVIDIA | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 81 | 3.717 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / 3 AI Chip Packaging Stocks To Watch As Capacity Bottlene… |
+| MRVL | Marvell Technology | AI PCB and advanced packaging; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 80 | 3.6241 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / 3 AI Chip Packaging Stocks To Watch As Capacity Bottlene… |
+| ANET | Arista Networks | AI PCB and advanced packaging; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 78 | 6.6788 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / 3 AI Chip Packaging Stocks To Watch As Capacity Bottlene… |
+| CRDO | Credo Technology | AI PCB and advanced packaging; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 78 | 5.9203 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / GPU vs TPU: Rubin, Ironwood, MI355X’s 288 GB [2026] - ht… |
+| MU | Micron Technology | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 78 | 5.8822 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / Netlist Stock: Strong Growth And New Deals, But Cash Flo… |
+| AVGO | Broadcom | AI PCB and advanced packaging; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 77 | 1.593 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / 3 AI Chip Packaging Stocks To Watch As Capacity Bottlene… |
 | SNDK | Sandisk | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 77 |  | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / Netlist Stock: Strong Growth And New Deals, But Cash Flo… |
 | STX | Seagate Technology | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 77 |  | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / Netlist Stock: Strong Growth And New Deals, But Cash Flo… |
-| TSLA | Tesla | Physical AI and robotics | 77 |  | Why Robots Need Intelligence Built for the Physical World - HackerNoon / XPENG Researchers and Academic Partners Introduce GroundingPI, An Open-Source Visual Perception Model For… |
+| TSLA | Tesla | Physical AI and robotics | 77 |  | Why Robots Need Intelligence Built for the Physical World - HackerNoon / Physicl raises $10M to make the digital world real enough for robots - TechCrunch / Physicl Raises $10M to… |
 | WDC | Western Digital | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 77 |  | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / Netlist Stock: Strong Growth And New Deals, But Cash Flo… |
-| BE | Bloom Energy | AI data center power and cooling; AI inference serving and networking; HBM memory and context storage; Physical AI and robotics | 75 | 5.665 | Who Owns What Inside an AI Data Center (And How to Tell) - Global Data Center Hub / Voters rejected AI data centers over resource concerns. Here's why measuring water usage is har… |
-| AMZN | Amazon | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory; Semiconductor equipment and manufacturing | 73 | 1.2106 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / Five Ways NVIDIA Co-Design Maximizes the Value of Every… |
-| DELL | Dell Technologies | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 73 | 5.5378 | 3 AI Chip Packaging Stocks To Watch As Capacity Bottlenecks Tighten - Simply Wall St / The AI boom has made memory chips the star of the show; Singapore stakes its role in advance… |
-| ETN | Eaton | AI data center power and cooling; AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 73 | 4.0242 | GPU vs TPU: Rubin, Ironwood, MI355X’s 288 GB [2026] - https://tech-insider.org/ / Can SMCI's Collaboration With NVDA Help it Challenge DELL & HPE? - The Globe and Mail / Who Owns… |
-| GOOG | Alphabet | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory; Semiconductor equipment and manufacturing | 73 | 1.8386 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / Five Ways NVIDIA Co-Design Maximizes the Value of Every… |
-| MSFT | Microsoft | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory; Semiconductor equipment and manufacturing | 73 | 0.0952 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / Five Ways NVIDIA Co-Design Maximizes the Value of Every… |
-| ENTG | Entegris | AI PCB and advanced packaging; AI inference serving and networking; CPO and optical interconnect; Semiconductor equipment and manufacturing | 72 | 3.7154 | 3 AI Chip Packaging Stocks To Watch As Capacity Bottlenecks Tighten - Simply Wall St / The AI boom has made memory chips the star of the show; Singapore stakes its role in advance… |
+| BE | Bloom Energy | AI data center power and cooling; AI inference serving and networking; HBM memory and context storage; Physical AI and robotics | 75 | 5.068 | Who Owns What Inside an AI Data Center (And How to Tell) - Global Data Center Hub / Voters rejected AI data centers over resource concerns. Here's why measuring water usage is har… |
+| ETN | Eaton | AI data center power and cooling; AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 75 | 3.9233 | GPU vs TPU: Rubin, Ironwood, MI355X’s 288 GB [2026] - https://tech-insider.org/ / Can SMCI's Collaboration With NVDA Help it Challenge DELL & HPE? - The Globe and Mail / Who Owns… |
+| AMZN | Amazon | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory; Semiconductor equipment and manufacturing | 73 | 1.0991 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / Five Ways NVIDIA Co-Design Maximizes the Value of Every… |
+| DELL | Dell Technologies | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 73 | 5.2854 | 3 AI Chip Packaging Stocks To Watch As Capacity Bottlenecks Tighten - Simply Wall St / The AI boom has made memory chips the star of the show; Singapore stakes its role in advance… |
+| GOOG | Alphabet | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory; Semiconductor equipment and manufacturing | 73 | 1.7144 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / Five Ways NVIDIA Co-Design Maximizes the Value of Every… |
+| MSFT | Microsoft | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory; Semiconductor equipment and manufacturing | 73 | -0.0075 | Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Th… / Five Ways NVIDIA Co-Design Maximizes the Value of Every… |
+| ENTG | Entegris | AI PCB and advanced packaging; AI inference serving and networking; CPO and optical interconnect; Semiconductor equipment and manufacturing | 72 | 3.5912 | 3 AI Chip Packaging Stocks To Watch As Capacity Bottlenecks Tighten - Simply Wall St / The AI boom has made memory chips the star of the show; Singapore stakes its role in advance… |
 | VRT | Vertiv Holdings | AI data center power and cooling; AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 72 |  | GPU vs TPU: Rubin, Ironwood, MI355X’s 288 GB [2026] - https://tech-insider.org/ / Can SMCI's Collaboration With NVDA Help it Challenge DELL & HPE? - The Globe and Mail / Who Owns… |
 
 ## 高相关官方/新闻信号
@@ -61,16 +61,16 @@ _无_
 | 2026-11-06 | Google News: AI data center liquid cooling power | AI data center power and cooling | 64 | Who Owns What Inside an AI Data Center (And How to Tell) - Global Data Center Hub | https://news.google.com/rss/articles/CBMib0FVX3lxTFB0RWhQNmdJcHFLXzRnRkFKakNYZ0VqblZlSHRYVnNKR3NOX1BmTmhhTEx5NWJjU0EwbVVWNllGOEhRb1lHeG9BZk94UVF5T2xRNzBwYU5wTmNycXFMYUU2ZDE2RWU2M2… |
 | 2026-11-06 | Google News: HBM AI server storage memory bandwidth | HBM memory and context storage | 64 | Netlist Stock: Strong Growth And New Deals, But Cash Flow Must Deliver (OTCMKTS:NLST) - Seeking Alpha | https://news.google.com/rss/articles/CBMivwFBVV95cUxPZVUzSVRhdHlOSzczUWE5TkdDU0ExYkh5Q1RFelRsbUFQTTBaaVI5UWxtQ2RqYUtoRWVxRjlHc3dENnR0QVFZZjRndHNtN1RhVTNaVGJlT2pod2RqbXBNdXhCaEhxOD… |
 | 2026-11-06 | Google News: HBM AI server storage memory bandwidth | HBM memory and context storage | 64 | ADATA October Revenue Hits NT$17.06 Billion, Third-Highest Monthly Total on Record; Chen Li-Pai: DRAM Shortage Could Worsen in 2027 - BigGo Finance | https://news.google.com/rss/articles/CBMidkFVX3lxTE9EY1kyc0lLVGVqbFNtM0w3bUMxd0tSRWxhOVFFUGdxRE9NLUUxVng3MWFvZE9LRFNOa1JDN1ZfTWppMzN4NE9QV0VKZzU3OXJTZ3NYZHQyRks3ZFdNM1RjU1lWZzVMcj… |
-| 2026-11-06 | Google News: AI PCB CCL advanced packaging server | AI PCB and advanced packaging | 64 | Topoint Technology November 6, 2026 Earnings Call - finance.biggo.com | https://news.google.com/rss/articles/CBMigAFBVV95cUxQQnAtZnhPYmxBMXMzLWY0QTNGM2ttTlFMZl9MYWRlVWx2WXZXbk5jS0tfT2ZlanU4N2ZVMElYTEZ6TGlVUlJtZ1FPOFVoQ3ZTdndEcFlaN1gwRUo3Rk91Rkpnd0JjX0… |
 | 2026-11-06 | Google News: US domestic semiconductor supply chain advanced packaging materials equipment | Semiconductor materials and consumables | 63 | Nvidia chips pile up in Hong Kong as China withholds import approval - electronics.economictimes.indiatimes.com | https://news.google.com/rss/articles/CBMilgJBVV95cUxPVmdRVkhEMF9DN3E2RzR5c21YUWtlaUlfZkRpRnh5ckNHd1ZJcldyRlYxbDNiUGpKYVMxdjlqdTM0ckdSRlFjbURGbzlUVUpucUpzZU4xQk9WWUJDWHc5YW5mSDhfUT… |
 | 2026-11-06 | Google News: US domestic semiconductor supply chain advanced packaging materials equipment | Semiconductor materials and consumables | 62 | Harvest STAR Chip ETF Lists in Hong Kong, Offering Exposure Across the STAR Market Chip Value Chain - us.acrofan.com | https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVMkw5ekNYTl9DRU1URHcyZm1CbVRGWFRkZDZNSEZtY3pHTXl0SHZ4QUJza2l5aHl3aTVLUkM1dE5fWFo4aU8zQ2pHaHU2Z2pBQ1RNZ1Rqb2xaR3It?oc=5 |
-| 2026-11-06 | Google News: US domestic semiconductor supply chain advanced packaging materials equipment | Semiconductor materials and consumables | 62 | CSC Financial: Divergence in Computing Hardware; Semiconductor Localization Enters Acceleration Phase - 富途牛牛 | https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZ2N2U3BCcmhIQ2J0ekxYNTJPU2NqYms0UkxBaWE2cnUzN21SUHJudzdZd2FIUDdpTUZzMVpwR0VZWHdnM0cwbHdTdklGeDVDY2tUUEs2YjVwaXd0SlZkbkFZdHBtX2… |
 | 2026-11-06 | Google News: physical AI robotics world model | Physical AI and robotics | 62 | Why Robots Need Intelligence Built for the Physical World - HackerNoon | https://news.google.com/rss/articles/CBMihwFBVV95cUxPX3lDWWRpVzctdUt5Sko4NWtLWlFmc25VQ0FhZk9pRkJRSzkzbnNlTDU3VTlMdlkwbFVjNmxQVzZkMk5jOXNjTFVyUXdkaHFmOW1xZ3dHa1ZNcTFuQ21EZUVmOWY5aH… |
-| 2026-11-06 | Google News: physical AI robotics world model | Physical AI and robotics | 62 | XPENG Researchers and Academic Partners Introduce GroundingPI, An Open-Source Visual Perception Model For Physical AI - CleanTechnica | https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSno1bDE0d3JRVjRNbk1XQ1B6aEh6NGp0RnphbGJNR2pvSUlsaXd2aTRnWDA0Y1loSDYtQU1BaDJwTXNpb0RSQWhJQ3BUWXNoQldCejdsc2h5THFBZ0FnZXNYajNFam… |
 | 2026-11-06 | Google News: physical AI robotics world model | Physical AI and robotics | 61 | Physicl raises $10M to make the digital world real enough for robots - TechCrunch | https://news.google.com/rss/articles/CBMipAFBVV95cUxQLUp1SVV0MDNnTEJ3WVR0UDByckFtam9UUHZLeUFmQ3BsWFFFODFzZzhZZElqVmlvZDhOUTVmaWlyM2RNNjRtdmZaWWtPTXVKakp2RzhZVUpVUlo1eWdGTXhMYktWTj… |
 | 2026-11-06 | Google News: physical AI robotics world model | Physical AI and robotics | 61 | Physicl Raises $10M to Bridge Sim-to-Real Gap for Robots - The Tech Buzz | https://news.google.com/rss/articles/CBMikgFBVV95cUxNZzlscDFXS05sa0FIWngxMVg3NVFhX1lMQlpfZXlkWWhWZEFmQjU4Vm1lUU95VEhZb3d6UEFBWklrcGZZeDFzVjdHNlp6VUJ4TFgyMXB3ZU1uTkpfVG8yQ0hmY3RZX0… |
 | 2026-11-06 | Google News: physical AI robotics world model | Physical AI and robotics | 61 | Physicl Raises $10M Seed to Address Physical AI’s Edge-Case Problem - Unite.AI | https://news.google.com/rss/articles/CBMikAFBVV95cUxOcXVmakJKZ0NHREVzTE9vYjQ2bTdUNzRGV3FfT1BRR1NHRHc4azVwSzM1TGF6Z1Z1Y29mcHh1c2tuMEdsUUdEWElNYi1SRGt6OHRNS1dCVndJNVl2Z3YtTXA5UjFQeW… |
+| 2026-11-06 | Google News: physical AI robotics world model | Physical AI and robotics | 61 | London startup Saturn Dynamics launches Arc for robots - IT Brief UK | https://news.google.com/rss/articles/CBMiigFBVV95cUxOb1Z2WG5ZUGp6Q2tJTGFsazRjN00zVld3aEJkYlFaRGZhaEtkS0FzUXdLT2dCamowYmgxNW4wLXp4RU9nZm5aYWVYOS1YZFgybEpLZUY0NGZZU2FpMnQ1d3NaOEI1eT… |
 | 2026-11-05 | NVIDIA Blog | Rack-scale AI factory | 90 | Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents | https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/ |
+| 2026-11-05 | NVIDIA Blog | HBM memory and context storage | 90 | More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge | https://blogs.nvidia.com/blog/memory-full-stack-codesign/ |
+| 2026-11-05 | Google News: long context inference serving KV cache AI | AI inference serving and networking; Rack-scale AI factory | 68 | Five Ways NVIDIA Co-Design Maximizes the Value of Every Byte in the AI Factory \| NVIDIA Technical Blog - NVIDIA Developer | https://news.google.com/rss/articles/CBMiswFBVV95cUxQMEdkRXVudzY3bUpTNmFSMklHRXJvOU5mN01QQVNWOXEzR0xCbUtBMEpYS19NWGFxczhIcDdqQUVEbDE1OXU0STlKOHVtLVNPZkRLWDRFTVI5WEE2bDdwQldsQ3ROX2… |
 
 ## 高相关 arXiv 论文
 
@@ -101,27 +101,27 @@ _无_
 
 | 代码 | 涨跌幅 | 价格 | 市场 |
 | --- | --- | --- | --- |
-| OKLO | 21.9792 | 23.42 | 美股 |
-| COHR | 12.8004 | 191.49 | 美股 |
-| LRCX | 10.2646 | 204.21 | 美股 |
-| AMD | 9.7144 | 443.685 | 美股 |
-| FN | 8.7876 | 318.715 | 美股 |
-| NBIS | 7.7677 | 129.72 | 美股 |
-| INTC | 7.0812 | 55.9499 | 美股 |
-| ANET | 6.8956 | 170.135 | 美股 |
+| OKLO | 22.4219 | 23.505 | 美股 |
+| COHR | 12.3675 | 190.755 | 美股 |
+| LRCX | 9.7975 | 203.345 | 美股 |
+| AMD | 9.4535 | 442.63 | 美股 |
+| FN | 8.4821 | 317.82 | 美股 |
+| NBIS | 7.6175 | 129.5392 | 美股 |
+| ANET | 6.6788 | 169.79 | 美股 |
+| INTC | 6.6216 | 55.7098 | 美股 |
 
 ### 跌幅靠前
 
 | 代码 | 涨跌幅 | 价格 | 市场 |
 | --- | --- | --- | --- |
-| ISRG | -2.3318 | 457.595 | 美股 |
-| NEE | -1.0198 | 87.35 | 美股 |
-| MSFT | 0.0952 | 536.44 | 美股 |
-| LNG | 0.4596 | 280.855 | 美股 |
-| CVX | 0.7843 | 214.6 | 美股 |
-| AMZN | 1.2106 | 263.36 | 美股 |
-| GEV | 1.3376 | 780.8165 | 美股 |
-| CAT | 1.3754 | 561.255 | 美股 |
+| ISRG | -2.3105 | 457.695 | 美股 |
+| NEE | -0.9858 | 87.38 | 美股 |
+| MSFT | -0.0075 | 535.89 | 美股 |
+| LNG | 0.3255 | 280.48 | 美股 |
+| CVX | 0.7561 | 214.54 | 美股 |
+| AMZN | 1.0991 | 263.07 | 美股 |
+| HPE | 1.2002 | 44.69 | 美股 |
+| CAT | 1.2038 | 560.305 | 美股 |
 
 ## 输出文件
 
