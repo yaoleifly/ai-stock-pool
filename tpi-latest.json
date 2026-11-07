@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07T10:26:42.129113+00:00",
+  "asOf": "2026-11-07T16:54:24.454802+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -213,17 +213,17 @@
           "phase": "softening"
         },
         {
-          "title": "Tariffs on Hold as Trump Claims Deal With Canada Is Near - The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDQ4MzBmeUdBV0VLNnNTVXFKU3NkUVowYXZxVE5nNTJiYU9YT1dWOWRhdEg3ZG5NelNqSW55clZsb0lXbVdvOFQyVDdodGEzandYQ1BDUGZTbmc1eUU4c3pNUGlMUFc1b2Z1d0xQdGpEVHhzQnhNa1ZUdGNJZFREdVpyZmpkUQ?oc=5",
-          "source": "The New York Times",
-          "publishedAt": "2026-08-18T07:00:00+00:00",
-          "phase": "escalation"
-        },
-        {
           "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - PBS",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVDN2eGVOR2h1MFk2STNSRVdmUFpZNEJkNFh5OFQ3bXhHMTJvX3FSMFJDMHRYU2tTYWtRblBvVlk0bG91U1NFc1dkNUpraUU4RDlOLU40WlRhQWRHcTMzei10WXFObmxmUFc1UlNyamo4Rm9KLUsxdjBBd3UyNTQ4XzgtLTAweXhhbkVxbVpXdDJVR0NqWXcwRHJZSWEzT3cyV3NvZDBrME5RaHJhcmZGLU02d19LUGZSaGoxRE1KLTNRU1pnTEN30gHMAUFVX3lxTE9EQXNMVUNIbXptQi1QTkFCelkwdXo0aW91bHR1dGlzQWdjRDlZeTVwLTI2eU1qRUxaeUhOQkN2SzMxRThFR2MwUW1VUGV4X1NTaE5ZVEFZMWFZc2xCdmRLTUJNeWJ4aU1CaUUzcl9pLVd3M1VBU0lXN195TDI1UnBHWFBXeWZEWlRMNlE5WVpWREVtWXJmWFFEU2ZEQ1JUeXlsY09vcDkwNGR3b2pHMk5Wa1hlb281cFg2Zkt6VUJNeVRfR3FzOE91QXpWSQ?oc=5",
           "source": "PBS",
           "publishedAt": "2026-08-22T07:00:00+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "Tariffs on Hold as Trump Claims Deal With Canada Is Near - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDQ4MzBmeUdBV0VLNnNTVXFKU3NkUVowYXZxVE5nNTJiYU9YT1dWOWRhdEg3ZG5NelNqSW55clZsb0lXbVdvOFQyVDdodGEzandYQ1BDUGZTbmc1eUU4c3pNUGlMUFc1b2Z1d0xQdGpEVHhzQnhNa1ZUdGNJZFREdVpyZmpkUQ?oc=5",
+          "source": "The New York Times",
+          "publishedAt": "2026-08-18T07:00:00+00:00",
           "phase": "escalation"
         },
         {
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-07T10:26:40.888621+00:00",
+      "updatedAt": "2026-11-07T16:54:23.860525+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -257,6 +257,13 @@
         "monitoring": 7
       },
       "items": [
+        {
+          "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
+          "source": "Bloomberg.com",
+          "publishedAt": "2026-11-06T14:56:59+00:00",
+          "phase": "monitoring"
+        },
         {
           "title": "Treasury proposes rule to curb high-tech investments in China and other adversaries - PBS",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNazgwM2ZwNXBFa1diSlFMSzdhUmRpdVVkUlRsOWtZeUpiYWllX2ZudG1tZzU0OUNXZFE3azdqMlhYX0Fuc09YXzlBYUhVWmxod2ZfblNBLW5vOWFFXzlGbmZ4NEdWZGpMd2dWeXpvdzIzRF9UNHRXMU8ybnpXVVNTZFlfUk9hSUVDX3QtUzZGQ1YydXM3MG9Xdzl0QTVBX2FJSEZYSVFJSUhsT3lRMGtwb0FPZVZhVkliU0hRRUZB0gHDAUFVX3lxTE5uVjlvWFhPVUk5U3N4ZUtvaEkzU2RrcTg3aGpfeG1yT0VaMlYxMHQwNE9laWdPWGNQcWZ0VFRVeW1HdTJ3dmt5QnhWOU0yNnE2UWRsaUI1T2p4c2IxbUFpdW5vQ3JQUmMwTXY4dUdGWmRLYi1WZUp0T0lqVWdaTXY2S0lGQW4wdVV2UFFIc2s4dUo4SlBrQXV2WUtPVjVKbmdlUEpLUjdfNmZ3M2JVYnFucmVZdE1xUUl2TGsyc3NRT0RDZw?oc=5",
@@ -277,13 +284,6 @@
           "source": "조선일보",
           "publishedAt": "2026-11-05T04:48:00+00:00",
           "phase": "monitoring"
-        },
-        {
-          "title": "Trump failing to block China’s access to American AI technology, say senior Senate Democrats - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SOFUzQzlsOFVDUlRWN0VCMGx0Z3NEODlYQjliN29VbHZfWElQUXdueFhjYUxJaWhVcEZUdkpFX2pIcGQzLTFSMWswRjZ1b3AtX3MtNWZ3MzcxdmJXV0oyLUVnUHBOQmdHelBxM0lza3FiaXA5MFVxMkJR0gF_QVVfeXFMTWFpVU1NNDNWSHFBNnFSbGJHMG95U2VzUWVjX2FzZzZPa2w2TGJ0Q1dtMWk1OUNaSExxMGtyaFU1d0RZSzc2blNqUGc5Y1U3dDNEUTdlY2MxVG1mQ0Vnb0NYbTQyT1VsdzZtN2V4SDZBZ3UtV1ppMmNtSlYyQ3kyQQ?oc=5",
-          "source": "The Hill",
-          "publishedAt": "2026-09-22T07:00:00+00:00",
-          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -294,47 +294,47 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-07T10:26:40.933576+00:00",
+      "updatedAt": "2026-11-07T16:54:23.800053+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "geopolitical",
       "name": "军事与地缘",
-      "phase": "softening",
+      "phase": "escalation",
       "phaseCounts": {
-        "escalation": 2,
-        "softening": 6,
+        "escalation": 8,
+        "softening": 0,
         "execution": 0,
         "monitoring": 0
       },
       "items": [
         {
-          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
+          "title": "Live Updates: U.S. expands naval blockade to include task force on disrupting ground transport - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTGRhLVU1VTVqNWp4WUduNU5uT1pwOEUwYnV1RmlnODdlUzduZDdsLTQzMkZLeVdiYlhBT09pMTI5RGN1a0NYVTl4Y3NDcmV2Q3BKZHJBZ1hEMTZsVXAwZkRyMGxZNDRYVXoyVV9qUXFoaDZrcHNmdXZwaEhMSE9raDJoSlM3a0Z4UVE?oc=5",
           "source": "CBS News",
-          "publishedAt": "2026-09-29T07:00:00+00:00",
-          "phase": "softening"
+          "publishedAt": "2026-11-07T14:23:00+00:00",
+          "phase": "escalation"
         },
         {
-          "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
-          "source": "CNBC",
-          "publishedAt": "2026-07-27T07:00:00+00:00",
-          "phase": "softening"
+          "title": "US-Iran talks show signs of progress even as Trump weighs renewed strikes - The Times of Israel",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTjA3Q1BhbURndWpNWDRLRFB4Y3BsMVpOQjRTRDdDeWhicmVDa2o4MGVZREszSGNCa2pvRC1rM09QWTJ2TEV3aUxITy1OMTlDNHVNWmw4SjlYTHBsMFAtc3d1clkwX01qUjlqV1ZLQmxoMG1OUng1TzAxTE01dHlMelhlVlBKdVpQNnF5STJWTTBZQ0xLU0pHZmYxVURPVW5EQjhwTTE0d9IBrAFBVV95cUxQSUpvQVRXbDJvaVY0MDdFd0U3SkgxQVF1enNvM3hBeEdtMzdld2pCNU05anE1VUdUS2FEdERPMzlBR0V0RzZqR2RhbGp0RndQazBld1ZrTF8zSUpERzVQSTNwWFZoQVVYWUg2WHpzVGEtZ1RxUGlGSjY3b3NxUGxVZGhaZ2RiNzYteUZxQkM2U3FQRllodFpwVUgzSXZkaGFzcDJWLUppWmZ5TG5U?oc=5",
+          "source": "The Times of Israel",
+          "publishedAt": "2026-11-06T18:41:00+00:00",
+          "phase": "escalation"
         },
         {
-          "title": "Trump says ceasefire ‘over’ after U.S., Iran trade attacks but that talks can continue - NBC News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORjNtd1V3TWhyd0hDQzlLOGJQUlhobGw3VTlJYnp0a3Ayak9tdEIzSXFJekhiNXFiRnZjSEZxN1dFczZtUVRWM0REcnRCSDZnVW9aUkFpeDhRUWhlSnM2YTFzRXMzdTlielRWOU96c1BBaDIxSlFFbnVpazF4M01TUGxFY2RzSnVnQ21UV29YOFk4c3VIeDhTZ3JpX1VHcXhEb0ZlQ0x5SF9pYVdobzZ0dmdxQlRNZnc?oc=5",
-          "source": "NBC News",
-          "publishedAt": "2026-07-08T07:00:00+00:00",
-          "phase": "softening"
+          "title": "Russia to UAE, Iran steps up diplomacy amid Trump threats: What we know - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbGpDdXFxU0JuY1VWRTZudTNoY2NFeGNqVE1UOUMzTkRBR0kwQU5taFgyclAtdFBnMHMyQUcyNzVVY0ZaX0xXb1N6eFN0NjFLVENzVG5YODNPenJUQVlXSWVuR1JXTVdMV2Y4dUM1eVc4Y0NsWkVQYmZNV1hRYm9UOVlvZm9mV1FiQjJIb2xVYXVDWmRQaUNPbTI0RTNldmpxQlNGN2VLS295Y3NINWxr0gG0AUFVX3lxTE1jLTJmLXJ2d0hSLUZMTzhRdnRaSWFoRmNybWtjWHEzdjFWNE0zb1F2NlE3dmY1WTZVZGlBYUZkNmdFSVZBU1FwdG9lNEpfRExJR0ZBYUY4bjNKQm43VGdRTlI3UGt5c1U1NURpdUZoUjRGT0ZnUEFoZWZCbXBtZmxTSkVYUFBQX0s1LXB1LUpaRGtac1NSR3A3MVpBTkpXMExsOG92cGowdWJVcjhIT1dfMzVJTA?oc=5",
+          "source": "Al Jazeera",
+          "publishedAt": "2026-11-06T13:00:58+00:00",
+          "phase": "escalation"
         },
         {
-          "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2026-07-07T07:00:00+00:00",
+          "title": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran - Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON0xoU1lGQTExZWlZZkVZY2ZyUk1XY2hMeFBwZzVjOGxSR0g1QUdVR0JJNXJwU0tSYUQxbVlPRV9DeXBkRWR4VGpIcm5RMWNFSXJIbHVYTjJJaHhwMTRZSlU0WGhtX3lESXFka3l5Z3B6OE05d1NOWXJaTmhMNkFHb0FRRGpIRVRpMC1lYUlzTXZjRnVDWkJZOFVBMTFBVFFWMHFFNkRwOGlVMnRHQjlLNzFxSnI3T2dOLVNxLW1Pbw?oc=5",
+          "source": "Euronews.com",
+          "publishedAt": "2026-11-07T11:35:53+00:00",
           "phase": "escalation"
         }
       ],
@@ -346,9 +346,9 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-07T10:26:40.795260+00:00",
-      "phaseLabel": "软化/谈判",
-      "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
+      "updatedAt": "2026-11-07T16:54:23.820588+00:00",
+      "phaseLabel": "强硬升级",
+      "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "fiscal",
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-07T10:26:40.849980+00:00",
+      "updatedAt": "2026-11-07T16:54:23.795032+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-07T10:26:42.127838+00:00",
-    "aggregateScore": 76.4,
+    "asOf": "2026-11-07T16:54:24.452586+00:00",
+    "aggregateScore": 77.4,
     "aggregateLabel": "极高",
     "highRiskCount": 6,
     "coverage": {
@@ -1825,7 +1825,7 @@
             "volume": 44765100
           }
         ],
-        "score": 88.1,
+        "score": 91.0,
         "zone": "distribution_risk",
         "label": "派发风险",
         "evidence": [
@@ -1845,8 +1845,8 @@
           "return5d": -22.0,
           "return20d": -32.9,
           "drawdown3m": -37.1,
-          "targetRaises45d": 6,
-          "targetCuts45d": 1,
+          "targetRaises45d": 5,
+          "targetCuts45d": 0,
           "analystCount": 45,
           "epsChange30d": 7.8,
           "epsChange60d": 9.7,
@@ -1918,13 +1918,13 @@
               "endDate": "2027-08-31",
               "eps": {
                 "current": 176.50168,
-                "value30dAgo": 176.41608,
+                "value30dAgo": 176.04149,
                 "value60dAgo": 156.24937,
-                "change30d": 0.0,
+                "change30d": 0.3,
                 "change60d": 13.0
               },
               "revenue": {
-                "current": 275505493920.0,
+                "current": 275888402110.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -1937,13 +1937,13 @@
               "endDate": "2028-08-31",
               "eps": {
                 "current": 207.76048,
-                "value30dAgo": 206.6767,
+                "value30dAgo": 205.88564,
                 "value60dAgo": 171.02492,
-                "change30d": 0.5,
+                "change30d": 0.9,
                 "change60d": 21.5
               },
               "revenue": {
-                "current": 320062899660.0,
+                "current": 320063699660.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -1954,7 +1954,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 8.1,
+        "scoreChange7d": 11.0,
         "historyStatus": {
           "points": 41,
           "firstDate": "2026-08-04",
@@ -6055,11 +6055,11 @@
         "metrics": {
           "bullishShare": 88.6,
           "bullishShare3mAgo": 88.6,
-          "targetMean": 311.29,
+          "targetMean": 310.07,
           "targetMedian": 300.0,
           "targetLow": 175.0,
           "targetHigh": 450.0,
-          "targetUpside": 120.5,
+          "targetUpside": 119.6,
           "return5d": -28.1,
           "return20d": -48.7,
           "drawdown3m": -50.8,
@@ -6154,14 +6154,14 @@
               "period": "+1y",
               "endDate": "2028-01-31",
               "eps": {
-                "current": 7.34277,
+                "current": 7.34742,
                 "value30dAgo": 6.74936,
                 "value60dAgo": 6.72085,
-                "change30d": 8.8,
+                "change30d": 8.9,
                 "change60d": 9.3
               },
               "revenue": {
-                "current": 19759867760.0,
+                "current": 19760288810.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -8172,7 +8172,7 @@
             "volume": 45682000
           }
         ],
-        "score": 76.9,
+        "score": 80.2,
         "zone": "distribution_risk",
         "label": "派发风险",
         "evidence": [
@@ -8182,23 +8182,23 @@
           "股价走弱但评级尚未松动"
         ],
         "metrics": {
-          "bullishShare": 81.1,
+          "bullishShare": 84.9,
           "bullishShare3mAgo": 80.0,
-          "targetMean": 650.01,
-          "targetMedian": 645.5,
-          "targetLow": 430.0,
+          "targetMean": 656.24,
+          "targetMedian": 650.0,
+          "targetLow": 490.0,
           "targetHigh": 1250.0,
-          "targetUpside": 44.8,
+          "targetUpside": 46.1,
           "return5d": -11.0,
           "return20d": -26.2,
           "drawdown3m": -30.9,
           "targetRaises45d": 13,
           "targetCuts45d": 4,
           "analystCount": 48,
-          "epsChange30d": 10.9,
-          "epsChange60d": 10.8,
-          "revenueChange30d": 28.9,
-          "revenueChange60d": 29.6
+          "epsChange30d": 10.4,
+          "epsChange60d": 10.4,
+          "revenueChange30d": 30.6,
+          "revenueChange60d": 31.3
         },
         "expectations": {
           "primaryPeriod": "0q",
@@ -8206,18 +8206,18 @@
             "period": "0q",
             "endDate": "2026-12-31",
             "eps": {
-              "current": 2.93871,
+              "current": 2.92729,
               "value30dAgo": 2.65104,
               "value60dAgo": 2.65132,
-              "change30d": 10.9,
-              "change60d": 10.8
+              "change30d": 10.4,
+              "change60d": 10.4
             },
             "revenue": {
-              "current": 16833822180.0,
+              "current": 17056045360.0,
               "value30dAgo": 13058084460.0,
               "value60dAgo": 12992598210.0,
-              "change30d": 28.9,
-              "change60d": 29.6,
+              "change30d": 30.6,
+              "change60d": 31.3,
               "historyStatus": "ready"
             }
           },
@@ -8226,18 +8226,18 @@
               "period": "0q",
               "endDate": "2026-12-31",
               "eps": {
-                "current": 2.93871,
+                "current": 2.92729,
                 "value30dAgo": 2.65104,
                 "value60dAgo": 2.65132,
-                "change30d": 10.9,
-                "change60d": 10.8
+                "change30d": 10.4,
+                "change60d": 10.4
               },
               "revenue": {
-                "current": 16833822180.0,
+                "current": 17056045360.0,
                 "value30dAgo": 13058084460.0,
                 "value60dAgo": 12992598210.0,
-                "change30d": 28.9,
-                "change60d": 29.6,
+                "change30d": 30.6,
+                "change60d": 31.3,
                 "historyStatus": "ready"
               }
             },
@@ -8245,14 +8245,14 @@
               "period": "+1q",
               "endDate": "2027-03-31",
               "eps": {
-                "current": 3.1635,
+                "current": 3.29381,
                 "value30dAgo": 2.99759,
                 "value60dAgo": 2.96347,
-                "change30d": 5.5,
-                "change60d": 6.7
+                "change30d": 9.9,
+                "change60d": 11.1
               },
               "revenue": {
-                "current": 18555967050.0,
+                "current": 19058591680.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -8264,14 +8264,14 @@
               "period": "0y",
               "endDate": "2026-12-31",
               "eps": {
-                "current": 8.06686,
+                "current": 8.08528,
                 "value30dAgo": 7.61007,
                 "value60dAgo": 7.56347,
-                "change30d": 6.0,
-                "change60d": 6.7
+                "change30d": 6.2,
+                "change60d": 6.9
               },
               "revenue": {
-                "current": 51898377020.0,
+                "current": 52235526870.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -8283,14 +8283,14 @@
               "period": "+1y",
               "endDate": "2027-12-31",
               "eps": {
-                "current": 16.77999,
-                "value30dAgo": 15.72189,
+                "current": 17.64192,
+                "value30dAgo": 15.78305,
                 "value60dAgo": 15.32884,
-                "change30d": 6.7,
-                "change60d": 9.5
+                "change30d": 11.8,
+                "change60d": 15.1
               },
               "revenue": {
-                "current": 93096327640.0,
+                "current": 95706771610.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -8301,7 +8301,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 9.7,
+        "scoreChange7d": 13.0,
         "historyStatus": {
           "points": 41,
           "firstDate": "2026-08-04",
@@ -12072,7 +12072,7 @@
           "targetMean": 43.4,
           "targetMedian": 45.0,
           "targetLow": 15.0,
-          "targetHigh": 60.0,
+          "targetHigh": 65.0,
           "targetUpside": 50.9,
           "return5d": -12.7,
           "return20d": -31.3,
@@ -12080,10 +12080,10 @@
           "targetRaises45d": 4,
           "targetCuts45d": 0,
           "analystCount": 15,
-          "epsChange30d": 36.5,
-          "epsChange60d": 36.0,
-          "revenueChange30d": 37.4,
-          "revenueChange60d": 37.1
+          "epsChange30d": 65.9,
+          "epsChange60d": 65.2,
+          "revenueChange30d": 37.1,
+          "revenueChange60d": 36.9
         },
         "expectations": {
           "primaryPeriod": "0q",
@@ -12091,18 +12091,18 @@
             "period": "0q",
             "endDate": "2026-12-31",
             "eps": {
-              "current": 1.40506,
+              "current": 1.70697,
               "value30dAgo": 1.02904,
               "value60dAgo": 1.03342,
-              "change30d": 36.5,
-              "change60d": 36.0
+              "change30d": 65.9,
+              "change60d": 65.2
             },
             "revenue": {
-              "current": 20526229740.0,
+              "current": 20490430290.0,
               "value30dAgo": 14941898910.0,
               "value60dAgo": 14971092730.0,
-              "change30d": 37.4,
-              "change60d": 37.1,
+              "change30d": 37.1,
+              "change60d": 36.9,
               "historyStatus": "ready"
             }
           },
@@ -12111,18 +12111,18 @@
               "period": "0q",
               "endDate": "2026-12-31",
               "eps": {
-                "current": 1.40506,
+                "current": 1.70697,
                 "value30dAgo": 1.02904,
                 "value60dAgo": 1.03342,
-                "change30d": 36.5,
-                "change60d": 36.0
+                "change30d": 65.9,
+                "change60d": 65.2
               },
               "revenue": {
-                "current": 20526229740.0,
+                "current": 20490430290.0,
                 "value30dAgo": 14941898910.0,
                 "value60dAgo": 14971092730.0,
-                "change30d": 37.4,
-                "change60d": 37.1,
+                "change30d": 37.1,
+                "change60d": 36.9,
                 "historyStatus": "ready"
               }
             },
@@ -12130,14 +12130,14 @@
               "period": "+1q",
               "endDate": "2027-03-31",
               "eps": {
-                "current": 1.2361,
+                "current": 1.4006,
                 "value30dAgo": 1.06434,
                 "value60dAgo": 1.06308,
-                "change30d": 16.1,
-                "change60d": 16.3
+                "change30d": 31.6,
+                "change60d": 31.7
               },
               "revenue": {
-                "current": 18243476830.0,
+                "current": 18313434480.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -12149,14 +12149,14 @@
               "period": "0y",
               "endDate": "2027-06-30",
               "eps": {
-                "current": 5.29864,
+                "current": 6.31674,
                 "value30dAgo": 4.31045,
                 "value60dAgo": 4.31104,
-                "change30d": 22.9,
-                "change60d": 22.9
+                "change30d": 46.5,
+                "change60d": 46.5
               },
               "revenue": {
-                "current": 73120929090.0,
+                "current": 77260442860.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -12168,14 +12168,14 @@
               "period": "+1y",
               "endDate": "2028-06-30",
               "eps": {
-                "current": 6.03928,
+                "current": 6.72284,
                 "value30dAgo": 5.32592,
                 "value60dAgo": 5.32592,
-                "change30d": 13.4,
-                "change60d": 13.4
+                "change30d": 26.2,
+                "change60d": 26.2
               },
               "revenue": {
-                "current": 82913236990.0,
+                "current": 86315306690.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
