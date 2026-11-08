@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08T19:48:20.065140+00:00",
+  "asOf": "2026-11-08T23:48:00.271969+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -199,10 +199,10 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 6,
-        "softening": 1,
+        "escalation": 5,
+        "softening": 3,
         "execution": 0,
-        "monitoring": 1
+        "monitoring": 0
       },
       "items": [
         {
@@ -227,11 +227,11 @@
           "phase": "escalation"
         },
         {
-          "title": "Trump tariffs fallout: Democrats will push to end duties on Canada - Undercurrent News",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
-          "source": "Undercurrent News",
-          "publishedAt": "2026-08-11T07:00:00+00:00",
-          "phase": "escalation"
+          "title": "Trump pauses 50 percent tariffs on Canada in last-minute deal - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTHpyOHo0NDV3VjBvZHJxaDhKRURKNk9HZnMtVWdhVmlrY05jN2NQR2drUDNTUGJFUHJiTkpJY3ZXbmp2TXVPX0YybE5JdV9DWG0wZkU3dGpSNXRmTnRUYTJ6Yk8waXh5cnJSVUF1cTRBQ2dGZ3RfQkJQRE1tVzJwSlBPTGxpdHdnbjh3UWFDblFMeEFYUnZMQjFYb1BwbVpYdXZCN01RZ9IBrAFBVV95cUxOUmNra2JMM1EzYmxtdDNib1lDOGRXcHhqaHZhM2t4Q2tpajFIVWtwbWd5Y3R5NjZ0by1VdmU0UGYzdmg0TDRjV0NyczQ1SS1nYmluekxtRVgxNFNWMmJtWk1RTDMxSXlOYlFvUHZaQmxtdGtFN1FqajJqUWk1ZnJXN2Rvbm8tVUNvZ2I1cUFOQ2w2SWJVVHhMd25oalFFdmRNR1czNG9fWU85SUdP?oc=5",
+          "source": "Al Jazeera",
+          "publishedAt": "2026-08-19T07:00:00+00:00",
+          "phase": "softening"
         }
       ],
       "poolCategories": [
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-08T19:48:19.019303+00:00",
+      "updatedAt": "2026-11-08T23:47:59.375635+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -272,17 +272,17 @@
           "phase": "monitoring"
         },
         {
-          "title": "Trump failing to block China’s access to American AI technology, say senior Senate Democrats - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SOFUzQzlsOFVDUlRWN0VCMGx0Z3NEODlYQjliN29VbHZfWElQUXdueFhjYUxJaWhVcEZUdkpFX2pIcGQzLTFSMWswRjZ1b3AtX3MtNWZ3MzcxdmJXV0oyLUVnUHBOQmdHelBxM0lza3FiaXA5MFVxMkJR0gF_QVVfeXFMTWFpVU1NNDNWSHFBNnFSbGJHMG95U2VzUWVjX2FzZzZPa2w2TGJ0Q1dtMWk1OUNaSExxMGtyaFU1d0RZSzc2blNqUGc5Y1U3dDNEUTdlY2MxVG1mQ0Vnb0NYbTQyT1VsdzZtN2V4SDZBZ3UtV1ppMmNtSlYyQ3kyQQ?oc=5",
-          "source": "The Hill",
-          "publishedAt": "2026-09-22T07:00:00+00:00",
-          "phase": "escalation"
+          "title": "Understanding U.S. Allies’ Current Legal Authority to Implement AI and Semiconductor Export Controls - CSIS | Center for Strategic and International Studies",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbmdTMUUxWVUyc2I4UXBvX05VZWlYV0N3cU9xN3cyVVloTlZzR3VYMHNwV3JfYUZVdHFjc0w4aTctQ1M0UHhpdzZaZ2cyU18xUTN0WWgyaEp2Vmx6NmFXQ3pOcXZOVkp2eHB0RWJUNkhvUnpsZXhMcWhLbnJoQmdDLVZ2TUlvMnpVOC00bnJtbm03UTctVWNsQXBMbmFkMW9jNUMtZ3lrR2ZhMS03c0xkQkp5UFlWQQ?oc=5",
+          "source": "CSIS | Center for Strategic and International Studies",
+          "publishedAt": "2025-03-14T07:00:00+00:00",
+          "phase": "monitoring"
         },
         {
-          "title": "EXCLUSIVE: US clears H200 chip sales to 10 China firms as Nvidia CEO looks for breakthrough - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaUpEd0t1dDVoYTlhVG9iN1JpUm43NkxhWS1DZXE2Vm9JN0x1c1MyM2FuVHV1XzVBN29BWnU2eEEtN19UVG80WXhQTnlZQkcyTXpMNS1ORFFWOFZtVWRWNFBiWmU2MzhfTnU2dzAtMExWMkdqM3BpY01aOHB2M1ROWGN4Zk13czloNGJsQkl6d2t6eGpwXzd2UFN1QXJ6YWl5NzVva0ZwVlB3TFk2cDE4YUxDekp1YnZNRnlVQ0JPdmpjb0p0YnRyUFZzRQ?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2026-05-14T07:00:00+00:00",
+          "title": "Tech war 2.0: The dangers of Trump's 'G2' bargaining with an emboldened China - European Union Institute for Security Studies |",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2FDamFNdE1ySHZKdTZfWVFWR19UOTZ4cWtDQ3QzNF9VVkhFVFVlUFZBNkF3anNpdmxtNlYtNUJWTmhKLW1tTjB5VWM0ZmFIZXg0Nk80VU9qYzNWdUd2MzU0dFJuMV9XMjJoeGFiVDlsb0NLZHJodWY1Q3VvUnd4eUstTjRyMFNLVEl4bnJMVHphSENoSjZVUE1rb1V2SWNiWWxaV2Fn?oc=5",
+          "source": "European Union Institute for Security Studies |",
+          "publishedAt": "2025-12-16T08:00:00+00:00",
           "phase": "monitoring"
         }
       ],
@@ -294,47 +294,47 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-08T19:48:19.122777+00:00",
+      "updatedAt": "2026-11-08T23:47:59.246968+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "geopolitical",
       "name": "军事与地缘",
-      "phase": "escalation",
+      "phase": "softening",
       "phaseCounts": {
-        "escalation": 6,
-        "softening": 1,
+        "escalation": 1,
+        "softening": 7,
         "execution": 0,
-        "monitoring": 1
+        "monitoring": 0
       },
       "items": [
         {
-          "title": "Live Updates: Iran downplays new U.S. task force aimed at disrupting ground transport routes - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTGRhLVU1VTVqNWp4WUduNU5uT1pwOEUwYnV1RmlnODdlUzduZDdsLTQzMkZLeVdiYlhBT09pMTI5RGN1a0NYVTl4Y3NDcmV2Q3BKZHJBZ1hEMTZsVXAwZkRyMGxZNDRYVXoyVV9qUXFoaDZrcHNmdXZwaEhMSE9raDJoSlM3a0Z4UVE?oc=5",
+          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
           "source": "CBS News",
-          "publishedAt": "2026-11-08T18:01:00+00:00",
-          "phase": "monitoring"
+          "publishedAt": "2026-09-29T07:00:00+00:00",
+          "phase": "softening"
         },
         {
-          "title": "Trump unveils 'Iron Gate' task force against Iran as Saudis launch deadly strikes on Houthi rebels - Fox News",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcDdXQmM2WGt1cDZsNmt4Nk1iUWZTdTdzT2lvNnJtak1XbUVURkNlaWNsci1wOEUxTkdwZjFHSUNkMENJWEJuX0J2RTZoXzh2NHUxUFZxZ2hfb3NPcE03UzBfdGs5ckxkNWtKS2RBM21KenFHRlgzRlJTdnA5RnRpQXBpcw?oc=5",
-          "source": "Fox News",
-          "publishedAt": "2026-11-08T18:30:48+00:00",
-          "phase": "escalation"
+          "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
+          "source": "CNBC",
+          "publishedAt": "2026-07-27T07:00:00+00:00",
+          "phase": "softening"
         },
         {
-          "title": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran - Euronews.com",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON0xoU1lGQTExZWlZZkVZY2ZyUk1XY2hMeFBwZzVjOGxSR0g1QUdVR0JJNXJwU0tSYUQxbVlPRV9DeXBkRWR4VGpIcm5RMWNFSXJIbHVYTjJJaHhwMTRZSlU0WGhtX3lESXFka3l5Z3B6OE05d1NOWXJaTmhMNkFHb0FRRGpIRVRpMC1lYUlzTXZjRnVDWkJZOFVBMTFBVFFWMHFFNkRwOGlVMnRHQjlLNzFxSnI3T2dOLVNxLW1Pbw?oc=5",
-          "source": "Euronews.com",
-          "publishedAt": "2026-11-07T11:35:53+00:00",
-          "phase": "escalation"
+          "title": "Trump says ceasefire ‘over’ after U.S., Iran trade attacks but that talks can continue - NBC News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORjNtd1V3TWhyd0hDQzlLOGJQUlhobGw3VTlJYnp0a3Ayak9tdEIzSXFJekhiNXFiRnZjSEZxN1dFczZtUVRWM0REcnRCSDZnVW9aUkFpeDhRUWhlSnM2YTFzRXMzdTlielRWOU96c1BBaDIxSlFFbnVpazF4M01TUGxFY2RzSnVnQ21UV29YOFk4c3VIeDhTZ3JpX1VHcXhEb0ZlQ0x5SF9pYVdobzZ0dmdxQlRNZnc?oc=5",
+          "source": "NBC News",
+          "publishedAt": "2026-07-08T07:00:00+00:00",
+          "phase": "softening"
         },
         {
-          "title": "Trump confirms fresh US strikes on Iran defenses as talks turn to nuke inspectors - New York Post",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQemExdmpEbnc5TjNrbHBtalVLNmVmM3JQMmlwcm1pbzZuemhZUjBZT3hGY1Mxb0JIQkUzWlVjMnBvOVZTWVphZDh4c3YxamQ4RVZrODRlUWt0czVnRUZTdTB0RnVDd3RaUHBvSVd5SnZpQ2JnUllHcDc5QXNIMENNSkFFWnNtejd1Q2RIYnlocTZsRnM?oc=5",
-          "source": "New York Post",
-          "publishedAt": "2026-11-07T23:02:00+00:00",
+          "title": "U.S. military strikes Iranian targets in first military action in a month - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY3ZaTmR4OEVQWjVMZWRibUo2TGJTRDMtUVl6SmdLblprZlRsOXNPeTNvVmJRX2VUbU5JX3dCeXFfbUtqaExPa2pxZzByOEl4aDNNOThMajlXMnNHdFhFVlViTmIzTVZqMmh4RnVsMkdNTmV5ZGNVUThJYjZBRHpfdmFTY0QzYVpuUDdXUFl4c21VWDhvNWZib3NFbE00QQ?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-08-30T07:00:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -346,9 +346,9 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-08T19:48:19.191649+00:00",
-      "phaseLabel": "强硬升级",
-      "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
+      "updatedAt": "2026-11-08T23:47:59.279678+00:00",
+      "phaseLabel": "软化/谈判",
+      "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
     {
       "id": "fiscal",
@@ -383,10 +383,10 @@
           "phase": "escalation"
         },
         {
-          "title": "5 Hidden Ways the Government Rigs the Market in Favor of Fossil Fuels - Center for American Progress",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2pBMG1udHlfdXJqeGZrM0lHM3Zxcjg2bG9GOUN5bnU4azBJTHdNc2pfbjFCUUhfa1Y0bnZ1eWxFX19BS1pQZW9GX3M2RTZmejAzUUJwdG5YUHMybmN5UkxzOUxycjdrT2hLLTRmNmI2MlB4emp6amJ3U1pvcGQtbloxajJ6WDgxWmZvU09uWlVSTndzcEREc3JWaXFQTXc5a3pMY2xNTnJidDBlZlVOYg?oc=5",
-          "source": "Center for American Progress",
-          "publishedAt": "2026-02-17T08:00:00+00:00",
+          "title": "The Budget and Economic Outlook: 2026 to 2036 - Congressional Budget Office (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1xYkpKUjdyNWpIYlp2eU9kZkNKNWw2dlNfNk9OTHRjNk5XQ0lJOVd6OXZnSkR3RnNyblVfNFMtT2RxdVBYLUFTaDYxZkdvdw?oc=5",
+          "source": "Congressional Budget Office (.gov)",
+          "publishedAt": "2026-02-11T08:00:00+00:00",
           "phase": "monitoring"
         }
       ],
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-08T19:48:19.012324+00:00",
+      "updatedAt": "2026-11-08T23:47:59.354275+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-08T19:48:20.062949+00:00",
+    "asOf": "2026-11-08T23:48:00.269954+00:00",
     "aggregateScore": 77.4,
     "aggregateLabel": "极高",
     "highRiskCount": 6,
