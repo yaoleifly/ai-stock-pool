@@ -1,28 +1,28 @@
 {
-  "asOf": "2026-11-11T15:25:03.132368+00:00",
+  "asOf": "2026-11-11T22:48:58.889833+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 79.3,
+    "value": 76.7,
     "zone": "extreme_pressure",
-    "change5d": 4.3
+    "change5d": 1.2
   },
   "drivers": [
     {
       "id": "approval",
       "name": "净支持率",
       "weight": 0.25,
-      "pressureScore": 81.9,
-      "value": "-22.7pt",
-      "changeLabel": "较约30日前 -9.2pt",
+      "pressureScore": 83.9,
+      "value": "-23.8pt",
+      "changeLabel": "较约30日前 -9.8pt",
       "direction": "净支持率下降增加压力",
       "interpretation": "民调越弱，强硬政策的政治承受空间越小。",
       "updatedAt": "2026-11-07T12:00:00+00:00",
       "freshness": "current",
       "freshnessLabel": "跟随源站更新",
-      "sourceName": "Pollfinity 聚合 · 5项有效民调",
+      "sourceName": "Pollfinity 聚合 · 4项有效民调",
       "sourceTier": "aggregator",
       "sourceUrl": "https://pollfinity.com/averages"
     },
@@ -35,7 +35,7 @@
       "changeLabel": "近5日 +10bp",
       "direction": "收益率上升增加压力",
       "interpretation": "融资成本越高，财政与市场承受力越弱。",
-      "updatedAt": "2026-11-11T15:09:54+00:00",
+      "updatedAt": "2026-11-11T19:59:54+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -52,8 +52,8 @@
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
       "updatedAt": "2026-11-10T21:17:30+00:00",
-      "freshness": "live",
-      "freshnessLabel": "最新交易时点",
+      "freshness": "delayed",
+      "freshnessLabel": "最近交易日",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceTier": "market",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EMOVE/"
@@ -62,12 +62,12 @@
       "id": "spx",
       "name": "标普500",
       "weight": 0.2,
-      "pressureScore": 84.2,
-      "value": "7,580.1",
-      "changeLabel": "近5日 -1.41%",
+      "pressureScore": 73.2,
+      "value": "7,619.4",
+      "changeLabel": "近5日 -0.90%",
       "direction": "下跌增加压力",
       "interpretation": "股市回撤会强化政策反馈；上涨则释放压力。",
-      "updatedAt": "2026-11-11T15:25:00+00:00",
+      "updatedAt": "2026-11-11T21:42:03+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -78,12 +78,12 @@
       "id": "vix",
       "name": "股市恐慌",
       "weight": 0.15,
-      "pressureScore": 61.8,
-      "value": "18.26",
-      "changeLabel": "近5日 +1.65",
+      "pressureScore": 55.5,
+      "value": "17.49",
+      "changeLabel": "近5日 +0.88",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-11-11T15:09:46+00:00",
+      "updatedAt": "2026-11-11T21:15:01+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -111,7 +111,7 @@
     {
       "id": "political",
       "name": "政治承受力",
-      "score": 81.9,
+      "score": 83.9,
       "components": [
         "净支持率"
       ],
@@ -131,7 +131,7 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 73.5,
+      "score": 67.7,
       "components": [
         "MOVE",
         "标普500",
@@ -155,42 +155,42 @@
     {
       "date": "2026-09-23",
       "label": "09.23",
-      "value": 60.7
+      "value": 61.2
     },
     {
       "date": "2026-09-30",
       "label": "09.30",
-      "value": 78.3
+      "value": 78.9
     },
     {
       "date": "2026-10-07",
       "label": "10.07",
-      "value": 62.9
+      "value": 63.4
     },
     {
       "date": "2026-10-14",
       "label": "10.14",
-      "value": 79.0
+      "value": 79.7
     },
     {
       "date": "2026-10-21",
       "label": "10.21",
-      "value": 70.8
+      "value": 71.4
     },
     {
       "date": "2026-10-28",
       "label": "10.28",
-      "value": 74.3
+      "value": 74.8
     },
     {
       "date": "2026-11-04",
       "label": "11.04",
-      "value": 75.0
+      "value": 75.5
     },
     {
       "date": "2026-11-11",
       "label": "11.11",
-      "value": 76.8
+      "value": 74.0
     }
   ],
   "policyEvents": [
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-11T15:25:02.276985+00:00",
+      "updatedAt": "2026-11-11T22:48:57.944254+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,12 +251,19 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 1,
+        "escalation": 2,
         "softening": 0,
-        "execution": 1,
+        "execution": 0,
         "monitoring": 6
       },
       "items": [
+        {
+          "title": "Trump Tightens Semiconductor Blockade Against China Amid NVIDIA CEO Scandal - 조선일보",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQlhYX3k3Q0xuandfc2tSMHlpTzluTzZQYnhxQmhYUnpSZDg2bng0WDM0RFhEV21JclhnTGc4Y0ZzRTBsR0M1NXBudnVQUUZmM3ZQbkpTc0NnSms4NFFwT193aGh0RnVoRVZ4WXlOb3kzMEZQVy1YODVJR3g1TkJhSEdqajRUVE5T?oc=5",
+          "source": "조선일보",
+          "publishedAt": "2026-11-11T02:51:19+00:00",
+          "phase": "escalation"
+        },
         {
           "title": "Treasury proposes rule to curb high-tech investments in China and other adversaries - PBS",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNazgwM2ZwNXBFa1diSlFMSzdhUmRpdVVkUlRsOWtZeUpiYWllX2ZudG1tZzU0OUNXZFE3azdqMlhYX0Fuc09YXzlBYUhVWmxod2ZfblNBLW5vOWFFXzlGbmZ4NEdWZGpMd2dWeXpvdzIzRF9UNHRXMU8ybnpXVVNTZFlfUk9hSUVDX3QtUzZGQ1YydXM3MG9Xdzl0QTVBX2FJSEZYSVFJSUhsT3lRMGtwb0FPZVZhVkliU0hRRUZB0gHDAUFVX3lxTE5uVjlvWFhPVUk5U3N4ZUtvaEkzU2RrcTg3aGpfeG1yT0VaMlYxMHQwNE9laWdPWGNQcWZ0VFRVeW1HdTJ3dmt5QnhWOU0yNnE2UWRsaUI1T2p4c2IxbUFpdW5vQ3JQUmMwTXY4dUdGWmRLYi1WZUp0T0lqVWdaTXY2S0lGQW4wdVV2UFFIc2s4dUo4SlBrQXV2WUtPVjVKbmdlUEpLUjdfNmZ3M2JVYnFucmVZdE1xUUl2TGsyc3NRT0RDZw?oc=5",
@@ -272,18 +279,11 @@
           "phase": "monitoring"
         },
         {
-          "title": "Understanding U.S. Allies’ Current Legal Authority to Implement AI and Semiconductor Export Controls - CSIS | Center for Strategic and International Studies",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbmdTMUUxWVUyc2I4UXBvX05VZWlYV0N3cU9xN3cyVVloTlZzR3VYMHNwV3JfYUZVdHFjc0w4aTctQ1M0UHhpdzZaZ2cyU18xUTN0WWgyaEp2Vmx6NmFXQ3pOcXZOVkp2eHB0RWJUNkhvUnpsZXhMcWhLbnJoQmdDLVZ2TUlvMnpVOC00bnJtbm03UTctVWNsQXBMbmFkMW9jNUMtZ3lrR2ZhMS03c0xkQkp5UFlWQQ?oc=5",
-          "source": "CSIS | Center for Strategic and International Studies",
-          "publishedAt": "2025-03-14T07:00:00+00:00",
-          "phase": "monitoring"
-        },
-        {
-          "title": "Tech war 2.0: The dangers of Trump's 'G2' bargaining with an emboldened China - European Union Institute for Security Studies |",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2FDamFNdE1ySHZKdTZfWVFWR19UOTZ4cWtDQ3QzNF9VVkhFVFVlUFZBNkF3anNpdmxtNlYtNUJWTmhKLW1tTjB5VWM0ZmFIZXg0Nk80VU9qYzNWdUd2MzU0dFJuMV9XMjJoeGFiVDlsb0NLZHJodWY1Q3VvUnd4eUstTjRyMFNLVEl4bnJMVHphSENoSjZVUE1rb1V2SWNiWWxaV2Fn?oc=5",
-          "source": "European Union Institute for Security Studies |",
-          "publishedAt": "2025-12-16T08:00:00+00:00",
-          "phase": "monitoring"
+          "title": "Trump failing to block China’s access to American AI technology, say senior Senate Democrats - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SOFUzQzlsOFVDUlRWN0VCMGx0Z3NEODlYQjliN29VbHZfWElQUXdueFhjYUxJaWhVcEZUdkpFX2pIcGQzLTFSMWswRjZ1b3AtX3MtNWZ3MzcxdmJXV0oyLUVnUHBOQmdHelBxM0lza3FiaXA5MFVxMkJR0gF_QVVfeXFMTWFpVU1NNDNWSHFBNnFSbGJHMG95U2VzUWVjX2FzZzZPa2w2TGJ0Q1dtMWk1OUNaSExxMGtyaFU1d0RZSzc2blNqUGc5Y1U3dDNEUTdlY2MxVG1mQ0Vnb0NYbTQyT1VsdzZtN2V4SDZBZ3UtV1ppMmNtSlYyQ3kyQQ?oc=5",
+          "source": "The Hill",
+          "publishedAt": "2026-09-22T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-11T15:25:02.213128+00:00",
+      "updatedAt": "2026-11-11T22:48:57.893430+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -303,12 +303,19 @@
       "name": "军事与地缘",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 3,
+        "escalation": 5,
         "softening": 1,
         "execution": 1,
-        "monitoring": 3
+        "monitoring": 1
       },
       "items": [
+        {
+          "title": "Trump planning new military assault or tighter sanctions, say Iranian officials - The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR3RWMGNrSXRNMkl5SzdlV0ZwQXhRZlBQMzM2bFpiWVQzSDRvbHNRSVZSSk9LNEhGWVRnS29iYUlKRHdxVXRKZUJZQlB2YUVraHlUeTRIQnNCZGhGTHRxZm04cmVmTGFBT0RtQk9tbERBU1BmTzhPcjF6a1N5MERVLXdqaDlCRzNuaFhMNW9mUUw3eVhxSGFRdFJNSFRBbTU4cEh0UHYtX3dxd2RkMk1qcHJib3VnSEU?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "2026-11-11T21:03:00+00:00",
+          "phase": "escalation"
+        },
         {
           "title": "Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war? - Al Jazeera",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBCYVRxVHdXS2I0WWlWam93NzhydHhvZnRPWUN6ZEZySlF1WGp6a1JDWVNPal9hVmFYbEdNWlVyclgwN0lOZC1hZVR6Z2R1M3pUQW5LRjRZSlVYZndYaDNzbDVtNEF5UmZwbFNoNzB4NnNzSnJQdkpDM9IBfkFVX3lxTE52RGRYcHhoaW9LZFhuZHc4N2ZocFVUcGZlYXZSM21ZYmR2a25odXBneUo5ZW5tNnZ1SEFOdzZNLS1pYXhtai1kd2cxTUI4SjIyd2trTF9BWk9nVVEzak9UYmRMWHZPMmpOZWhOUnplei1yUlNEbDVrUlhTd25tZw?oc=5",
@@ -324,17 +331,10 @@
           "phase": "monitoring"
         },
         {
-          "title": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5",
-          "source": "CNN",
-          "publishedAt": "2026-11-09T05:00:15+00:00",
-          "phase": "monitoring"
-        },
-        {
-          "title": "Trump Signals New Iran Strikes Unnecessary After Qatar Meeting - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLTNJaWJFc2NkclNIRXg3Z2lyVjRVYjh1aTFrRWozeFlGVWtfcEl3a291Y0MtSUh0bllRNTU3OEIwVnYyS2Q1by0tSEZYNzNUS1JHbUhDdUdOTjdETnkxdngybENWcmxzeUFJQmFhREZDUmdrSHhpWDhqakx3RlNtdXR0YnJBbjRHX0VIMnFoZWlnT2NwUDY3NUZ1aGdMamZUOWMtZjYtQUc0cTlWSjlNMVFtNA?oc=5",
-          "source": "Bloomberg.com",
-          "publishedAt": "2026-11-10T08:03:39+00:00",
+          "title": "Rubio says US will hold off on major strikes while keeping Iran under pressure - Fox News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNUw5RHg4YTNYUU1EVGVldWRvRmVHYThlQTZlWmhPMjB1dU15QUpTZ3A1MXdSSXJqbUo3N2swckltQ1JaaUNPdlpnTm9nckl0Y3FSbUpQeTFsY1BBM3o5ejFJOXN2d2hVNlp3d0dyT0ZybDloNWhIbG1TWkV5Q29ocml2aXIyUkQyZU1nYTBmN2ZfTWJia3JPa25R?oc=5",
+          "source": "Fox News",
+          "publishedAt": "2026-11-11T21:03:59+00:00",
           "phase": "escalation"
         }
       ],
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-11T15:25:02.399533+00:00",
+      "updatedAt": "2026-11-11T22:48:57.946504+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -355,12 +355,26 @@
       "name": "财政、税收与产业补贴",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 1,
+        "escalation": 2,
         "softening": 0,
         "execution": 0,
-        "monitoring": 7
+        "monitoring": 6
       },
       "items": [
+        {
+          "title": "Tracking the Impact of the Trump Tariffs & Trade War - Tax Foundation",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LU1daamtmcnNXWEZENFBwb3BYMThMQ1M4bHFPSzVZX0s5QmlLYWM4dDdKUGNiOF9iNjcxZ2VZTXd0bVJ6NGNNcDZVVmlkc25rTmxLd3Q4RVJhQmM3dUhpR3h1aXhXNGs3UkNQN0ZKLUpSSnBnOWVaX0tTRQ?oc=5",
+          "source": "Tax Foundation",
+          "publishedAt": "2026-08-20T16:36:30+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "U.S. Debt Hits $40 Trillion as America’s Borrowing Binge Continues - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcmNIUldHNHZ1N240ZmlQQVphQ3BDUk9BUVNHS0dVX25KUWtxLXhZZk9TYzNXTTVseTJXRWdveW5GcDlLQ0Z6UHdzQXE2clFHdHhkQzlRT1hJNFFMaU04cnRMQ19wTmt5bjRHQmJtM3ZsLThhODBjbUhhNUwzaEZrZWNn?oc=5",
+          "source": "The New York Times",
+          "publishedAt": "2026-08-19T07:00:00+00:00",
+          "phase": "monitoring"
+        },
         {
           "title": "Trump Tax Law 2025: What Changed and How It Affects Your Taxes - Kiplinger",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lMWNMMWpEVkt4bFBZdUZCNDNUOWg3UndTbnZzOElhN3hxS3B6UXEtUktIb2FLa3daSUxlNGE5QWRpcFlBZ1Nwc3pINERwSEd0cEZsSWpyaUZadnp4cHZRQkVVd0M?oc=5",
@@ -374,20 +388,6 @@
           "source": "Center on Budget and Policy Priorities",
           "publishedAt": "2026-02-11T08:00:00+00:00",
           "phase": "monitoring"
-        },
-        {
-          "title": "Trump's tariffs are causing harm to American manufacturers instead of benefiting them - PBS",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ0ZTS1RRSng2bnJVYUs3NHNOdll3V1FGR2FrVnVqMENaRlJXNDZFY09xN0ZFN0Nla1pMTFo5RW5FOU90TXNXbDNWQ2lxV1JFWTYwUjZ5dV9VZGlQZmlXN0tMOGJ4N1RsYkJJVXFRRHZXWF9kZmhnd2NGaDVKMkM0Nmw2aWlQQzdOMHVuQzh1ZEFxMENNWlJfLVF2RkJpMGhlbXlXYm1uMExJRUZtUWIxb3B0MWVIWkIwcE1XWWdn?oc=5",
-          "source": "PBS",
-          "publishedAt": "2026-03-18T07:00:00+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "5 Hidden Ways the Government Rigs the Market in Favor of Fossil Fuels - Center for American Progress",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2pBMG1udHlfdXJqeGZrM0lHM3Zxcjg2bG9GOUN5bnU4azBJTHdNc2pfbjFCUUhfa1Y0bnZ1eWxFX19BS1pQZW9GX3M2RTZmejAzUUJwdG5YUHMybmN5UkxzOUxycjdrT2hLLTRmNmI2MlB4emp6amJ3U1pvcGQtbloxajJ6WDgxWmZvU09uWlVSTndzcEREc3JWaXFQTXc5a3pMY2xNTnJidDBlZlVOYg?oc=5",
-          "source": "Center for American Progress",
-          "publishedAt": "2026-02-17T08:00:00+00:00",
-          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-11T15:25:02.192133+00:00",
+      "updatedAt": "2026-11-11T22:48:57.962923+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-11T15:25:03.130047+00:00",
-    "aggregateScore": 71.5,
+    "asOf": "2026-11-11T22:48:58.887282+00:00",
+    "aggregateScore": 69.5,
     "aggregateLabel": "偏高",
     "highRiskCount": 4,
     "coverage": {
@@ -418,8 +418,8 @@
       {
         "ticker": "MU",
         "company": "Micron",
-        "currentPrice": 797.52,
-        "updatedAt": "2026-11-11T15:25:02+00:00",
+        "currentPrice": 811.3,
+        "updatedAt": "2026-11-11T21:00:01+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/MU/analysis/",
         "earningsCalendar": {
@@ -1815,17 +1815,17 @@
             "price": 725.11,
             "priceIndex": 68.94,
             "sectorIndex": 72.88,
-            "volume": 28215100
+            "volume": 28421400
           },
           {
             "date": "2026-11-11",
-            "price": 797.53,
-            "priceIndex": 75.83,
-            "sectorIndex": 76.18,
-            "volume": 11173981
+            "price": 811.3,
+            "priceIndex": 77.14,
+            "sectorIndex": 77.26,
+            "volume": 35547757
           }
         ],
-        "score": 84.3,
+        "score": 83.7,
         "zone": "distribution_risk",
         "label": "派发风险",
         "evidence": [
@@ -1841,10 +1841,10 @@
           "targetMedian": 1550.0,
           "targetLow": 361.0,
           "targetHigh": 3000.0,
-          "targetUpside": 95.8,
-          "return5d": 0.3,
-          "return20d": -12.8,
-          "drawdown3m": -27.3,
+          "targetUpside": 92.5,
+          "return5d": 2.0,
+          "return20d": -11.2,
+          "drawdown3m": -26.1,
           "targetRaises45d": 5,
           "targetCuts45d": 0,
           "analystCount": 45,
@@ -1954,11 +1954,11 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -3.8,
+        "scoreChange7d": -4.4,
         "historyStatus": {
-          "points": 43,
+          "points": 44,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-11-10",
+          "lastDate": "2026-11-11",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -2564,6 +2564,20 @@
             "revenueEstimate": 61832643300.0,
             "targetRaises45d": 5,
             "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-11",
+            "ticker": "MU",
+            "score": 83.1,
+            "zone": "crowded",
+            "currentPrice": 823.63,
+            "targetMean": 1561.91,
+            "targetMedian": 1550.0,
+            "bullishShare": 91.8,
+            "epsEstimate": 38.29128,
+            "revenueEstimate": 61832643300.0,
+            "targetRaises45d": 5,
+            "targetCuts45d": 0
           }
         ],
         "expectationDivergence": {
@@ -2576,8 +2590,8 @@
       {
         "ticker": "MRVL",
         "company": "Marvell",
-        "currentPrice": 166.82,
-        "updatedAt": "2026-11-11T15:25:01+00:00",
+        "currentPrice": 168.8,
+        "updatedAt": "2026-11-11T21:00:00+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/MRVL/analysis/",
         "earningsCalendar": {
@@ -3952,14 +3966,14 @@
             "price": 154.39,
             "priceIndex": 55.33,
             "sectorIndex": 72.88,
-            "volume": 24599900
+            "volume": 24738500
           },
           {
             "date": "2026-11-11",
-            "price": 166.82,
-            "priceIndex": 59.78,
-            "sectorIndex": 76.18,
-            "volume": 9203856
+            "price": 168.8,
+            "priceIndex": 60.49,
+            "sectorIndex": 77.26,
+            "volume": 33237961
           }
         ],
         "score": 82.1,
@@ -3977,10 +3991,10 @@
           "targetMedian": 300.0,
           "targetLow": 175.0,
           "targetHigh": 450.0,
-          "targetUpside": 86.4,
-          "return5d": 4.4,
-          "return20d": -32.0,
-          "drawdown3m": -41.9,
+          "targetUpside": 84.2,
+          "return5d": 5.6,
+          "return20d": -31.2,
+          "drawdown3m": -41.2,
           "targetRaises45d": 15,
           "targetCuts45d": 9,
           "analystCount": 40,
@@ -4092,9 +4106,9 @@
         },
         "scoreChange7d": -1.1,
         "historyStatus": {
-          "points": 43,
+          "points": 44,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-11-10",
+          "lastDate": "2026-11-11",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -4700,6 +4714,20 @@
             "revenueEstimate": 3156204700.0,
             "targetRaises45d": 15,
             "targetCuts45d": 9
+          },
+          {
+            "date": "2026-11-11",
+            "ticker": "MRVL",
+            "score": 82.1,
+            "zone": "distribution_risk",
+            "currentPrice": 173.56,
+            "targetMean": 310.94,
+            "targetMedian": 300.0,
+            "bullishShare": 88.4,
+            "epsEstimate": 1.10098,
+            "revenueEstimate": 3156204700.0,
+            "targetRaises45d": 15,
+            "targetCuts45d": 9
           }
         ],
         "expectationDivergence": {
@@ -4712,8 +4740,8 @@
       {
         "ticker": "AVGO",
         "company": "Broadcom",
-        "currentPrice": 348.59,
-        "updatedAt": "2026-11-11T15:25:02+00:00",
+        "currentPrice": 345.22,
+        "updatedAt": "2026-11-11T21:00:00+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/AVGO/analysis/",
         "earningsCalendar": {
@@ -6088,17 +6116,17 @@
             "price": 331.98,
             "priceIndex": 87.33,
             "sectorIndex": 72.88,
-            "volume": 28278900
+            "volume": 28441800
           },
           {
             "date": "2026-11-11",
-            "price": 348.59,
-            "priceIndex": 91.7,
-            "sectorIndex": 76.18,
-            "volume": 9181673
+            "price": 345.22,
+            "priceIndex": 90.81,
+            "sectorIndex": 77.26,
+            "volume": 32713658
           }
         ],
-        "score": 75.9,
+        "score": 76.4,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
@@ -6114,10 +6142,10 @@
           "targetMedian": 535.0,
           "targetLow": 400.0,
           "targetHigh": 660.0,
-          "targetUpside": 53.0,
-          "return5d": 7.1,
-          "return20d": 0.7,
-          "drawdown3m": -11.3,
+          "targetUpside": 54.5,
+          "return5d": 6.1,
+          "return20d": -0.3,
+          "drawdown3m": -12.2,
           "targetRaises45d": 1,
           "targetCuts45d": 0,
           "analystCount": 47,
@@ -6227,11 +6255,11 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -6.4,
+        "scoreChange7d": -5.9,
         "historyStatus": {
-          "points": 43,
+          "points": 44,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-11-10",
+          "lastDate": "2026-11-11",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -6837,6 +6865,20 @@
             "revenueEstimate": 34906205760.0,
             "targetRaises45d": 1,
             "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-11",
+            "ticker": "AVGO",
+            "score": 75.1,
+            "zone": "crowded",
+            "currentPrice": 355.07,
+            "targetMean": 533.42,
+            "targetMedian": 535.0,
+            "bullishShare": 96.1,
+            "epsEstimate": 3.83768,
+            "revenueEstimate": 34906205760.0,
+            "targetRaises45d": 1,
+            "targetCuts45d": 0
           }
         ],
         "expectationDivergence": {
@@ -6849,8 +6891,8 @@
       {
         "ticker": "NVDA",
         "company": "NVIDIA",
-        "currentPrice": 173.16,
-        "updatedAt": "2026-11-11T15:25:02+00:00",
+        "currentPrice": 173.73,
+        "updatedAt": "2026-11-11T21:00:00+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis/",
         "earningsCalendar": {
@@ -8225,35 +8267,34 @@
             "price": 168.89,
             "priceIndex": 84.43,
             "sectorIndex": 72.88,
-            "volume": 426599700
+            "volume": 429273200
           },
           {
             "date": "2026-11-11",
-            "price": 173.16,
-            "priceIndex": 86.57,
-            "sectorIndex": 76.18,
-            "volume": 90524729
+            "price": 173.73,
+            "priceIndex": 86.85,
+            "sectorIndex": 77.26,
+            "volume": 281514030
           }
         ],
-        "score": 69.8,
+        "score": 61.1,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
           "买入评级高度一致",
-          "目标价隐含空间偏乐观",
-          "股价走弱但评级尚未松动"
+          "目标价隐含空间偏乐观"
         ],
         "metrics": {
-          "bullishShare": 93.5,
+          "bullishShare": 91.9,
           "bullishShare3mAgo": 95.0,
-          "targetMean": 325.78,
+          "targetMean": 319.99,
           "targetMedian": 315.0,
           "targetLow": 180.0,
           "targetHigh": 515.0,
-          "targetUpside": 88.1,
-          "return5d": -13.5,
-          "return20d": -21.8,
-          "drawdown3m": -27.6,
+          "targetUpside": 84.2,
+          "return5d": -13.2,
+          "return20d": -21.5,
+          "drawdown3m": -27.4,
           "targetRaises45d": 0,
           "targetCuts45d": 4,
           "analystCount": 57,
@@ -8345,14 +8386,14 @@
               "period": "+1y",
               "endDate": "2028-01-31",
               "eps": {
-                "current": 15.92806,
+                "current": 15.90883,
                 "value30dAgo": 15.9146,
                 "value60dAgo": 15.56753,
-                "change30d": 0.1,
-                "change60d": 2.3
+                "change30d": -0.0,
+                "change60d": 2.2
               },
               "revenue": {
-                "current": 692094952520.0,
+                "current": 691356756090.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -8363,11 +8404,11 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 9.2,
+        "scoreChange7d": 0.5,
         "historyStatus": {
-          "points": 43,
+          "points": 44,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-11-10",
+          "lastDate": "2026-11-11",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -8973,6 +9014,1850 @@
             "revenueEstimate": 109006829530.0,
             "targetRaises45d": 0,
             "targetCuts45d": 2
+          },
+          {
+            "date": "2026-11-11",
+            "ticker": "NVDA",
+            "score": 67.6,
+            "zone": "crowded",
+            "currentPrice": 176.2,
+            "targetMean": 325.78,
+            "targetMedian": 315.0,
+            "bullishShare": 93.5,
+            "epsEstimate": 2.47461,
+            "revenueEstimate": 109006829530.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 4
+          }
+        ],
+        "expectationDivergence": {
+          "status": "clear",
+          "label": "盈利预期未与目标价形成负向背离",
+          "epsDown": false,
+          "revenueDown": false
+        }
+      },
+      {
+        "ticker": "SMCI",
+        "company": "Super Micro",
+        "currentPrice": 30.43,
+        "updatedAt": "2026-11-11T21:00:00+00:00",
+        "sourceName": "Yahoo Finance Analysis + Market Data",
+        "sourceUrl": "https://finance.yahoo.com/quote/SMCI/analysis/",
+        "earningsCalendar": {
+          "lastCallDate": "2026-11-03T22:00:00+00:00",
+          "nextCallDate": null,
+          "nextReportDate": "2027-02-02T21:00:00+00:00",
+          "nextDateEstimated": true
+        },
+        "earningsWindow": {
+          "status": "developing",
+          "eventDate": "2026-11-03",
+          "benchmark": "SOXX",
+          "day1": {
+            "stock": -5.7,
+            "sector": -3.1,
+            "excess": -2.6
+          },
+          "day5": {
+            "stock": -11.5,
+            "sector": -5.4,
+            "excess": -6.1
+          },
+          "day20": {
+            "stock": -3.1,
+            "sector": 0.3,
+            "excess": -3.4
+          },
+          "reactionVolumeRatio": 2.47,
+          "classification": "mixed",
+          "label": "混合驱动",
+          "explanation": "行业与公司因素交织，等待更完整的20日事件窗口。"
+        },
+        "downgradeLag": {
+          "status": "waiting_for_cut",
+          "peakDate": "2026-10-07",
+          "breakDate": "2026-10-14",
+          "firstCutDate": null,
+          "lagDays": null,
+          "waitingDays": 28,
+          "label": "股价已先跌28天，机构尚未下调"
+        },
+        "targetEvents": [
+          {
+            "date": "2026-05-06T10:39:29+00:00",
+            "epoch": 1778063969,
+            "firm": "Needham",
+            "type": "reiterate",
+            "label": "维持评级",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 40.0,
+            "priorTarget": 40.0
+          },
+          {
+            "date": "2026-05-06T12:53:40+00:00",
+            "epoch": 1778072020,
+            "firm": "Wedbush",
+            "type": "target_cut",
+            "label": "下调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 34.0,
+            "priorTarget": 42.0
+          },
+          {
+            "date": "2026-05-06T17:54:08+00:00",
+            "epoch": 1778090048,
+            "firm": "CJS Securities",
+            "type": "rating_change",
+            "label": "评级调整",
+            "toGrade": "Market Perform",
+            "fromGrade": "Market Underperform",
+            "currentTarget": 0.0,
+            "priorTarget": 0.0
+          },
+          {
+            "date": "2026-05-06T18:33:04+00:00",
+            "epoch": 1778092384,
+            "firm": "Citigroup",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 31.0,
+            "priorTarget": 25.0
+          },
+          {
+            "date": "2026-05-06T20:05:42+00:00",
+            "epoch": 1778097942,
+            "firm": "JP Morgan",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 32.0,
+            "priorTarget": 28.0
+          },
+          {
+            "date": "2026-05-06T23:24:30+00:00",
+            "epoch": 1778109870,
+            "firm": "Rosenblatt",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 40.0,
+            "priorTarget": 32.0
+          },
+          {
+            "date": "2026-05-07T18:08:04+00:00",
+            "epoch": 1778177284,
+            "firm": "Barclays",
+            "type": "target_cut",
+            "label": "下调目标价",
+            "toGrade": "Equal-Weight",
+            "fromGrade": "Equal-Weight",
+            "currentTarget": 34.0,
+            "priorTarget": 38.0
+          },
+          {
+            "date": "2026-05-12T12:38:26+00:00",
+            "epoch": 1778589506,
+            "firm": "Mizuho",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 36.0,
+            "priorTarget": 30.0
+          },
+          {
+            "date": "2026-06-01T11:50:02+00:00",
+            "epoch": 1780314602,
+            "firm": "Mizuho",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 44.0,
+            "priorTarget": 36.0
+          },
+          {
+            "date": "2026-06-11T11:58:13+00:00",
+            "epoch": 1781179093,
+            "firm": "Wolfe Research",
+            "type": "rating_change",
+            "label": "评级调整",
+            "toGrade": "Peer Perform",
+            "fromGrade": "",
+            "currentTarget": 0.0,
+            "priorTarget": 0.0
+          },
+          {
+            "date": "2026-07-13T17:55:28+00:00",
+            "epoch": 1783965328,
+            "firm": "Citigroup",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 33.0,
+            "priorTarget": 31.0
+          },
+          {
+            "date": "2026-07-22T10:08:40+00:00",
+            "epoch": 1784714920,
+            "firm": "Needham",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 46.0,
+            "priorTarget": 40.0
+          },
+          {
+            "date": "2026-07-22T13:21:50+00:00",
+            "epoch": 1784726510,
+            "firm": "Barclays",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Equal-Weight",
+            "fromGrade": "Equal-Weight",
+            "currentTarget": 38.0,
+            "priorTarget": 34.0
+          },
+          {
+            "date": "2026-07-22T16:35:15+00:00",
+            "epoch": 1784738115,
+            "firm": "Rosenblatt",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 45.0,
+            "priorTarget": 40.0
+          },
+          {
+            "date": "2026-07-23T17:21:42+00:00",
+            "epoch": 1784827302,
+            "firm": "Mizuho",
+            "type": "target_cut",
+            "label": "下调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 34.0,
+            "priorTarget": 44.0
+          },
+          {
+            "date": "2026-08-12T12:10:31+00:00",
+            "epoch": 1786536631,
+            "firm": "Rosenblatt",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 51.0,
+            "priorTarget": 45.0
+          },
+          {
+            "date": "2026-08-12T12:38:41+00:00",
+            "epoch": 1786538321,
+            "firm": "Barclays",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Equal-Weight",
+            "fromGrade": "Equal-Weight",
+            "currentTarget": 39.0,
+            "priorTarget": 38.0
+          },
+          {
+            "date": "2026-08-12T12:38:49+00:00",
+            "epoch": 1786538329,
+            "firm": "Needham",
+            "type": "reiterate",
+            "label": "维持评级",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 46.0,
+            "priorTarget": 46.0
+          },
+          {
+            "date": "2026-08-12T12:45:49+00:00",
+            "epoch": 1786538749,
+            "firm": "Wedbush",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 40.0,
+            "priorTarget": 34.0
+          },
+          {
+            "date": "2026-08-12T14:18:50+00:00",
+            "epoch": 1786544330,
+            "firm": "Mizuho",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 35.0,
+            "priorTarget": 34.0
+          },
+          {
+            "date": "2026-08-12T18:18:14+00:00",
+            "epoch": 1786558694,
+            "firm": "Goldman Sachs",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Sell",
+            "fromGrade": "Sell",
+            "currentTarget": 34.0,
+            "priorTarget": 30.0
+          },
+          {
+            "date": "2026-08-12T18:32:29+00:00",
+            "epoch": 1786559549,
+            "firm": "Citigroup",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 39.0,
+            "priorTarget": 33.0
+          },
+          {
+            "date": "2026-10-06T12:59:38+00:00",
+            "epoch": 1791291578,
+            "firm": "Mizuho",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 43.0,
+            "priorTarget": 35.0
+          },
+          {
+            "date": "2026-10-08T21:25:51+00:00",
+            "epoch": 1791494751,
+            "firm": "Citigroup",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Neutral",
+            "fromGrade": "Neutral",
+            "currentTarget": 45.0,
+            "priorTarget": 39.0
+          },
+          {
+            "date": "2026-10-16T11:45:07+00:00",
+            "epoch": 1792151107,
+            "firm": "Rosenblatt",
+            "type": "reiterate",
+            "label": "维持评级",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 51.0,
+            "priorTarget": 51.0
+          },
+          {
+            "date": "2026-10-21T11:44:47+00:00",
+            "epoch": 1792583087,
+            "firm": "Rosenblatt",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 57.0,
+            "priorTarget": 51.0
+          },
+          {
+            "date": "2026-11-04T12:03:38+00:00",
+            "epoch": 1793793818,
+            "firm": "B of A Securities",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Underperform",
+            "fromGrade": "Underperform",
+            "currentTarget": 39.0,
+            "priorTarget": 38.0
+          },
+          {
+            "date": "2026-11-04T13:00:48+00:00",
+            "epoch": 1793797248,
+            "firm": "Rosenblatt",
+            "type": "reiterate",
+            "label": "维持评级",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 57.0,
+            "priorTarget": 57.0
+          },
+          {
+            "date": "2026-11-10T13:06:29+00:00",
+            "epoch": 1794315989,
+            "firm": "Susquehanna",
+            "type": "target_raise",
+            "label": "上调目标价",
+            "toGrade": "Negative",
+            "fromGrade": "Negative",
+            "currentTarget": 18.0,
+            "priorTarget": 15.0
+          }
+        ],
+        "priceTimeline": [
+          {
+            "date": "2026-06-23",
+            "price": 33.32,
+            "priceIndex": 100.0,
+            "sectorIndex": 100.0,
+            "volume": 60658800
+          },
+          {
+            "date": "2026-06-24",
+            "price": 32.45,
+            "priceIndex": 97.39,
+            "sectorIndex": 99.69,
+            "volume": 51833500
+          },
+          {
+            "date": "2026-06-25",
+            "price": 31.68,
+            "priceIndex": 95.08,
+            "sectorIndex": 103.61,
+            "volume": 46077500
+          },
+          {
+            "date": "2026-06-26",
+            "price": 30.63,
+            "priceIndex": 91.93,
+            "sectorIndex": 97.77,
+            "volume": 48554500
+          },
+          {
+            "date": "2026-06-29",
+            "price": 28.15,
+            "priceIndex": 84.48,
+            "sectorIndex": 101.82,
+            "volume": 91157900
+          },
+          {
+            "date": "2026-06-30",
+            "price": 29.33,
+            "priceIndex": 88.03,
+            "sectorIndex": 106.19,
+            "volume": 56264000
+          },
+          {
+            "date": "2026-07-01",
+            "price": 27.65,
+            "priceIndex": 82.98,
+            "sectorIndex": 99.39,
+            "volume": 52034200
+          },
+          {
+            "date": "2026-07-02",
+            "price": 27.22,
+            "priceIndex": 81.69,
+            "sectorIndex": 93.86,
+            "volume": 42742400
+          },
+          {
+            "date": "2026-07-06",
+            "price": 27.19,
+            "priceIndex": 81.6,
+            "sectorIndex": 96.37,
+            "volume": 30951900
+          },
+          {
+            "date": "2026-07-07",
+            "price": 26.25,
+            "priceIndex": 78.78,
+            "sectorIndex": 91.43,
+            "volume": 38985400
+          },
+          {
+            "date": "2026-07-08",
+            "price": 28.17,
+            "priceIndex": 84.54,
+            "sectorIndex": 93.15,
+            "volume": 37264400
+          },
+          {
+            "date": "2026-07-09",
+            "price": 28.24,
+            "priceIndex": 84.75,
+            "sectorIndex": 96.41,
+            "volume": 33573100
+          },
+          {
+            "date": "2026-07-10",
+            "price": 28.31,
+            "priceIndex": 84.96,
+            "sectorIndex": 96.35,
+            "volume": 25067100
+          },
+          {
+            "date": "2026-07-13",
+            "price": 27.66,
+            "priceIndex": 83.01,
+            "sectorIndex": 91.75,
+            "volume": 22796300
+          },
+          {
+            "date": "2026-07-14",
+            "price": 27.65,
+            "priceIndex": 82.98,
+            "sectorIndex": 94.12,
+            "volume": 22413500
+          },
+          {
+            "date": "2026-07-15",
+            "price": 26.89,
+            "priceIndex": 80.7,
+            "sectorIndex": 92.03,
+            "volume": 25550600
+          },
+          {
+            "date": "2026-07-16",
+            "price": 24.68,
+            "priceIndex": 74.07,
+            "sectorIndex": 87.92,
+            "volume": 36021900
+          },
+          {
+            "date": "2026-07-17",
+            "price": 24.18,
+            "priceIndex": 72.57,
+            "sectorIndex": 86.48,
+            "volume": 32264800
+          },
+          {
+            "date": "2026-07-20",
+            "price": 23.83,
+            "priceIndex": 71.52,
+            "sectorIndex": 86.87,
+            "volume": 24919400
+          },
+          {
+            "date": "2026-07-21",
+            "price": 25.5,
+            "priceIndex": 76.53,
+            "sectorIndex": 91.6,
+            "volume": 51156400
+          },
+          {
+            "date": "2026-07-22",
+            "price": 30.56,
+            "priceIndex": 91.72,
+            "sectorIndex": 92.07,
+            "volume": 163015100
+          },
+          {
+            "date": "2026-07-23",
+            "price": 31.2,
+            "priceIndex": 93.64,
+            "sectorIndex": 91.36,
+            "volume": 86788900
+          },
+          {
+            "date": "2026-07-24",
+            "price": 30.1,
+            "priceIndex": 90.34,
+            "sectorIndex": 87.34,
+            "volume": 49701600
+          },
+          {
+            "date": "2026-07-27",
+            "price": 29.81,
+            "priceIndex": 89.47,
+            "sectorIndex": 85.55,
+            "volume": 35912300
+          },
+          {
+            "date": "2026-07-28",
+            "price": 28.45,
+            "priceIndex": 85.38,
+            "sectorIndex": 81.45,
+            "volume": 36449800
+          },
+          {
+            "date": "2026-07-29",
+            "price": 25.7,
+            "priceIndex": 77.13,
+            "sectorIndex": 77.06,
+            "volume": 40892200
+          },
+          {
+            "date": "2026-07-30",
+            "price": 27.73,
+            "priceIndex": 83.22,
+            "sectorIndex": 83.62,
+            "volume": 38544900
+          },
+          {
+            "date": "2026-07-31",
+            "price": 28.4,
+            "priceIndex": 85.23,
+            "sectorIndex": 83.68,
+            "volume": 34956100
+          },
+          {
+            "date": "2026-08-03",
+            "price": 28.64,
+            "priceIndex": 85.95,
+            "sectorIndex": 84.14,
+            "volume": 24010900
+          },
+          {
+            "date": "2026-08-04",
+            "price": 31.69,
+            "priceIndex": 95.11,
+            "sectorIndex": 89.86,
+            "volume": 56404600
+          },
+          {
+            "date": "2026-08-05",
+            "price": 30.32,
+            "priceIndex": 91.0,
+            "sectorIndex": 87.95,
+            "volume": 35605000
+          },
+          {
+            "date": "2026-08-06",
+            "price": 29.38,
+            "priceIndex": 88.18,
+            "sectorIndex": 88.25,
+            "volume": 26698000
+          },
+          {
+            "date": "2026-08-07",
+            "price": 31.13,
+            "priceIndex": 93.43,
+            "sectorIndex": 90.04,
+            "volume": 32380700
+          },
+          {
+            "date": "2026-08-10",
+            "price": 31.46,
+            "priceIndex": 94.42,
+            "sectorIndex": 87.74,
+            "volume": 56320400
+          },
+          {
+            "date": "2026-08-11",
+            "price": 31.6,
+            "priceIndex": 94.84,
+            "sectorIndex": 88.53,
+            "volume": 95520500
+          },
+          {
+            "date": "2026-08-12",
+            "price": 37.61,
+            "priceIndex": 112.88,
+            "sectorIndex": 90.59,
+            "volume": 165736400
+          },
+          {
+            "date": "2026-08-13",
+            "price": 39.16,
+            "priceIndex": 117.53,
+            "sectorIndex": 91.27,
+            "volume": 122775700
+          },
+          {
+            "date": "2026-08-14",
+            "price": 39.84,
+            "priceIndex": 119.57,
+            "sectorIndex": 91.22,
+            "volume": 61990900
+          },
+          {
+            "date": "2026-08-17",
+            "price": 38.28,
+            "priceIndex": 114.89,
+            "sectorIndex": 92.66,
+            "volume": 55467000
+          },
+          {
+            "date": "2026-08-18",
+            "price": 37.41,
+            "priceIndex": 112.27,
+            "sectorIndex": 88.07,
+            "volume": 52260100
+          },
+          {
+            "date": "2026-08-19",
+            "price": 36.58,
+            "priceIndex": 109.78,
+            "sectorIndex": 86.13,
+            "volume": 35466200
+          },
+          {
+            "date": "2026-08-20",
+            "price": 36.5,
+            "priceIndex": 109.54,
+            "sectorIndex": 86.57,
+            "volume": 51286600
+          },
+          {
+            "date": "2026-08-21",
+            "price": 37.24,
+            "priceIndex": 111.76,
+            "sectorIndex": 86.19,
+            "volume": 36474300
+          },
+          {
+            "date": "2026-08-24",
+            "price": 35.17,
+            "priceIndex": 105.55,
+            "sectorIndex": 83.89,
+            "volume": 39934900
+          },
+          {
+            "date": "2026-08-25",
+            "price": 38.46,
+            "priceIndex": 115.43,
+            "sectorIndex": 85.2,
+            "volume": 48106900
+          },
+          {
+            "date": "2026-08-26",
+            "price": 37.39,
+            "priceIndex": 112.21,
+            "sectorIndex": 85.42,
+            "volume": 33723200
+          },
+          {
+            "date": "2026-08-27",
+            "price": 38.46,
+            "priceIndex": 115.43,
+            "sectorIndex": 87.08,
+            "volume": 41662100
+          },
+          {
+            "date": "2026-08-28",
+            "price": 37.08,
+            "priceIndex": 111.28,
+            "sectorIndex": 84.29,
+            "volume": 29132900
+          },
+          {
+            "date": "2026-08-31",
+            "price": 37.28,
+            "priceIndex": 111.88,
+            "sectorIndex": 84.69,
+            "volume": 22915000
+          },
+          {
+            "date": "2026-09-01",
+            "price": 36.71,
+            "priceIndex": 110.17,
+            "sectorIndex": 82.92,
+            "volume": 26862900
+          },
+          {
+            "date": "2026-09-02",
+            "price": 37.0,
+            "priceIndex": 111.04,
+            "sectorIndex": 83.1,
+            "volume": 33258800
+          },
+          {
+            "date": "2026-09-03",
+            "price": 37.87,
+            "priceIndex": 113.66,
+            "sectorIndex": 83.23,
+            "volume": 34436400
+          },
+          {
+            "date": "2026-09-04",
+            "price": 39.59,
+            "priceIndex": 118.82,
+            "sectorIndex": 86.16,
+            "volume": 53633200
+          },
+          {
+            "date": "2026-09-08",
+            "price": 40.26,
+            "priceIndex": 120.83,
+            "sectorIndex": 87.57,
+            "volume": 42400700
+          },
+          {
+            "date": "2026-09-09",
+            "price": 38.93,
+            "priceIndex": 116.84,
+            "sectorIndex": 88.17,
+            "volume": 31197000
+          },
+          {
+            "date": "2026-09-10",
+            "price": 37.38,
+            "priceIndex": 112.18,
+            "sectorIndex": 85.75,
+            "volume": 26771400
+          },
+          {
+            "date": "2026-09-11",
+            "price": 40.1,
+            "priceIndex": 120.35,
+            "sectorIndex": 87.35,
+            "volume": 46492700
+          },
+          {
+            "date": "2026-09-14",
+            "price": 36.74,
+            "priceIndex": 110.26,
+            "sectorIndex": 82.43,
+            "volume": 39892500
+          },
+          {
+            "date": "2026-09-15",
+            "price": 35.64,
+            "priceIndex": 106.96,
+            "sectorIndex": 82.67,
+            "volume": 26725900
+          },
+          {
+            "date": "2026-09-16",
+            "price": 36.85,
+            "priceIndex": 110.59,
+            "sectorIndex": 83.21,
+            "volume": 31390500
+          },
+          {
+            "date": "2026-09-17",
+            "price": 40.35,
+            "priceIndex": 121.1,
+            "sectorIndex": 86.03,
+            "volume": 62517100
+          },
+          {
+            "date": "2026-09-18",
+            "price": 39.09,
+            "priceIndex": 117.32,
+            "sectorIndex": 88.35,
+            "volume": 48079300
+          },
+          {
+            "date": "2026-09-21",
+            "price": 41.2,
+            "priceIndex": 123.65,
+            "sectorIndex": 92.7,
+            "volume": 48218400
+          },
+          {
+            "date": "2026-09-22",
+            "price": 41.54,
+            "priceIndex": 124.67,
+            "sectorIndex": 94.93,
+            "volume": 30249800
+          },
+          {
+            "date": "2026-09-23",
+            "price": 41.44,
+            "priceIndex": 124.37,
+            "sectorIndex": 93.76,
+            "volume": 40871500
+          },
+          {
+            "date": "2026-09-24",
+            "price": 41.51,
+            "priceIndex": 124.58,
+            "sectorIndex": 93.81,
+            "volume": 34885600
+          },
+          {
+            "date": "2026-09-25",
+            "price": 43.26,
+            "priceIndex": 129.83,
+            "sectorIndex": 94.91,
+            "volume": 49323200
+          },
+          {
+            "date": "2026-09-28",
+            "price": 41.78,
+            "priceIndex": 125.39,
+            "sectorIndex": 92.94,
+            "volume": 29494500
+          },
+          {
+            "date": "2026-09-29",
+            "price": 41.02,
+            "priceIndex": 123.11,
+            "sectorIndex": 94.04,
+            "volume": 25272900
+          },
+          {
+            "date": "2026-09-30",
+            "price": 41.07,
+            "priceIndex": 123.26,
+            "sectorIndex": 94.24,
+            "volume": 31947800
+          },
+          {
+            "date": "2026-10-01",
+            "price": 41.92,
+            "priceIndex": 125.81,
+            "sectorIndex": 95.52,
+            "volume": 26504300
+          },
+          {
+            "date": "2026-10-02",
+            "price": 43.69,
+            "priceIndex": 131.12,
+            "sectorIndex": 97.6,
+            "volume": 44497400
+          },
+          {
+            "date": "2026-10-05",
+            "price": 43.19,
+            "priceIndex": 129.62,
+            "sectorIndex": 97.7,
+            "volume": 22119800
+          },
+          {
+            "date": "2026-10-06",
+            "price": 43.46,
+            "priceIndex": 130.43,
+            "sectorIndex": 97.69,
+            "volume": 27806300
+          },
+          {
+            "date": "2026-10-07",
+            "price": 44.94,
+            "priceIndex": 134.87,
+            "sectorIndex": 96.59,
+            "volume": 40541100
+          },
+          {
+            "date": "2026-10-08",
+            "price": 42.77,
+            "priceIndex": 128.36,
+            "sectorIndex": 93.35,
+            "volume": 38837000
+          },
+          {
+            "date": "2026-10-09",
+            "price": 41.86,
+            "priceIndex": 125.63,
+            "sectorIndex": 92.71,
+            "volume": 27320000
+          },
+          {
+            "date": "2026-10-12",
+            "price": 39.98,
+            "priceIndex": 119.99,
+            "sectorIndex": 90.3,
+            "volume": 25516200
+          },
+          {
+            "date": "2026-10-13",
+            "price": 39.07,
+            "priceIndex": 117.26,
+            "sectorIndex": 90.14,
+            "volume": 25223100
+          },
+          {
+            "date": "2026-10-14",
+            "price": 35.78,
+            "priceIndex": 107.38,
+            "sectorIndex": 86.08,
+            "volume": 33239900
+          },
+          {
+            "date": "2026-10-15",
+            "price": 35.09,
+            "priceIndex": 105.31,
+            "sectorIndex": 85.3,
+            "volume": 37696900
+          },
+          {
+            "date": "2026-10-16",
+            "price": 31.63,
+            "priceIndex": 94.93,
+            "sectorIndex": 81.77,
+            "volume": 44217900
+          },
+          {
+            "date": "2026-10-19",
+            "price": 32.1,
+            "priceIndex": 96.34,
+            "sectorIndex": 83.19,
+            "volume": 30394800
+          },
+          {
+            "date": "2026-10-20",
+            "price": 32.47,
+            "priceIndex": 97.45,
+            "sectorIndex": 82.87,
+            "volume": 42353100
+          },
+          {
+            "date": "2026-10-21",
+            "price": 35.57,
+            "priceIndex": 106.75,
+            "sectorIndex": 84.58,
+            "volume": 82415700
+          },
+          {
+            "date": "2026-10-22",
+            "price": 33.72,
+            "priceIndex": 101.2,
+            "sectorIndex": 78.84,
+            "volume": 44007200
+          },
+          {
+            "date": "2026-10-23",
+            "price": 32.94,
+            "priceIndex": 98.86,
+            "sectorIndex": 79.25,
+            "volume": 29728000
+          },
+          {
+            "date": "2026-10-26",
+            "price": 32.69,
+            "priceIndex": 98.11,
+            "sectorIndex": 81.51,
+            "volume": 23286400
+          },
+          {
+            "date": "2026-10-27",
+            "price": 35.09,
+            "priceIndex": 105.31,
+            "sectorIndex": 84.7,
+            "volume": 31443600
+          },
+          {
+            "date": "2026-10-28",
+            "price": 35.81,
+            "priceIndex": 107.47,
+            "sectorIndex": 86.5,
+            "volume": 30016200
+          },
+          {
+            "date": "2026-10-29",
+            "price": 34.43,
+            "priceIndex": 103.33,
+            "sectorIndex": 85.16,
+            "volume": 25307500
+          },
+          {
+            "date": "2026-10-30",
+            "price": 32.95,
+            "priceIndex": 98.89,
+            "sectorIndex": 78.14,
+            "volume": 38349900
+          },
+          {
+            "date": "2026-11-02",
+            "price": 30.44,
+            "priceIndex": 91.36,
+            "sectorIndex": 75.18,
+            "volume": 41257200
+          },
+          {
+            "date": "2026-11-03",
+            "price": 31.39,
+            "priceIndex": 94.21,
+            "sectorIndex": 77.06,
+            "volume": 63878300
+          },
+          {
+            "date": "2026-11-04",
+            "price": 29.6,
+            "priceIndex": 88.84,
+            "sectorIndex": 74.65,
+            "volume": 88731500
+          },
+          {
+            "date": "2026-11-05",
+            "price": 27.08,
+            "priceIndex": 81.27,
+            "sectorIndex": 65.58,
+            "volume": 62938500
+          },
+          {
+            "date": "2026-11-06",
+            "price": 28.76,
+            "priceIndex": 86.31,
+            "sectorIndex": 67.88,
+            "volume": 37178600
+          },
+          {
+            "date": "2026-11-09",
+            "price": 28.6,
+            "priceIndex": 85.83,
+            "sectorIndex": 72.97,
+            "volume": 41827700
+          },
+          {
+            "date": "2026-11-10",
+            "price": 27.79,
+            "priceIndex": 83.4,
+            "sectorIndex": 72.88,
+            "volume": 46061300
+          },
+          {
+            "date": "2026-11-11",
+            "price": 30.43,
+            "priceIndex": 91.33,
+            "sectorIndex": 77.26,
+            "volume": 40908558
+          }
+        ],
+        "score": 57.0,
+        "zone": "watch",
+        "label": "观察背离",
+        "evidence": [
+          "目标价隐含空间偏乐观",
+          "近期目标价集中上调",
+          "股价走弱但评级尚未松动"
+        ],
+        "metrics": {
+          "bullishShare": 22.2,
+          "bullishShare3mAgo": 26.3,
+          "targetMean": 43.6,
+          "targetMedian": 45.0,
+          "targetLow": 18.0,
+          "targetHigh": 65.0,
+          "targetUpside": 43.3,
+          "return5d": 2.8,
+          "return20d": -15.0,
+          "drawdown3m": -32.3,
+          "targetRaises45d": 5,
+          "targetCuts45d": 0,
+          "analystCount": 15,
+          "epsChange30d": 73.1,
+          "epsChange60d": 72.3,
+          "revenueChange30d": 36.9,
+          "revenueChange60d": 36.6
+        },
+        "expectations": {
+          "primaryPeriod": "0q",
+          "primary": {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "eps": {
+              "current": 1.78109,
+              "value30dAgo": 1.02904,
+              "value60dAgo": 1.03342,
+              "change30d": 73.1,
+              "change60d": 72.3
+            },
+            "revenue": {
+              "current": 20453681600.0,
+              "value30dAgo": 14941898910.0,
+              "value60dAgo": 14971092730.0,
+              "change30d": 36.9,
+              "change60d": 36.6,
+              "historyStatus": "ready"
+            }
+          },
+          "periods": [
+            {
+              "period": "0q",
+              "endDate": "2026-12-31",
+              "eps": {
+                "current": 1.78109,
+                "value30dAgo": 1.02904,
+                "value60dAgo": 1.03342,
+                "change30d": 73.1,
+                "change60d": 72.3
+              },
+              "revenue": {
+                "current": 20453681600.0,
+                "value30dAgo": 14941898910.0,
+                "value60dAgo": 14971092730.0,
+                "change30d": 36.9,
+                "change60d": 36.6,
+                "historyStatus": "ready"
+              }
+            },
+            {
+              "period": "+1q",
+              "endDate": "2027-03-31",
+              "eps": {
+                "current": 1.45409,
+                "value30dAgo": 1.06434,
+                "value60dAgo": 1.06308,
+                "change30d": 36.6,
+                "change60d": 36.8
+              },
+              "revenue": {
+                "current": 18364709880.0,
+                "value30dAgo": null,
+                "value60dAgo": null,
+                "change30d": null,
+                "change60d": null,
+                "historyStatus": "collecting"
+              }
+            },
+            {
+              "period": "0y",
+              "endDate": "2027-06-30",
+              "eps": {
+                "current": 6.5223,
+                "value30dAgo": 4.31045,
+                "value60dAgo": 4.31104,
+                "change30d": 51.3,
+                "change60d": 51.3
+              },
+              "revenue": {
+                "current": 77627636200.0,
+                "value30dAgo": null,
+                "value60dAgo": null,
+                "change30d": null,
+                "change60d": null,
+                "historyStatus": "collecting"
+              }
+            },
+            {
+              "period": "+1y",
+              "endDate": "2028-06-30",
+              "eps": {
+                "current": 6.94506,
+                "value30dAgo": 5.32592,
+                "value60dAgo": 5.32592,
+                "change30d": 30.4,
+                "change60d": 30.4
+              },
+              "revenue": {
+                "current": 86429553360.0,
+                "value30dAgo": null,
+                "value60dAgo": null,
+                "change30d": null,
+                "change60d": null,
+                "historyStatus": "collecting"
+              }
+            }
+          ],
+          "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
+        },
+        "scoreChange7d": -4.0,
+        "historyStatus": {
+          "points": 44,
+          "firstDate": "2026-08-04",
+          "lastDate": "2026-11-11",
+          "revenue30dReady": true,
+          "revenue60dReady": true
+        },
+        "dailyHistory": [
+          {
+            "date": "2026-08-04",
+            "ticker": "SMCI",
+            "score": 39.0,
+            "zone": "balanced",
+            "currentPrice": 31.25,
+            "targetMean": 37.81,
+            "targetMedian": 36.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 0.95748,
+            "revenueEstimate": 11562988100.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-07",
+            "ticker": "SMCI",
+            "score": 44.5,
+            "zone": "watch",
+            "currentPrice": 29.38,
+            "targetMean": 37.81,
+            "targetMedian": 36.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 0.95748,
+            "revenueEstimate": 11562988100.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-10",
+            "ticker": "SMCI",
+            "score": 34.2,
+            "zone": "balanced",
+            "currentPrice": 32.75,
+            "targetMean": 37.81,
+            "targetMedian": 36.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 0.95748,
+            "revenueEstimate": 11562988100.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-11",
+            "ticker": "SMCI",
+            "score": 38.3,
+            "zone": "balanced",
+            "currentPrice": 31.46,
+            "targetMean": 37.81,
+            "targetMedian": 36.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 0.95748,
+            "revenueEstimate": 11562988100.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-12",
+            "ticker": "SMCI",
+            "score": 37.8,
+            "zone": "balanced",
+            "currentPrice": 31.6,
+            "targetMean": 37.81,
+            "targetMedian": 36.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 0.75544,
+            "revenueEstimate": 12089437830.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-13",
+            "ticker": "SMCI",
+            "score": 23.1,
+            "zone": "balanced",
+            "currentPrice": 37.61,
+            "targetMean": 37.81,
+            "targetMedian": 36.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 0.75544,
+            "revenueEstimate": 12089437830.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-14",
+            "ticker": "SMCI",
+            "score": 22.4,
+            "zone": "balanced",
+            "currentPrice": 39.16,
+            "targetMean": 41.75,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03533,
+            "revenueEstimate": 14998863120.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-17",
+            "ticker": "SMCI",
+            "score": 25.4,
+            "zone": "balanced",
+            "currentPrice": 38.4,
+            "targetMean": 42.38,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14971092730.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-20",
+            "ticker": "SMCI",
+            "score": 30.4,
+            "zone": "balanced",
+            "currentPrice": 36.58,
+            "targetMean": 42.38,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14971092730.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-22",
+            "ticker": "SMCI",
+            "score": 28.6,
+            "zone": "balanced",
+            "currentPrice": 37.24,
+            "targetMean": 42.38,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14971092730.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-24",
+            "ticker": "SMCI",
+            "score": 28.6,
+            "zone": "balanced",
+            "currentPrice": 37.24,
+            "targetMean": 42.38,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14971092730.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-25",
+            "ticker": "SMCI",
+            "score": 34.5,
+            "zone": "balanced",
+            "currentPrice": 35.17,
+            "targetMean": 42.38,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14971092730.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-26",
+            "ticker": "SMCI",
+            "score": 25.2,
+            "zone": "balanced",
+            "currentPrice": 38.46,
+            "targetMean": 42.38,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14971092730.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-08-27",
+            "ticker": "SMCI",
+            "score": 28.1,
+            "zone": "balanced",
+            "currentPrice": 37.39,
+            "targetMean": 42.38,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14971092730.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-09-04",
+            "ticker": "SMCI",
+            "score": 21.2,
+            "zone": "balanced",
+            "currentPrice": 37.87,
+            "targetMean": 42.38,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14971092730.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-09-25",
+            "ticker": "SMCI",
+            "score": 10.0,
+            "zone": "balanced",
+            "currentPrice": 41.51,
+            "targetMean": 42.38,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14971092730.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-05",
+            "ticker": "SMCI",
+            "score": 10.3,
+            "zone": "balanced",
+            "currentPrice": 43.48,
+            "targetMean": 42.38,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14971092730.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-06",
+            "ticker": "SMCI",
+            "score": 10.4,
+            "zone": "balanced",
+            "currentPrice": 43.34,
+            "targetMean": 42.38,
+            "targetMedian": 42.5,
+            "bullishShare": 26.3,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14971092730.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-07",
+            "ticker": "SMCI",
+            "score": 10.0,
+            "zone": "balanced",
+            "currentPrice": 44.27,
+            "targetMean": 41.87,
+            "targetMedian": 43.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14941898910.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-08",
+            "ticker": "SMCI",
+            "score": 12.1,
+            "zone": "balanced",
+            "currentPrice": 43.16,
+            "targetMean": 41.87,
+            "targetMedian": 43.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14941898910.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-09",
+            "ticker": "SMCI",
+            "score": 18.4,
+            "zone": "balanced",
+            "currentPrice": 41.2,
+            "targetMean": 42.27,
+            "targetMedian": 43.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14941898910.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-12",
+            "ticker": "SMCI",
+            "score": 22.7,
+            "zone": "balanced",
+            "currentPrice": 39.7,
+            "targetMean": 42.27,
+            "targetMedian": 43.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14941898910.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-13",
+            "ticker": "SMCI",
+            "score": 25.1,
+            "zone": "balanced",
+            "currentPrice": 39.38,
+            "targetMean": 42.27,
+            "targetMedian": 43.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14941898910.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-14",
+            "ticker": "SMCI",
+            "score": 36.8,
+            "zone": "balanced",
+            "currentPrice": 36.73,
+            "targetMean": 42.27,
+            "targetMedian": 43.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14941898910.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-15",
+            "ticker": "SMCI",
+            "score": 54.0,
+            "zone": "watch",
+            "currentPrice": 33.09,
+            "targetMean": 42.27,
+            "targetMedian": 43.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14941898910.0,
+            "targetRaises45d": 2,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-16",
+            "ticker": "SMCI",
+            "score": 53.6,
+            "zone": "watch",
+            "currentPrice": 33.25,
+            "targetMean": 42.27,
+            "targetMedian": 43.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14941898910.0,
+            "targetRaises45d": 2,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-19",
+            "ticker": "SMCI",
+            "score": 54.7,
+            "zone": "watch",
+            "currentPrice": 32.77,
+            "targetMean": 42.27,
+            "targetMedian": 43.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14941898910.0,
+            "targetRaises45d": 2,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-20",
+            "ticker": "SMCI",
+            "score": 56.5,
+            "zone": "watch",
+            "currentPrice": 32.0,
+            "targetMean": 42.27,
+            "targetMedian": 43.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.03705,
+            "revenueEstimate": 14941898910.0,
+            "targetRaises45d": 2,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-21",
+            "ticker": "SMCI",
+            "score": 37.2,
+            "zone": "balanced",
+            "currentPrice": 36.09,
+            "targetMean": 42.27,
+            "targetMedian": 43.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.03693,
+            "revenueEstimate": 15010652590.0,
+            "targetRaises45d": 3,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-22",
+            "ticker": "SMCI",
+            "score": 48.9,
+            "zone": "watch",
+            "currentPrice": 33.26,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.19576,
+            "revenueEstimate": 16255843120.0,
+            "targetRaises45d": 3,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-23",
+            "ticker": "SMCI",
+            "score": 49.5,
+            "zone": "watch",
+            "currentPrice": 33.72,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.19576,
+            "revenueEstimate": 16255843120.0,
+            "targetRaises45d": 3,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-26",
+            "ticker": "SMCI",
+            "score": 50.4,
+            "zone": "watch",
+            "currentPrice": 32.98,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.19576,
+            "revenueEstimate": 16255843120.0,
+            "targetRaises45d": 3,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-27",
+            "ticker": "SMCI",
+            "score": 42.7,
+            "zone": "watch",
+            "currentPrice": 34.86,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.19576,
+            "revenueEstimate": 16255843120.0,
+            "targetRaises45d": 3,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-28",
+            "ticker": "SMCI",
+            "score": 42.9,
+            "zone": "watch",
+            "currentPrice": 34.81,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.19576,
+            "revenueEstimate": 16255843120.0,
+            "targetRaises45d": 3,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-29",
+            "ticker": "SMCI",
+            "score": 41.0,
+            "zone": "watch",
+            "currentPrice": 35.48,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.19576,
+            "revenueEstimate": 16255843120.0,
+            "targetRaises45d": 3,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-10-30",
+            "ticker": "SMCI",
+            "score": 55.8,
+            "zone": "watch",
+            "currentPrice": 32.28,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.19576,
+            "revenueEstimate": 16255843120.0,
+            "targetRaises45d": 3,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-02",
+            "ticker": "SMCI",
+            "score": 61.0,
+            "zone": "crowded",
+            "currentPrice": 30.65,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.23458,
+            "revenueEstimate": 16255843120.0,
+            "targetRaises45d": 3,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-03",
+            "ticker": "SMCI",
+            "score": 58.4,
+            "zone": "watch",
+            "currentPrice": 31.58,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.23458,
+            "revenueEstimate": 16255843120.0,
+            "targetRaises45d": 3,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-04",
+            "ticker": "SMCI",
+            "score": 61.0,
+            "zone": "crowded",
+            "currentPrice": 30.07,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.22279,
+            "revenueEstimate": 18102682930.0,
+            "targetRaises45d": 4,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-05",
+            "ticker": "SMCI",
+            "score": 61.0,
+            "zone": "crowded",
+            "currentPrice": 26.7,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.22279,
+            "revenueEstimate": 18102682930.0,
+            "targetRaises45d": 4,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-06",
+            "ticker": "SMCI",
+            "score": 61.0,
+            "zone": "crowded",
+            "currentPrice": 28.55,
+            "targetMean": 43.27,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.22279,
+            "revenueEstimate": 18102682930.0,
+            "targetRaises45d": 4,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-09",
+            "ticker": "SMCI",
+            "score": 60.4,
+            "zone": "crowded",
+            "currentPrice": 28.89,
+            "targetMean": 43.4,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.71991,
+            "revenueEstimate": 20419001720.0,
+            "targetRaises45d": 4,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-10",
+            "ticker": "SMCI",
+            "score": 61.0,
+            "zone": "crowded",
+            "currentPrice": 27.38,
+            "targetMean": 43.6,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.78109,
+            "revenueEstimate": 20453681600.0,
+            "targetRaises45d": 5,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-11",
+            "ticker": "SMCI",
+            "score": 56.4,
+            "zone": "watch",
+            "currentPrice": 30.93,
+            "targetMean": 43.6,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.78109,
+            "revenueEstimate": 20453681600.0,
+            "targetRaises45d": 5,
+            "targetCuts45d": 0
           }
         ],
         "expectationDivergence": {
@@ -8985,8 +10870,8 @@
       {
         "ticker": "AMD",
         "company": "AMD",
-        "currentPrice": 537.49,
-        "updatedAt": "2026-11-11T15:25:01+00:00",
+        "currentPrice": 552.9,
+        "updatedAt": "2026-11-11T21:00:01+00:00",
         "sourceName": "Yahoo Finance Analysis + Market Data",
         "sourceUrl": "https://finance.yahoo.com/quote/AMD/analysis/",
         "earningsCalendar": {
@@ -9010,9 +10895,9 @@
             "excess": 11.9
           },
           "day20": {
-            "stock": 11.1,
-            "sector": -1.1,
-            "excess": 12.2
+            "stock": 14.3,
+            "sector": 0.3,
+            "excess": 14.0
           },
           "reactionVolumeRatio": 2.38,
           "classification": "relative_strength",
@@ -10381,17 +12266,17 @@
             "price": 515.21,
             "priceIndex": 99.11,
             "sectorIndex": 72.88,
-            "volume": 46907700
+            "volume": 47159100
           },
           {
             "date": "2026-11-11",
-            "price": 537.49,
-            "priceIndex": 103.39,
-            "sectorIndex": 76.18,
-            "volume": 13712694
+            "price": 552.9,
+            "priceIndex": 106.36,
+            "sectorIndex": 77.26,
+            "volume": 43171056
           }
         ],
-        "score": 59.6,
+        "score": 56.4,
         "zone": "watch",
         "label": "观察背离",
         "evidence": [
@@ -10405,10 +12290,10 @@
           "targetMedian": 650.0,
           "targetLow": 525.0,
           "targetHigh": 1250.0,
-          "targetUpside": 22.3,
-          "return5d": 10.0,
-          "return20d": -5.8,
-          "drawdown3m": -17.2,
+          "targetUpside": 18.9,
+          "return5d": 13.1,
+          "return20d": -3.1,
+          "drawdown3m": -14.9,
           "targetRaises45d": 12,
           "targetCuts45d": 4,
           "analystCount": 48,
@@ -10518,11 +12403,11 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -16.6,
+        "scoreChange7d": -19.8,
         "historyStatus": {
-          "points": 43,
+          "points": 44,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-11-10",
+          "lastDate": "2026-11-11",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -11128,1822 +13013,20 @@
             "revenueEstimate": 17055182990.0,
             "targetRaises45d": 12,
             "targetCuts45d": 4
-          }
-        ],
-        "expectationDivergence": {
-          "status": "clear",
-          "label": "盈利预期未与目标价形成负向背离",
-          "epsDown": false,
-          "revenueDown": false
-        }
-      },
-      {
-        "ticker": "SMCI",
-        "company": "Super Micro",
-        "currentPrice": 29.89,
-        "updatedAt": "2026-11-11T15:25:02+00:00",
-        "sourceName": "Yahoo Finance Analysis + Market Data",
-        "sourceUrl": "https://finance.yahoo.com/quote/SMCI/analysis/",
-        "earningsCalendar": {
-          "lastCallDate": "2026-11-03T22:00:00+00:00",
-          "nextCallDate": null,
-          "nextReportDate": "2027-02-02T21:00:00+00:00",
-          "nextDateEstimated": true
-        },
-        "earningsWindow": {
-          "status": "developing",
-          "eventDate": "2026-11-03",
-          "benchmark": "SOXX",
-          "day1": {
-            "stock": -5.7,
-            "sector": -3.1,
-            "excess": -2.6
-          },
-          "day5": {
-            "stock": -11.5,
-            "sector": -5.4,
-            "excess": -6.1
-          },
-          "day20": {
-            "stock": -4.8,
-            "sector": -1.1,
-            "excess": -3.7
-          },
-          "reactionVolumeRatio": 2.47,
-          "classification": "mixed",
-          "label": "混合驱动",
-          "explanation": "行业与公司因素交织，等待更完整的20日事件窗口。"
-        },
-        "downgradeLag": {
-          "status": "waiting_for_cut",
-          "peakDate": "2026-10-07",
-          "breakDate": "2026-10-14",
-          "firstCutDate": null,
-          "lagDays": null,
-          "waitingDays": 28,
-          "label": "股价已先跌28天，机构尚未下调"
-        },
-        "targetEvents": [
-          {
-            "date": "2026-05-06T10:39:29+00:00",
-            "epoch": 1778063969,
-            "firm": "Needham",
-            "type": "reiterate",
-            "label": "维持评级",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 40.0,
-            "priorTarget": 40.0
-          },
-          {
-            "date": "2026-05-06T12:53:40+00:00",
-            "epoch": 1778072020,
-            "firm": "Wedbush",
-            "type": "target_cut",
-            "label": "下调目标价",
-            "toGrade": "Neutral",
-            "fromGrade": "Neutral",
-            "currentTarget": 34.0,
-            "priorTarget": 42.0
-          },
-          {
-            "date": "2026-05-06T17:54:08+00:00",
-            "epoch": 1778090048,
-            "firm": "CJS Securities",
-            "type": "rating_change",
-            "label": "评级调整",
-            "toGrade": "Market Perform",
-            "fromGrade": "Market Underperform",
-            "currentTarget": 0.0,
-            "priorTarget": 0.0
-          },
-          {
-            "date": "2026-05-06T18:33:04+00:00",
-            "epoch": 1778092384,
-            "firm": "Citigroup",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Neutral",
-            "fromGrade": "Neutral",
-            "currentTarget": 31.0,
-            "priorTarget": 25.0
-          },
-          {
-            "date": "2026-05-06T20:05:42+00:00",
-            "epoch": 1778097942,
-            "firm": "JP Morgan",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Neutral",
-            "fromGrade": "Neutral",
-            "currentTarget": 32.0,
-            "priorTarget": 28.0
-          },
-          {
-            "date": "2026-05-06T23:24:30+00:00",
-            "epoch": 1778109870,
-            "firm": "Rosenblatt",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 40.0,
-            "priorTarget": 32.0
-          },
-          {
-            "date": "2026-05-07T18:08:04+00:00",
-            "epoch": 1778177284,
-            "firm": "Barclays",
-            "type": "target_cut",
-            "label": "下调目标价",
-            "toGrade": "Equal-Weight",
-            "fromGrade": "Equal-Weight",
-            "currentTarget": 34.0,
-            "priorTarget": 38.0
-          },
-          {
-            "date": "2026-05-12T12:38:26+00:00",
-            "epoch": 1778589506,
-            "firm": "Mizuho",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Neutral",
-            "fromGrade": "Neutral",
-            "currentTarget": 36.0,
-            "priorTarget": 30.0
-          },
-          {
-            "date": "2026-06-01T11:50:02+00:00",
-            "epoch": 1780314602,
-            "firm": "Mizuho",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Neutral",
-            "fromGrade": "Neutral",
-            "currentTarget": 44.0,
-            "priorTarget": 36.0
-          },
-          {
-            "date": "2026-06-11T11:58:13+00:00",
-            "epoch": 1781179093,
-            "firm": "Wolfe Research",
-            "type": "rating_change",
-            "label": "评级调整",
-            "toGrade": "Peer Perform",
-            "fromGrade": "",
-            "currentTarget": 0.0,
-            "priorTarget": 0.0
-          },
-          {
-            "date": "2026-07-13T17:55:28+00:00",
-            "epoch": 1783965328,
-            "firm": "Citigroup",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Neutral",
-            "fromGrade": "Neutral",
-            "currentTarget": 33.0,
-            "priorTarget": 31.0
-          },
-          {
-            "date": "2026-07-22T10:08:40+00:00",
-            "epoch": 1784714920,
-            "firm": "Needham",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 46.0,
-            "priorTarget": 40.0
-          },
-          {
-            "date": "2026-07-22T13:21:50+00:00",
-            "epoch": 1784726510,
-            "firm": "Barclays",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Equal-Weight",
-            "fromGrade": "Equal-Weight",
-            "currentTarget": 38.0,
-            "priorTarget": 34.0
-          },
-          {
-            "date": "2026-07-22T16:35:15+00:00",
-            "epoch": 1784738115,
-            "firm": "Rosenblatt",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 45.0,
-            "priorTarget": 40.0
-          },
-          {
-            "date": "2026-07-23T17:21:42+00:00",
-            "epoch": 1784827302,
-            "firm": "Mizuho",
-            "type": "target_cut",
-            "label": "下调目标价",
-            "toGrade": "Neutral",
-            "fromGrade": "Neutral",
-            "currentTarget": 34.0,
-            "priorTarget": 44.0
-          },
-          {
-            "date": "2026-08-12T12:10:31+00:00",
-            "epoch": 1786536631,
-            "firm": "Rosenblatt",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 51.0,
-            "priorTarget": 45.0
-          },
-          {
-            "date": "2026-08-12T12:38:41+00:00",
-            "epoch": 1786538321,
-            "firm": "Barclays",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Equal-Weight",
-            "fromGrade": "Equal-Weight",
-            "currentTarget": 39.0,
-            "priorTarget": 38.0
-          },
-          {
-            "date": "2026-08-12T12:38:49+00:00",
-            "epoch": 1786538329,
-            "firm": "Needham",
-            "type": "reiterate",
-            "label": "维持评级",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 46.0,
-            "priorTarget": 46.0
-          },
-          {
-            "date": "2026-08-12T12:45:49+00:00",
-            "epoch": 1786538749,
-            "firm": "Wedbush",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Neutral",
-            "fromGrade": "Neutral",
-            "currentTarget": 40.0,
-            "priorTarget": 34.0
-          },
-          {
-            "date": "2026-08-12T14:18:50+00:00",
-            "epoch": 1786544330,
-            "firm": "Mizuho",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Neutral",
-            "fromGrade": "Neutral",
-            "currentTarget": 35.0,
-            "priorTarget": 34.0
-          },
-          {
-            "date": "2026-08-12T18:18:14+00:00",
-            "epoch": 1786558694,
-            "firm": "Goldman Sachs",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Sell",
-            "fromGrade": "Sell",
-            "currentTarget": 34.0,
-            "priorTarget": 30.0
-          },
-          {
-            "date": "2026-08-12T18:32:29+00:00",
-            "epoch": 1786559549,
-            "firm": "Citigroup",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Neutral",
-            "fromGrade": "Neutral",
-            "currentTarget": 39.0,
-            "priorTarget": 33.0
-          },
-          {
-            "date": "2026-10-06T12:59:38+00:00",
-            "epoch": 1791291578,
-            "firm": "Mizuho",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Neutral",
-            "fromGrade": "Neutral",
-            "currentTarget": 43.0,
-            "priorTarget": 35.0
-          },
-          {
-            "date": "2026-10-08T21:25:51+00:00",
-            "epoch": 1791494751,
-            "firm": "Citigroup",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Neutral",
-            "fromGrade": "Neutral",
-            "currentTarget": 45.0,
-            "priorTarget": 39.0
-          },
-          {
-            "date": "2026-10-16T11:45:07+00:00",
-            "epoch": 1792151107,
-            "firm": "Rosenblatt",
-            "type": "reiterate",
-            "label": "维持评级",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 51.0,
-            "priorTarget": 51.0
-          },
-          {
-            "date": "2026-10-21T11:44:47+00:00",
-            "epoch": 1792583087,
-            "firm": "Rosenblatt",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 57.0,
-            "priorTarget": 51.0
-          },
-          {
-            "date": "2026-11-04T12:03:38+00:00",
-            "epoch": 1793793818,
-            "firm": "B of A Securities",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Underperform",
-            "fromGrade": "Underperform",
-            "currentTarget": 39.0,
-            "priorTarget": 38.0
-          },
-          {
-            "date": "2026-11-04T13:00:48+00:00",
-            "epoch": 1793797248,
-            "firm": "Rosenblatt",
-            "type": "reiterate",
-            "label": "维持评级",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 57.0,
-            "priorTarget": 57.0
-          },
-          {
-            "date": "2026-11-10T13:06:29+00:00",
-            "epoch": 1794315989,
-            "firm": "Susquehanna",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Negative",
-            "fromGrade": "Negative",
-            "currentTarget": 18.0,
-            "priorTarget": 15.0
-          }
-        ],
-        "priceTimeline": [
-          {
-            "date": "2026-06-23",
-            "price": 33.32,
-            "priceIndex": 100.0,
-            "sectorIndex": 100.0,
-            "volume": 60658800
-          },
-          {
-            "date": "2026-06-24",
-            "price": 32.45,
-            "priceIndex": 97.39,
-            "sectorIndex": 99.69,
-            "volume": 51833500
-          },
-          {
-            "date": "2026-06-25",
-            "price": 31.68,
-            "priceIndex": 95.08,
-            "sectorIndex": 103.61,
-            "volume": 46077500
-          },
-          {
-            "date": "2026-06-26",
-            "price": 30.63,
-            "priceIndex": 91.93,
-            "sectorIndex": 97.77,
-            "volume": 48554500
-          },
-          {
-            "date": "2026-06-29",
-            "price": 28.15,
-            "priceIndex": 84.48,
-            "sectorIndex": 101.82,
-            "volume": 91157900
-          },
-          {
-            "date": "2026-06-30",
-            "price": 29.33,
-            "priceIndex": 88.03,
-            "sectorIndex": 106.19,
-            "volume": 56264000
-          },
-          {
-            "date": "2026-07-01",
-            "price": 27.65,
-            "priceIndex": 82.98,
-            "sectorIndex": 99.39,
-            "volume": 52034200
-          },
-          {
-            "date": "2026-07-02",
-            "price": 27.22,
-            "priceIndex": 81.69,
-            "sectorIndex": 93.86,
-            "volume": 42742400
-          },
-          {
-            "date": "2026-07-06",
-            "price": 27.19,
-            "priceIndex": 81.6,
-            "sectorIndex": 96.37,
-            "volume": 30951900
-          },
-          {
-            "date": "2026-07-07",
-            "price": 26.25,
-            "priceIndex": 78.78,
-            "sectorIndex": 91.43,
-            "volume": 38985400
-          },
-          {
-            "date": "2026-07-08",
-            "price": 28.17,
-            "priceIndex": 84.54,
-            "sectorIndex": 93.15,
-            "volume": 37264400
-          },
-          {
-            "date": "2026-07-09",
-            "price": 28.24,
-            "priceIndex": 84.75,
-            "sectorIndex": 96.41,
-            "volume": 33573100
-          },
-          {
-            "date": "2026-07-10",
-            "price": 28.31,
-            "priceIndex": 84.96,
-            "sectorIndex": 96.35,
-            "volume": 25067100
-          },
-          {
-            "date": "2026-07-13",
-            "price": 27.66,
-            "priceIndex": 83.01,
-            "sectorIndex": 91.75,
-            "volume": 22796300
-          },
-          {
-            "date": "2026-07-14",
-            "price": 27.65,
-            "priceIndex": 82.98,
-            "sectorIndex": 94.12,
-            "volume": 22413500
-          },
-          {
-            "date": "2026-07-15",
-            "price": 26.89,
-            "priceIndex": 80.7,
-            "sectorIndex": 92.03,
-            "volume": 25550600
-          },
-          {
-            "date": "2026-07-16",
-            "price": 24.68,
-            "priceIndex": 74.07,
-            "sectorIndex": 87.92,
-            "volume": 36021900
-          },
-          {
-            "date": "2026-07-17",
-            "price": 24.18,
-            "priceIndex": 72.57,
-            "sectorIndex": 86.48,
-            "volume": 32264800
-          },
-          {
-            "date": "2026-07-20",
-            "price": 23.83,
-            "priceIndex": 71.52,
-            "sectorIndex": 86.87,
-            "volume": 24919400
-          },
-          {
-            "date": "2026-07-21",
-            "price": 25.5,
-            "priceIndex": 76.53,
-            "sectorIndex": 91.6,
-            "volume": 51156400
-          },
-          {
-            "date": "2026-07-22",
-            "price": 30.56,
-            "priceIndex": 91.72,
-            "sectorIndex": 92.07,
-            "volume": 163015100
-          },
-          {
-            "date": "2026-07-23",
-            "price": 31.2,
-            "priceIndex": 93.64,
-            "sectorIndex": 91.36,
-            "volume": 86788900
-          },
-          {
-            "date": "2026-07-24",
-            "price": 30.1,
-            "priceIndex": 90.34,
-            "sectorIndex": 87.34,
-            "volume": 49701600
-          },
-          {
-            "date": "2026-07-27",
-            "price": 29.81,
-            "priceIndex": 89.47,
-            "sectorIndex": 85.55,
-            "volume": 35912300
-          },
-          {
-            "date": "2026-07-28",
-            "price": 28.45,
-            "priceIndex": 85.38,
-            "sectorIndex": 81.45,
-            "volume": 36449800
-          },
-          {
-            "date": "2026-07-29",
-            "price": 25.7,
-            "priceIndex": 77.13,
-            "sectorIndex": 77.06,
-            "volume": 40892200
-          },
-          {
-            "date": "2026-07-30",
-            "price": 27.73,
-            "priceIndex": 83.22,
-            "sectorIndex": 83.62,
-            "volume": 38544900
-          },
-          {
-            "date": "2026-07-31",
-            "price": 28.4,
-            "priceIndex": 85.23,
-            "sectorIndex": 83.68,
-            "volume": 34956100
-          },
-          {
-            "date": "2026-08-03",
-            "price": 28.64,
-            "priceIndex": 85.95,
-            "sectorIndex": 84.14,
-            "volume": 24010900
-          },
-          {
-            "date": "2026-08-04",
-            "price": 31.69,
-            "priceIndex": 95.11,
-            "sectorIndex": 89.86,
-            "volume": 56404600
-          },
-          {
-            "date": "2026-08-05",
-            "price": 30.32,
-            "priceIndex": 91.0,
-            "sectorIndex": 87.95,
-            "volume": 35605000
-          },
-          {
-            "date": "2026-08-06",
-            "price": 29.38,
-            "priceIndex": 88.18,
-            "sectorIndex": 88.25,
-            "volume": 26698000
-          },
-          {
-            "date": "2026-08-07",
-            "price": 31.13,
-            "priceIndex": 93.43,
-            "sectorIndex": 90.04,
-            "volume": 32380700
-          },
-          {
-            "date": "2026-08-10",
-            "price": 31.46,
-            "priceIndex": 94.42,
-            "sectorIndex": 87.74,
-            "volume": 56320400
-          },
-          {
-            "date": "2026-08-11",
-            "price": 31.6,
-            "priceIndex": 94.84,
-            "sectorIndex": 88.53,
-            "volume": 95520500
-          },
-          {
-            "date": "2026-08-12",
-            "price": 37.61,
-            "priceIndex": 112.88,
-            "sectorIndex": 90.59,
-            "volume": 165736400
-          },
-          {
-            "date": "2026-08-13",
-            "price": 39.16,
-            "priceIndex": 117.53,
-            "sectorIndex": 91.27,
-            "volume": 122775700
-          },
-          {
-            "date": "2026-08-14",
-            "price": 39.84,
-            "priceIndex": 119.57,
-            "sectorIndex": 91.22,
-            "volume": 61990900
-          },
-          {
-            "date": "2026-08-17",
-            "price": 38.28,
-            "priceIndex": 114.89,
-            "sectorIndex": 92.66,
-            "volume": 55467000
-          },
-          {
-            "date": "2026-08-18",
-            "price": 37.41,
-            "priceIndex": 112.27,
-            "sectorIndex": 88.07,
-            "volume": 52260100
-          },
-          {
-            "date": "2026-08-19",
-            "price": 36.58,
-            "priceIndex": 109.78,
-            "sectorIndex": 86.13,
-            "volume": 35466200
-          },
-          {
-            "date": "2026-08-20",
-            "price": 36.5,
-            "priceIndex": 109.54,
-            "sectorIndex": 86.57,
-            "volume": 51286600
-          },
-          {
-            "date": "2026-08-21",
-            "price": 37.24,
-            "priceIndex": 111.76,
-            "sectorIndex": 86.19,
-            "volume": 36474300
-          },
-          {
-            "date": "2026-08-24",
-            "price": 35.17,
-            "priceIndex": 105.55,
-            "sectorIndex": 83.89,
-            "volume": 39934900
-          },
-          {
-            "date": "2026-08-25",
-            "price": 38.46,
-            "priceIndex": 115.43,
-            "sectorIndex": 85.2,
-            "volume": 48106900
-          },
-          {
-            "date": "2026-08-26",
-            "price": 37.39,
-            "priceIndex": 112.21,
-            "sectorIndex": 85.42,
-            "volume": 33723200
-          },
-          {
-            "date": "2026-08-27",
-            "price": 38.46,
-            "priceIndex": 115.43,
-            "sectorIndex": 87.08,
-            "volume": 41662100
-          },
-          {
-            "date": "2026-08-28",
-            "price": 37.08,
-            "priceIndex": 111.28,
-            "sectorIndex": 84.29,
-            "volume": 29132900
-          },
-          {
-            "date": "2026-08-31",
-            "price": 37.28,
-            "priceIndex": 111.88,
-            "sectorIndex": 84.69,
-            "volume": 22915000
-          },
-          {
-            "date": "2026-09-01",
-            "price": 36.71,
-            "priceIndex": 110.17,
-            "sectorIndex": 82.92,
-            "volume": 26862900
-          },
-          {
-            "date": "2026-09-02",
-            "price": 37.0,
-            "priceIndex": 111.04,
-            "sectorIndex": 83.1,
-            "volume": 33258800
-          },
-          {
-            "date": "2026-09-03",
-            "price": 37.87,
-            "priceIndex": 113.66,
-            "sectorIndex": 83.23,
-            "volume": 34436400
-          },
-          {
-            "date": "2026-09-04",
-            "price": 39.59,
-            "priceIndex": 118.82,
-            "sectorIndex": 86.16,
-            "volume": 53633200
-          },
-          {
-            "date": "2026-09-08",
-            "price": 40.26,
-            "priceIndex": 120.83,
-            "sectorIndex": 87.57,
-            "volume": 42400700
-          },
-          {
-            "date": "2026-09-09",
-            "price": 38.93,
-            "priceIndex": 116.84,
-            "sectorIndex": 88.17,
-            "volume": 31197000
-          },
-          {
-            "date": "2026-09-10",
-            "price": 37.38,
-            "priceIndex": 112.18,
-            "sectorIndex": 85.75,
-            "volume": 26771400
-          },
-          {
-            "date": "2026-09-11",
-            "price": 40.1,
-            "priceIndex": 120.35,
-            "sectorIndex": 87.35,
-            "volume": 46492700
-          },
-          {
-            "date": "2026-09-14",
-            "price": 36.74,
-            "priceIndex": 110.26,
-            "sectorIndex": 82.43,
-            "volume": 39892500
-          },
-          {
-            "date": "2026-09-15",
-            "price": 35.64,
-            "priceIndex": 106.96,
-            "sectorIndex": 82.67,
-            "volume": 26725900
-          },
-          {
-            "date": "2026-09-16",
-            "price": 36.85,
-            "priceIndex": 110.59,
-            "sectorIndex": 83.21,
-            "volume": 31390500
-          },
-          {
-            "date": "2026-09-17",
-            "price": 40.35,
-            "priceIndex": 121.1,
-            "sectorIndex": 86.03,
-            "volume": 62517100
-          },
-          {
-            "date": "2026-09-18",
-            "price": 39.09,
-            "priceIndex": 117.32,
-            "sectorIndex": 88.35,
-            "volume": 48079300
-          },
-          {
-            "date": "2026-09-21",
-            "price": 41.2,
-            "priceIndex": 123.65,
-            "sectorIndex": 92.7,
-            "volume": 48218400
-          },
-          {
-            "date": "2026-09-22",
-            "price": 41.54,
-            "priceIndex": 124.67,
-            "sectorIndex": 94.93,
-            "volume": 30249800
-          },
-          {
-            "date": "2026-09-23",
-            "price": 41.44,
-            "priceIndex": 124.37,
-            "sectorIndex": 93.76,
-            "volume": 40871500
-          },
-          {
-            "date": "2026-09-24",
-            "price": 41.51,
-            "priceIndex": 124.58,
-            "sectorIndex": 93.81,
-            "volume": 34885600
-          },
-          {
-            "date": "2026-09-25",
-            "price": 43.26,
-            "priceIndex": 129.83,
-            "sectorIndex": 94.91,
-            "volume": 49323200
-          },
-          {
-            "date": "2026-09-28",
-            "price": 41.78,
-            "priceIndex": 125.39,
-            "sectorIndex": 92.94,
-            "volume": 29494500
-          },
-          {
-            "date": "2026-09-29",
-            "price": 41.02,
-            "priceIndex": 123.11,
-            "sectorIndex": 94.04,
-            "volume": 25272900
-          },
-          {
-            "date": "2026-09-30",
-            "price": 41.07,
-            "priceIndex": 123.26,
-            "sectorIndex": 94.24,
-            "volume": 31947800
-          },
-          {
-            "date": "2026-10-01",
-            "price": 41.92,
-            "priceIndex": 125.81,
-            "sectorIndex": 95.52,
-            "volume": 26504300
-          },
-          {
-            "date": "2026-10-02",
-            "price": 43.69,
-            "priceIndex": 131.12,
-            "sectorIndex": 97.6,
-            "volume": 44497400
-          },
-          {
-            "date": "2026-10-05",
-            "price": 43.19,
-            "priceIndex": 129.62,
-            "sectorIndex": 97.7,
-            "volume": 22119800
-          },
-          {
-            "date": "2026-10-06",
-            "price": 43.46,
-            "priceIndex": 130.43,
-            "sectorIndex": 97.69,
-            "volume": 27806300
-          },
-          {
-            "date": "2026-10-07",
-            "price": 44.94,
-            "priceIndex": 134.87,
-            "sectorIndex": 96.59,
-            "volume": 40541100
-          },
-          {
-            "date": "2026-10-08",
-            "price": 42.77,
-            "priceIndex": 128.36,
-            "sectorIndex": 93.35,
-            "volume": 38837000
-          },
-          {
-            "date": "2026-10-09",
-            "price": 41.86,
-            "priceIndex": 125.63,
-            "sectorIndex": 92.71,
-            "volume": 27320000
-          },
-          {
-            "date": "2026-10-12",
-            "price": 39.98,
-            "priceIndex": 119.99,
-            "sectorIndex": 90.3,
-            "volume": 25516200
-          },
-          {
-            "date": "2026-10-13",
-            "price": 39.07,
-            "priceIndex": 117.26,
-            "sectorIndex": 90.14,
-            "volume": 25223100
-          },
-          {
-            "date": "2026-10-14",
-            "price": 35.78,
-            "priceIndex": 107.38,
-            "sectorIndex": 86.08,
-            "volume": 33239900
-          },
-          {
-            "date": "2026-10-15",
-            "price": 35.09,
-            "priceIndex": 105.31,
-            "sectorIndex": 85.3,
-            "volume": 37696900
-          },
-          {
-            "date": "2026-10-16",
-            "price": 31.63,
-            "priceIndex": 94.93,
-            "sectorIndex": 81.77,
-            "volume": 44217900
-          },
-          {
-            "date": "2026-10-19",
-            "price": 32.1,
-            "priceIndex": 96.34,
-            "sectorIndex": 83.19,
-            "volume": 30394800
-          },
-          {
-            "date": "2026-10-20",
-            "price": 32.47,
-            "priceIndex": 97.45,
-            "sectorIndex": 82.87,
-            "volume": 42353100
-          },
-          {
-            "date": "2026-10-21",
-            "price": 35.57,
-            "priceIndex": 106.75,
-            "sectorIndex": 84.58,
-            "volume": 82415700
-          },
-          {
-            "date": "2026-10-22",
-            "price": 33.72,
-            "priceIndex": 101.2,
-            "sectorIndex": 78.84,
-            "volume": 44007200
-          },
-          {
-            "date": "2026-10-23",
-            "price": 32.94,
-            "priceIndex": 98.86,
-            "sectorIndex": 79.25,
-            "volume": 29728000
-          },
-          {
-            "date": "2026-10-26",
-            "price": 32.69,
-            "priceIndex": 98.11,
-            "sectorIndex": 81.51,
-            "volume": 23286400
-          },
-          {
-            "date": "2026-10-27",
-            "price": 35.09,
-            "priceIndex": 105.31,
-            "sectorIndex": 84.7,
-            "volume": 31443600
-          },
-          {
-            "date": "2026-10-28",
-            "price": 35.81,
-            "priceIndex": 107.47,
-            "sectorIndex": 86.5,
-            "volume": 30016200
-          },
-          {
-            "date": "2026-10-29",
-            "price": 34.43,
-            "priceIndex": 103.33,
-            "sectorIndex": 85.16,
-            "volume": 25307500
-          },
-          {
-            "date": "2026-10-30",
-            "price": 32.95,
-            "priceIndex": 98.89,
-            "sectorIndex": 78.14,
-            "volume": 38349900
-          },
-          {
-            "date": "2026-11-02",
-            "price": 30.44,
-            "priceIndex": 91.36,
-            "sectorIndex": 75.18,
-            "volume": 41257200
-          },
-          {
-            "date": "2026-11-03",
-            "price": 31.39,
-            "priceIndex": 94.21,
-            "sectorIndex": 77.06,
-            "volume": 63878300
-          },
-          {
-            "date": "2026-11-04",
-            "price": 29.6,
-            "priceIndex": 88.84,
-            "sectorIndex": 74.65,
-            "volume": 88731500
-          },
-          {
-            "date": "2026-11-05",
-            "price": 27.08,
-            "priceIndex": 81.27,
-            "sectorIndex": 65.58,
-            "volume": 62938500
-          },
-          {
-            "date": "2026-11-06",
-            "price": 28.76,
-            "priceIndex": 86.31,
-            "sectorIndex": 67.88,
-            "volume": 37178600
-          },
-          {
-            "date": "2026-11-09",
-            "price": 28.6,
-            "priceIndex": 85.83,
-            "sectorIndex": 72.97,
-            "volume": 41827700
-          },
-          {
-            "date": "2026-11-10",
-            "price": 27.79,
-            "priceIndex": 83.4,
-            "sectorIndex": 72.88,
-            "volume": 45859800
           },
           {
             "date": "2026-11-11",
-            "price": 29.89,
-            "priceIndex": 89.71,
-            "sectorIndex": 76.18,
-            "volume": 11802429
-          }
-        ],
-        "score": 57.6,
-        "zone": "watch",
-        "label": "观察背离",
-        "evidence": [
-          "目标价隐含空间偏乐观",
-          "近期目标价集中上调",
-          "股价走弱但评级尚未松动"
-        ],
-        "metrics": {
-          "bullishShare": 22.2,
-          "bullishShare3mAgo": 26.3,
-          "targetMean": 43.6,
-          "targetMedian": 45.0,
-          "targetLow": 18.0,
-          "targetHigh": 65.0,
-          "targetUpside": 45.9,
-          "return5d": 1.0,
-          "return20d": -16.5,
-          "drawdown3m": -33.5,
-          "targetRaises45d": 5,
-          "targetCuts45d": 0,
-          "analystCount": 15,
-          "epsChange30d": 73.1,
-          "epsChange60d": 72.3,
-          "revenueChange30d": 36.9,
-          "revenueChange60d": 36.6
-        },
-        "expectations": {
-          "primaryPeriod": "0q",
-          "primary": {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": {
-              "current": 1.78109,
-              "value30dAgo": 1.02904,
-              "value60dAgo": 1.03342,
-              "change30d": 73.1,
-              "change60d": 72.3
-            },
-            "revenue": {
-              "current": 20453681600.0,
-              "value30dAgo": 14941898910.0,
-              "value60dAgo": 14971092730.0,
-              "change30d": 36.9,
-              "change60d": 36.6,
-              "historyStatus": "ready"
-            }
-          },
-          "periods": [
-            {
-              "period": "0q",
-              "endDate": "2026-12-31",
-              "eps": {
-                "current": 1.78109,
-                "value30dAgo": 1.02904,
-                "value60dAgo": 1.03342,
-                "change30d": 73.1,
-                "change60d": 72.3
-              },
-              "revenue": {
-                "current": 20453681600.0,
-                "value30dAgo": 14941898910.0,
-                "value60dAgo": 14971092730.0,
-                "change30d": 36.9,
-                "change60d": 36.6,
-                "historyStatus": "ready"
-              }
-            },
-            {
-              "period": "+1q",
-              "endDate": "2027-03-31",
-              "eps": {
-                "current": 1.45409,
-                "value30dAgo": 1.06434,
-                "value60dAgo": 1.06308,
-                "change30d": 36.6,
-                "change60d": 36.8
-              },
-              "revenue": {
-                "current": 18364709880.0,
-                "value30dAgo": null,
-                "value60dAgo": null,
-                "change30d": null,
-                "change60d": null,
-                "historyStatus": "collecting"
-              }
-            },
-            {
-              "period": "0y",
-              "endDate": "2027-06-30",
-              "eps": {
-                "current": 6.5223,
-                "value30dAgo": 4.31045,
-                "value60dAgo": 4.31104,
-                "change30d": 51.3,
-                "change60d": 51.3
-              },
-              "revenue": {
-                "current": 77627636200.0,
-                "value30dAgo": null,
-                "value60dAgo": null,
-                "change30d": null,
-                "change60d": null,
-                "historyStatus": "collecting"
-              }
-            },
-            {
-              "period": "+1y",
-              "endDate": "2028-06-30",
-              "eps": {
-                "current": 6.94506,
-                "value30dAgo": 5.32592,
-                "value60dAgo": 5.32592,
-                "change30d": 30.4,
-                "change60d": 30.4
-              },
-              "revenue": {
-                "current": 86429553360.0,
-                "value30dAgo": null,
-                "value60dAgo": null,
-                "change30d": null,
-                "change60d": null,
-                "historyStatus": "collecting"
-              }
-            }
-          ],
-          "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
-        },
-        "scoreChange7d": -3.4,
-        "historyStatus": {
-          "points": 43,
-          "firstDate": "2026-08-04",
-          "lastDate": "2026-11-10",
-          "revenue30dReady": true,
-          "revenue60dReady": true
-        },
-        "dailyHistory": [
-          {
-            "date": "2026-08-04",
-            "ticker": "SMCI",
-            "score": 39.0,
-            "zone": "balanced",
-            "currentPrice": 31.25,
-            "targetMean": 37.81,
-            "targetMedian": 36.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 0.95748,
-            "revenueEstimate": 11562988100.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-07",
-            "ticker": "SMCI",
-            "score": 44.5,
+            "ticker": "AMD",
+            "score": 55.7,
             "zone": "watch",
-            "currentPrice": 29.38,
-            "targetMean": 37.81,
-            "targetMedian": 36.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 0.95748,
-            "revenueEstimate": 11562988100.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-10",
-            "ticker": "SMCI",
-            "score": 34.2,
-            "zone": "balanced",
-            "currentPrice": 32.75,
-            "targetMean": 37.81,
-            "targetMedian": 36.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 0.95748,
-            "revenueEstimate": 11562988100.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-11",
-            "ticker": "SMCI",
-            "score": 38.3,
-            "zone": "balanced",
-            "currentPrice": 31.46,
-            "targetMean": 37.81,
-            "targetMedian": 36.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 0.95748,
-            "revenueEstimate": 11562988100.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-12",
-            "ticker": "SMCI",
-            "score": 37.8,
-            "zone": "balanced",
-            "currentPrice": 31.6,
-            "targetMean": 37.81,
-            "targetMedian": 36.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 0.75544,
-            "revenueEstimate": 12089437830.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-13",
-            "ticker": "SMCI",
-            "score": 23.1,
-            "zone": "balanced",
-            "currentPrice": 37.61,
-            "targetMean": 37.81,
-            "targetMedian": 36.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 0.75544,
-            "revenueEstimate": 12089437830.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-14",
-            "ticker": "SMCI",
-            "score": 22.4,
-            "zone": "balanced",
-            "currentPrice": 39.16,
-            "targetMean": 41.75,
-            "targetMedian": 42.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 1.03533,
-            "revenueEstimate": 14998863120.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-17",
-            "ticker": "SMCI",
-            "score": 25.4,
-            "zone": "balanced",
-            "currentPrice": 38.4,
-            "targetMean": 42.38,
-            "targetMedian": 42.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14971092730.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-20",
-            "ticker": "SMCI",
-            "score": 30.4,
-            "zone": "balanced",
-            "currentPrice": 36.58,
-            "targetMean": 42.38,
-            "targetMedian": 42.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14971092730.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-22",
-            "ticker": "SMCI",
-            "score": 28.6,
-            "zone": "balanced",
-            "currentPrice": 37.24,
-            "targetMean": 42.38,
-            "targetMedian": 42.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14971092730.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-24",
-            "ticker": "SMCI",
-            "score": 28.6,
-            "zone": "balanced",
-            "currentPrice": 37.24,
-            "targetMean": 42.38,
-            "targetMedian": 42.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14971092730.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-25",
-            "ticker": "SMCI",
-            "score": 34.5,
-            "zone": "balanced",
-            "currentPrice": 35.17,
-            "targetMean": 42.38,
-            "targetMedian": 42.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14971092730.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-26",
-            "ticker": "SMCI",
-            "score": 25.2,
-            "zone": "balanced",
-            "currentPrice": 38.46,
-            "targetMean": 42.38,
-            "targetMedian": 42.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14971092730.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-08-27",
-            "ticker": "SMCI",
-            "score": 28.1,
-            "zone": "balanced",
-            "currentPrice": 37.39,
-            "targetMean": 42.38,
-            "targetMedian": 42.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14971092730.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-09-04",
-            "ticker": "SMCI",
-            "score": 21.2,
-            "zone": "balanced",
-            "currentPrice": 37.87,
-            "targetMean": 42.38,
-            "targetMedian": 42.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14971092730.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-09-25",
-            "ticker": "SMCI",
-            "score": 10.0,
-            "zone": "balanced",
-            "currentPrice": 41.51,
-            "targetMean": 42.38,
-            "targetMedian": 42.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14971092730.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-05",
-            "ticker": "SMCI",
-            "score": 10.3,
-            "zone": "balanced",
-            "currentPrice": 43.48,
-            "targetMean": 42.38,
-            "targetMedian": 42.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14971092730.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-06",
-            "ticker": "SMCI",
-            "score": 10.4,
-            "zone": "balanced",
-            "currentPrice": 43.34,
-            "targetMean": 42.38,
-            "targetMedian": 42.5,
-            "bullishShare": 26.3,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14971092730.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-07",
-            "ticker": "SMCI",
-            "score": 10.0,
-            "zone": "balanced",
-            "currentPrice": 44.27,
-            "targetMean": 41.87,
-            "targetMedian": 43.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14941898910.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-08",
-            "ticker": "SMCI",
-            "score": 12.1,
-            "zone": "balanced",
-            "currentPrice": 43.16,
-            "targetMean": 41.87,
-            "targetMedian": 43.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14941898910.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-09",
-            "ticker": "SMCI",
-            "score": 18.4,
-            "zone": "balanced",
-            "currentPrice": 41.2,
-            "targetMean": 42.27,
-            "targetMedian": 43.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14941898910.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-12",
-            "ticker": "SMCI",
-            "score": 22.7,
-            "zone": "balanced",
-            "currentPrice": 39.7,
-            "targetMean": 42.27,
-            "targetMedian": 43.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14941898910.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-13",
-            "ticker": "SMCI",
-            "score": 25.1,
-            "zone": "balanced",
-            "currentPrice": 39.38,
-            "targetMean": 42.27,
-            "targetMedian": 43.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14941898910.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-14",
-            "ticker": "SMCI",
-            "score": 36.8,
-            "zone": "balanced",
-            "currentPrice": 36.73,
-            "targetMean": 42.27,
-            "targetMedian": 43.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14941898910.0,
-            "targetRaises45d": 0,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-15",
-            "ticker": "SMCI",
-            "score": 54.0,
-            "zone": "watch",
-            "currentPrice": 33.09,
-            "targetMean": 42.27,
-            "targetMedian": 43.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14941898910.0,
-            "targetRaises45d": 2,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-16",
-            "ticker": "SMCI",
-            "score": 53.6,
-            "zone": "watch",
-            "currentPrice": 33.25,
-            "targetMean": 42.27,
-            "targetMedian": 43.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14941898910.0,
-            "targetRaises45d": 2,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-19",
-            "ticker": "SMCI",
-            "score": 54.7,
-            "zone": "watch",
-            "currentPrice": 32.77,
-            "targetMean": 42.27,
-            "targetMedian": 43.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14941898910.0,
-            "targetRaises45d": 2,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-20",
-            "ticker": "SMCI",
-            "score": 56.5,
-            "zone": "watch",
-            "currentPrice": 32.0,
-            "targetMean": 42.27,
-            "targetMedian": 43.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.03705,
-            "revenueEstimate": 14941898910.0,
-            "targetRaises45d": 2,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-21",
-            "ticker": "SMCI",
-            "score": 37.2,
-            "zone": "balanced",
-            "currentPrice": 36.09,
-            "targetMean": 42.27,
-            "targetMedian": 43.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.03693,
-            "revenueEstimate": 15010652590.0,
-            "targetRaises45d": 3,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-22",
-            "ticker": "SMCI",
-            "score": 48.9,
-            "zone": "watch",
-            "currentPrice": 33.26,
-            "targetMean": 43.27,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.19576,
-            "revenueEstimate": 16255843120.0,
-            "targetRaises45d": 3,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-23",
-            "ticker": "SMCI",
-            "score": 49.5,
-            "zone": "watch",
-            "currentPrice": 33.72,
-            "targetMean": 43.27,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.19576,
-            "revenueEstimate": 16255843120.0,
-            "targetRaises45d": 3,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-26",
-            "ticker": "SMCI",
-            "score": 50.4,
-            "zone": "watch",
-            "currentPrice": 32.98,
-            "targetMean": 43.27,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.19576,
-            "revenueEstimate": 16255843120.0,
-            "targetRaises45d": 3,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-27",
-            "ticker": "SMCI",
-            "score": 42.7,
-            "zone": "watch",
-            "currentPrice": 34.86,
-            "targetMean": 43.27,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.19576,
-            "revenueEstimate": 16255843120.0,
-            "targetRaises45d": 3,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-28",
-            "ticker": "SMCI",
-            "score": 42.9,
-            "zone": "watch",
-            "currentPrice": 34.81,
-            "targetMean": 43.27,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.19576,
-            "revenueEstimate": 16255843120.0,
-            "targetRaises45d": 3,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-29",
-            "ticker": "SMCI",
-            "score": 41.0,
-            "zone": "watch",
-            "currentPrice": 35.48,
-            "targetMean": 43.27,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.19576,
-            "revenueEstimate": 16255843120.0,
-            "targetRaises45d": 3,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-10-30",
-            "ticker": "SMCI",
-            "score": 55.8,
-            "zone": "watch",
-            "currentPrice": 32.28,
-            "targetMean": 43.27,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.19576,
-            "revenueEstimate": 16255843120.0,
-            "targetRaises45d": 3,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-11-02",
-            "ticker": "SMCI",
-            "score": 61.0,
-            "zone": "crowded",
-            "currentPrice": 30.65,
-            "targetMean": 43.27,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.23458,
-            "revenueEstimate": 16255843120.0,
-            "targetRaises45d": 3,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-11-03",
-            "ticker": "SMCI",
-            "score": 58.4,
-            "zone": "watch",
-            "currentPrice": 31.58,
-            "targetMean": 43.27,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.23458,
-            "revenueEstimate": 16255843120.0,
-            "targetRaises45d": 3,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-11-04",
-            "ticker": "SMCI",
-            "score": 61.0,
-            "zone": "crowded",
-            "currentPrice": 30.07,
-            "targetMean": 43.27,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.22279,
-            "revenueEstimate": 18102682930.0,
-            "targetRaises45d": 4,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-11-05",
-            "ticker": "SMCI",
-            "score": 61.0,
-            "zone": "crowded",
-            "currentPrice": 26.7,
-            "targetMean": 43.27,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.22279,
-            "revenueEstimate": 18102682930.0,
-            "targetRaises45d": 4,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-11-06",
-            "ticker": "SMCI",
-            "score": 61.0,
-            "zone": "crowded",
-            "currentPrice": 28.55,
-            "targetMean": 43.27,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.22279,
-            "revenueEstimate": 18102682930.0,
-            "targetRaises45d": 4,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-11-09",
-            "ticker": "SMCI",
-            "score": 60.4,
-            "zone": "crowded",
-            "currentPrice": 28.89,
-            "targetMean": 43.4,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.71991,
-            "revenueEstimate": 20419001720.0,
-            "targetRaises45d": 4,
-            "targetCuts45d": 0
-          },
-          {
-            "date": "2026-11-10",
-            "ticker": "SMCI",
-            "score": 61.0,
-            "zone": "crowded",
-            "currentPrice": 27.38,
-            "targetMean": 43.6,
-            "targetMedian": 45.0,
-            "bullishShare": 22.2,
-            "epsEstimate": 1.78109,
-            "revenueEstimate": 20453681600.0,
-            "targetRaises45d": 5,
-            "targetCuts45d": 0
+            "currentPrice": 556.2,
+            "targetMean": 657.49,
+            "targetMedian": 650.0,
+            "bullishShare": 84.9,
+            "epsEstimate": 2.92736,
+            "revenueEstimate": 17055182990.0,
+            "targetRaises45d": 12,
+            "targetCuts45d": 4
           }
         ],
         "expectationDivergence": {
@@ -12960,11 +13043,11 @@
     "benchmark": {
       "ticker": "SOXX",
       "status": "live",
-      "updatedAt": "2026-11-11T15:25:01+00:00"
+      "updatedAt": "2026-11-11T21:00:00+00:00"
     },
     "history": {
-      "updatedAt": "2026-11-10T17:00:05.535550+00:00",
-      "snapshotCount": 43
+      "updatedAt": "2026-11-11T17:04:33.070003+00:00",
+      "snapshotCount": 44
     }
   },
   "scenarioMatrix": {
@@ -13072,7 +13155,7 @@
       "freshness": "current",
       "freshnessLabel": "跟随源站更新",
       "updatedAt": "2026-11-07T12:00:00+00:00",
-      "sourceName": "Pollfinity 聚合 · 5项有效民调",
+      "sourceName": "Pollfinity 聚合 · 4项有效民调",
       "sourceUrl": "https://pollfinity.com/averages"
     },
     {
@@ -13080,15 +13163,15 @@
       "name": "10年期美债",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-11-11T15:09:54+00:00",
+      "updatedAt": "2026-11-11T19:59:54+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
       "id": "move",
       "name": "债券波动率",
-      "freshness": "live",
-      "freshnessLabel": "最新交易时点",
+      "freshness": "delayed",
+      "freshnessLabel": "最近交易日",
       "updatedAt": "2026-11-10T21:17:30+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EMOVE/"
@@ -13098,7 +13181,7 @@
       "name": "标普500",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-11-11T15:25:00+00:00",
+      "updatedAt": "2026-11-11T21:42:03+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
@@ -13107,7 +13190,7 @@
       "name": "股市恐慌",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-11-11T15:09:46+00:00",
+      "updatedAt": "2026-11-11T21:15:01+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
     },
