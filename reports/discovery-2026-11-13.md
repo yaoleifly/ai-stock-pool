@@ -5,7 +5,7 @@
 - 当前线上合并股票池：137 只。
 - 线上股票池行情：requested=137，received=137，missing=[]。
 - 候选补充行情：extra=12，本次可用报价=149。
-- 本次新增/更新信号：143 条；arXiv 论文：38 篇；候选标的：61 个。
+- 本次新增/更新信号：142 条；arXiv 论文：38 篇；候选标的：61 个。
 - 规则：本报告只生成研究候选，不自动修改正式股票池。
 
 ## 建议新增候选
@@ -30,24 +30,24 @@ _无_
 
 | 代码 | 公司 | 主题 | 总分 | 日涨跌 | 信号 |
 | --- | --- | --- | --- | --- | --- |
-| AMZN | Amazon | AI PCB and advanced packaging; AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 81 | 1.38 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / How DXC Technology built a multi-model AI substrate on Amazon Bedrock / Scality’s Paul Speci… |
-| ANET | Arista Networks | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 81 | 3.85 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
-| CRDO | Credo Technology | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 81 | -1.13 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
-| DELL | Dell Technologies | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 81 | 0.03 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
-| ETN | Eaton | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 81 | 0.23 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
-| MRVL | Marvell Technology | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 81 | -2.07 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
-| TSLA | Tesla | HBM memory and context storage; Physical AI and robotics; Rack-scale AI factory; Space defense and autonomous systems | 81 | 0.06 | Path Robotics Raises $300M, Quadrupling Valuation to $2.45B - Tectonic Defense / How AI Helps Recyclers Turn Mixed Waste Into Reusable Material / NTT Develops Physical AI Technolo… |
-| VRT | Vertiv Holdings | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 81 | 2.53 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
-| GOOG | Alphabet | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory; Space defense and autonomous systems | 80 | 2.34 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / Scality’s Paul Speciale on SC26: Why KV Cache Is the New AI Bottleneck - VMblog / The Agent… |
-| MSFT | Microsoft | AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage; Rack-scale AI factory | 80 | 1.48 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / Scality’s Paul Speciale on SC26: Why KV Cache Is the New AI Bottleneck - VMblog / Microsoft… |
-| ORCL | Oracle | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory; Space defense and autonomous systems | 80 | -0.85 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / Scality’s Paul Speciale on SC26: Why KV Cache Is the New AI Bottleneck - VMblog / The Agent… |
-| AVGO | Broadcom | AI PCB and advanced packaging; AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 79 | 5.4 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / How DXC Technology built a multi-model AI substrate on Amazon Bedrock / Scality’s Paul Speci… |
-| NVDA | NVIDIA | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 78 | -5.03 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
-| BE | Bloom Energy | AI data center power and cooling; AI inference serving and networking; HBM memory and context storage; Physical AI and robotics | 77 | -2.42 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
-| CRWV | CoreWeave | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 77 | -7.27 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / Scality’s Paul Speciale on SC26: Why KV Cache Is the New AI Bottleneck - VMblog / The Agent… |
-| INTC | Intel | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; HBM memory and context storage | 77 | -1.37 | How DXC Technology built a multi-model AI substrate on Amazon Bedrock / Tools of Leverage: Preserving US and Allied Leadership in Semiconductor Equipment Against China - Hudson In… |
-| MU | Micron Technology | AI inference serving and networking; HBM memory and context storage; Physical AI and robotics; Rack-scale AI factory | 77 | -3.03 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / Memory Stocks Rise Overnight Amid AI Infrastructure Demand - KuCoin / SK hynix Rides the AI… |
-| SNDK | Sandisk | AI inference serving and networking; HBM memory and context storage; Physical AI and robotics; Rack-scale AI factory | 77 | -3.95 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / Memory Stocks Rise Overnight Amid AI Infrastructure Demand - KuCoin / SK hynix Rides the AI… |
+| AMZN | Amazon | AI PCB and advanced packaging; AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 81 | 1.22 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / How DXC Technology built a multi-model AI substrate on Amazon Bedrock / Scality’s Paul Speci… |
+| ANET | Arista Networks | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 81 | 3.86 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
+| CRDO | Credo Technology | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 81 | -1.55 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
+| DELL | Dell Technologies | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 81 | -0.02 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
+| ETN | Eaton | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 81 | 0.08 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
+| MRVL | Marvell Technology | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 81 | -2.52 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
+| TSLA | Tesla | HBM memory and context storage; Physical AI and robotics; Rack-scale AI factory; Space defense and autonomous systems | 81 | 0.14 | Path Robotics Raises $300M, Quadrupling Valuation to $2.45B - Tectonic Defense / How AI Helps Recyclers Turn Mixed Waste Into Reusable Material / Praxis-1 Is Now Available - Runwa… |
+| VRT | Vertiv Holdings | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 81 | 2.27 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
+| GOOG | Alphabet | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory; Space defense and autonomous systems | 80 | 2.65 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / Scality’s Paul Speciale on SC26: Why KV Cache Is the New AI Bottleneck - VMblog / The Agent… |
+| MSFT | Microsoft | AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage; Rack-scale AI factory | 80 | 1.49 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / Scality’s Paul Speciale on SC26: Why KV Cache Is the New AI Bottleneck - VMblog / Microsoft… |
+| ORCL | Oracle | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory; Space defense and autonomous systems | 80 | -0.77 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / Scality’s Paul Speciale on SC26: Why KV Cache Is the New AI Bottleneck - VMblog / The Agent… |
+| AVGO | Broadcom | AI PCB and advanced packaging; AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 79 | 5.24 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / How DXC Technology built a multi-model AI substrate on Amazon Bedrock / Scality’s Paul Speci… |
+| NVDA | NVIDIA | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 78 | -5.38 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
+| BE | Bloom Energy | AI data center power and cooling; AI inference serving and networking; HBM memory and context storage; Physical AI and robotics | 77 | -3.44 | Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for ¥800 Billion Target - Bi… / SCALING LIQUID-COOLED AI INFRASTRUCTURE Engineering for… |
+| CRWV | CoreWeave | AI inference serving and networking; HBM memory and context storage; Rack-scale AI factory | 77 | -7.7 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / Scality’s Paul Speciale on SC26: Why KV Cache Is the New AI Bottleneck - VMblog / The Agent… |
+| INTC | Intel | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; HBM memory and context storage | 77 | -1.78 | How DXC Technology built a multi-model AI substrate on Amazon Bedrock / Tools of Leverage: Preserving US and Allied Leadership in Semiconductor Equipment Against China - Hudson In… |
+| MU | Micron Technology | AI inference serving and networking; HBM memory and context storage; Physical AI and robotics; Rack-scale AI factory | 77 | -3.08 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / Memory Stocks Rise Overnight Amid AI Infrastructure Demand - KuCoin / SK hynix Rides the AI… |
+| SNDK | Sandisk | AI inference serving and networking; HBM memory and context storage; Physical AI and robotics; Rack-scale AI factory | 77 | -3.96 | Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs - news.lavx.hu / Memory Stocks Rise Overnight Amid AI Infrastructure Demand - KuCoin / SK hynix Rides the AI… |
 
 ## 高相关官方/新闻信号
 
@@ -102,11 +102,11 @@ _无_
 | 代码 | 涨跌幅 | 价格 | 市场 |
 | --- | --- | --- | --- |
 | 688256.SS | 8.11 | 973 | A股 |
-| CLS | 5.67 | 256.71 | 美股 |
-| AVGO | 5.4 | 363.87 | 美股 |
+| CLS | 5.44 | 256.13 | 美股 |
 | 002156.SZ | 5.36 | 48.36 | A股 |
-| AMD | 5.2697 | 582.036 | 美股 |
-| ANET | 3.85 | 204.25 | 美股 |
+| AVGO | 5.24 | 363.32 | 美股 |
+| AMD | 4.4312 | 577.4 | 美股 |
+| ANET | 3.86 | 204.28 | 美股 |
 | 603228.SS | 3.74 | 66.87 | A股 |
 | 300604.SZ | 3.69 | 195.38 | A股 |
 
@@ -114,14 +114,14 @@ _无_
 
 | 代码 | 涨跌幅 | 价格 | 市场 |
 | --- | --- | --- | --- |
-| NBIS | -16.85 | 128.62 | 美股 |
+| NBIS | -17.47 | 127.67 | 美股 |
 | 688322.SS | -12.7 | 105 | A股 |
-| SMCI | -12.422 | 26.65 | 美股 |
-| BTDR | -7.4 | 6.51 | 美股 |
-| CRWV | -7.27 | 56.35 | 美股 |
+| SMCI | -12.4712 | 26.635 | 美股 |
+| BTDR | -9.17 | 6.39 | 美股 |
+| CRWV | -7.7 | 56.09 | 美股 |
+| IREN | -6.38 | 19.51 | 美股 |
 | 688017.SS | -6.29 | 283.93 | A股 |
 | 300308.SZ | -6.11 | 508.9 | A股 |
-| 300476.SZ | -5.6 | 137.8 | A股 |
 
 ## 输出文件
 
