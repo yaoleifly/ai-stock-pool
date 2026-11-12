@@ -1,28 +1,28 @@
 {
-  "asOf": "2026-11-11T22:48:58.889833+00:00",
+  "asOf": "2026-11-12T03:54:28.687561+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 76.7,
+    "value": 77.0,
     "zone": "extreme_pressure",
-    "change5d": 1.2
+    "change5d": 1.1
   },
   "drivers": [
     {
       "id": "approval",
       "name": "净支持率",
       "weight": 0.25,
-      "pressureScore": 83.9,
-      "value": "-23.8pt",
-      "changeLabel": "较约30日前 -9.8pt",
+      "pressureScore": 85.3,
+      "value": "-24.6pt",
+      "changeLabel": "较约30日前 -10.6pt",
       "direction": "净支持率下降增加压力",
       "interpretation": "民调越弱，强硬政策的政治承受空间越小。",
       "updatedAt": "2026-11-07T12:00:00+00:00",
       "freshness": "current",
       "freshnessLabel": "跟随源站更新",
-      "sourceName": "Pollfinity 聚合 · 4项有效民调",
+      "sourceName": "Pollfinity 聚合 · 3项有效民调",
       "sourceTier": "aggregator",
       "sourceUrl": "https://pollfinity.com/averages"
     },
@@ -111,7 +111,7 @@
     {
       "id": "political",
       "name": "政治承受力",
-      "score": 83.9,
+      "score": 85.3,
       "components": [
         "净支持率"
       ],
@@ -155,42 +155,42 @@
     {
       "date": "2026-09-23",
       "label": "09.23",
-      "value": 61.2
+      "value": 61.6
     },
     {
       "date": "2026-09-30",
       "label": "09.30",
-      "value": 78.9
+      "value": 79.2
     },
     {
       "date": "2026-10-07",
       "label": "10.07",
-      "value": 63.4
+      "value": 63.8
     },
     {
       "date": "2026-10-14",
       "label": "10.14",
-      "value": 79.7
+      "value": 80.0
     },
     {
       "date": "2026-10-21",
       "label": "10.21",
-      "value": 71.4
+      "value": 71.7
     },
     {
       "date": "2026-10-28",
       "label": "10.28",
-      "value": 74.8
+      "value": 75.2
     },
     {
       "date": "2026-11-04",
       "label": "11.04",
-      "value": 75.5
+      "value": 75.9
     },
     {
       "date": "2026-11-11",
       "label": "11.11",
-      "value": 74.0
+      "value": 74.4
     }
   ],
   "policyEvents": [
@@ -220,17 +220,17 @@
           "phase": "softening"
         },
         {
-          "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - PBS",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVDN2eGVOR2h1MFk2STNSRVdmUFpZNEJkNFh5OFQ3bXhHMTJvX3FSMFJDMHRYU2tTYWtRblBvVlk0bG91U1NFc1dkNUpraUU4RDlOLU40WlRhQWRHcTMzei10WXFObmxmUFc1UlNyamo4Rm9KLUsxdjBBd3UyNTQ4XzgtLTAweXhhbkVxbVpXdDJVR0NqWXcwRHJZSWEzT3cyV3NvZDBrME5RaHJhcmZGLU02d19LUGZSaGoxRE1KLTNRU1pnTEN30gHMAUFVX3lxTE9EQXNMVUNIbXptQi1QTkFCelkwdXo0aW91bHR1dGlzQWdjRDlZeTVwLTI2eU1qRUxaeUhOQkN2SzMxRThFR2MwUW1VUGV4X1NTaE5ZVEFZMWFZc2xCdmRLTUJNeWJ4aU1CaUUzcl9pLVd3M1VBU0lXN195TDI1UnBHWFBXeWZEWlRMNlE5WVpWREVtWXJmWFFEU2ZEQ1JUeXlsY09vcDkwNGR3b2pHMk5Wa1hlb281cFg2Zkt6VUJNeVRfR3FzOE91QXpWSQ?oc=5",
-          "source": "PBS",
-          "publishedAt": "2026-08-22T07:00:00+00:00",
-          "phase": "escalation"
-        },
-        {
           "title": "Tariffs on Hold as Trump Claims Deal With Canada Is Near - The New York Times",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDQ4MzBmeUdBV0VLNnNTVXFKU3NkUVowYXZxVE5nNTJiYU9YT1dWOWRhdEg3ZG5NelNqSW55clZsb0lXbVdvOFQyVDdodGEzandYQ1BDUGZTbmc1eUU4c3pNUGlMUFc1b2Z1d0xQdGpEVHhzQnhNa1ZUdGNJZFREdVpyZmpkUQ?oc=5",
           "source": "The New York Times",
           "publishedAt": "2026-08-18T07:00:00+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - PBS",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVDN2eGVOR2h1MFk2STNSRVdmUFpZNEJkNFh5OFQ3bXhHMTJvX3FSMFJDMHRYU2tTYWtRblBvVlk0bG91U1NFc1dkNUpraUU4RDlOLU40WlRhQWRHcTMzei10WXFObmxmUFc1UlNyamo4Rm9KLUsxdjBBd3UyNTQ4XzgtLTAweXhhbkVxbVpXdDJVR0NqWXcwRHJZSWEzT3cyV3NvZDBrME5RaHJhcmZGLU02d19LUGZSaGoxRE1KLTNRU1pnTEN30gHMAUFVX3lxTE9EQXNMVUNIbXptQi1QTkFCelkwdXo0aW91bHR1dGlzQWdjRDlZeTVwLTI2eU1qRUxaeUhOQkN2SzMxRThFR2MwUW1VUGV4X1NTaE5ZVEFZMWFZc2xCdmRLTUJNeWJ4aU1CaUUzcl9pLVd3M1VBU0lXN195TDI1UnBHWFBXeWZEWlRMNlE5WVpWREVtWXJmWFFEU2ZEQ1JUeXlsY09vcDkwNGR3b2pHMk5Wa1hlb281cFg2Zkt6VUJNeVRfR3FzOE91QXpWSQ?oc=5",
+          "source": "PBS",
+          "publishedAt": "2026-08-22T07:00:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-11T22:48:57.944254+00:00",
+      "updatedAt": "2026-11-12T03:54:27.119638+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -279,11 +279,11 @@
           "phase": "monitoring"
         },
         {
-          "title": "Trump failing to block China’s access to American AI technology, say senior Senate Democrats - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SOFUzQzlsOFVDUlRWN0VCMGx0Z3NEODlYQjliN29VbHZfWElQUXdueFhjYUxJaWhVcEZUdkpFX2pIcGQzLTFSMWswRjZ1b3AtX3MtNWZ3MzcxdmJXV0oyLUVnUHBOQmdHelBxM0lza3FiaXA5MFVxMkJR0gF_QVVfeXFMTWFpVU1NNDNWSHFBNnFSbGJHMG95U2VzUWVjX2FzZzZPa2w2TGJ0Q1dtMWk1OUNaSExxMGtyaFU1d0RZSzc2blNqUGc5Y1U3dDNEUTdlY2MxVG1mQ0Vnb0NYbTQyT1VsdzZtN2V4SDZBZ3UtV1ppMmNtSlYyQ3kyQQ?oc=5",
-          "source": "The Hill",
-          "publishedAt": "2026-09-22T07:00:00+00:00",
-          "phase": "escalation"
+          "title": "Trump expects to meet Xi and Putin at APEC in Shenzhen as the US-China trade truce runs toward Jan. 10 - MLQ.ai",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdC1NZEpLREgtOWJkV2RyV1AzcmxnbG55MFNSc2FuakxvTzEwNWxjcm1RNXJVUmNFMlhaY3dhVE9yeXV2T0ZBMmphM3BiVFg3SDBlM2lLenZVRmpRRGFZUk1UcDRISUROYk5DZVZJb1o2RGlpOG9qT2tBSGpyUmhUU3ktQktETng0NTJEd3VqOGtJSEFFdUMxUUlJNG5aZ045WHhYWklWMkdDX3lzYkdqS3lLTW0zaHFydlh0a3lEdw?oc=5",
+          "source": "MLQ.ai",
+          "publishedAt": "2026-11-10T02:47:00+00:00",
+          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-11T22:48:57.893430+00:00",
+      "updatedAt": "2026-11-12T03:54:27.139012+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -303,10 +303,10 @@
       "name": "军事与地缘",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 5,
+        "escalation": 4,
         "softening": 1,
         "execution": 1,
-        "monitoring": 1
+        "monitoring": 2
       },
       "items": [
         {
@@ -324,18 +324,18 @@
           "phase": "escalation"
         },
         {
+          "title": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5",
+          "source": "CNN",
+          "publishedAt": "2026-11-09T05:00:15+00:00",
+          "phase": "monitoring"
+        },
+        {
           "title": "Rubio says U.S. has \"no need\" to restart combat operations in Iran - CBS News",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zN0FDMkRwcDVyZGFpV0dvRnhidUVyU1hrc2pKQzJZMmlLZDF1bHZ0dzBtMDJLOXc5T0xNYmRuS2Q4eU1QQmFqaHJ1cVg0VGkxcWN3dEZLVlo1UlQ0ckZCaW52b0lHQzVZN2N6UElySjhIWDdXWVh5T24xcmh4Zw?oc=5",
           "source": "CBS News",
           "publishedAt": "2026-11-11T09:30:50+00:00",
           "phase": "monitoring"
-        },
-        {
-          "title": "Rubio says US will hold off on major strikes while keeping Iran under pressure - Fox News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNUw5RHg4YTNYUU1EVGVldWRvRmVHYThlQTZlWmhPMjB1dU15QUpTZ3A1MXdSSXJqbUo3N2swckltQ1JaaUNPdlpnTm9nckl0Y3FSbUpQeTFsY1BBM3o5ejFJOXN2d2hVNlp3d0dyT0ZybDloNWhIbG1TWkV5Q29ocml2aXIyUkQyZU1nYTBmN2ZfTWJia3JPa25R?oc=5",
-          "source": "Fox News",
-          "publishedAt": "2026-11-11T21:03:59+00:00",
-          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-11T22:48:57.946504+00:00",
+      "updatedAt": "2026-11-12T03:54:27.109959+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -369,6 +369,13 @@
           "phase": "escalation"
         },
         {
+          "title": "What to Know About Trump Accounts - Bipartisan Policy Center",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52cWZRSWVuVDVJREZMTVY5TGNfcWU1Y0RIU3BPUk9yMm95NUc0NldEZnZzYWdsN3lkWmo3U1FkeXVSZTlsYjBnTE1xLWZicXpUV1NySWNNTE9xaF9NbDQwOUpmUEdSSWFYZm9VZDM3R1VqbWwwOEdiQUdEZV9QUQ?oc=5",
+          "source": "Bipartisan Policy Center",
+          "publishedAt": "2026-06-23T07:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
           "title": "U.S. Debt Hits $40 Trillion as America’s Borrowing Binge Continues - The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcmNIUldHNHZ1N240ZmlQQVphQ3BDUk9BUVNHS0dVX25KUWtxLXhZZk9TYzNXTTVseTJXRWdveW5GcDlLQ0Z6UHdzQXE2clFHdHhkQzlRT1hJNFFMaU04cnRMQ19wTmt5bjRHQmJtM3ZsLThhODBjbUhhNUwzaEZrZWNn?oc=5",
           "source": "The New York Times",
@@ -381,13 +388,6 @@
           "source": "Kiplinger",
           "publishedAt": "2026-05-24T07:00:00+00:00",
           "phase": "monitoring"
-        },
-        {
-          "title": "Republican Megabill Trades Essential Support to Low-Income People for Skewed Tax Cuts - Center on Budget and Policy Priorities",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmhGejlFclBFVFBOOEhLVWU4eTlrbE5wMDNta3ZqQzB4ZElpMXpsS0JjdjkzSnVSRWVCZ1NLWm1HWkhGTGx6bnJFdW9iYVlBbXBxeXNUcEFMamJ5dVBCUzJoaTZIZnZUV3ROZ3dMbS0wa0F2WFJJa3I2cnU0NVhkZmZLVUxLbktodEJWcWRHZW9QOFB5Sy0xNGVWSFNId05yT3R0SlBZOHkxZWJOYmlDWGpLdHEzbG9hX1E?oc=5",
-          "source": "Center on Budget and Policy Priorities",
-          "publishedAt": "2026-02-11T08:00:00+00:00",
-          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-11T22:48:57.962923+00:00",
+      "updatedAt": "2026-11-12T03:54:27.092809+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-11T22:48:58.887282+00:00",
+    "asOf": "2026-11-12T03:54:28.685882+00:00",
     "aggregateScore": 69.5,
     "aggregateLabel": "偏高",
     "highRiskCount": 4,
@@ -458,8 +458,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 28,
-          "label": "股价已先跌28天，机构尚未下调"
+          "waitingDays": 29,
+          "label": "股价已先跌29天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -1822,7 +1822,7 @@
             "price": 811.3,
             "priceIndex": 77.14,
             "sectorIndex": 77.26,
-            "volume": 35547757
+            "volume": 36086900
           }
         ],
         "score": 83.7,
@@ -1867,7 +1867,7 @@
             },
             "revenue": {
               "current": 61832643300.0,
-              "value30dAgo": 61670130780.0,
+              "value30dAgo": 61665126930.0,
               "value60dAgo": 50784289620.0,
               "change30d": 0.3,
               "change60d": 21.8,
@@ -1887,7 +1887,7 @@
               },
               "revenue": {
                 "current": 61832643300.0,
-                "value30dAgo": 61670130780.0,
+                "value30dAgo": 61665126930.0,
                 "value60dAgo": 50784289620.0,
                 "change30d": 0.3,
                 "change60d": 21.8,
@@ -3973,7 +3973,7 @@
             "price": 168.8,
             "priceIndex": 60.49,
             "sectorIndex": 77.26,
-            "volume": 33237961
+            "volume": 33639500
           }
         ],
         "score": 82.1,
@@ -6123,7 +6123,7 @@
             "price": 345.22,
             "priceIndex": 90.81,
             "sectorIndex": 77.26,
-            "volume": 32713658
+            "volume": 33293600
           }
         ],
         "score": 76.4,
@@ -6255,7 +6255,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -5.9,
+        "scoreChange7d": -11.9,
         "historyStatus": {
           "points": 44,
           "firstDate": "2026-08-04",
@@ -8274,7 +8274,7 @@
             "price": 173.73,
             "priceIndex": 86.85,
             "sectorIndex": 77.26,
-            "volume": 281514030
+            "volume": 313417400
           }
         ],
         "score": 61.1,
@@ -8404,7 +8404,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 0.5,
+        "scoreChange7d": -8.4,
         "historyStatus": {
           "points": 44,
           "firstDate": "2026-08-04",
@@ -9080,8 +9080,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 28,
-          "label": "股价已先跌28天，机构尚未下调"
+          "waitingDays": 29,
+          "label": "股价已先跌29天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -10103,7 +10103,7 @@
             "price": 30.43,
             "priceIndex": 91.33,
             "sectorIndex": 77.26,
-            "volume": 40908558
+            "volume": 41875100
           }
         ],
         "score": 57.0,
@@ -12273,7 +12273,7 @@
             "price": 552.9,
             "priceIndex": 106.36,
             "sectorIndex": 77.26,
-            "volume": 43171056
+            "volume": 44707100
           }
         ],
         "score": 56.4,
@@ -12403,7 +12403,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -19.8,
+        "scoreChange7d": -22.3,
         "historyStatus": {
           "points": 44,
           "firstDate": "2026-08-04",
@@ -13155,7 +13155,7 @@
       "freshness": "current",
       "freshnessLabel": "跟随源站更新",
       "updatedAt": "2026-11-07T12:00:00+00:00",
-      "sourceName": "Pollfinity 聚合 · 4项有效民调",
+      "sourceName": "Pollfinity 聚合 · 3项有效民调",
       "sourceUrl": "https://pollfinity.com/averages"
     },
     {
