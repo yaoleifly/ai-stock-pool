@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-11-12T03:54:28.687561+00:00",
+  "asOf": "2026-11-12T12:55:44.861218+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 77.0,
+    "value": 76.9,
     "zone": "extreme_pressure",
-    "change5d": 1.1
+    "change5d": 1.0
   },
   "drivers": [
     {
@@ -78,12 +78,12 @@
       "id": "vix",
       "name": "股市恐慌",
       "weight": 0.15,
-      "pressureScore": 55.5,
-      "value": "17.49",
-      "changeLabel": "近5日 +0.88",
+      "pressureScore": 54.6,
+      "value": "18.36",
+      "changeLabel": "近5日 -9.82",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-11-11T21:15:01+00:00",
+      "updatedAt": "2026-11-12T12:40:31+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -131,7 +131,7 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 67.7,
+      "score": 67.4,
       "components": [
         "MOVE",
         "标普500",
@@ -190,7 +190,7 @@
     {
       "date": "2026-11-11",
       "label": "11.11",
-      "value": 74.4
+      "value": 74.3
     }
   ],
   "policyEvents": [
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-12T03:54:27.119638+00:00",
+      "updatedAt": "2026-11-12T12:55:43.998496+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-12T03:54:27.139012+00:00",
+      "updatedAt": "2026-11-12T12:55:43.929809+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -303,9 +303,9 @@
       "name": "军事与地缘",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 4,
-        "softening": 1,
-        "execution": 1,
+        "escalation": 6,
+        "softening": 0,
+        "execution": 0,
         "monitoring": 2
       },
       "items": [
@@ -313,7 +313,7 @@
           "title": "Trump planning new military assault or tighter sanctions, say Iranian officials - The Guardian",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR3RWMGNrSXRNMkl5SzdlV0ZwQXhRZlBQMzM2bFpiWVQzSDRvbHNRSVZSSk9LNEhGWVRnS29iYUlKRHdxVXRKZUJZQlB2YUVraHlUeTRIQnNCZGhGTHRxZm04cmVmTGFBT0RtQk9tbERBU1BmTzhPcjF6a1N5MERVLXdqaDlCRzNuaFhMNW9mUUw3eVhxSGFRdFJNSFRBbTU4cEh0UHYtX3dxd2RkMk1qcHJib3VnSEU?oc=5",
           "source": "The Guardian",
-          "publishedAt": "2026-11-11T21:03:00+00:00",
+          "publishedAt": "2026-11-11T18:47:00+00:00",
           "phase": "escalation"
         },
         {
@@ -324,18 +324,18 @@
           "phase": "escalation"
         },
         {
-          "title": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5",
-          "source": "CNN",
-          "publishedAt": "2026-11-09T05:00:15+00:00",
+          "title": "Rubio says no need for major combat operations against Iran given US economic campaign - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOek5yNnd3UkRRS2RHYjY5MlR1NU9KQnFWcW43RGV1VHI5Yzhxc3RseUstNnVCbXVlUTN3T1hTcE9RUEFGT0R6Q0JUTmQxNW1aX2lZM0RXZkNjLTgwdWQ5aFN1OGM2LTBLcV91MlBkdDE0a2VCQk5nNUdDOGo1ZHI2TW9Pa010QjlrcjQwU0htVjlTMlVOUXJ2cThHQ0JHY09rSHFyYVgtNzNhMXNVVzJ3UTZTb1R6cmM?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2026-11-10T19:35:30+00:00",
           "phase": "monitoring"
         },
         {
-          "title": "Rubio says U.S. has \"no need\" to restart combat operations in Iran - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zN0FDMkRwcDVyZGFpV0dvRnhidUVyU1hrc2pKQzJZMmlLZDF1bHZ0dzBtMDJLOXc5T0xNYmRuS2Q4eU1QQmFqaHJ1cVg0VGkxcWN3dEZLVlo1UlQ0ckZCaW52b0lHQzVZN2N6UElySjhIWDdXWVh5T24xcmh4Zw?oc=5",
-          "source": "CBS News",
-          "publishedAt": "2026-11-11T09:30:50+00:00",
-          "phase": "monitoring"
+          "title": "Trump Signals New Iran Strikes Unnecessary After Qatar Meeting - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLTNJaWJFc2NkclNIRXg3Z2lyVjRVYjh1aTFrRWozeFlGVWtfcEl3a291Y0MtSUh0bllRNTU3OEIwVnYyS2Q1by0tSEZYNzNUS1JHbUhDdUdOTjdETnkxdngybENWcmxzeUFJQmFhREZDUmdrSHhpWDhqakx3RlNtdXR0YnJBbjRHX0VIMnFoZWlnT2NwUDY3NUZ1aGdMamZUOWMtZjYtQUc0cTlWSjlNMVFtNA?oc=5",
+          "source": "Bloomberg.com",
+          "publishedAt": "2026-11-10T08:03:39+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-12T03:54:27.109959+00:00",
+      "updatedAt": "2026-11-12T12:55:44.016808+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -369,13 +369,6 @@
           "phase": "escalation"
         },
         {
-          "title": "What to Know About Trump Accounts - Bipartisan Policy Center",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52cWZRSWVuVDVJREZMTVY5TGNfcWU1Y0RIU3BPUk9yMm95NUc0NldEZnZzYWdsN3lkWmo3U1FkeXVSZTlsYjBnTE1xLWZicXpUV1NySWNNTE9xaF9NbDQwOUpmUEdSSWFYZm9VZDM3R1VqbWwwOEdiQUdEZV9QUQ?oc=5",
-          "source": "Bipartisan Policy Center",
-          "publishedAt": "2026-06-23T07:00:00+00:00",
-          "phase": "monitoring"
-        },
-        {
           "title": "U.S. Debt Hits $40 Trillion as America’s Borrowing Binge Continues - The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcmNIUldHNHZ1N240ZmlQQVphQ3BDUk9BUVNHS0dVX25KUWtxLXhZZk9TYzNXTTVseTJXRWdveW5GcDlLQ0Z6UHdzQXE2clFHdHhkQzlRT1hJNFFMaU04cnRMQ19wTmt5bjRHQmJtM3ZsLThhODBjbUhhNUwzaEZrZWNn?oc=5",
           "source": "The New York Times",
@@ -388,6 +381,13 @@
           "source": "Kiplinger",
           "publishedAt": "2026-05-24T07:00:00+00:00",
           "phase": "monitoring"
+        },
+        {
+          "title": "Republican Megabill Trades Essential Support to Low-Income People for Skewed Tax Cuts - Center on Budget and Policy Priorities",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmhGejlFclBFVFBOOEhLVWU4eTlrbE5wMDNta3ZqQzB4ZElpMXpsS0JjdjkzSnVSRWVCZ1NLWm1HWkhGTGx6bnJFdW9iYVlBbXBxeXNUcEFMamJ5dVBCUzJoaTZIZnZUV3ROZ3dMbS0wa0F2WFJJa3I2cnU0NVhkZmZLVUxLbktodEJWcWRHZW9QOFB5Sy0xNGVWSFNId05yT3R0SlBZOHkxZWJOYmlDWGpLdHEzbG9hX1E?oc=5",
+          "source": "Center on Budget and Policy Priorities",
+          "publishedAt": "2026-02-11T08:00:00+00:00",
+          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-12T03:54:27.092809+00:00",
+      "updatedAt": "2026-11-12T12:55:43.948401+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-12T03:54:28.685882+00:00",
-    "aggregateScore": 69.5,
+    "asOf": "2026-11-12T12:55:44.859488+00:00",
+    "aggregateScore": 69.3,
     "aggregateLabel": "偏高",
     "highRiskCount": 4,
     "coverage": {
@@ -1845,7 +1845,7 @@
           "return5d": 2.0,
           "return20d": -11.2,
           "drawdown3m": -26.1,
-          "targetRaises45d": 5,
+          "targetRaises45d": 4,
           "targetCuts45d": 0,
           "analystCount": 45,
           "epsChange30d": 7.8,
@@ -1937,9 +1937,9 @@
               "endDate": "2028-08-31",
               "eps": {
                 "current": 207.76048,
-                "value30dAgo": 205.88564,
+                "value30dAgo": 206.33243,
                 "value60dAgo": 171.02492,
-                "change30d": 0.9,
+                "change30d": 0.7,
                 "change60d": 21.5
               },
               "revenue": {
@@ -3987,11 +3987,11 @@
         "metrics": {
           "bullishShare": 88.4,
           "bullishShare3mAgo": 88.6,
-          "targetMean": 310.94,
+          "targetMean": 310.32,
           "targetMedian": 300.0,
           "targetLow": 175.0,
           "targetHigh": 450.0,
-          "targetUpside": 84.2,
+          "targetUpside": 83.8,
           "return5d": 5.6,
           "return20d": -31.2,
           "drawdown3m": -41.2,
@@ -6915,61 +6915,6 @@
         },
         "targetEvents": [
           {
-            "date": "2026-05-21T10:03:01+00:00",
-            "epoch": 1779357781,
-            "firm": "Needham",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 270.0,
-            "priorTarget": 240.0
-          },
-          {
-            "date": "2026-05-21T11:02:33+00:00",
-            "epoch": 1779361353,
-            "firm": "Baird",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Outperform",
-            "fromGrade": "Outperform",
-            "currentTarget": 500.0,
-            "priorTarget": 300.0
-          },
-          {
-            "date": "2026-05-21T11:07:36+00:00",
-            "epoch": 1779361656,
-            "firm": "B of A Securities",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 350.0,
-            "priorTarget": 320.0
-          },
-          {
-            "date": "2026-05-21T11:14:05+00:00",
-            "epoch": 1779362045,
-            "firm": "Benchmark",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 335.0,
-            "priorTarget": 250.0
-          },
-          {
-            "date": "2026-05-21T11:39:16+00:00",
-            "epoch": 1779363556,
-            "firm": "Keybanc",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Overweight",
-            "fromGrade": "Overweight",
-            "currentTarget": 310.0,
-            "priorTarget": 300.0
-          },
-          {
             "date": "2026-05-21T12:33:01+00:00",
             "epoch": 1779366781,
             "firm": "Rosenblatt",
@@ -7573,6 +7518,61 @@
             "fromGrade": "Overweight",
             "currentTarget": 300.0,
             "priorTarget": 300.0
+          },
+          {
+            "date": "2026-11-12T09:41:37+00:00",
+            "epoch": 1794476497,
+            "firm": "Oppenheimer",
+            "type": "rating_change",
+            "label": "评级调整",
+            "toGrade": "Perform",
+            "fromGrade": "Outperform",
+            "currentTarget": 0.0,
+            "priorTarget": 0.0
+          },
+          {
+            "date": "2026-11-12T11:15:52+00:00",
+            "epoch": 1794482152,
+            "firm": "Evercore ISI Group",
+            "type": "target_cut",
+            "label": "下调目标价",
+            "toGrade": "In-Line",
+            "fromGrade": "Outperform",
+            "currentTarget": 186.0,
+            "priorTarget": 465.0
+          },
+          {
+            "date": "2026-11-12T12:02:59+00:00",
+            "epoch": 1794484979,
+            "firm": "Cantor Fitzgerald",
+            "type": "target_cut",
+            "label": "下调目标价",
+            "toGrade": "Overweight",
+            "fromGrade": "Overweight",
+            "currentTarget": 250.0,
+            "priorTarget": 350.0
+          },
+          {
+            "date": "2026-11-12T12:05:47+00:00",
+            "epoch": 1794485147,
+            "firm": "Bernstein",
+            "type": "target_cut",
+            "label": "下调目标价",
+            "toGrade": "Market Perform",
+            "fromGrade": "Outperform",
+            "currentTarget": 200.0,
+            "priorTarget": 400.0
+          },
+          {
+            "date": "2026-11-12T12:37:56+00:00",
+            "epoch": 1794487076,
+            "firm": "Keybanc",
+            "type": "rating_change",
+            "label": "评级调整",
+            "toGrade": "Sector Weight",
+            "fromGrade": "Overweight",
+            "currentTarget": 0.0,
+            "priorTarget": 0.0
           }
         ],
         "priceTimeline": [
@@ -8277,31 +8277,31 @@
             "volume": 313417400
           }
         ],
-        "score": 61.1,
-        "zone": "crowded",
-        "label": "一致预期拥挤",
+        "score": 60.0,
+        "zone": "watch",
+        "label": "观察背离",
         "evidence": [
           "买入评级高度一致",
           "目标价隐含空间偏乐观"
         ],
         "metrics": {
-          "bullishShare": 91.9,
+          "bullishShare": 88.7,
           "bullishShare3mAgo": 95.0,
-          "targetMean": 319.99,
-          "targetMedian": 315.0,
+          "targetMean": 309.72,
+          "targetMedian": 302.5,
           "targetLow": 180.0,
           "targetHigh": 515.0,
-          "targetUpside": 84.2,
+          "targetUpside": 78.3,
           "return5d": -13.2,
           "return20d": -21.5,
           "drawdown3m": -27.4,
           "targetRaises45d": 0,
-          "targetCuts45d": 4,
-          "analystCount": 57,
+          "targetCuts45d": 7,
+          "analystCount": 56,
           "epsChange30d": 0.1,
           "epsChange60d": 0.1,
-          "revenueChange30d": 0.0,
-          "revenueChange60d": 0.0
+          "revenueChange30d": 0.1,
+          "revenueChange60d": 0.1
         },
         "expectations": {
           "primaryPeriod": "0q",
@@ -8309,18 +8309,18 @@
             "period": "0q",
             "endDate": "2026-10-31",
             "eps": {
-              "current": 2.47461,
+              "current": 2.47507,
               "value30dAgo": 2.47325,
               "value60dAgo": 2.47269,
               "change30d": 0.1,
               "change60d": 0.1
             },
             "revenue": {
-              "current": 109006829530.0,
+              "current": 109043188870.0,
               "value30dAgo": 108976837760.0,
               "value60dAgo": 108972821930.0,
-              "change30d": 0.0,
-              "change60d": 0.0,
+              "change30d": 0.1,
+              "change60d": 0.1,
               "historyStatus": "ready"
             }
           },
@@ -8329,18 +8329,18 @@
               "period": "0q",
               "endDate": "2026-10-31",
               "eps": {
-                "current": 2.47461,
+                "current": 2.47507,
                 "value30dAgo": 2.47325,
                 "value60dAgo": 2.47269,
                 "change30d": 0.1,
                 "change60d": 0.1
               },
               "revenue": {
-                "current": 109006829530.0,
+                "current": 109043188870.0,
                 "value30dAgo": 108976837760.0,
                 "value60dAgo": 108972821930.0,
-                "change30d": 0.0,
-                "change60d": 0.0,
+                "change30d": 0.1,
+                "change60d": 0.1,
                 "historyStatus": "ready"
               }
             },
@@ -8348,14 +8348,14 @@
               "period": "+1q",
               "endDate": "2027-01-31",
               "eps": {
-                "current": 2.74979,
+                "current": 2.75455,
                 "value30dAgo": 2.74622,
                 "value60dAgo": 2.74328,
-                "change30d": 0.1,
-                "change60d": 0.2
+                "change30d": 0.3,
+                "change60d": 0.4
               },
               "revenue": {
-                "current": 124731536700.0,
+                "current": 124920238210.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -8367,14 +8367,14 @@
               "period": "0y",
               "endDate": "2027-01-31",
               "eps": {
-                "current": 9.31674,
+                "current": 9.32085,
                 "value30dAgo": 9.31242,
                 "value60dAgo": 9.30456,
-                "change30d": 0.0,
-                "change60d": 0.1
+                "change30d": 0.1,
+                "change60d": 0.2
               },
               "revenue": {
-                "current": 411877576070.0,
+                "current": 412055157990.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -8386,14 +8386,14 @@
               "period": "+1y",
               "endDate": "2028-01-31",
               "eps": {
-                "current": 15.90883,
+                "current": 15.9271,
                 "value30dAgo": 15.9146,
                 "value60dAgo": 15.56753,
-                "change30d": -0.0,
-                "change60d": 2.2
+                "change30d": 0.1,
+                "change60d": 2.3
               },
               "revenue": {
-                "current": 691356756090.0,
+                "current": 692256620020.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -8404,7 +8404,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -8.4,
+        "scoreChange7d": -9.5,
         "historyStatus": {
           "points": 44,
           "firstDate": "2026-08-04",
@@ -10914,17 +10914,6 @@
         },
         "targetEvents": [
           {
-            "date": "2026-06-30T15:19:52+00:00",
-            "epoch": 1782832792,
-            "firm": "Wells Fargo",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Overweight",
-            "fromGrade": "Overweight",
-            "currentTarget": 615.0,
-            "priorTarget": 505.0
-          },
-          {
             "date": "2026-07-06T14:59:21+00:00",
             "epoch": 1783349961,
             "firm": "Goldman Sachs",
@@ -11571,6 +11560,17 @@
             "toGrade": "Outperform",
             "fromGrade": "Perform",
             "currentTarget": 600.0,
+            "priorTarget": 0.0
+          },
+          {
+            "date": "2026-11-12T12:24:23+00:00",
+            "epoch": 1794486263,
+            "firm": "William Blair",
+            "type": "rating_change",
+            "label": "评级调整",
+            "toGrade": "Outperform",
+            "fromGrade": "Market Perform",
+            "currentTarget": 0.0,
             "priorTarget": 0.0
           }
         ],
@@ -12276,7 +12276,7 @@
             "volume": 44707100
           }
         ],
-        "score": 56.4,
+        "score": 56.5,
         "zone": "watch",
         "label": "观察背离",
         "evidence": [
@@ -12286,11 +12286,11 @@
         "metrics": {
           "bullishShare": 84.9,
           "bullishShare3mAgo": 80.0,
-          "targetMean": 657.49,
+          "targetMean": 658.53,
           "targetMedian": 650.0,
           "targetLow": 525.0,
           "targetHigh": 1250.0,
-          "targetUpside": 18.9,
+          "targetUpside": 19.1,
           "return5d": 13.1,
           "return20d": -3.1,
           "drawdown3m": -14.9,
@@ -12403,7 +12403,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -22.3,
+        "scoreChange7d": -22.2,
         "historyStatus": {
           "points": 44,
           "firstDate": "2026-08-04",
@@ -13190,7 +13190,7 @@
       "name": "股市恐慌",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-11-11T21:15:01+00:00",
+      "updatedAt": "2026-11-12T12:40:31+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
     },
