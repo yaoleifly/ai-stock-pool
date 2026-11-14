@@ -1,11 +1,11 @@
 {
-  "asOf": "2026-11-14T14:17:42.357959+00:00",
+  "asOf": "2026-11-14T19:15:16.745865+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 68.5,
+    "value": 68.6,
     "zone": "high_pressure",
     "change5d": -20.5
   },
@@ -14,12 +14,12 @@
       "id": "approval",
       "name": "净支持率",
       "weight": 0.25,
-      "pressureScore": 85.8,
-      "value": "-24.9pt",
-      "changeLabel": "较约30日前 -11.4pt",
+      "pressureScore": 86.3,
+      "value": "-25.2pt",
+      "changeLabel": "较约30日前 -12.2pt",
       "direction": "净支持率下降增加压力",
       "interpretation": "民调越弱，强硬政策的政治承受空间越小。",
-      "updatedAt": "2026-11-11T12:00:00+00:00",
+      "updatedAt": "2026-11-14T12:00:00+00:00",
       "freshness": "current",
       "freshnessLabel": "跟随源站更新",
       "sourceName": "Pollfinity 聚合 · 4项有效民调",
@@ -111,7 +111,7 @@
     {
       "id": "political",
       "name": "政治承受力",
-      "score": 85.8,
+      "score": 86.3,
       "components": [
         "净支持率"
       ],
@@ -155,42 +155,42 @@
     {
       "date": "2026-09-25",
       "label": "09.25",
-      "value": 63.7
+      "value": 63.8
     },
     {
       "date": "2026-10-02",
       "label": "10.02",
-      "value": 74.4
+      "value": 74.6
     },
     {
       "date": "2026-10-09",
       "label": "10.09",
-      "value": 64.9
+      "value": 65.0
     },
     {
       "date": "2026-10-16",
       "label": "10.16",
-      "value": 88.0
+      "value": 88.1
     },
     {
       "date": "2026-10-23",
       "label": "10.23",
-      "value": 82.5
+      "value": 82.6
     },
     {
       "date": "2026-10-30",
       "label": "10.30",
-      "value": 81.5
+      "value": 81.6
     },
     {
       "date": "2026-11-06",
       "label": "11.06",
-      "value": 89.0
+      "value": 89.1
     },
     {
       "date": "2026-11-13",
       "label": "11.13",
-      "value": 70.9
+      "value": 71.1
     }
   ],
   "policyEvents": [
@@ -227,10 +227,10 @@
           "phase": "escalation"
         },
         {
-          "title": "Canada amends, extends tariff relief program beyond U.S. steel imports - CTV News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaHZoaXdtWE1oR2xSOWtoLUV0V2NFeHFjNlp4dzVkRkh0YjQzcUd5S0MwRm1NSlpUREpFMXkybGgyeHk4UDdCTVMzWVdOWDhzUl9FdURXU1lnaWJ0Z0JGaXlXNXU5REFTaExaSlZqckdoTWowdXZxR1FhTXRGM2NJbG1TeElRQ0hxNWhCdEJadk9pTHVyZXFnNFByMXpmZXdpWUpOX3BmSEg3TjNlSzVFOW9fajR3bDBLSzNNdQ?oc=5",
-          "source": "CTV News",
-          "publishedAt": "2026-11-09T22:17:04+00:00",
+          "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - PBS",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVDN2eGVOR2h1MFk2STNSRVdmUFpZNEJkNFh5OFQ3bXhHMTJvX3FSMFJDMHRYU2tTYWtRblBvVlk0bG91U1NFc1dkNUpraUU4RDlOLU40WlRhQWRHcTMzei10WXFObmxmUFc1UlNyamo4Rm9KLUsxdjBBd3UyNTQ4XzgtLTAweXhhbkVxbVpXdDJVR0NqWXcwRHJZSWEzT3cyV3NvZDBrME5RaHJhcmZGLU02d19LUGZSaGoxRE1KLTNRU1pnTEN30gHMAUFVX3lxTE9EQXNMVUNIbXptQi1QTkFCelkwdXo0aW91bHR1dGlzQWdjRDlZeTVwLTI2eU1qRUxaeUhOQkN2SzMxRThFR2MwUW1VUGV4X1NTaE5ZVEFZMWFZc2xCdmRLTUJNeWJ4aU1CaUUzcl9pLVd3M1VBU0lXN195TDI1UnBHWFBXeWZEWlRMNlE5WVpWREVtWXJmWFFEU2ZEQ1JUeXlsY09vcDkwNGR3b2pHMk5Wa1hlb281cFg2Zkt6VUJNeVRfR3FzOE91QXpWSQ?oc=5",
+          "source": "PBS",
+          "publishedAt": "2026-08-22T07:00:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-14T14:17:41.037369+00:00",
+      "updatedAt": "2026-11-14T19:15:15.943164+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-14T14:17:40.949321+00:00",
+      "updatedAt": "2026-11-14T19:15:15.898260+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -304,18 +304,11 @@
       "phase": "escalation",
       "phaseCounts": {
         "escalation": 4,
-        "softening": 2,
+        "softening": 1,
         "execution": 0,
-        "monitoring": 2
+        "monitoring": 3
       },
       "items": [
-        {
-          "title": "Trump says \"we don't need a deal with Iran,\" as Tehran sticks to its demands - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JdnI2N05uOHdtZFhtb0U3MGN6bEhNN05QbE85RV81UGRMenBqY04tWXhLU1MxRzR6NWxZOUx5cnNzYmRwRFEwRWJnbi1Cc0JpMUt2aW53VEpWOFA0cEptN2xLLVB6S1RxNDlydWs5MGsySnprakktTlkwUmxqODQ?oc=5",
-          "source": "CBS News",
-          "publishedAt": "2026-11-13T08:31:00+00:00",
-          "phase": "softening"
-        },
         {
           "title": "What's Trump's strategy now with Iran? To keep things as they are - NPR",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXIwbkFRM3dlZktvS0VBdHVLQURXY28xdmxYVnNnUUk3Sy1RRmd0dTNBeFhWS29TVVM1RVh3aGd5cmpObC1naWw4a25qTXRPOTRndFY0REw5UlY4d2tlR1dzMFNhbmlXc0NHSXMwWVpZcFZhOE1vQllfT3ZWZXU1X00wLWhiRnNPdmdnQnI4SUJrb0Q5eHRPRmlKYzg1akt0U0ZnM29LejY?oc=5",
@@ -324,18 +317,25 @@
           "phase": "monitoring"
         },
         {
+          "title": "Live - Trump to raise Iran with Putin, Xi as Hormuz tanker strikes continue - Iran International",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xYTFVTTdXUzNYNUhDSlpNS2VjV1VVTUs2MU43Z1lfamE5MkhlMFdtMVdReUVjTjNZZVpNSmZVUmJ6Ry1IWm9CTk1JUS1ONW1VTkVEX2tJdWJiNUMxZHc?oc=5",
+          "source": "Iran International",
+          "publishedAt": "2026-11-14T17:50:20+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "Trump says \"we don't need a deal with Iran,\" as Tehran sticks to its demands - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JdnI2N05uOHdtZFhtb0U3MGN6bEhNN05QbE85RV81UGRMenBqY04tWXhLU1MxRzR6NWxZOUx5cnNzYmRwRFEwRWJnbi1Cc0JpMUt2aW53VEpWOFA0cEptN2xLLVB6S1RxNDlydWs5MGsySnprakktTlkwUmxqODQ?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T08:31:00+00:00",
+          "phase": "softening"
+        },
+        {
           "title": "Trump bets on economic strangulation to force Iranian concessions - Stars and Stripes",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTlI2RmswdVNfYjJUaU5NQkRndzRldFdkQXAxOXZnbjZPU0xfQ0Y2bmlrQ0pmRy1XMGNuS1hVb1RsYkFNU2FRZzY0UWxFai1CSG1WYWVZWUhNb3ZPV2FBeTMxVC10YldGQkZ6c21ZeGd3d3JyTFhjdndpR29PNjdLX1BVYjgzb2NsX2E4ajh1N3ZPVzZEZVVvbW1MRVk?oc=5",
           "source": "Stars and Stripes",
-          "publishedAt": "2026-11-13T03:12:17+00:00",
+          "publishedAt": "2026-11-13T15:19:40+00:00",
           "phase": "monitoring"
-        },
-        {
-          "title": "Trump shifts Vance away from Iran talks, says deal unnecessary - Iran International",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5CdEFTa3hHRlZmejA4NjZWLUJ1QWtDanRlbU5wSzk0OWcwVG5yT04yTzJldGh4aTNTbXIwUElwNE0tcjJUaC1wbldMVzJReUt1SXc?oc=5",
-          "source": "Iran International",
-          "publishedAt": "2026-11-12T21:08:00+00:00",
-          "phase": "softening"
         }
       ],
       "poolCategories": [
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-14T14:17:40.975117+00:00",
+      "updatedAt": "2026-11-14T19:15:15.944040+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-14T14:17:40.952224+00:00",
+      "updatedAt": "2026-11-14T19:15:15.883010+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-14T14:17:42.356217+00:00",
-    "aggregateScore": 69.4,
+    "asOf": "2026-11-14T19:15:16.743966+00:00",
+    "aggregateScore": 69.2,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
     "coverage": {
@@ -12415,20 +12415,20 @@
             "volume": 363819700
           }
         ],
-        "score": 51.0,
+        "score": 49.6,
         "zone": "watch",
         "label": "观察背离",
         "evidence": [
           "目标价隐含空间偏乐观"
         ],
         "metrics": {
-          "bullishShare": 78.7,
+          "bullishShare": 77.0,
           "bullishShare3mAgo": 95.0,
-          "targetMean": 283.31,
+          "targetMean": 278.31,
           "targetMedian": 275.0,
-          "targetLow": 174.0,
+          "targetLow": 170.0,
           "targetHigh": 515.0,
-          "targetUpside": 74.0,
+          "targetUpside": 70.9,
           "return5d": -12.7,
           "return20d": -23.9,
           "drawdown3m": -31.9,
@@ -12504,14 +12504,14 @@
               "period": "0y",
               "endDate": "2027-01-31",
               "eps": {
-                "current": 9.3233,
+                "current": 9.32703,
                 "value30dAgo": 9.31242,
                 "value60dAgo": 9.30687,
-                "change30d": 0.1,
+                "change30d": 0.2,
                 "change60d": 0.2
               },
               "revenue": {
-                "current": 411733601950.0,
+                "current": 411886935280.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -12523,14 +12523,14 @@
               "period": "+1y",
               "endDate": "2028-01-31",
               "eps": {
-                "current": 15.83237,
+                "current": 15.85369,
                 "value30dAgo": 15.9146,
                 "value60dAgo": 15.61489,
-                "change30d": -0.5,
-                "change60d": 1.4
+                "change30d": -0.4,
+                "change60d": 1.5
               },
               "revenue": {
-                "current": 687896373950.0,
+                "current": 688738452360.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -12541,7 +12541,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -12.1,
+        "scoreChange7d": -13.5,
         "historyStatus": {
           "points": 46,
           "firstDate": "2026-08-04",
@@ -13320,7 +13320,7 @@
       "name": "净支持率",
       "freshness": "current",
       "freshnessLabel": "跟随源站更新",
-      "updatedAt": "2026-11-11T12:00:00+00:00",
+      "updatedAt": "2026-11-14T12:00:00+00:00",
       "sourceName": "Pollfinity 聚合 · 4项有效民调",
       "sourceUrl": "https://pollfinity.com/averages"
     },
