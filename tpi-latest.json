@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-15T17:50:58.771598+00:00",
+  "asOf": "2026-11-15T22:57:53.878569+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-15T17:50:57.536031+00:00",
+      "updatedAt": "2026-11-15T22:57:53.183742+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -253,8 +253,8 @@
       "phaseCounts": {
         "escalation": 1,
         "softening": 0,
-        "execution": 0,
-        "monitoring": 7
+        "execution": 1,
+        "monitoring": 6
       },
       "items": [
         {
@@ -279,11 +279,11 @@
           "phase": "monitoring"
         },
         {
-          "title": "\"Trump Bought Nvidia Shares Before Easing U.S. Semiconductor Export Controls\" - 아시아경제",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zZ3ZUdGhISzNvQmNUeEUxa3M5NlRRMEJETlROTDc3dzk1SF9URmM3Z2lMSnFhVzhsZlprOWtvSmMxOThGX1hBdkZDbzNua2FGdktFSWhEbk82dVhBNkhJZVpHLVA?oc=5",
-          "source": "아시아경제",
-          "publishedAt": "2026-11-14T08:54:39+00:00",
-          "phase": "monitoring"
+          "title": "Trump failing to block China’s access to American AI technology, say senior Senate Democrats - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SOFUzQzlsOFVDUlRWN0VCMGx0Z3NEODlYQjliN29VbHZfWElQUXdueFhjYUxJaWhVcEZUdkpFX2pIcGQzLTFSMWswRjZ1b3AtX3MtNWZ3MzcxdmJXV0oyLUVnUHBOQmdHelBxM0lza3FiaXA5MFVxMkJR0gF_QVVfeXFMTWFpVU1NNDNWSHFBNnFSbGJHMG95U2VzUWVjX2FzZzZPa2w2TGJ0Q1dtMWk1OUNaSExxMGtyaFU1d0RZSzc2blNqUGc5Y1U3dDNEUTdlY2MxVG1mQ0Vnb0NYbTQyT1VsdzZtN2V4SDZBZ3UtV1ppMmNtSlYyQ3kyQQ?oc=5",
+          "source": "The Hill",
+          "publishedAt": "2026-09-22T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-15T17:50:57.542090+00:00",
+      "updatedAt": "2026-11-15T22:57:53.100411+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-15T17:50:57.548024+00:00",
+      "updatedAt": "2026-11-15T22:57:53.137639+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -369,13 +369,6 @@
           "phase": "escalation"
         },
         {
-          "title": "Trump Says Federal Film Tax Credit Is Gaining Momentum - The Hollywood Reporter",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMXBMTS1USWljVS1yM1R2TXdIUzBWX0p5cTRaakttUVhyeDNVay1sN3dTc3hrb0RqRHcwN1dVRVJCc2dQcUVOalhfUGJFbDRsTlFhZlN1ekczd296bUhES3hBRnpXMHk4X19RLTgyZUhid3JzaFZiRS1jN0IyUk9sdEhWalE2U3FiRUhFOU1US2E3dGtLak5CUHZuRnhvOWlUY3MxRGJJOEVmYmU4SnM5WTdhM2VNZw?oc=5",
-          "source": "The Hollywood Reporter",
-          "publishedAt": "2026-11-14T00:12:34+00:00",
-          "phase": "monitoring"
-        },
-        {
           "title": "Tracking the Impact of the Trump Tariffs & Trade War - Tax Foundation",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LU1daamtmcnNXWEZENFBwb3BYMThMQ1M4bHFPSzVZX0s5QmlLYWM4dDdKUGNiOF9iNjcxZ2VZTXd0bVJ6NGNNcDZVVmlkc25rTmxLd3Q4RVJhQmM3dUhpR3h1aXhXNGs3UkNQN0ZKLUpSSnBnOWVaX0tTRQ?oc=5",
           "source": "Tax Foundation",
@@ -388,6 +381,13 @@
           "source": "SmartAsset",
           "publishedAt": "2026-08-26T07:00:00+00:00",
           "phase": "monitoring"
+        },
+        {
+          "title": "Republican Megabill Trades Essential Support to Low-Income People for Skewed Tax Cuts - Center on Budget and Policy Priorities",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmhGejlFclBFVFBOOEhLVWU4eTlrbE5wMDNta3ZqQzB4ZElpMXpsS0JjdjkzSnVSRWVCZ1NLWm1HWkhGTGx6bnJFdW9iYVlBbXBxeXNUcEFMamJ5dVBCUzJoaTZIZnZUV3ROZ3dMbS0wa0F2WFJJa3I2cnU0NVhkZmZLVUxLbktodEJWcWRHZW9QOFB5Sy0xNGVWSFNId05yT3R0SlBZOHkxZWJOYmlDWGpLdHEzbG9hX1E?oc=5",
+          "source": "Center on Budget and Policy Priorities",
+          "publishedAt": "2026-02-11T08:00:00+00:00",
+          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-15T17:50:57.540115+00:00",
+      "updatedAt": "2026-11-15T22:57:53.135413+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-15T17:50:58.769315+00:00",
+    "asOf": "2026-11-15T22:57:53.876368+00:00",
     "aggregateScore": 69.2,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
