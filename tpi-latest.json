@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-15T22:57:53.878569+00:00",
+  "asOf": "2026-11-16T02:51:24.186494+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-15T22:57:53.183742+00:00",
+      "updatedAt": "2026-11-16T02:51:22.804824+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -253,8 +253,8 @@
       "phaseCounts": {
         "escalation": 1,
         "softening": 0,
-        "execution": 1,
-        "monitoring": 6
+        "execution": 0,
+        "monitoring": 7
       },
       "items": [
         {
@@ -279,11 +279,11 @@
           "phase": "monitoring"
         },
         {
-          "title": "Trump failing to block China’s access to American AI technology, say senior Senate Democrats - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SOFUzQzlsOFVDUlRWN0VCMGx0Z3NEODlYQjliN29VbHZfWElQUXdueFhjYUxJaWhVcEZUdkpFX2pIcGQzLTFSMWswRjZ1b3AtX3MtNWZ3MzcxdmJXV0oyLUVnUHBOQmdHelBxM0lza3FiaXA5MFVxMkJR0gF_QVVfeXFMTWFpVU1NNDNWSHFBNnFSbGJHMG95U2VzUWVjX2FzZzZPa2w2TGJ0Q1dtMWk1OUNaSExxMGtyaFU1d0RZSzc2blNqUGc5Y1U3dDNEUTdlY2MxVG1mQ0Vnb0NYbTQyT1VsdzZtN2V4SDZBZ3UtV1ppMmNtSlYyQ3kyQQ?oc=5",
-          "source": "The Hill",
-          "publishedAt": "2026-09-22T07:00:00+00:00",
-          "phase": "escalation"
+          "title": "\"Trump Bought Nvidia Shares Before Easing U.S. Semiconductor Export Controls\" - 아시아경제",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zZ3ZUdGhISzNvQmNUeEUxa3M5NlRRMEJETlROTDc3dzk1SF9URmM3Z2lMSnFhVzhsZlprOWtvSmMxOThGX1hBdkZDbzNua2FGdktFSWhEbk82dVhBNkhJZVpHLVA?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "2026-11-14T08:54:39+00:00",
+          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-15T22:57:53.100411+00:00",
+      "updatedAt": "2026-11-16T02:51:22.757357+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-15T22:57:53.137639+00:00",
+      "updatedAt": "2026-11-16T02:51:22.828463+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -355,19 +355,12 @@
       "name": "财政、税收与产业补贴",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 3,
+        "escalation": 2,
         "softening": 0,
         "execution": 0,
-        "monitoring": 5
+        "monitoring": 6
       },
       "items": [
-        {
-          "title": "Two Views: Trump’s Failed Import Tariff Policy Added to Inflation - American Enterprise Institute - AEI",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOXlHNFJIcnZpQjFiQ0R3R2duemtldV9zVEJPdXB2THdxMnNSX3BLeTQzWWJEbGsxTlpJMVdvSHd5c0E5TExkSl9IQmpka2xpcENMeUZ4dkdNLUdRSUZmQ2JhbHNJcXhDc3lCUFoyYjUzR05RQzlsNGRXVjVSVUJ0UUFTeE9HamhkdXVkVWVkTkhFTWpnWjRQbTYyWQ?oc=5",
-          "source": "American Enterprise Institute - AEI",
-          "publishedAt": "2026-11-13T18:34:46+00:00",
-          "phase": "escalation"
-        },
         {
           "title": "Tracking the Impact of the Trump Tariffs & Trade War - Tax Foundation",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LU1daamtmcnNXWEZENFBwb3BYMThMQ1M4bHFPSzVZX0s5QmlLYWM4dDdKUGNiOF9iNjcxZ2VZTXd0bVJ6NGNNcDZVVmlkc25rTmxLd3Q4RVJhQmM3dUhpR3h1aXhXNGs3UkNQN0ZKLUpSSnBnOWVaX0tTRQ?oc=5",
@@ -388,6 +381,13 @@
           "source": "Center on Budget and Policy Priorities",
           "publishedAt": "2026-02-11T08:00:00+00:00",
           "phase": "monitoring"
+        },
+        {
+          "title": "The Budget and Economic Outlook: 2026 to 2036 - Congressional Budget Office (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1xYkpKUjdyNWpIYlp2eU9kZkNKNWw2dlNfNk9OTHRjNk5XQ0lJOVd6OXZnSkR3RnNyblVfNFMtT2RxdVBYLUFTaDYxZkdvdw?oc=5",
+          "source": "Congressional Budget Office (.gov)",
+          "publishedAt": "2026-02-11T08:00:00+00:00",
+          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-15T22:57:53.135413+00:00",
+      "updatedAt": "2026-11-16T02:51:22.810339+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-15T22:57:53.876368+00:00",
+    "asOf": "2026-11-16T02:51:24.184282+00:00",
     "aggregateScore": 69.2,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
@@ -458,8 +458,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 32,
-          "label": "股价已先跌32天，机构尚未下调"
+          "waitingDays": 33,
+          "label": "股价已先跌33天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -1953,7 +1953,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -2.8,
+        "scoreChange7d": -4.0,
         "historyStatus": {
           "points": 46,
           "firstDate": "2026-08-04",
@@ -4131,7 +4131,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -0.8,
+        "scoreChange7d": -0.2,
         "historyStatus": {
           "points": 46,
           "firstDate": "2026-08-04",
@@ -6309,7 +6309,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -10.7,
+        "scoreChange7d": -7.7,
         "historyStatus": {
           "points": 46,
           "firstDate": "2026-08-04",
@@ -8506,7 +8506,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -15.2,
+        "scoreChange7d": -4.9,
         "historyStatus": {
           "points": 46,
           "firstDate": "2026-08-04",
@@ -9210,8 +9210,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 32,
-          "label": "股价已先跌32天，机构尚未下调"
+          "waitingDays": 33,
+          "label": "股价已先跌33天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -10364,7 +10364,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 0.0,
+        "scoreChange7d": 0.6,
         "historyStatus": {
           "points": 46,
           "firstDate": "2026-08-04",
@@ -12540,7 +12540,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -13.5,
+        "scoreChange7d": -18.9,
         "historyStatus": {
           "points": 46,
           "firstDate": "2026-08-04",
