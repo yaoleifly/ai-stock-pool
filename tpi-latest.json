@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-22T00:27:24.677296+00:00",
+  "asOf": "2026-11-22T08:10:21.400320+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -206,13 +206,6 @@
       },
       "items": [
         {
-          "title": "Trump’s Tariff Troubles Could Give Carney Edge on India Deal - Newsweek",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeHhySTN1bGlfS2N5T1JDeEMzdE5MMS1IY19aODRwandTY2V4U3lnOUZnSXpXVUt2OUg2anBKLXItV3cwa0Z6b2wyZW5uX05UV2ZSamt6aUUtZl9qSnVTeWdQdFQ0Q0NyOGNrd3lSUEtnaUgzcl9kNXg3d2JNUXQ3YXV4cVdYUQ?oc=5",
-          "source": "Newsweek",
-          "publishedAt": "2026-11-19T16:37:00+00:00",
-          "phase": "escalation"
-        },
-        {
           "title": "Understanding Trump's tariff reversals - Peterson Institute for International Economics",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVHQ5ZHJrMHNTSU14WVQ1UTB2LW82d2JHQlRibVV3U2VmTWpGZW9LcmFxaVdYalhuVWRUT040SzgxYjFmRHhyd1NfNDd1VGtRZWZvSTdGNXktY3Y2U3U5VHRPd0YxX0R6TzVRY3JVZVlsSjItdDNZbW5HWHhtRFJlM0xoZ2ZZVk01VjNSM3h3ZVM1dw?oc=5",
           "source": "Peterson Institute for International Economics",
@@ -232,6 +225,13 @@
           "source": "The New York Times",
           "publishedAt": "2026-08-18T07:00:00+00:00",
           "phase": "escalation"
+        },
+        {
+          "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - PBS",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVDN2eGVOR2h1MFk2STNSRVdmUFpZNEJkNFh5OFQ3bXhHMTJvX3FSMFJDMHRYU2tTYWtRblBvVlk0bG91U1NFc1dkNUpraUU4RDlOLU40WlRhQWRHcTMzei10WXFObmxmUFc1UlNyamo4Rm9KLUsxdjBBd3UyNTQ4XzgtLTAweXhhbkVxbVpXdDJVR0NqWXcwRHJZSWEzT3cyV3NvZDBrME5RaHJhcmZGLU02d19LUGZSaGoxRE1KLTNRU1pnTEN30gHMAUFVX3lxTE9EQXNMVUNIbXptQi1QTkFCelkwdXo0aW91bHR1dGlzQWdjRDlZeTVwLTI2eU1qRUxaeUhOQkN2SzMxRThFR2MwUW1VUGV4X1NTaE5ZVEFZMWFZc2xCdmRLTUJNeWJ4aU1CaUUzcl9pLVd3M1VBU0lXN195TDI1UnBHWFBXeWZEWlRMNlE5WVpWREVtWXJmWFFEU2ZEQ1JUeXlsY09vcDkwNGR3b2pHMk5Wa1hlb281cFg2Zkt6VUJNeVRfR3FzOE91QXpWSQ?oc=5",
+          "source": "PBS",
+          "publishedAt": "2026-08-22T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -242,48 +242,48 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-22T00:27:23.603963+00:00",
+      "updatedAt": "2026-11-22T08:10:20.414602+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "technology",
       "name": "科技与出口管制",
-      "phase": "execution",
+      "phase": "escalation",
       "phaseCounts": {
-        "escalation": 3,
+        "escalation": 1,
         "softening": 0,
-        "execution": 5,
-        "monitoring": 0
+        "execution": 0,
+        "monitoring": 7
       },
       "items": [
         {
-          "title": "Bessent says no further restrictions are needed for Nvidia chip exports to China - PBS",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdGhFLVdNQVNlbl9tSXFrRmI4LS1VQmhxamhUS0F0WjhFMmoydGtBbG5Lc1AzbklUekQ0NDdvWDM0Q2Nfd2dOUTZEdE9MVnZCUVJtc1p3M0R4M2VjVS1zNUdXWWF1R2ZnNmpQU2lJSXNQQlM5WUk3cF92bDB3c3F5N3d6ZEEySktWeVRmSkE4SXR3R3JUaXhObmhjdmgzSEgxNTV6d3N0M2k5UU9uSDBsRXZiNzIxRWJsQmfSAb8BQVVfeXFMUElMcEVVRXcweUZhTloxWGJFdlN0UWx2ZDBBSm5DRzhiejNJZlgtWWV2eUpiQ0diajZlZ3BrbmZEMTJRZnU2eVBJWkwxdGNzTkprSElzTk05VXhKREVDcnYwN0t4aXl2V2VFbHZ4SWNuWEVvUXA5bEE1dm94UWU3aTBQT0phSEEydHdEMWYzSkNvbWtlbHVlajJRblRfUUc3eFBXTFZmd2VYQWh2RjMwZzM3N2ZYQ0l3OWhqS29mQm8?oc=5",
-          "source": "PBS",
-          "publishedAt": "2026-11-21T16:28:20+00:00",
-          "phase": "escalation"
+          "title": "U.S. Approves 879,000 AI Chips to Chinese Military-Linked Firms Despite Controls - 조선일보",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb2dqTHdEeUQ4bVhiU3MxN04zTldIalV4aXIxemJKTHhUam9FTVV1SThuQ0hLS3ZqQ3I4d092MG9aRWpSMDl4eGJYbVpsTHdnRUExazhrSUpPcnJoU1lkM0FsWTI0cEh6eW16dVBKNkV4ck1wX3MxZ3g2TVpnbUdFLVUxMF8?oc=5",
+          "source": "조선일보",
+          "publishedAt": "2026-11-20T05:33:21+00:00",
+          "phase": "monitoring"
         },
         {
-          "title": "Trump administration approved shipment of nearly 900,000 AI chips to China - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPU21ybUlsOHNXaXhtcDgwZDhSUHZVNVZNaW9ycDJVQThjcHFwc2IwbS1fN3czVHJnMksyZEpadmh6R2gyQU5lWlZOdUVfSzdoUHN5ZVZJMXFNWkZFTE51enRlOU9RVzZjeHpBUHBSSFVhT0R2RHNpRFVZazcxdFM3ctIBhgFBVV95cUxNQmd1aDAzVWFnVmNtRmZfU1k3V1ZvLUNUd2hPWmNoclBMZWh6Q0RDb2d0eTNJRDRNUnZfUm56aGZXVGo4SHc4VlFiT3E4b3lvRUtvMWwzQ2kyZ3pFR1BENjFlLTFvbFJOWi1jdzlxdVFJMFZCTVllNV9CRnQwaDhzcWxVSjExQQ?oc=5",
+          "title": "Trump admin cleared over 879k AI chip sales to Chinese firms: House panel - Business Standard",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORnZRSzRSRkFLQ0FLTDR5SWhBaVVJdFFRM0o3cUlfa2lXV0pfN1RHZGhpUDJPR1dYLUx3dGYwSDhNNm1WUWZEX2ZTY3owSFdZT29tanRIVUVVcjNXRU9XeDV2LTRrdzg2bC1kUWRwQnBMQm9WMkRuUF9XTlZIZVVDM0p6Smt1anQtUWx4TXphWW4ydTRYaUtUVlZ0el9IdEZqZEh6Qm5wdEdaQ2ExWHB5SHJ5X3hVTUVPUTJKSGZmRkZRbHBuSlF3QjlWbkFXSFhFT3pR0gHYAUFVX3lxTE9JZExwTVNCeXdCWTZvdExrYnd3UDBEdnJremNWSGpIU2FCZ0JSSXpJZWxLNEdMYTd6bVdiYnItdEY2Nmh2RTFqbG9JaFFERjBleDJILVRxQTZkWHV4U2paZGV3WGpJSFhlakZoajZERURicnFzcDVUWTF2ZmZzd1ljakpLQXR1OWZ0cXlRUlNyZTlWMHZHb2V0a1g5U3d1dDBDRmRfclBxM0dRVkZiT3JOWktrOG8yMkUwMjhlc2lSZ1FyMU9BTFpiZ1oweVpYVHFuckY1YWtOaw?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "2026-11-20T03:53:59+00:00",
+          "phase": "monitoring"
+        },
+        {
+          "title": "Navigating Trump's Semiconductor Strategy - Legal 500",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSXJYY3F3NWtaZU91dzhIVWFOYXlCYzAwWmp6Qy1yMWJFWnlyU1laWEpLejdnNzNGV1J1VkhIaGFoZkNxUnVhZ29OMVMwblZ0SW9nQXp3eW01UUM3OF80RS1KUXFPdWJBSXpjdUVVQmYxS1pYM2ZLN2NLVVZTWGg5ZE9wRnEtRnZkaTRmdjlNalE0OHZIcWUzNzBiSGt1OHZHUlNDQUlmZHFkVm1uVThCMQ?oc=5",
+          "source": "Legal 500",
+          "publishedAt": "2026-11-01T18:12:35+00:00",
+          "phase": "monitoring"
+        },
+        {
+          "title": "Trump failing to block China’s access to American AI technology, say senior Senate Democrats - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SOFUzQzlsOFVDUlRWN0VCMGx0Z3NEODlYQjliN29VbHZfWElQUXdueFhjYUxJaWhVcEZUdkpFX2pIcGQzLTFSMWswRjZ1b3AtX3MtNWZ3MzcxdmJXV0oyLUVnUHBOQmdHelBxM0lza3FiaXA5MFVxMkJR0gF_QVVfeXFMTWFpVU1NNDNWSHFBNnFSbGJHMG95U2VzUWVjX2FzZzZPa2w2TGJ0Q1dtMWk1OUNaSExxMGtyaFU1d0RZSzc2blNqUGc5Y1U3dDNEUTdlY2MxVG1mQ0Vnb0NYbTQyT1VsdzZtN2V4SDZBZ3UtV1ppMmNtSlYyQ3kyQQ?oc=5",
           "source": "The Hill",
-          "publishedAt": "2026-11-19T21:49:00+00:00",
-          "phase": "execution"
-        },
-        {
-          "title": "US lawmakers push for tougher AI chip rules amid China export crackdown - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVXZHdlYtQnFTY3k3TmNsR0JUZUxubmk5X2tkaFVxUTAwZkVIQTdwVWJudFdkcGQyRHlPTjRXUGNpelJ6eWs4ZmdVR0VwYlJSUFpuakZoVjlHRUNRN2ZJZElGUEg3YjZobVJvcFlJUXFBZ3QtOWk5OFZ4Qzd4YjZRZzZ3cUQ4SlYzaHU3THI0eF95TGVLYmJXSmdrME81dVFnVEpaSWZscThXVm9CNDNIYmxmZmZlZTTSAbwBQVVfeXFMTnBNanFqR2o1aFlhRVZHZDhObk5HbGNTQ3docVRMeTd5ZEczcHYzSVM0bDdFS2VuRC0yTUtZaFdQWlQxb2xfMTh1YllfV2VKeWpWdDBYcF9BSVVyTkR1X1JtU3ExY3JTdzFJMkF4MmNnWEsxRW00ZEdmdzQtMm41d0hHcU9WdUZ3WVNFQTFHbGxkS2F3TW9sNXBFcnVOci1QRmdVMHE0NWVOS0JmWmxEM05SSEM2aWtXUnB6cjc?oc=5",
-          "source": "Al Jazeera",
-          "publishedAt": "2026-11-20T22:31:12+00:00",
+          "publishedAt": "2026-09-22T07:00:00+00:00",
           "phase": "escalation"
-        },
-        {
-          "title": "US signed off on sales of nearly 900,000 AI chips to China in six months, House committee says - Yahoo",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT3IwWnVZTDdaME41NFVDd1JmZWFBdXVxNzhFdnYzeU9TOWVhZXJBYmh6eE5oankyclRRam5zWkFGZTl3STZzT2ZDWWRVeDRydFctTzhPX0NfZUNaTEUwZ3dKSUdxQVZaVk5ycXlsbV9Za3RZd1JyaUY0WHB0cUdIV0NTVUJNZGhOazBlcUJheU1PNmZGdk1RVg?oc=5",
-          "source": "Yahoo",
-          "publishedAt": "2026-11-20T00:37:00+00:00",
-          "phase": "execution"
         }
       ],
       "poolCategories": [
@@ -294,9 +294,9 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-22T00:27:23.599313+00:00",
-      "phaseLabel": "进入执行",
-      "pressureInteraction": "政策进入执行阶段，市场压力不再等同于政策会立即撤回。"
+      "updatedAt": "2026-11-22T08:10:20.464173+00:00",
+      "phaseLabel": "强硬升级",
+      "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "geopolitical",
@@ -317,13 +317,6 @@
           "phase": "escalation"
         },
         {
-          "title": "‘Hit them hard’: Does Trump have another ‘new’ Iran strategy, can it work? - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNei1sWFJvWWlicEFKNG8wNHlCdlY1RWw2WWVKdVJ2eFdTQXNEamVVUFRLWDB1ODBoVDZRdFNTMkxuVEhWQ19JbldwdVM0VWQ1VjFBcGdGYTl6bENMdk8xV2w3NzdCRWdFZS1EQU5lZ2NRbEhzVGhWZ2FCaUZXV0pVb0dMbWFRTFdZQ2JTcVZLYVZzZUlURk1hTEZIc3BqS3c2UW90SzRKZnNqVUXSAbABQVVfeXFMT184cHBYODdkZFlSMlJ0UW1ONG5MQmhzaUdnQUtKVmRCVUF2dGY1c3pxQTVKSHN3VFFjSkozMVc5aFdzWmkzTDZkM2xIc29nYUp0N1gtOFladkpjdDVMaFFYY1NJSC02cFhZaURWeFhiWjYxenlab2FoMzBiejRCaThadXVVNEpZVXZvcXZBMWFCZmV2YUF4ZFlTX19rMjZVTDNQSlF6bm9kRXZtSllrWEE?oc=5",
-          "source": "Al Jazeera",
-          "publishedAt": "2026-09-01T07:00:00+00:00",
-          "phase": "monitoring"
-        },
-        {
           "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
           "source": "CNBC",
@@ -336,6 +329,13 @@
           "source": "NBC News",
           "publishedAt": "2026-07-08T07:00:00+00:00",
           "phase": "softening"
+        },
+        {
+          "title": "Trump says Iran \"ready to fold up,\" after threatening post-midterm attacks - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaXNwVUhFZkZrZmxLRFd1QVZwZFFWVjFLcEgxWmNJWnJCMlNnOExuY3BsdWlLaG9HYzF1VjJKYnB6eHlfU1NLZWlUcWhDMmpCVFI1eGczV19kR3kycThHd0ducEtLejdicmJXanhmWWFUcWRJeVVDb28xUlRmTWxPSWRwbXBfRU1uSW1N?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-10-02T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-22T00:27:23.710643+00:00",
+      "updatedAt": "2026-11-22T08:10:20.434930+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -369,9 +369,9 @@
           "phase": "monitoring"
         },
         {
-          "title": "How the Trump Tax Plan Will Affect You - SmartAsset",
+          "title": "How the Trump Tax Plan Will Affect You - SmartAsset.com",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yOGRVTHVrTU96REFGZGRfS1pxMk5KNzJ3azZVOU51cGt1d2lxSXBKT3hXVWpHd0dSV0FvZlh4czdJZ05KWlM5UHhhZlRGQWVuZzQ5M25zYk1PdXd5Vm1FalZZd2lpVVBFTHFkRWlvTzVyc2l4LWI1NXcxanFRVms?oc=5",
-          "source": "SmartAsset",
+          "source": "SmartAsset.com",
           "publishedAt": "2026-11-17T08:00:00+00:00",
           "phase": "monitoring"
         },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-22T00:27:23.721298+00:00",
+      "updatedAt": "2026-11-22T08:10:20.480822+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-22T00:27:24.675528+00:00",
+    "asOf": "2026-11-22T08:10:21.398114+00:00",
     "aggregateScore": 71.7,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
