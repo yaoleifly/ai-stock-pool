@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-11-26T11:05:13.509490+00:00",
+  "asOf": "2026-11-26T20:16:05.121417+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 81.1,
+    "value": 80.9,
     "zone": "extreme_pressure",
-    "change5d": -8.5
+    "change5d": -8.7
   },
   "drivers": [
     {
@@ -36,8 +36,8 @@
       "direction": "收益率上升增加压力",
       "interpretation": "融资成本越高，财政与市场承受力越弱。",
       "updatedAt": "2026-11-25T19:59:53+00:00",
-      "freshness": "live",
-      "freshnessLabel": "最新交易时点",
+      "freshness": "delayed",
+      "freshnessLabel": "最近交易日",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceTier": "market",
       "sourceUrl": "https://finance.yahoo.com/quote/%5ETNX/"
@@ -78,12 +78,12 @@
       "id": "vix",
       "name": "股市恐慌",
       "weight": 0.15,
-      "pressureScore": 86.2,
-      "value": "27.48",
-      "changeLabel": "近5日 -0.96",
+      "pressureScore": 84.5,
+      "value": "26.80",
+      "changeLabel": "近5日 -1.64",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-11-26T10:50:01+00:00",
+      "updatedAt": "2026-11-26T16:30:00+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -131,7 +131,7 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 83.3,
+      "score": 82.8,
       "components": [
         "MOVE",
         "标普500",
@@ -195,54 +195,54 @@
   ],
   "policyEvents": [
     {
-      "id": "tariff",
-      "name": "关税与贸易",
+      "id": "technology",
+      "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 7,
+        "escalation": 2,
         "softening": 1,
         "execution": 0,
-        "monitoring": 0
+        "monitoring": 5
       },
       "items": [
         {
-          "title": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless - The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYUJrQ3VzcUs4NmJmXzMtVmx0dUYzaUZ0ZGw0MUM2X29UdG83c2Z1d2ZRR1JIQVYzbC1BQlA5NzgwUnFJUERLTG81aHd1WmptOU43UjFaekpVWGFFeDJtQUtybnpoNUVsUTdYbDV3MF9MME1hN2hvWl9BQ1U4NUd4NmZwR1FlTXBhckdUQTE1c21JMFR5ZHlOQWtR?oc=5",
-          "source": "The Guardian",
-          "publishedAt": "2026-11-26T03:54:00+00:00",
+          "title": "Nvidia CEO Faces Senate Scrutiny Over China Chip and Spy Scandal - Legis1",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHLTBMU0lqX0pMZFM3WlVySXFQbmRERFVlYnd4Z1ZVT1VFZWtSVTRjMUw1dFFjY0R1ckRNbFJ5OUJDS3lMZDU5OTZlTkZUQ3pwSmdkc3B6YV8wMmNGMER4M2FQQ3kyT1hWU1FldFlSY1U3V2ZGTnc?oc=5",
+          "source": "Legis1",
+          "publishedAt": "2026-11-24T16:21:55+00:00",
+          "phase": "monitoring"
+        },
+        {
+          "title": "U.S. Further Tightens Export Controls And Further Restricts China's Access To Advanced Semiconductor And Chip Technology - Legal 500",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPd2RZbmU1Z3lmZXYyaWhMYW5HZ2J3bjg0a2R4NFB0SXZ1c3NiWFRDMnJHeEw4ajllOTB4VUljRkdvX0ZuTHNkd2hfWTk5R3lBZk1ZeG93NWQtMFNoZlVLRXdtQURHUFVWMUo3alpJWHJaOHNQb0hKZnpVUkczd2JtdUF6UzEyMXNzbGZ6aVVVYjRtZHpMRnlsNkJ3ZXVQdnN4b1VLVjRlZTNxU0dWeUxsb0tBcDhqMWY1MWhkdXhkYU0tMkthQ1pBNGwxN1RkOU9VTmt2ZFFVSHR3bXpRRlUwTk11TVVIZGhWcGU3UHhfU3FPTVZLU0ZieWdWUnJzSmpmcEpjekFiWjhtWjV5cVE?oc=5",
+          "source": "Legal 500",
+          "publishedAt": "2026-11-23T00:51:50+00:00",
           "phase": "escalation"
         },
         {
-          "title": "US announces new tariff proposals on EU, China, and other trade partners - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iZDRtNkV3UUxEaHZPNGtUa082dU5SdmF0dzV6TFUzRm5ybmdBMkdTVXN0cmVQZ2lnNERkZG5WU2hXVXRiczZTVy10a1pkSVdoSnhNNk1B?oc=5",
-          "source": "BBC",
-          "publishedAt": "2026-11-25T17:35:56+00:00",
-          "phase": "escalation"
+          "title": "US-China Relations in the Trump 2.0 Era: A Timeline - China Briefing",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVl9rOHkwQl9VYldidlJVajgtZzY4VE5TQmt6eEQ2czIxaTk5N3Ywd3diVXdCT3dKVmhUNmxMRjJ0UnJKdGE2TUtuNklrdWx4UTVGZG5kY1pvWnNEWUhkdmZ5WkV3R0plREV6aTlGc1JEUHVQeG02VzRsVE82OERteXhsMGNfTEVPMllnN0p3?oc=5",
+          "source": "China Briefing",
+          "publishedAt": "2026-11-20T08:00:00+00:00",
+          "phase": "monitoring"
         },
         {
-          "title": "Trump unveils new tariffs over excess industrial capacity, undeterred by midterms defeat - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcjZ1MUw5RG5fdk0tUjNTRFNIRzl5amR0VklFSzdTOUlUS2hxNWk5aV9xcm5VWmQtZGRkdXVKMWZ3Um5qZHluSFp4MGNIdHNETlZPck1RcmJmUC1oZHFtWFdYT29PbkdjUU1IbjQyWE9GRFJZdXFwTVFRMEtDcl81bXpDS3RHSHNka3VSbGlHNmNFV09uMTE1aExBRVkxUldZUmpwX3hYdGduS1BJcW1QRlY4ZjdyYkZyWTI0dVBB?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2026-11-25T13:15:00+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNbWY3Z2hNLWJsb3dsYmdKakJjZEVaU21VaTV3WEFZV196bldhMGJEeUlFMHJlSjV2UHU5eFhrTS1BQldGTTdKemhscThySFJfLW55ZE1PUGpFeHN0bUtjaDR5MzNHZ3RVODBhU0IxTnBuNmdySG400gF8QVVfeXFMTkRUVDZGZkdHZ1VDMWpGcWtvc01hVlJwd0lwdDJUYU9OZXV2NjdYRFNTUmprbFRuWEkxd1lrOFJfR1NVbXE3S0dMMXBLNk9qTGlsSFBDVEtqYWxuOXc4WTMzUHFZTENRQlFLeDM3cldOTHpxVlYzR2NNRC1BcQ?oc=5",
-          "source": "CNBC",
-          "publishedAt": "2026-11-26T07:58:19+00:00",
-          "phase": "escalation"
+          "title": "The BR International Trade Report: November 2026 - Blank Rome LLP",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSVdVSFduOHNDeWdxVmhPRUs2ZUF4alV2aVhiSG1tSnNRa1dWcXZnMEYtMnBxMm9hUF9KTmhlRWc4UGs3QVdqMGxKd1poZmVIYTFpTVUzTUdqZHJlbVhrSkRmU3VweWJkVDRHQ05QekJEZ09BMWdXR1N3YUxJTE1ET21HZzFEaG5kaU55UzVNNHQ2eG01?oc=5",
+          "source": "Blank Rome LLP",
+          "publishedAt": "2026-11-09T08:00:00+00:00",
+          "phase": "monitoring"
         }
       ],
       "poolCategories": [
-        "半导体设备",
-        "半导体材料",
-        "先进封装",
-        "PCB与材料"
+        "AI算力与服务器",
+        "半导体与设备",
+        "ASIC与网络芯片",
+        "数据存储"
       ],
       "sourceName": "Google News RSS",
-      "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-26T11:05:12.678547+00:00",
+      "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
+      "updatedAt": "2026-11-26T20:16:03.967875+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -252,9 +252,9 @@
       "phase": "escalation",
       "phaseCounts": {
         "escalation": 4,
-        "softening": 4,
+        "softening": 3,
         "execution": 0,
-        "monitoring": 0
+        "monitoring": 1
       },
       "items": [
         {
@@ -265,24 +265,24 @@
           "phase": "escalation"
         },
         {
-          "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
-          "source": "CNBC",
-          "publishedAt": "2026-07-27T07:00:00+00:00",
-          "phase": "softening"
-        },
-        {
-          "title": "Trump threatens more strikes on Iran as Tehran warns of 'fearless' response - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FVXdyTnl5aUpzSmVjVzl6ZzB4bGxFSmhxaEhGQ2xCdl84M0hZYkxqdGFUcmlUTV93TUJFejllckdnVFNUVFREcnlIX3duNGgwN0VUVHE1RlhKQQ?oc=5",
-          "source": "BBC",
-          "publishedAt": "2026-07-08T07:00:00+00:00",
-          "phase": "escalation"
+          "title": "‘Hit them hard’: Does Trump have another ‘new’ Iran strategy, can it work? - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNei1sWFJvWWlicEFKNG8wNHlCdlY1RWw2WWVKdVJ2eFdTQXNEamVVUFRLWDB1ODBoVDZRdFNTMkxuVEhWQ19JbldwdVM0VWQ1VjFBcGdGYTl6bENMdk8xV2w3NzdCRWdFZS1EQU5lZ2NRbEhzVGhWZ2FCaUZXV0pVb0dMbWFRTFdZQ2JTcVZLYVZzZUlURk1hTEZIc3BqS3c2UW90SzRKZnNqVUXSAbABQVVfeXFMT184cHBYODdkZFlSMlJ0UW1ONG5MQmhzaUdnQUtKVmRCVUF2dGY1c3pxQTVKSHN3VFFjSkozMVc5aFdzWmkzTDZkM2xIc29nYUp0N1gtOFladkpjdDVMaFFYY1NJSC02cFhZaURWeFhiWjYxenlab2FoMzBiejRCaThadXVVNEpZVXZvcXZBMWFCZmV2YUF4ZFlTX19rMjZVTDNQSlF6bm9kRXZtSllrWEE?oc=5",
+          "source": "Al Jazeera",
+          "publishedAt": "2026-09-01T07:00:00+00:00",
+          "phase": "monitoring"
         },
         {
           "title": "Trump says ceasefire ‘over’ after U.S., Iran trade attacks but that talks can continue - NBC News",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORjNtd1V3TWhyd0hDQzlLOGJQUlhobGw3VTlJYnp0a3Ayak9tdEIzSXFJekhiNXFiRnZjSEZxN1dFczZtUVRWM0REcnRCSDZnVW9aUkFpeDhRUWhlSnM2YTFzRXMzdTlielRWOU96c1BBaDIxSlFFbnVpazF4M01TUGxFY2RzSnVnQ21UV29YOFk4c3VIeDhTZ3JpX1VHcXhEb0ZlQ0x5SF9pYVdobzZ0dmdxQlRNZnc?oc=5",
           "source": "NBC News",
           "publishedAt": "2026-07-08T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Iran says the U.S. is standing in the way of Hormuz deal amid talks with Oman - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jOUFCMjg1c0xRdGhQS1BBdzczQTF5Y2oyaThSN0JLblRpZFRwOW9SQU43bmxaY3FsZE85bGRJbDBBNUVDSzEtdEFVV1RoR1pCMWlGMmc5STN1SHBCbHBMbXk3b3hYdHRNbnFZQ21n0gFzQVVfeXFMTVM2NDQ2amJfcHlFN0tDTGFNODhiMldlYVRzdnFOMklqajVfekp1eVNxOUoxWFN5ZGxXczJZc0tGb1VhRkpzYWFRQXdkUEhLZjZkbERPYkZyZkswd01wQUg0aXBHRzVEcjVTX2FoYzJyaXNOMA?oc=5",
+          "source": "CNBC",
+          "publishedAt": "2026-08-26T07:00:00+00:00",
           "phase": "softening"
         }
       ],
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-26T11:05:12.797082+00:00",
+      "updatedAt": "2026-11-26T20:16:03.943331+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -303,38 +303,38 @@
       "name": "财政、税收与产业补贴",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 3,
+        "escalation": 1,
         "softening": 0,
         "execution": 0,
-        "monitoring": 5
+        "monitoring": 7
       },
       "items": [
         {
-          "title": "“No Exceptions, Even for Allies”: Trump Renews Tariff Offensive, Facing a Dilemma Between Fiscal Gains and Diplomatic Costs - https://economy.ac/",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TYy1rczhtakRVdkpRSks2VlhxUHUwQ2xlVlhGaTEzRGRTYlR1dmRwZk04SXd6cl9Dbk16MFMxbVp6dDJwTHZHSGZNQk5jZlEtcjV6THR0UQ?oc=5",
-          "source": "https://economy.ac/",
-          "publishedAt": "2026-11-26T04:29:16+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "How the Trump Tax Plan Will Affect You - SmartAsset",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yOGRVTHVrTU96REFGZGRfS1pxMk5KNzJ3azZVOU51cGt1d2lxSXBKT3hXVWpHd0dSV0FvZlh4czdJZ05KWlM5UHhhZlRGQWVuZzQ5M25zYk1PdXd5Vm1FalZZd2lpVVBFTHFkRWlvTzVyc2l4LWI1NXcxanFRVms?oc=5",
-          "source": "SmartAsset",
-          "publishedAt": "2026-11-17T08:00:00+00:00",
+          "title": "Why Trump Is Throwing His Weight Behind a Hollywood Tax Credit - Time Magazine",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUE41a3lwYTE2RjR3UUYwSGplLXBHdVJLYW5QVFllSWg1OTh0UXZCNE1pcXM2Yl9NSjdONjByYTB4dzRKUFZtUElkbDQ0T3ljR0xERzl0UE9jTFNPaTdrV0xfZDlVVF9uUE9iTzZDMHlqVVlyNkpPZzRLUGplaHJZWTMwMTlDbmVHNFQ2SG5fOUhUNWdPOUlQZWN1djJSY0dm?oc=5",
+          "source": "Time Magazine",
+          "publishedAt": "2026-11-16T08:00:00+00:00",
           "phase": "monitoring"
         },
         {
-          "title": "Tracking the Impact of the Trump Tariffs & Trade War - Tax Foundation",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LU1daamtmcnNXWEZENFBwb3BYMThMQ1M4bHFPSzVZX0s5QmlLYWM4dDdKUGNiOF9iNjcxZ2VZTXd0bVJ6NGNNcDZVVmlkc25rTmxLd3Q4RVJhQmM3dUhpR3h1aXhXNGs3UkNQN0ZKLUpSSnBnOWVaX0tTRQ?oc=5",
-          "source": "Tax Foundation",
-          "publishedAt": "2026-08-20T16:36:30+00:00",
-          "phase": "escalation"
+          "title": "Trump Tax Law 2025: What Changed and How It Affects Your Taxes - Kiplinger",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lMWNMMWpEVkt4bFBZdUZCNDNUOWg3UndTbnZzOElhN3hxS3B6UXEtUktIb2FLa3daSUxlNGE5QWRpcFlBZ1Nwc3pINERwSEd0cEZsSWpyaUZadnp4cHZRQkVVd0M?oc=5",
+          "source": "Kiplinger",
+          "publishedAt": "2026-11-13T08:00:00+00:00",
+          "phase": "monitoring"
         },
         {
-          "title": "What to Know About Trump Accounts - Bipartisan Policy Center",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52cWZRSWVuVDVJREZMTVY5TGNfcWU1Y0RIU3BPUk9yMm95NUc0NldEZnZzYWdsN3lkWmo3U1FkeXVSZTlsYjBnTE1xLWZicXpUV1NySWNNTE9xaF9NbDQwOUpmUEdSSWFYZm9VZDM3R1VqbWwwOEdiQUdEZV9QUQ?oc=5",
-          "source": "Bipartisan Policy Center",
-          "publishedAt": "2026-06-23T07:00:00+00:00",
+          "title": "Trump Trade War With Canada Puts Film, TV Spending Rules in Crosshairs - The Hollywood Reporter",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWRnSVRlYmo1Unc0VVUtVmlhRjBJV3NoYTZwVTlXWWw3WkpDZXdBQXI1aEp5Um9US011QkRVRDBhWEZzNS1aQ1FndzQ2NmlQZ0FWMXlMYmlWM2JHWldFZjBET3pNeGJYYXprd2RHYWkwZXIzRFloQUN0STB6Q0VUVks4Um1tczdXY1dlNnlhbjZjRzNJbEE?oc=5",
+          "source": "The Hollywood Reporter",
+          "publishedAt": "2026-08-24T07:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
+          "title": "Republican Megabill Trades Essential Support to Low-Income People for Skewed Tax Cuts - Center on Budget and Policy Priorities",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmhGejlFclBFVFBOOEhLVWU4eTlrbE5wMDNta3ZqQzB4ZElpMXpsS0JjdjkzSnVSRWVCZ1NLWm1HWkhGTGx6bnJFdW9iYVlBbXBxeXNUcEFMamJ5dVBCUzJoaTZIZnZUV3ROZ3dMbS0wa0F2WFJJa3I2cnU0NVhkZmZLVUxLbktodEJWcWRHZW9QOFB5Sy0xNGVWSFNId05yT3R0SlBZOHkxZWJOYmlDWGpLdHEzbG9hX1E?oc=5",
+          "source": "Center on Budget and Policy Priorities",
+          "publishedAt": "2026-02-11T08:00:00+00:00",
           "phase": "monitoring"
         }
       ],
@@ -346,17 +346,17 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-26T11:05:12.661104+00:00",
+      "updatedAt": "2026-11-26T20:16:04.227792+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
   ],
   "policyEventErrors": {
-    "technology": "HTTP Error 429: "
+    "tariff": "HTTP Error 429: "
   },
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-26T11:05:13.508158+00:00",
+    "asOf": "2026-11-26T20:16:05.119196+00:00",
     "aggregateScore": 73.0,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
@@ -1751,7 +1751,7 @@
             "price": 300.86,
             "priceIndex": 77.4,
             "sectorIndex": 68.31,
-            "volume": 34256900
+            "volume": 34349500
           }
         ],
         "score": 91.0,
@@ -1884,9 +1884,9 @@
         },
         "scoreChange7d": 14.7,
         "historyStatus": {
-          "points": 54,
+          "points": 55,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-11-25",
+          "lastDate": "2026-11-26",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -2639,6 +2639,20 @@
             "score": 91.0,
             "zone": "distribution_risk",
             "currentPrice": 297.55,
+            "targetMean": 523.28,
+            "targetMedian": 525.0,
+            "bullishShare": 94.0,
+            "epsEstimate": 3.83018,
+            "revenueEstimate": 34906205760.0,
+            "targetRaises45d": 1,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-26",
+            "ticker": "AVGO",
+            "score": 91.0,
+            "zone": "distribution_risk",
+            "currentPrice": 300.86,
             "targetMean": 523.28,
             "targetMedian": 525.0,
             "bullishShare": 94.0,
@@ -4061,7 +4075,7 @@
             "price": 406.03,
             "priceIndex": 78.47,
             "sectorIndex": 68.31,
-            "volume": 51340800
+            "volume": 51632000
           }
         ],
         "score": 84.3,
@@ -4195,9 +4209,9 @@
         },
         "scoreChange7d": 2.6,
         "historyStatus": {
-          "points": 54,
+          "points": 55,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-11-25",
+          "lastDate": "2026-11-26",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -4950,6 +4964,20 @@
             "score": 84.3,
             "zone": "distribution_risk",
             "currentPrice": 404.84,
+            "targetMean": 649.89,
+            "targetMedian": 650.0,
+            "bullishShare": 88.9,
+            "epsEstimate": 2.93078,
+            "revenueEstimate": 17056738549.0,
+            "targetRaises45d": 10,
+            "targetCuts45d": 4
+          },
+          {
+            "date": "2026-11-26",
+            "ticker": "AMD",
+            "score": 84.3,
+            "zone": "distribution_risk",
+            "currentPrice": 406.03,
             "targetMean": 649.89,
             "targetMedian": 650.0,
             "bullishShare": 88.9,
@@ -6353,7 +6381,7 @@
             "price": 601.25,
             "priceIndex": 63.37,
             "sectorIndex": 68.31,
-            "volume": 52470000
+            "volume": 52988400
           }
         ],
         "score": 80.8,
@@ -6486,9 +6514,9 @@
         },
         "scoreChange7d": -8.1,
         "historyStatus": {
-          "points": 54,
+          "points": 55,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-11-25",
+          "lastDate": "2026-11-26",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -7241,6 +7269,20 @@
             "score": 80.8,
             "zone": "distribution_risk",
             "currentPrice": 595.49,
+            "targetMean": 1529.69,
+            "targetMedian": 1540.0,
+            "bullishShare": 89.8,
+            "epsEstimate": 38.24639,
+            "revenueEstimate": 61756168190.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-26",
+            "ticker": "MU",
+            "score": 80.8,
+            "zone": "distribution_risk",
+            "currentPrice": 601.25,
             "targetMean": 1529.69,
             "targetMedian": 1540.0,
             "bullishShare": 89.8,
@@ -8643,7 +8685,7 @@
             "price": 130.93,
             "priceIndex": 56.51,
             "sectorIndex": 68.31,
-            "volume": 28539800
+            "volume": 28713100
           }
         ],
         "score": 69.6,
@@ -8776,9 +8818,9 @@
         },
         "scoreChange7d": -12.5,
         "historyStatus": {
-          "points": 54,
+          "points": 55,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-11-25",
+          "lastDate": "2026-11-26",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -9531,6 +9573,20 @@
             "score": 69.6,
             "zone": "crowded",
             "currentPrice": 129.6,
+            "targetMean": 298.99,
+            "targetMedian": 300.0,
+            "bullishShare": 88.4,
+            "epsEstimate": 1.10098,
+            "revenueEstimate": 3152214940.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 9
+          },
+          {
+            "date": "2026-11-26",
+            "ticker": "MRVL",
+            "score": 69.6,
+            "zone": "crowded",
+            "currentPrice": 130.93,
             "targetMean": 298.99,
             "targetMedian": 300.0,
             "bullishShare": 88.4,
@@ -10613,7 +10669,7 @@
             "price": 23.31,
             "priceIndex": 82.75,
             "sectorIndex": 68.31,
-            "volume": 43194700
+            "volume": 43383900
           }
         ],
         "score": 61.0,
@@ -10746,9 +10802,9 @@
         },
         "scoreChange7d": 0.0,
         "historyStatus": {
-          "points": 54,
+          "points": 55,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-11-25",
+          "lastDate": "2026-11-26",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -11501,6 +11557,20 @@
             "score": 61.0,
             "zone": "crowded",
             "currentPrice": 23.12,
+            "targetMean": 43.6,
+            "targetMedian": 45.0,
+            "bullishShare": 22.2,
+            "epsEstimate": 1.78109,
+            "revenueEstimate": 20453681600.0,
+            "targetRaises45d": 3,
+            "targetCuts45d": 0
+          },
+          {
+            "date": "2026-11-26",
+            "ticker": "SMCI",
+            "score": 61.0,
+            "zone": "crowded",
+            "currentPrice": 23.31,
             "targetMean": 43.6,
             "targetMedian": 45.0,
             "bullishShare": 22.2,
@@ -12923,7 +12993,7 @@
             "price": 149.3,
             "priceIndex": 73.14,
             "sectorIndex": 68.31,
-            "volume": 363377300
+            "volume": 366571900
           }
         ],
         "score": 51.5,
@@ -13054,9 +13124,9 @@
         },
         "scoreChange7d": 4.4,
         "historyStatus": {
-          "points": 54,
+          "points": 55,
           "firstDate": "2026-08-04",
-          "lastDate": "2026-11-25",
+          "lastDate": "2026-11-26",
           "revenue30dReady": true,
           "revenue60dReady": true
         },
@@ -13816,6 +13886,20 @@
             "revenueEstimate": 130826074070.0,
             "targetRaises45d": 0,
             "targetCuts45d": 16
+          },
+          {
+            "date": "2026-11-26",
+            "ticker": "NVDA",
+            "score": 51.5,
+            "zone": "watch",
+            "currentPrice": 149.3,
+            "targetMean": 242.43,
+            "targetMedian": 240.0,
+            "bullishShare": 77.8,
+            "epsEstimate": 2.87956,
+            "revenueEstimate": 130826074070.0,
+            "targetRaises45d": 0,
+            "targetCuts45d": 16
           }
         ],
         "expectationDivergence": {
@@ -13835,8 +13919,8 @@
       "updatedAt": "2026-11-25T21:00:01+00:00"
     },
     "history": {
-      "updatedAt": "2026-11-25T19:10:46.516246+00:00",
-      "snapshotCount": 54
+      "updatedAt": "2026-11-26T18:58:09.516133+00:00",
+      "snapshotCount": 55
     }
   },
   "scenarioMatrix": {
@@ -13950,8 +14034,8 @@
     {
       "id": "ust10y",
       "name": "10年期美债",
-      "freshness": "live",
-      "freshnessLabel": "最新交易时点",
+      "freshness": "delayed",
+      "freshnessLabel": "最近交易日",
       "updatedAt": "2026-11-25T19:59:53+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5ETNX/"
@@ -13979,7 +14063,7 @@
       "name": "股市恐慌",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-11-26T10:50:01+00:00",
+      "updatedAt": "2026-11-26T16:30:00+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
     },
@@ -13994,7 +14078,7 @@
     }
   ],
   "errors": {
-    "event_technology": "HTTP Error 429: "
+    "event_tariff": "HTTP Error 429: "
   },
   "method": {
     "weights": "民调25% / 标普20% / 美债15% / MOVE15% / VIX15% / CPI Nowcast10%",
