@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-27T22:06:57.370617+00:00",
+  "asOf": "2026-11-28T03:59:31.876743+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -199,8 +199,8 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 5,
-        "softening": 3,
+        "escalation": 6,
+        "softening": 2,
         "execution": 0,
         "monitoring": 0
       },
@@ -227,11 +227,11 @@
           "phase": "escalation"
         },
         {
-          "title": "Trump pauses new tariffs on Canada for three days, saying deal close - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zWE54bWFVak1sR2pLd1dHbUx3R1FGU2F2ZGpRVGRGd1VDbmVqQkp0MGQxM2lMTF9OR2J0RDJIOG1JenlEN21wdm4wYmJrX3d6SDhzTTRmVXpodw?oc=5",
-          "source": "BBC",
-          "publishedAt": "2026-08-19T07:00:00+00:00",
-          "phase": "softening"
+          "title": "Canada demand for trucks tariff relief imperiled trade talks - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWXR3V0lJYkt5dk1reXVLcVpkdGhwcERTb1FvYjVKSWZlY0ZlbTlYZ25nbmdVR05NS2pLRlc0MTNORmg1ZWVBVGRycUp0eHpVQ1ZGZUluTDBDT2pVLVR2ZVVsaVJZd3h4cnY1Qng4SlJFYWl1SzAxTkZxSVdvaUZMNjRsMjI?oc=5",
+          "source": "Fortune",
+          "publishedAt": "2026-08-22T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-27T22:06:55.774778+00:00",
+      "updatedAt": "2026-11-28T03:59:31.262614+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,10 +251,10 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 4,
+        "escalation": 3,
         "softening": 0,
         "execution": 0,
-        "monitoring": 4
+        "monitoring": 5
       },
       "items": [
         {
@@ -272,17 +272,17 @@
           "phase": "monitoring"
         },
         {
-          "title": "Seven Years After US Sanctions, Huawei Emerges as AI Chip Linchpin — Ren Zhengfei Says 'Thanks to Trump' - BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RME8yWVhCeWV6c25WS2Fnd1dkRHNhX1plYkJBWHN0N09iazRISHM0TXI2cy1OZnZoZ1VOREg3UFp0ZTZvUXFxTjIweUVuWUpoTUdrdjJYOGoxSVNNSnI4dU5kZjlhdUQyblRkcjBxMTZYNi05M3c?oc=5",
-          "source": "BigGo Finance",
-          "publishedAt": "2026-11-27T07:06:00+00:00",
-          "phase": "escalation"
-        },
-        {
           "title": "U.S. Further Tightens Export Controls And Further Restricts China's Access To Advanced Semiconductor And Chip Technology - Legal 500",
           "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPd2RZbmU1Z3lmZXYyaWhMYW5HZ2J3bjg0a2R4NFB0SXZ1c3NiWFRDMnJHeEw4ajllOTB4VUljRkdvX0ZuTHNkd2hfWTk5R3lBZk1ZeG93NWQtMFNoZlVLRXdtQURHUFVWMUo3alpJWHJaOHNQb0hKZnpVUkczd2JtdUF6UzEyMXNzbGZ6aVVVYjRtZHpMRnlsNkJ3ZXVQdnN4b1VLVjRlZTNxU0dWeUxsb0tBcDhqMWY1MWhkdXhkYU0tMkthQ1pBNGwxN1RkOU9VTmt2ZFFVSHR3bXpRRlUwTk11TVVIZGhWcGU3UHhfU3FPTVZLU0ZieWdWUnJzSmpmcEpjekFiWjhtWjV5cVE?oc=5",
           "source": "Legal 500",
           "publishedAt": "2026-11-23T00:51:50+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "Seven Years After US Sanctions, Huawei Emerges as AI Chip Linchpin — Ren Zhengfei Says 'Thanks to Trump' - BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RME8yWVhCeWV6c25WS2Fnd1dkRHNhX1plYkJBWHN0N09iazRISHM0TXI2cy1OZnZoZ1VOREg3UFp0ZTZvUXFxTjIweUVuWUpoTUdrdjJYOGoxSVNNSnI4dU5kZjlhdUQyblRkcjBxMTZYNi05M3c?oc=5",
+          "source": "BigGo Finance",
+          "publishedAt": "2026-11-27T07:06:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-27T22:06:55.849961+00:00",
+      "updatedAt": "2026-11-28T03:59:31.193974+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -303,10 +303,10 @@
       "name": "军事与地缘",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 4,
+        "escalation": 5,
         "softening": 3,
         "execution": 0,
-        "monitoring": 1
+        "monitoring": 0
       },
       "items": [
         {
@@ -315,13 +315,6 @@
           "source": "CBS News",
           "publishedAt": "2026-08-30T07:00:00+00:00",
           "phase": "escalation"
-        },
-        {
-          "title": "‘Hit them hard’: Does Trump have another ‘new’ Iran strategy, can it work? - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNei1sWFJvWWlicEFKNG8wNHlCdlY1RWw2WWVKdVJ2eFdTQXNEamVVUFRLWDB1ODBoVDZRdFNTMkxuVEhWQ19JbldwdVM0VWQ1VjFBcGdGYTl6bENMdk8xV2w3NzdCRWdFZS1EQU5lZ2NRbEhzVGhWZ2FCaUZXV0pVb0dMbWFRTFdZQ2JTcVZLYVZzZUlURk1hTEZIc3BqS3c2UW90SzRKZnNqVUXSAbABQVVfeXFMT184cHBYODdkZFlSMlJ0UW1ONG5MQmhzaUdnQUtKVmRCVUF2dGY1c3pxQTVKSHN3VFFjSkozMVc5aFdzWmkzTDZkM2xIc29nYUp0N1gtOFladkpjdDVMaFFYY1NJSC02cFhZaURWeFhiWjYxenlab2FoMzBiejRCaThadXVVNEpZVXZvcXZBMWFCZmV2YUF4ZFlTX19rMjZVTDNQSlF6bm9kRXZtSllrWEE?oc=5",
-          "source": "Al Jazeera",
-          "publishedAt": "2026-09-01T07:00:00+00:00",
-          "phase": "monitoring"
         },
         {
           "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
@@ -336,6 +329,13 @@
           "source": "NBC News",
           "publishedAt": "2026-07-08T07:00:00+00:00",
           "phase": "softening"
+        },
+        {
+          "title": "Trump threatens more strikes on Iran as Tehran warns of 'fearless' response - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FVXdyTnl5aUpzSmVjVzl6ZzB4bGxFSmhxaEhGQ2xCdl84M0hZYkxqdGFUcmlUTV93TUJFejllckdnVFNUVFREcnlIX3duNGgwN0VUVHE1RlhKQQ?oc=5",
+          "source": "BBC",
+          "publishedAt": "2026-07-08T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-27T22:06:55.760604+00:00",
+      "updatedAt": "2026-11-28T03:59:31.175162+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -383,11 +383,11 @@
           "phase": "monitoring"
         },
         {
-          "title": "Virginians say Trump administration policies are making their lives more difficult - The Virginia Independent",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWWJLeDNsRWpzUHNUV1hzSTZzcFVVbUE5b3ExSUczWGZTbmhGVjM4ZkNQN1EybVdrWG1hV0VwNXA2TktqWjBzekNTR2VON2M2NVV3bGRSRFZjcVltTHJTTmVWZE9nR0pRSjR6QmoxZU8ybnh0MGFNTEp4RTRCeGIyd1hIS1YybVAyb2VjMTJXRmhWbzNUcl9RLWUxZXdHczBNRF9IT1hqNzlnMDhVTFg1SnlIc2Z3S0FuLUUw?oc=5",
-          "source": "The Virginia Independent",
-          "publishedAt": "2026-03-25T07:00:00+00:00",
-          "phase": "monitoring"
+          "title": "Trump's tariffs are causing harm to American manufacturers instead of benefiting them - PBS",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ0ZTS1RRSng2bnJVYUs3NHNOdll3V1FGR2FrVnVqMENaRlJXNDZFY09xN0ZFN0Nla1pMTFo5RW5FOU90TXNXbDNWQ2lxV1JFWTYwUjZ5dV9VZGlQZmlXN0tMOGJ4N1RsYkJJVXFRRHZXWF9kZmhnd2NGaDVKMkM0Nmw2aWlQQzdOMHVuQzh1ZEFxMENNWlJfLVF2RkJpMGhlbXlXYm1uMExJRUZtUWIxb3B0MWVIWkIwcE1XWWdn?oc=5",
+          "source": "PBS",
+          "publishedAt": "2026-03-18T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-27T22:06:56.038300+00:00",
+      "updatedAt": "2026-11-28T03:59:31.342783+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-27T22:06:57.369383+00:00",
+    "asOf": "2026-11-28T03:59:31.875416+00:00",
     "aggregateScore": 71.7,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
@@ -1801,7 +1801,7 @@
             "price": 312.34,
             "priceIndex": 77.87,
             "sectorIndex": 69.14,
-            "volume": 17045811
+            "volume": 17092000
           }
         ],
         "score": 84.5,
@@ -4139,7 +4139,7 @@
             "price": 424.54,
             "priceIndex": 77.65,
             "sectorIndex": 69.14,
-            "volume": 22152138
+            "volume": 22329200
           }
         ],
         "score": 82.8,
@@ -4184,7 +4184,7 @@
             },
             "revenue": {
               "current": 17056738549.0,
-              "value30dAgo": 13077889730.0,
+              "value30dAgo": 13083021310.0,
               "value60dAgo": 12997554620.0,
               "change30d": 30.4,
               "change60d": 31.2,
@@ -4204,7 +4204,7 @@
               },
               "revenue": {
                 "current": 17056738549.0,
-                "value30dAgo": 13077889730.0,
+                "value30dAgo": 13083021310.0,
                 "value60dAgo": 12997554620.0,
                 "change30d": 30.4,
                 "change60d": 31.2,
@@ -5095,8 +5095,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 44,
-          "label": "股价已先跌44天，机构尚未下调"
+          "waitingDays": 45,
+          "label": "股价已先跌45天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -6459,7 +6459,7 @@
             "price": 646.95,
             "priceIndex": 65.24,
             "sectorIndex": 69.14,
-            "volume": 26547049
+            "volume": 26904900
           }
         ],
         "score": 80.8,
@@ -8777,7 +8777,7 @@
             "price": 140.54,
             "priceIndex": 57.77,
             "sectorIndex": 69.14,
-            "volume": 18237847
+            "volume": 18352700
           }
         ],
         "score": 69.6,
@@ -8791,11 +8791,11 @@
         "metrics": {
           "bullishShare": 88.4,
           "bullishShare3mAgo": 88.6,
-          "targetMean": 298.99,
-          "targetMedian": 300.0,
+          "targetMean": 292.58,
+          "targetMedian": 295.0,
           "targetLow": 175.0,
           "targetHigh": 450.0,
-          "targetUpside": 112.7,
+          "targetUpside": 108.2,
           "return5d": 1.5,
           "return20d": -35.6,
           "drawdown3m": -51.0,
@@ -8871,14 +8871,14 @@
               "period": "0y",
               "endDate": "2027-01-31",
               "eps": {
-                "current": 4.21961,
-                "value30dAgo": 4.22025,
+                "current": 4.21908,
+                "value30dAgo": 4.22211,
                 "value60dAgo": 4.2113,
-                "change30d": -0.0,
+                "change30d": -0.1,
                 "change60d": 0.2
               },
               "revenue": {
-                "current": 12070304840.0,
+                "current": 12071264970.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -8890,14 +8890,14 @@
               "period": "+1y",
               "endDate": "2028-01-31",
               "eps": {
-                "current": 7.37839,
-                "value30dAgo": 7.32904,
+                "current": 7.3942,
+                "value30dAgo": 7.32838,
                 "value60dAgo": 6.75725,
-                "change30d": 0.7,
-                "change60d": 9.2
+                "change30d": 0.9,
+                "change60d": 9.4
               },
               "revenue": {
-                "current": 19784112010.0,
+                "current": 19825598500.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -9752,8 +9752,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 44,
-          "label": "股价已先跌44天，机构尚未下调"
+          "waitingDays": 45,
+          "label": "股价已先跌45天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -10775,7 +10775,7 @@
             "price": 23.76,
             "priceIndex": 84.14,
             "sectorIndex": 69.14,
-            "volume": 21563784
+            "volume": 21711500
           }
         ],
         "score": 61.0,
@@ -13113,7 +13113,7 @@
             "price": 150.49,
             "priceIndex": 74.21,
             "sectorIndex": 69.14,
-            "volume": 180940449
+            "volume": 185759600
           }
         ],
         "score": 51.5,
